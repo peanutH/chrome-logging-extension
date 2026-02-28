@@ -1,0 +1,164 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>NII Browser Logging Extension</title>
+    <style>
+        body {
+            font-family: "Segoe UI", Arial, sans-serif;
+            min-width: 320px;
+            margin: 0;
+            background: #f6f8fb;
+            color: #1f2937;
+        }
+
+        .panel {
+            margin: 10px;
+            padding: 12px;
+            /* background: #ffffff; */
+            border: 1px solid #e4e7ec;
+            border-radius: 12px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+        }
+
+        .title {
+            font-size: 14px;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+
+        .status-grid {
+            display: grid;
+            grid-template-columns: auto 1fr;
+            gap: 6px 10px;
+            align-items: center;
+            margin-bottom: 10px;
+            font-size: 12px;
+        }
+
+        .label {
+            color: #667085;
+        }
+
+        .pill {
+            display: inline-flex;
+            align-items: center;
+            border-radius: 999px;
+            padding: 3px 8px;
+            font-weight: 700;
+            font-size: 11px;
+            letter-spacing: 0.2px;
+            width: fit-content;
+        }
+
+        .status-on {
+            background: #e8f7ec;
+            color: #0f7a27;
+        }
+
+        .status-off {
+            background: #fdecec;
+            color: #a61d24;
+        }
+
+        .health-ok {
+            background: #e7f3ff;
+            color: #10529b;
+        }
+
+        .health-down {
+            background: #f4f4f5;
+            color: #52525b;
+        }
+
+        .session-wrap {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            min-width: 0;
+        }
+
+        .session-chip {
+            background: #f2f4f7;
+            border: 1px solid #e4e7ec;
+            border-radius: 6px;
+            padding: 3px 6px;
+            font-family: Consolas, "Courier New", monospace;
+            font-size: 11px;
+            max-width: 180px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        .buttons {
+            display: flex;
+            gap: 8px;
+            margin-top: 2px;
+        }
+
+        button {
+            border: 0;
+            border-radius: 8px;
+            padding: 8px 10px;
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 12px;
+        }
+
+        button:disabled {
+            opacity: 0.55;
+            cursor: not-allowed;
+        }
+
+        #startLogging {
+            background: #16a34a;
+            color: #ffffff;
+            flex: 1;
+        }
+
+        #endLogging {
+            background: #dc2626;
+            color: #ffffff;
+            flex: 1;
+        }
+
+        #copySession {
+            background: #e4e7ec;
+            color: #111827;
+            padding: 5px 8px;
+            font-size: 11px;
+        }
+
+        #feedback {
+            margin-top: 10px;
+            min-height: 1.3em;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="panel">
+        <div class="title">
+            Browser Logging
+        </div>
+        <div class="status-grid">
+            <div class="label">Status</div>
+            <span id="loggingStatus" class="pill status-off">Stopped</span>
+            <div class="label">Backend</div>
+            <span id="backendHealth" class="pill health-down">Checking...</span>
+            <div class="label">Session</div>
+            <div class="session-wrap">
+                <span id="sessionId" class="session-chip">None</span>
+                <button id="copySession" disabled>Copy</button>
+            </div>
+        </div>
+        <div class="buttons">
+            <button id="startLogging">Begin Logging</button>
+            <button id="endLogging">End Logging</button>
+        </div>
+        <div id="feedback"></div>
+    </div>
+    <script src="interface.js"></script>
+</body>
+</html>
