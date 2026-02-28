@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "NII Browser Logging Extension",
+  "version": "1.0",
+  "description": "Logs user interaction with the browser. Made to support research on search behaviours",
+  
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "action": {
+    "default_popup": "interface.html",
+    "default_title": "Browser Logging Extension"
+  },
+
+  "permissions": [
+    "tabs",
+    "storage",
+    "downloads",  
+    "pageCapture",
+    "webNavigation",
+    "history",
+    "scripting"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ]
+}
