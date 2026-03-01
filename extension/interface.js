@@ -6,12 +6,12 @@ const startBtn = document.getElementById("startLogging");
 const endBtn = document.getElementById("endLogging");
 const copySessionBtn = document.getElementById("copySession");
 
-function setStatus(loggingEnabled, sessionId = null) {
-    statusEl.textContent = loggingEnabled ? "Logging" : "Stopped";
-    statusEl.className = `pill ${loggingEnabled ? "status-on" : "status-off"}`;
+function setStatus(sessionId = null) {
+    statusEl.textContent = sessionId ? "Logging" : "Stopped";
+    statusEl.className = `pill ${sessionId ? "status-on" : "status-off"}`;
     sessionEl.textContent = sessionId || "None";
-    startBtn.disabled = loggingEnabled;
-    endBtn.disabled = !loggingEnabled;
+    startBtn.disabled = sessionId;
+    endBtn.disabled = !sessionId;
     copySessionBtn.disabled = !sessionId;
 }
 
@@ -28,26 +28,15 @@ function setBackendHealth(isOnline, message = "") {
     }
 }
 
-function sendMessage(action, payload = {}) {
-    return new Promise((resolve) => {
-        chrome.runtime.sendMessage({ action, ...payload }, (response) => {
-            if (chrome.runtime.lastError) {
-                resolve({
-                    ok: false,
-                    message: `Extension error: ${chrome.runtime.lastError.message}`
-                });
-                return;
-            }
-
-            resolve(response || { ok: false, message: "No response from extension." });
-        });
-    });
+async function sendMessage(action, payload = {}) {
+    const response = await chrome.runtime.sendMessage({ action, ...payload });
+    return response;
 }
 
 async function refreshBackendHealth() {
     const response = await sendMessage("check_backend_health");
     if (!response.ok) {
-        setBackendHealth(false, response.message || "Backend is not reachable.");
+        setBackendHealth(false, "Backend is not reachable.");
         return false;
     }
 
@@ -58,28 +47,26 @@ async function refreshBackendHealth() {
 async function refreshStatus() {
     const response = await sendMessage("get_logging_status");
     if (!response.ok) {
-        setFeedback(response.message || "Failed to fetch current status.", true);
+        setFeedback("Failed to fetch current status.", true);
         return;
     }
 
-    setStatus(Boolean(response.loggingEnabled), response.sessionId);
-    setFeedback(response.message || "Status loaded.");
+    setStatus(response.sessionId);
+    setFeedback("Status loaded.");
 }
 
 startBtn.addEventListener("click", async () => {
     const backendOk = await refreshBackendHealth();
-    if (!backendOk) {
-        return;
-    }
+    if (!backendOk) { return; }
 
     const response = await sendMessage("start_logs");
     if (!response.ok) {
-        setFeedback(response.message || "Failed to start logging.", true);
+        setFeedback("Failed to start logging.", true);
         return;
     }
 
-    setStatus(Boolean(response.loggingEnabled), response.sessionId);
-    setFeedback(response.message || "Logging started.");
+    setStatus(response.sessionId);
+    setFeedback("Logging started.");
 });
 
 endBtn.addEventListener("click", async () => {
@@ -90,12 +77,12 @@ endBtn.addEventListener("click", async () => {
 
     const response = await sendMessage("end_logs");
     if (!response.ok) {
-        setFeedback(response.message || "Failed to stop logging.", true);
+        setFeedback("Failed to stop logging.", true);
         return;
     }
 
-    setStatus(Boolean(response.loggingEnabled), response.sessionId);
-    setFeedback(response.message || "Logging stopped.");
+    setStatus(response.sessionId);
+    setFeedback("Logging stopped.");
 });
 
 copySessionBtn.addEventListener("click", async () => {
