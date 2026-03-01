@@ -101,6 +101,7 @@ export class MouseEventsHandler {
                 if (curr_mouse_move_start === null) {
                     // First time tracking cursor
                     curr_mouse_move_start = new Coord(e.screenX, e.screenY)
+                    curr_mouse_move_end = new Coord(e.screenX, e.screenY)
                 } else {
                     // Keep tracking cursor
                     curr_mouse_move_end = new Coord(e.screenX, e.screenY)
