@@ -78,6 +78,7 @@ export class MouseEventsHandler {
 
             async function submit_event(event) {
                 console.log(event);
+                await chrome.runtime.sendMessage({ action: "submit-log", log: JSON.stringify(event) });
             }
 
             // *** Mouse single click tracking ***
@@ -185,8 +186,16 @@ export class MouseEventsHandler {
         this.start_listeners_on_tab(tab_id)
     }
 
-    start_listeners() {
+    async start_listeners() {
         chrome.tabs.onHighlighted.addListener(this.on_tab_focused);
         chrome.tabs.onUpdated.addListener(this.on_tab_updated);
+
+        const curr_tab = (await chrome.tabs.query({currentWindow: true, active : true}))[0];
+        this.start_listeners_on_tab(curr_tab.id);
     } 
+
+    stop_listeners() {
+        chrome.tabs.onHighlighted.removeListener(this.on_tab_focused)
+        chrome.tabs.onUpdated.removeListener(this.on_tab_updated)
+    }
 }

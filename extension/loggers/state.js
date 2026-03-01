@@ -9,6 +9,7 @@
  */
 
 import { BaseEvent } from './BaseEvent.js';
+import { BACKEND_BASE_URL } from "../constants.js"
 
 
 const StateEvent = Object.freeze({
@@ -98,7 +99,11 @@ export class StateEventsHandler {
 
 
     async submit_event(event) {
-        // console.log(event);
+        await fetch(`${BACKEND_BASE_URL}/log`, {
+            method: "POST", 
+            headers: { "Content-Type": "application/json", },
+            body: JSON.stringify(event)
+        });
     }
 
     
