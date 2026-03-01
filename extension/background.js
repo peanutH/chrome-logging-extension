@@ -22,16 +22,12 @@ async function init_monitoring(session_id) {
 
     keyboard_handler = new KeyboardEventsHandler(session_id);
     keyboard_handler.start_listeners();
-
-    // navigation_handler = new NavigationEventsHandler(session_id)
-    // navigation_handler.start_listeners();
 }
 
 function stop_monitoring() {
     state_handler.stop_listeners();
     mouse_handler.stop_listeners();
     keyboard_handler.stop_listeners();
-    // navigation_handler.stop_listeners();
 }
 
 
@@ -55,7 +51,6 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
     
     switch (message.action) {
         case "submit-log":
-            console.log("AA")
             backendRequest("/log", { 
                 method: "POST", 
                 headers: { "Content-Type": "application/json", },

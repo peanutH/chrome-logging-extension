@@ -81,7 +81,7 @@ endBtn.addEventListener("click", async () => {
         return;
     }
 
-    setStatus(response.sessionId);
+    setStatus(null);
     setFeedback("Logging stopped.");
 });
 
