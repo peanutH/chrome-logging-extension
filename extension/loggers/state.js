@@ -52,6 +52,7 @@ class Tab {
 class WindowEvent extends BaseEvent {
     constructor(session_id, action, window) {
         super(session_id)
+        this.event = "window"
         this.action = action;
         this.window = window;
     }
@@ -61,6 +62,7 @@ class WindowEvent extends BaseEvent {
 class TabEvent extends BaseEvent {
     constructor(session_id, action, tab) {
         super(session_id)
+        this.event = "tab"
         this.action = action;
         this.tab = tab;
     }

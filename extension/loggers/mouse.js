@@ -43,25 +43,30 @@ export class MouseEventsHandler {
             }
 
             class MouseMoveEvent extends BaseEvent {
-                constructor(session_id, action, mouse_from, mouse_to) {
+                constructor(session_id, action, mouse_from, mouse_to, hovered_text) {
                     super(session_id);
+                    this.event = "mouse"
                     this.action = action;
                     this.mouse_from = mouse_from;
                     this.mouse_to = mouse_to;
+                    this.hovered_text = hovered_text
                 }
             }
 
             class MouseEvent extends BaseEvent {
-                constructor(session_id, action, mouse) {
+                constructor(session_id, action, mouse, hovered_text) {
                     super(session_id);
+                    this.event = "mouse"
                     this.action = action;
                     this.mouse = mouse;
+                    this.hovered_text = hovered_text
                 }
             }
             
             class SelectEvent extends BaseEvent {
                 constructor(session_id, text) {
                     super(session_id);
+                    this.event = "mouse"
                     this.action = "text_select";
                     this.text = text;
                 }
@@ -70,6 +75,7 @@ export class MouseEventsHandler {
             class ScrollEvent extends BaseEvent {
                 constructor(session_id, scroll_start, scroll_end) {
                     super(session_id);
+                    this.event = "mouse"
                     this.action = "scroll";
                     this.scroll_start = scroll_start;
                     this.scroll_end = scroll_end;
@@ -77,19 +83,25 @@ export class MouseEventsHandler {
             }
 
             async function submit_event(event) {
-                console.log(event);
                 await chrome.runtime.sendMessage({ action: "submit-log", log: JSON.stringify(event) });
+            }
+
+
+            // *** Hovered element tracking ***
+            var curr_hovered_text = "";
+            async function mouse_hover(e) {
+                curr_hovered_text = e.target.innerText;
             }
 
             // *** Mouse single click tracking ***
             async function mouse_click(e) {
-                const event = new MouseEvent(session_id, MouseAction.CLICK, new Coord(e.screenX, e.screenY));
+                const event = new MouseEvent(session_id, MouseAction.CLICK, new Coord(e.screenX, e.screenY), curr_hovered_text);
                 submit_event(event);
             }
 
             // *** Mouse double click tracking ***
             async function mouse_double_click(e) {
-                const event = new MouseEvent(session_id, MouseAction.DOUBLE_CLICK, new Coord(e.screenX, e.screenY));
+                const event = new MouseEvent(session_id, MouseAction.DOUBLE_CLICK, new Coord(e.screenX, e.screenY), curr_hovered_text);
                 submit_event(event);
             }
 
@@ -109,7 +121,7 @@ export class MouseEventsHandler {
                 // Create a promise with timeout. If the cursor does not move after a while, record movement.
                 const curr_promise = new Promise(resolve => setTimeout(async () => {
                     if (curr_mouse_move_promise !== curr_promise) { return resolve(); } // Cursor moved, ignore this promise
-                    const event = new MouseMoveEvent(session_id, MouseAction.MOVE, curr_mouse_move_start, curr_mouse_move_end);
+                    const event = new MouseMoveEvent(session_id, MouseAction.MOVE, curr_mouse_move_start, curr_mouse_move_end, curr_hovered_text);
                     curr_mouse_move_start = null;
                     curr_mouse_move_end = null;
                     await submit_event(event);
@@ -117,11 +129,6 @@ export class MouseEventsHandler {
                 }, 250));
                 curr_mouse_move_promise = curr_promise;
                 await curr_promise;
-            }
-
-            // *** Hovered element tracking ***
-            async function mouse_hover(e) {
-                // TODO Add hovered element as info in event
             }
 
             // *** Text selection (with mouse or keyboard) tracking ***

@@ -44,6 +44,7 @@ export class KeyboardEventsHandler {
             class KeyboardEvent extends BaseEvent {
                 constructor(session_id, action, typed) {
                     super(session_id);
+                    this.event = "keyboard"
                     this.action = action;
                     this.typed = typed;
                 }
@@ -52,6 +53,7 @@ export class KeyboardEventsHandler {
             class CopyPasteEvent extends BaseEvent {
                 constructor(session_id, action, content) {
                     super(session_id);
+                    this.event = "clipboard"
                     this.action = action;
                     this.content = content;
                 }
