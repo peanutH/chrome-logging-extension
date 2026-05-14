@@ -145,6 +145,9 @@ export class StateEventsHandler {
     }
 
     async tab_updated(tab_id, changed_info, tab) {
+        if (("favIconUrl" in changed_info) && (Object.keys(changed_info).length == 1)) {
+            return
+        }
         this.all_tabs[tab_id] = new Tab(tab.id, tab.windowId, tab.index, tab.groupId, tab.url, tab.title, tab.status, tab.mutedInfo.muted);
         const event = new TabEvent(this.session_id, StateEvent.TAB_UPDATED, this.all_tabs[tab_id]);
         await this.submit_event(event);
