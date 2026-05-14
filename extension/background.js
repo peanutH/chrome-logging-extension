@@ -71,6 +71,15 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
             })
             return true
 
+        case "submit-ranking":
+            backendRequest("/ranking", { 
+                method: "POST", 
+                headers: { "Content-Type": "application/json", },
+                body: message.data
+            })
+            return true
+
+
         case "check_backend_health":
             try {
                 backendRequest("/peanut", { method: "GET" }).then(response => {

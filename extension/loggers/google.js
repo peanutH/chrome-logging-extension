@@ -26,12 +26,22 @@ export class GoogleEventsHandler {
             }
 
             class GoogleSearchEvent extends BaseEvent {
-                constructor(session_id, query, filename) {
+                constructor(session_id, query, filename_html, filename_ranking) {
                     super(session_id);
                     this.event = "search";
                     this.action = "google";
                     this.query = query;
-                    this.filename = filename;
+                    this.filename_html = filename_html;
+                    this.filename_ranking = filename_ranking;
+                }
+            }
+
+            class ResultEntry {
+                constructor(header, link, description) {
+                    this.rank = 0;
+                    this.title = header;
+                    this.link = link;
+                    this.description = description;
                 }
             }
 
@@ -43,13 +53,83 @@ export class GoogleEventsHandler {
                 await chrome.runtime.sendMessage({ action: "submit-html", data: JSON.stringify({ session_id: session_id, name: name, html: html }) });
             }
 
+            async function submit_ranking(ranking, name) {
+                await chrome.runtime.sendMessage({ action: "submit-ranking", data: JSON.stringify({ session_id: session_id, name: name, ranking: ranking }) });
+            }
+
+            function parse_as_result_entry(element) {
+                const content = element.querySelectorAll('[data-snhf], [data-sncf]');
+                if (content.length == 0) { return null; }
+
+                // Extract result texts and link
+                let result = new ResultEntry(
+                    content[0].querySelector("a h3").textContent,
+                    content[0].querySelector("a").getAttribute("href"),
+                    content[1].textContent
+                )
+
+                return result;
+            }
+
+            function parse_as_result_entry_with_video(element) {
+                const img_el = element.querySelector('img');
+                const entries = element.querySelectorAll('[data-snhf], [data-sncf]');
+                if (img_el == null || entries.length != 0) { return null; }
+
+                // Extract result text and link
+                const header_el = element.querySelector('h3');
+                const content = element.children[0].children[0].children[1];
+                const link_el = content.querySelector('a');
+                const description_el = content.querySelector(':scope > div');
+                let result = new ResultEntry(
+                    header_el.textContent,
+                    link_el.getAttribute("href"),
+                    description_el.textContent
+                )
+
+                return result;
+            }
+
+            function parse_search_content(element) {
+                let content = null;
+                // console.log(element)
+
+                try { content = parse_as_result_entry(element); } catch(e) { content = null }
+                if (content != null) { return content; }
+
+                try { content = parse_as_result_entry_with_video(element); } catch(e) { content = null; }
+                if (content != null) { return content; }
+
+                return null;
+            }
+
+
             const query_text = document.querySelector('textarea[name="q"]').getAttribute('value');
-            const filename = `${query_text}_${Date.now()}.html`
-            const event = new GoogleSearchEvent(session_id, query_text, filename);
+            const timestamp = Date.now();
+            const filename_html = `${query_text}_${timestamp}.html`
+            const filename_ranking = `${query_text}_${timestamp}.json`
+            const event = new GoogleSearchEvent(session_id, query_text, filename_html, filename_ranking);
             const html = document.documentElement.outerHTML;
+            let ranking = [];
+
+            const search_results_elements = document.querySelectorAll("#rso [data-hveid]");
+
+            let curr_rank = 1;
+            for (const element of search_results_elements) {
+                if (element.children.length === 0) { continue; }
+
+                const content = parse_search_content(element);
+
+                if (content != null) {
+                    content.rank = curr_rank;
+                    curr_rank++;
+                    ranking.push(content);
+                }
+            }
 
             submit_event(event);
-            submit_html(html, filename);
+            submit_html(html, filename_html);
+            submit_ranking(ranking, filename_ranking);
         }
 
         await chrome.scripting.executeScript({

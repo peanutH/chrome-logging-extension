@@ -30,15 +30,18 @@ def start_session():
 
     out_dir = os.path.join(DATA_DIR, f"{session_id}")
     html_dir = os.path.join(out_dir, "pages")
+    ranking_dir = os.path.join(out_dir, "rankings")
     out_log_file = os.path.join(out_dir, "session.json")
 
     os.makedirs(out_dir, exist_ok=True)
     os.makedirs(html_dir, exist_ok=True)
+    os.makedirs(ranking_dir, exist_ok=True)
 
     active_sessions[session_id] = {
         "out_dir": out_dir,
         "out_file_path": out_log_file,
         "out_file": open(out_log_file, "w"),
+        "ranking_dir": ranking_dir,
         "html_dir": html_dir,
         "num_logs": 0
     }
@@ -102,6 +105,19 @@ def save_page():
     else:
         return jsonify({}), 400
 
+
+# Save an html page
+@app.route('/ranking', methods=['POST'])
+def save_ranking():
+    data = request.get_json()
+    session_id = data["session_id"]
+
+    if session_id in active_sessions:
+        with open(os.path.join(active_sessions[session_id]["ranking_dir"], data["name"]), "w") as f:
+            json.dump(data["ranking"], f, indent=3)
+        return jsonify({}), 200
+    else:
+        return jsonify({}), 400
 
 
 if __name__ == '__main__':
