@@ -1,6 +1,7 @@
 import { StateEventsHandler } from './loggers/state.js';
 import { MouseEventsHandler } from './loggers/mouse.js';
 import { KeyboardEventsHandler } from './loggers/keyboard.js';
+import { GoogleEventsHandler } from './loggers/google.js';
 import { BACKEND_BASE_URL } from "./constants.js"
 
 
@@ -8,6 +9,7 @@ var curr_session = null;
 var state_handler = null;
 var mouse_handler = null;
 var keyboard_handler = null;
+var google_handler = null;
 
 
 async function init_monitoring(session_id) {
@@ -22,6 +24,9 @@ async function init_monitoring(session_id) {
 
     keyboard_handler = new KeyboardEventsHandler(session_id);
     keyboard_handler.start_listeners();
+
+    google_handler = new GoogleEventsHandler(session_id);
+    google_handler.start_listeners();
 }
 
 function stop_monitoring() {
@@ -55,6 +60,14 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
                 method: "POST", 
                 headers: { "Content-Type": "application/json", },
                 body: message.log
+            })
+            return true
+
+        case "submit-html":
+            backendRequest("/html", { 
+                method: "POST", 
+                headers: { "Content-Type": "application/json", },
+                body: message.data
             })
             return true
 
