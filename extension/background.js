@@ -33,6 +33,7 @@ function stop_monitoring() {
     state_handler.stop_listeners();
     mouse_handler.stop_listeners();
     keyboard_handler.stop_listeners();
+    google_handler.stop_listeners();
 }
 
 
