@@ -132,7 +132,9 @@ export class GoogleEventsHandler {
                 try {
                     const text_container = ai_overview_container
                                             .querySelector("section")
-                                            .querySelector("div[decode-data-ved]").children[0].children[0];
+                                            .querySelector("div[decode-data-ved]")
+                                            .children[0]
+                                            .querySelector(':scope > div:first-of-type');
                     let overview = new AIOverviewEntry(text_container.textContent);
                     return overview;
                 }
