@@ -36,9 +36,28 @@ export class GoogleEventsHandler {
                 }
             }
 
+            class AIOverviewEntry {
+                constructor(text) {
+                    this.rank = 0;
+                    this.type = "ai_overview";
+                    this.text = text;
+                }
+            }
+
             class ResultEntry {
                 constructor(header, link, description) {
                     this.rank = 0;
+                    this.type = "text_result";
+                    this.title = header;
+                    this.link = link;
+                    this.description = description;
+                }
+            }
+
+            class VideoResultEntry {
+                constructor(header, link, description) {
+                    this.rank = 0;
+                    this.type = "video_result";
                     this.title = header;
                     this.link = link;
                     this.description = description;
@@ -81,7 +100,7 @@ export class GoogleEventsHandler {
                 const content = element.children[0].children[0].children[1];
                 const link_el = content.querySelector('a');
                 const description_el = content.querySelector(':scope > div');
-                let result = new ResultEntry(
+                let result = new VideoResultEntry(
                     header_el.textContent,
                     link_el.getAttribute("href"),
                     description_el.textContent
@@ -92,7 +111,6 @@ export class GoogleEventsHandler {
 
             function parse_search_content(element) {
                 let content = null;
-                // console.log(element)
 
                 try { content = parse_as_result_entry(element); } catch(e) { content = null }
                 if (content != null) { return content; }
@@ -103,10 +121,29 @@ export class GoogleEventsHandler {
                 return null;
             }
 
-            const url = new URL(window.location.href);
-            
+            // Detects an AI Overview at the start of the page
+            function get_ai_overview() {
+                const ai_overview_container = [...document.querySelectorAll("div [data-hveid]")]
+                    .find(div =>
+                        div.textContent.includes("AI Overview") &&
+                        !div.closest("#rso")
+                    );
+                
+                try {
+                    const text_container = ai_overview_container
+                                            .querySelector("section")
+                                            .querySelector("div[decode-data-ved]").children[0].children[0];
+                    let overview = new AIOverviewEntry(text_container.textContent);
+                    return overview;
+                }
+                catch (e) {
+                    return null;
+                }
+                
+            }
+
             // Run only on Google
-            if (/^https?:\/\/(?:[^/]+\.)?google\.[a-z.]+\/search(?:\?|$)/i.test(url.hostname)) {
+            if (/^https?:\/\/(?:[^/]+\.)?google\.[a-z.]+\/search(?:\?|$)/i.test(window.location.href)) {
                 if (!document.__google_export_timestamp) { document.__google_export_timestamp = Date.now(); }
                 const query_text = document.querySelector('textarea[name="q"]').getAttribute('value');
                 const timestamp = document.__google_export_timestamp
@@ -116,13 +153,20 @@ export class GoogleEventsHandler {
                 const html = document.documentElement.outerHTML;
                 let ranking = [];
     
+                // Look for AI Overview
+                let ai_overview = get_ai_overview();
+                if (ai_overview != null) {
+                    ai_overview.rank = 0
+                    ranking.push(ai_overview);
+                }
+
+                // Parse search results
                 const search_results_elements = document.querySelectorAll("#rso [data-hveid]");
-    
                 let curr_rank = 1;
                 for (const element of search_results_elements) {
                     if (element.children.length === 0) { continue; }
     
-                    const content = parse_search_content(element);
+                    let content = parse_search_content(element);
     
                     if (content != null) {
                         content.rank = curr_rank;
