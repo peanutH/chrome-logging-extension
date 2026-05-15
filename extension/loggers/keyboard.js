@@ -25,7 +25,7 @@ export class KeyboardEventsHandler {
             document.__myClickListenerAdded_keyboard = true;
 
             const KeyboardAction = Object.freeze({
-                WRITE: "keyboard_write",
+                WRITE: "write",
             });
 
             const CopyPasteAction = Object.freeze({
@@ -75,6 +75,7 @@ export class KeyboardEventsHandler {
                     case "ShiftRight":   typed = "[SHIFT]"; break;
                     // case "ControlLeft":  typed = "[CONTROL]"; break;
                     // case "ControlRight": typed = "[CONTROL]"; break;
+                    case "Tab":          typed = "[TAB]"; break;
                     case "AltLeft":      typed = "[ALT]"; break;
                     case "AltRight":     typed = "[ALT]"; break;
                     case "MetaLeft":     typed = "[META]"; break;
@@ -108,6 +109,16 @@ export class KeyboardEventsHandler {
                     default:             typed = e.key; break;
                 }
                 
+                // Detect if the user is writing in a password field
+                const curr_active = document.activeElement;
+                if (
+                    curr_active != null
+                    && (curr_active instanceof HTMLInputElement || curr_active instanceof HTMLTextAreaElement || curr_active.isContentEditable) 
+                    && (curr_active.type === "password" || curr_active.getAttribute("type") === "password")
+                ) {
+                    typed = "[HIDDEN]";
+                }
+
                 // Do not record keys pressed with ctrl (i.e., commands)
                 if (e.ctrlKey && (e.code !== "ControlLeft" || e.code !== "ControlRight")) { return; }
 
