@@ -106,7 +106,7 @@ export class GoogleEventsHandler {
             const url = new URL(window.location.href);
             
             // Run only on Google
-            if (/(^|\.)google\.[a-z.]+$/i.test(url.hostname)) {
+            if (/^https?:\/\/(?:[^/]+\.)?google\.[a-z.]+\/search(?:\?|$)/i.test(url.hostname)) {
                 if (!document.__google_export_timestamp) { document.__google_export_timestamp = Date.now(); }
                 const query_text = document.querySelector('textarea[name="q"]').getAttribute('value');
                 const timestamp = document.__google_export_timestamp
