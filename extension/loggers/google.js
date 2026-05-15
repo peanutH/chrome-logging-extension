@@ -103,33 +103,38 @@ export class GoogleEventsHandler {
                 return null;
             }
 
-
-            const query_text = document.querySelector('textarea[name="q"]').getAttribute('value');
-            const timestamp = Date.now();
-            const filename_html = `${query_text}_${timestamp}.html`
-            const filename_ranking = `${query_text}_${timestamp}.json`
-            const event = new GoogleSearchEvent(session_id, query_text, filename_html, filename_ranking);
-            const html = document.documentElement.outerHTML;
-            let ranking = [];
-
-            const search_results_elements = document.querySelectorAll("#rso [data-hveid]");
-
-            let curr_rank = 1;
-            for (const element of search_results_elements) {
-                if (element.children.length === 0) { continue; }
-
-                const content = parse_search_content(element);
-
-                if (content != null) {
-                    content.rank = curr_rank;
-                    curr_rank++;
-                    ranking.push(content);
+            const url = new URL(window.location.href);
+            
+            // Run only on Google
+            if (/(^|\.)google\.[a-z.]+$/i.test(url.hostname)) {
+                if (!document.__google_export_timestamp) { document.__google_export_timestamp = Date.now(); }
+                const query_text = document.querySelector('textarea[name="q"]').getAttribute('value');
+                const timestamp = document.__google_export_timestamp
+                const filename_html = `${timestamp}_${query_text}.html`
+                const filename_ranking = `${timestamp}_${query_text}.json`
+                const event = new GoogleSearchEvent(session_id, query_text, filename_html, filename_ranking);
+                const html = document.documentElement.outerHTML;
+                let ranking = [];
+    
+                const search_results_elements = document.querySelectorAll("#rso [data-hveid]");
+    
+                let curr_rank = 1;
+                for (const element of search_results_elements) {
+                    if (element.children.length === 0) { continue; }
+    
+                    const content = parse_search_content(element);
+    
+                    if (content != null) {
+                        content.rank = curr_rank;
+                        curr_rank++;
+                        ranking.push(content);
+                    }
                 }
+    
+                submit_event(event);
+                submit_html(html, filename_html);
+                submit_ranking(ranking, filename_ranking);
             }
-
-            submit_event(event);
-            submit_html(html, filename_html);
-            submit_ranking(ranking, filename_ranking);
         }
 
         await chrome.scripting.executeScript({
