@@ -137,10 +137,12 @@ export class MouseEventsHandler {
                 const curr_promise = new Promise(resolve => setTimeout(async () => {
                     if (curr_selected_promise !== curr_promise) { return resolve(); } // Selection changed, ignore this promise
                     const selection = window.getSelection().toString();
-                    const event = new SelectEvent(session_id, selection);
-                    await submit_event(event);
+                    if (selection.length > 0) {
+                        const event = new SelectEvent(session_id, selection);
+                        await submit_event(event);
+                    }
                     resolve();
-                }, 500));
+                }, 250));
                 curr_selected_promise = curr_promise;
                 await curr_promise;
             }
