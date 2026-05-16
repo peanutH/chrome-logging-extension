@@ -1,0 +1,703 @@
+[
+   {
+      "session_id": "1778957461_54f9d6d9",
+      "timestamp": 1778957461417,
+      "event": "window",
+      "action": "window_focus",
+      "window": {
+         "id": 628788696,
+         "type": "normal",
+         "width": 1906,
+         "height": 1025,
+         "is_incognito": false
+      }
+   },
+   {
+      "session_id": "1778957461_54f9d6d9",
+      "timestamp": 1778957464320,
+      "event": "window",
+      "action": "window_focus_outside"
+   },
+   {
+      "session_id": "1778957461_54f9d6d9",
+      "timestamp": 1778957464325,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628788780,
+         "window_id": 628788696,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.google.com/",
+         "title": "Google",
+         "status": "loading",
+         "muted": false
+      }
+   },
+   {
+      "session_id": "1778957461_54f9d6d9",
+      "timestamp": 1778957464329,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628788780,
+         "window_id": 628788696,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.google.com/",
+         "title": "Google",
+         "status": "complete",
+         "muted": false
+      }
+   },
+   {
+      "session_id": "1778957461_54f9d6d9",
+      "timestamp": 1778957464328,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628788780,
+         "window_id": 628788696,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.google.com/",
+         "title": "Google",
+         "status": "loading",
+         "muted": false
+      }
+   },
+   {
+      "session_id": "1778957461_54f9d6d9",
+      "timestamp": 1778957466173,
+      "event": "mouse",
+      "action": "mouse_click",
+      "mouse": {
+         "x": 1005,
+         "y": 504
+      },
+      "hovered_text": ""
+   },
+   {
+      "session_id": "1778957461_54f9d6d9",
+      "timestamp": 1778957466506,
+      "event": "mouse",
+      "action": "mouse_move",
+      "mouse_from": {
+         "x": 1317,
+         "y": 142
+      },
+      "mouse_to": {
+         "x": 1006,
+         "y": 503
+      },
+      "hovered_text": ""
+   },
+   {
+      "session_id": "1778957461_54f9d6d9",
+      "timestamp": 1778957469222,
+      "event": "keyboard",
+      "action": "write",
+      "typed": "climate change "
+   },
+   {
+      "session_id": "1778957461_54f9d6d9",
+      "timestamp": 1778957470162,
+      "event": "keyboard",
+      "action": "write",
+      "typed": "causes"
+   },
+   {
+      "session_id": "1778957461_54f9d6d9",
+      "timestamp": 1778957470492,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628788780,
+         "window_id": 628788696,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.google.com/search?q=climate+change+causes&sca_esv=801d0da47a96eb7f&source=hp&ei=lrwIaqjQOpjl2roPnLzmoAI&iflsig=AFdpzrgAAAAAagjKplWRxllm3K36UMl-R4qfkMeGUWSi&ved=0ahUKEwio85n9vL6UAxWYslYBHRyeGSQQ4dUDCBk&uact=5&oq=climate+change+causes&gs_lp=Egdnd3Mtd2l6IhVjbGltYXRlIGNoYW5nZSBjYXVzZXMyBRAAGIAEMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeSKEhUNMJWLEdcAF4AJABAJgBQqABvAiqAQIyMbgBA8gBAPgBAZgCFqACqwmoAgrCAgoQABgDGI8BGOoCwgIKEC4YAxiPARjqAsICCBAAGIAEGLEDwgIREC4YgAQYsQMYgwEYxwEY0QPCAgsQABiABBixAxiDAcICDhAuGIAEGIoFGLEDGIMBwgIOEAAYgAQYigUYsQMYgwHCAggQLhiABBixA8ICBRAuGIAEwgILEAAYgAQYsQMYyQPCAggQLhixAxiABMICDhAAGIAEGIoFGJIDGLgEwgILEAAYgAQYigUYkgPCAg4QLhiABBjHARivARiOBcICCBAAGBYYHhgKmAML8QXapaQcDKji4JIHAjIyoAf8hgGyBwIyMbgHoAnCBwkwLjEwLjExLjHIB02ACAE&sclient=gws-wiz",
+         "title": "google.com/search?q=climate+change+causes&sca_esv=801d0da47a96eb7f&source=hp&ei=lrwIaqjQOpjl2roPnLzmoAI&iflsig=AFdpzrgAAAAAagjKplWRxllm3K36UMl-R4qfkMeGUWSi&ved=0ahUKEwio85n9vL6UAxWYslYBHRyeGSQQ4dUDCBk&uact=5&oq=climate+change+causes&gs_lp=Egdnd3Mtd2l6IhVjbGltYXRlIGNoYW5nZSBjYXVzZXMyBRAAGIAEMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeSKEhUNMJWLEdcAF4AJABAJgBQqABvAiqAQIyMbgBA8gBAPgBAZgCFqACqwmoAgrCAgoQABgDGI8BGOoCwgIKEC4YAxiPARjqAsICCBAAGIAEGLEDwgIREC4YgAQYsQMYgwEYxwEY0QPCAgsQABiABBixAxiDAcICDhAuGIAEGIoFGLEDGIMBwgIOEAAYgAQYigUYsQMYgwHCAggQLhiABBixA8ICBRAuGIAEwgILEAAYgAQYsQMYyQPCAggQLhixAxiABMICDhAAGIAEGIoFGJIDGLgEwgILEAAYgAQYigUYkgPCAg4QLhiABBjHARivARiOBcICCBAAGBYYHhgKmAML8QXapaQcDKji4JIHAjIyoAf8hgGyBwIyMbgHoAnCBwkwLjEwLjExLjHIB02ACAE&sclient=gws-wiz",
+         "status": "loading",
+         "muted": false
+      }
+   },
+   {
+      "session_id": "1778957461_54f9d6d9",
+      "timestamp": 1778957470511,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628788780,
+         "window_id": 628788696,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.google.com/search?q=climate+change+causes&sca_esv=801d0da47a96eb7f&source=hp&ei=lrwIaqjQOpjl2roPnLzmoAI&iflsig=AFdpzrgAAAAAagjKplWRxllm3K36UMl-R4qfkMeGUWSi&ved=0ahUKEwio85n9vL6UAxWYslYBHRyeGSQQ4dUDCBk&uact=5&oq=climate+change+causes&gs_lp=Egdnd3Mtd2l6IhVjbGltYXRlIGNoYW5nZSBjYXVzZXMyBRAAGIAEMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeSKEhUNMJWLEdcAF4AJABAJgBQqABvAiqAQIyMbgBA8gBAPgBAZgCFqACqwmoAgrCAgoQABgDGI8BGOoCwgIKEC4YAxiPARjqAsICCBAAGIAEGLEDwgIREC4YgAQYsQMYgwEYxwEY0QPCAgsQABiABBixAxiDAcICDhAuGIAEGIoFGLEDGIMBwgIOEAAYgAQYigUYsQMYgwHCAggQLhiABBixA8ICBRAuGIAEwgILEAAYgAQYsQMYyQPCAggQLhixAxiABMICDhAAGIAEGIoFGJIDGLgEwgILEAAYgAQYigUYkgPCAg4QLhiABBjHARivARiOBcICCBAAGBYYHhgKmAML8QXapaQcDKji4JIHAjIyoAf8hgGyBwIyMbgHoAnCBwkwLjEwLjExLjHIB02ACAE&sclient=gws-wiz",
+         "title": "climate change causes - Cerca con Google",
+         "status": "loading",
+         "muted": false
+      }
+   },
+   {
+      "session_id": "1778957461_54f9d6d9",
+      "timestamp": 1778957470515,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628788780,
+         "window_id": 628788696,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.google.com/search?q=climate+change+causes&sca_esv=801d0da47a96eb7f&source=hp&ei=lrwIaqjQOpjl2roPnLzmoAI&iflsig=AFdpzrgAAAAAagjKplWRxllm3K36UMl-R4qfkMeGUWSi&ved=0ahUKEwio85n9vL6UAxWYslYBHRyeGSQQ4dUDCBk&uact=5&oq=climate+change+causes&gs_lp=Egdnd3Mtd2l6IhVjbGltYXRlIGNoYW5nZSBjYXVzZXMyBRAAGIAEMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeSKEhUNMJWLEdcAF4AJABAJgBQqABvAiqAQIyMbgBA8gBAPgBAZgCFqACqwmoAgrCAgoQABgDGI8BGOoCwgIKEC4YAxiPARjqAsICCBAAGIAEGLEDwgIREC4YgAQYsQMYgwEYxwEY0QPCAgsQABiABBixAxiDAcICDhAuGIAEGIoFGLEDGIMBwgIOEAAYgAQYigUYsQMYgwHCAggQLhiABBixA8ICBRAuGIAEwgILEAAYgAQYsQMYyQPCAggQLhixAxiABMICDhAAGIAEGIoFGJIDGLgEwgILEAAYgAQYigUYkgPCAg4QLhiABBjHARivARiOBcICCBAAGBYYHhgKmAML8QXapaQcDKji4JIHAjIyoAf8hgGyBwIyMbgHoAnCBwkwLjEwLjExLjHIB02ACAE&sclient=gws-wiz",
+         "title": "climate change causes - Cerca con Google",
+         "status": "loading",
+         "muted": false
+      }
+   },
+   {
+      "session_id": "1778957461_54f9d6d9",
+      "timestamp": 1778957471004,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628788780,
+         "window_id": 628788696,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.google.com/search?q=climate+change+causes&sca_esv=801d0da47a96eb7f&source=hp&ei=lrwIaqjQOpjl2roPnLzmoAI&iflsig=AFdpzrgAAAAAagjKplWRxllm3K36UMl-R4qfkMeGUWSi&ved=0ahUKEwio85n9vL6UAxWYslYBHRyeGSQQ4dUDCBk&uact=5&oq=climate+change+causes&gs_lp=Egdnd3Mtd2l6IhVjbGltYXRlIGNoYW5nZSBjYXVzZXMyBRAAGIAEMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeSKEhUNMJWLEdcAF4AJABAJgBQqABvAiqAQIyMbgBA8gBAPgBAZgCFqACqwmoAgrCAgoQABgDGI8BGOoCwgIKEC4YAxiPARjqAsICCBAAGIAEGLEDwgIREC4YgAQYsQMYgwEYxwEY0QPCAgsQABiABBixAxiDAcICDhAuGIAEGIoFGLEDGIMBwgIOEAAYgAQYigUYsQMYgwHCAggQLhiABBixA8ICBRAuGIAEwgILEAAYgAQYsQMYyQPCAggQLhixAxiABMICDhAAGIAEGIoFGJIDGLgEwgILEAAYgAQYigUYkgPCAg4QLhiABBjHARivARiOBcICCBAAGBYYHhgKmAML8QXapaQcDKji4JIHAjIyoAf8hgGyBwIyMbgHoAnCBwkwLjEwLjExLjHIB02ACAE&sclient=gws-wiz",
+         "title": "climate change causes - Cerca con Google",
+         "status": "loading",
+         "muted": false
+      }
+   },
+   {
+      "session_id": "1778957461_54f9d6d9",
+      "timestamp": 1778957471462,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628788780,
+         "window_id": 628788696,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.google.com/search?q=climate+change+causes&sca_esv=801d0da47a96eb7f&source=hp&ei=lrwIaqjQOpjl2roPnLzmoAI&iflsig=AFdpzrgAAAAAagjKplWRxllm3K36UMl-R4qfkMeGUWSi&ved=0ahUKEwio85n9vL6UAxWYslYBHRyeGSQQ4dUDCBk&uact=5&oq=climate+change+causes&gs_lp=Egdnd3Mtd2l6IhVjbGltYXRlIGNoYW5nZSBjYXVzZXMyBRAAGIAEMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeSKEhUNMJWLEdcAF4AJABAJgBQqABvAiqAQIyMbgBA8gBAPgBAZgCFqACqwmoAgrCAgoQABgDGI8BGOoCwgIKEC4YAxiPARjqAsICCBAAGIAEGLEDwgIREC4YgAQYsQMYgwEYxwEY0QPCAgsQABiABBixAxiDAcICDhAuGIAEGIoFGLEDGIMBwgIOEAAYgAQYigUYsQMYgwHCAggQLhiABBixA8ICBRAuGIAEwgILEAAYgAQYsQMYyQPCAggQLhixAxiABMICDhAAGIAEGIoFGJIDGLgEwgILEAAYgAQYigUYkgPCAg4QLhiABBjHARivARiOBcICCBAAGBYYHhgKmAML8QXapaQcDKji4JIHAjIyoAf8hgGyBwIyMbgHoAnCBwkwLjEwLjExLjHIB02ACAE&sclient=gws-wiz",
+         "title": "climate change causes - Cerca con Google",
+         "status": "complete",
+         "muted": false
+      }
+   },
+   {
+      "session_id": "1778957461_54f9d6d9",
+      "timestamp": 1778957471466,
+      "event": "search",
+      "action": "google",
+      "query": "climate change causes",
+      "filename_html": "1778957471466_climate change causes.html",
+      "filename_ranking": "1778957471466_climate change causes.json"
+   },
+   {
+      "session_id": "1778957461_54f9d6d9",
+      "timestamp": 1778957473638,
+      "event": "mouse",
+      "action": "mouse_click",
+      "mouse": {
+         "x": 784,
+         "y": 137
+      },
+      "hovered_text": ""
+   },
+   {
+      "session_id": "1778957461_54f9d6d9",
+      "timestamp": 1778957473650,
+      "event": "mouse",
+      "action": "mouse_move",
+      "mouse_from": {
+         "x": 1006,
+         "y": 502
+      },
+      "mouse_to": {
+         "x": 784,
+         "y": 137
+      },
+      "hovered_text": ""
+   },
+   {
+      "session_id": "1778957461_54f9d6d9",
+      "timestamp": 1778957475015,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628788780,
+         "window_id": 628788696,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.google.com/search?q=climate+change+causes&sca_esv=801d0da47a96eb7f&source=hp&ei=lrwIaqjQOpjl2roPnLzmoAI&iflsig=AFdpzrgAAAAAagjKplWRxllm3K36UMl-R4qfkMeGUWSi&ved=0ahUKEwio85n9vL6UAxWYslYBHRyeGSQQ4dUDCBk&uact=5&oq=climate+change+causes&gs_lp=Egdnd3Mtd2l6IhVjbGltYXRlIGNoYW5nZSBjYXVzZXMyBRAAGIAEMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeSKEhUNMJWLEdcAF4AJABAJgBQqABvAiqAQIyMbgBA8gBAPgBAZgCFqACqwmoAgrCAgoQABgDGI8BGOoCwgIKEC4YAxiPARjqAsICCBAAGIAEGLEDwgIREC4YgAQYsQMYgwEYxwEY0QPCAgsQABiABBixAxiDAcICDhAuGIAEGIoFGLEDGIMBwgIOEAAYgAQYigUYsQMYgwHCAggQLhiABBixA8ICBRAuGIAEwgILEAAYgAQYsQMYyQPCAggQLhixAxiABMICDhAAGIAEGIoFGJIDGLgEwgILEAAYgAQYigUYkgPCAg4QLhiABBjHARivARiOBcICCBAAGBYYHhgKmAML8QXapaQcDKji4JIHAjIyoAf8hgGyBwIyMbgHoAnCBwkwLjEwLjExLjHIB02ACAE&sclient=gws-wiz",
+         "title": "climate change causes - Cerca con Google",
+         "status": "loading",
+         "muted": false
+      }
+   },
+   {
+      "session_id": "1778957461_54f9d6d9",
+      "timestamp": 1778957475019,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628788780,
+         "window_id": 628788696,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.google.com/search?q=climate+change+causes&sca_esv=801d0da47a96eb7f&source=hp&ei=lrwIaqjQOpjl2roPnLzmoAI&iflsig=AFdpzrgAAAAAagjKplWRxllm3K36UMl-R4qfkMeGUWSi&ved=0ahUKEwio85n9vL6UAxWYslYBHRyeGSQQ4dUDCBk&uact=5&oq=climate+change+causes&gs_lp=Egdnd3Mtd2l6IhVjbGltYXRlIGNoYW5nZSBjYXVzZXMyBRAAGIAEMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeSKEhUNMJWLEdcAF4AJABAJgBQqABvAiqAQIyMbgBA8gBAPgBAZgCFqACqwmoAgrCAgoQABgDGI8BGOoCwgIKEC4YAxiPARjqAsICCBAAGIAEGLEDwgIREC4YgAQYsQMYgwEYxwEY0QPCAgsQABiABBixAxiDAcICDhAuGIAEGIoFGLEDGIMBwgIOEAAYgAQYigUYsQMYgwHCAggQLhiABBixA8ICBRAuGIAEwgILEAAYgAQYsQMYyQPCAggQLhixAxiABMICDhAAGIAEGIoFGJIDGLgEwgILEAAYgAQYigUYkgPCAg4QLhiABBjHARivARiOBcICCBAAGBYYHhgKmAML8QXapaQcDKji4JIHAjIyoAf8hgGyBwIyMbgHoAnCBwkwLjEwLjExLjHIB02ACAE&sclient=gws-wiz",
+         "title": "climate change causes - Cerca con Google",
+         "status": "complete",
+         "muted": false
+      }
+   },
+   {
+      "session_id": "1778957461_54f9d6d9",
+      "timestamp": 1778957475024,
+      "event": "search",
+      "action": "google",
+      "query": "climate change causes",
+      "filename_html": "1778957471466_climate change causes.html",
+      "filename_ranking": "1778957471466_climate change causes.json"
+   },
+   {
+      "session_id": "1778957461_54f9d6d9",
+      "timestamp": 1778957475074,
+      "event": "keyboard",
+      "action": "write",
+      "typed": "[SHIFT]"
+   },
+   {
+      "session_id": "1778957461_54f9d6d9",
+      "timestamp": 1778957475433,
+      "event": "mouse",
+      "action": "text_select",
+      "text": "climate change causes"
+   },
+   {
+      "session_id": "1778957461_54f9d6d9",
+      "timestamp": 1778957479912,
+      "event": "keyboard",
+      "action": "write",
+      "typed": "main causes of clia"
+   },
+   {
+      "session_id": "1778957461_54f9d6d9",
+      "timestamp": 1778957481473,
+      "event": "keyboard",
+      "action": "write",
+      "typed": "[BACKSPACE]mate change"
+   },
+   {
+      "session_id": "1778957461_54f9d6d9",
+      "timestamp": 1778957481801,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628788780,
+         "window_id": 628788696,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.google.com/search?q=main+causes+of+climate+change&sca_esv=801d0da47a96eb7f&ei=nrwIavrmGvGmi-gPlsvBgQk&biw=1906&bih=935&ved=0ahUKEwj6reKAvb6UAxVx0wIHHZZlMJAQ4dUDCBI&uact=5&oq=main+causes+of+climate+change&gs_lp=Egxnd3Mtd2l6LXNlcnAiHW1haW4gY2F1c2VzIG9mIGNsaW1hdGUgY2hhbmdlMgcQABiABBgTMgcQABiABBgTMgcQABiABBgTMgcQABiABBgTMgcQABiABBgTMgcQABiABBgTMggQABgWGB4YEzIIEAAYFhgeGBMyCBAAGBYYHhgTMggQABgWGB4YE0ibP1DoHVixO3ACeAGQAQCYAVygAbsQqgECMzC4AQPIAQD4AQGYAiCgAo0SwgIKEAAYRxjWBBiwA8ICDRAAGIAEGIoFGEMYsAPCAgsQABiABBixAxiDAcICDhAAGIAEGIoFGLEDGIMBwgIIEAAYgAQYsQPCAgsQLhiABBixAxiDAcICDhAuGIAEGIoFGLEDGIMBwgIKEAAYgAQYigUYQ8ICDRAAGIAEGIoFGEMYsQPCAhEQLhiABBixAxiDARjHARjRA8ICDhAuGIAEGLEDGMcBGNEDwgIOEC4YxwEYsQMY0QMYgATCAggQLhiABBixA8ICBRAAGIAEwgIdEC4YxwEYsQMY0QMYgAQYlwUY3AQY3gQY4ATYAQHCAggQLhixAxiABMICCxAuGIMBGLEDGIAEwgIFEC4YgATCAhcQLhixAxiABBiXBRjcBBjeBBjfBNgBAcICDBAuGAoYCxixAxiABMICBxAAGIAEGArCAgwQABiABBgKGAsYsQPCAgsQLhivARjHARiABMICGxAuGAoYCxixAxiABBiXBRjcBBjeBBjfBNgBAcICCxAuGIAEGMcBGK8BwgIJEAAYgAQYChgLwgIFECEYoAGYAwCIBgGQBgq6BgYIARABGBSSBwIzMqAHjowCsgcCMzC4B_8RwgcIMC4xLjMwLjHIB58BgAgB&sclient=gws-wiz-serp",
+         "title": "google.com/search?q=main+causes+of+climate+change&sca_esv=801d0da47a96eb7f&ei=nrwIavrmGvGmi-gPlsvBgQk&biw=1906&bih=935&ved=0ahUKEwj6reKAvb6UAxVx0wIHHZZlMJAQ4dUDCBI&uact=5&oq=main+causes+of+climate+change&gs_lp=Egxnd3Mtd2l6LXNlcnAiHW1haW4gY2F1c2VzIG9mIGNsaW1hdGUgY2hhbmdlMgcQABiABBgTMgcQABiABBgTMgcQABiABBgTMgcQABiABBgTMgcQABiABBgTMgcQABiABBgTMggQABgWGB4YEzIIEAAYFhgeGBMyCBAAGBYYHhgTMggQABgWGB4YE0ibP1DoHVixO3ACeAGQAQCYAVygAbsQqgECMzC4AQPIAQD4AQGYAiCgAo0SwgIKEAAYRxjWBBiwA8ICDRAAGIAEGIoFGEMYsAPCAgsQABiABBixAxiDAcICDhAAGIAEGIoFGLEDGIMBwgIIEAAYgAQYsQPCAgsQLhiABBixAxiDAcICDhAuGIAEGIoFGLEDGIMBwgIKEAAYgAQYigUYQ8ICDRAAGIAEGIoFGEMYsQPCAhEQLhiABBixAxiDARjHARjRA8ICDhAuGIAEGLEDGMcBGNEDwgIOEC4YxwEYsQMY0QMYgATCAggQLhiABBixA8ICBRAAGIAEwgIdEC4YxwEYsQMY0QMYgAQYlwUY3AQY3gQY4ATYAQHCAggQLhixAxiABMICCxAuGIMBGLEDGIAEwgIFEC4YgATCAhcQLhixAxiABBiXBRjcBBjeBBjfBNgBAcICDBAuGAoYCxixAxiABMICBxAAGIAEGArCAgwQABiABBgKGAsYsQPCAgsQLhivARjHARiABMICGxAuGAoYCxixAxiABBiXBRjcBBjeBBjfBNgBAcICCxAuGIAEGMcBGK8BwgIJEAAYgAQYChgLwgIFECEYoAGYAwCIBgGQBgq6BgYIARABGBSSBwIzMqAHjowCsgcCMzC4B_8RwgcIMC4xLjMwLjHIB58BgAgB&sclient=gws-wiz-serp",
+         "status": "loading",
+         "muted": false
+      }
+   },
+   {
+      "session_id": "1778957461_54f9d6d9",
+      "timestamp": 1778957481815,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628788780,
+         "window_id": 628788696,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.google.com/search?q=main+causes+of+climate+change&sca_esv=801d0da47a96eb7f&ei=nrwIavrmGvGmi-gPlsvBgQk&biw=1906&bih=935&ved=0ahUKEwj6reKAvb6UAxVx0wIHHZZlMJAQ4dUDCBI&uact=5&oq=main+causes+of+climate+change&gs_lp=Egxnd3Mtd2l6LXNlcnAiHW1haW4gY2F1c2VzIG9mIGNsaW1hdGUgY2hhbmdlMgcQABiABBgTMgcQABiABBgTMgcQABiABBgTMgcQABiABBgTMgcQABiABBgTMgcQABiABBgTMggQABgWGB4YEzIIEAAYFhgeGBMyCBAAGBYYHhgTMggQABgWGB4YE0ibP1DoHVixO3ACeAGQAQCYAVygAbsQqgECMzC4AQPIAQD4AQGYAiCgAo0SwgIKEAAYRxjWBBiwA8ICDRAAGIAEGIoFGEMYsAPCAgsQABiABBixAxiDAcICDhAAGIAEGIoFGLEDGIMBwgIIEAAYgAQYsQPCAgsQLhiABBixAxiDAcICDhAuGIAEGIoFGLEDGIMBwgIKEAAYgAQYigUYQ8ICDRAAGIAEGIoFGEMYsQPCAhEQLhiABBixAxiDARjHARjRA8ICDhAuGIAEGLEDGMcBGNEDwgIOEC4YxwEYsQMY0QMYgATCAggQLhiABBixA8ICBRAAGIAEwgIdEC4YxwEYsQMY0QMYgAQYlwUY3AQY3gQY4ATYAQHCAggQLhixAxiABMICCxAuGIMBGLEDGIAEwgIFEC4YgATCAhcQLhixAxiABBiXBRjcBBjeBBjfBNgBAcICDBAuGAoYCxixAxiABMICBxAAGIAEGArCAgwQABiABBgKGAsYsQPCAgsQLhivARjHARiABMICGxAuGAoYCxixAxiABBiXBRjcBBjeBBjfBNgBAcICCxAuGIAEGMcBGK8BwgIJEAAYgAQYChgLwgIFECEYoAGYAwCIBgGQBgq6BgYIARABGBSSBwIzMqAHjowCsgcCMzC4B_8RwgcIMC4xLjMwLjHIB58BgAgB&sclient=gws-wiz-serp",
+         "title": "main causes of climate change - Cerca con Google",
+         "status": "loading",
+         "muted": false
+      }
+   },
+   {
+      "session_id": "1778957461_54f9d6d9",
+      "timestamp": 1778957481825,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628788780,
+         "window_id": 628788696,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.google.com/search?q=main+causes+of+climate+change&sca_esv=801d0da47a96eb7f&ei=nrwIavrmGvGmi-gPlsvBgQk&biw=1906&bih=935&ved=0ahUKEwj6reKAvb6UAxVx0wIHHZZlMJAQ4dUDCBI&uact=5&oq=main+causes+of+climate+change&gs_lp=Egxnd3Mtd2l6LXNlcnAiHW1haW4gY2F1c2VzIG9mIGNsaW1hdGUgY2hhbmdlMgcQABiABBgTMgcQABiABBgTMgcQABiABBgTMgcQABiABBgTMgcQABiABBgTMgcQABiABBgTMggQABgWGB4YEzIIEAAYFhgeGBMyCBAAGBYYHhgTMggQABgWGB4YE0ibP1DoHVixO3ACeAGQAQCYAVygAbsQqgECMzC4AQPIAQD4AQGYAiCgAo0SwgIKEAAYRxjWBBiwA8ICDRAAGIAEGIoFGEMYsAPCAgsQABiABBixAxiDAcICDhAAGIAEGIoFGLEDGIMBwgIIEAAYgAQYsQPCAgsQLhiABBixAxiDAcICDhAuGIAEGIoFGLEDGIMBwgIKEAAYgAQYigUYQ8ICDRAAGIAEGIoFGEMYsQPCAhEQLhiABBixAxiDARjHARjRA8ICDhAuGIAEGLEDGMcBGNEDwgIOEC4YxwEYsQMY0QMYgATCAggQLhiABBixA8ICBRAAGIAEwgIdEC4YxwEYsQMY0QMYgAQYlwUY3AQY3gQY4ATYAQHCAggQLhixAxiABMICCxAuGIMBGLEDGIAEwgIFEC4YgATCAhcQLhixAxiABBiXBRjcBBjeBBjfBNgBAcICDBAuGAoYCxixAxiABMICBxAAGIAEGArCAgwQABiABBgKGAsYsQPCAgsQLhivARjHARiABMICGxAuGAoYCxixAxiABBiXBRjcBBjeBBjfBNgBAcICCxAuGIAEGMcBGK8BwgIJEAAYgAQYChgLwgIFECEYoAGYAwCIBgGQBgq6BgYIARABGBSSBwIzMqAHjowCsgcCMzC4B_8RwgcIMC4xLjMwLjHIB58BgAgB&sclient=gws-wiz-serp",
+         "title": "main causes of climate change - Cerca con Google",
+         "status": "loading",
+         "muted": false
+      }
+   },
+   {
+      "session_id": "1778957461_54f9d6d9",
+      "timestamp": 1778957482276,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628788780,
+         "window_id": 628788696,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.google.com/search?q=main+causes+of+climate+change&sca_esv=801d0da47a96eb7f&ei=nrwIavrmGvGmi-gPlsvBgQk&biw=1906&bih=935&ved=0ahUKEwj6reKAvb6UAxVx0wIHHZZlMJAQ4dUDCBI&uact=5&oq=main+causes+of+climate+change&gs_lp=Egxnd3Mtd2l6LXNlcnAiHW1haW4gY2F1c2VzIG9mIGNsaW1hdGUgY2hhbmdlMgcQABiABBgTMgcQABiABBgTMgcQABiABBgTMgcQABiABBgTMgcQABiABBgTMgcQABiABBgTMggQABgWGB4YEzIIEAAYFhgeGBMyCBAAGBYYHhgTMggQABgWGB4YE0ibP1DoHVixO3ACeAGQAQCYAVygAbsQqgECMzC4AQPIAQD4AQGYAiCgAo0SwgIKEAAYRxjWBBiwA8ICDRAAGIAEGIoFGEMYsAPCAgsQABiABBixAxiDAcICDhAAGIAEGIoFGLEDGIMBwgIIEAAYgAQYsQPCAgsQLhiABBixAxiDAcICDhAuGIAEGIoFGLEDGIMBwgIKEAAYgAQYigUYQ8ICDRAAGIAEGIoFGEMYsQPCAhEQLhiABBixAxiDARjHARjRA8ICDhAuGIAEGLEDGMcBGNEDwgIOEC4YxwEYsQMY0QMYgATCAggQLhiABBixA8ICBRAAGIAEwgIdEC4YxwEYsQMY0QMYgAQYlwUY3AQY3gQY4ATYAQHCAggQLhixAxiABMICCxAuGIMBGLEDGIAEwgIFEC4YgATCAhcQLhixAxiABBiXBRjcBBjeBBjfBNgBAcICDBAuGAoYCxixAxiABMICBxAAGIAEGArCAgwQABiABBgKGAsYsQPCAgsQLhivARjHARiABMICGxAuGAoYCxixAxiABBiXBRjcBBjeBBjfBNgBAcICCxAuGIAEGMcBGK8BwgIJEAAYgAQYChgLwgIFECEYoAGYAwCIBgGQBgq6BgYIARABGBSSBwIzMqAHjowCsgcCMzC4B_8RwgcIMC4xLjMwLjHIB58BgAgB&sclient=gws-wiz-serp",
+         "title": "main causes of climate change - Cerca con Google",
+         "status": "loading",
+         "muted": false
+      }
+   },
+   {
+      "session_id": "1778957461_54f9d6d9",
+      "timestamp": 1778957482469,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628788780,
+         "window_id": 628788696,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.google.com/search?q=main+causes+of+climate+change&sca_esv=801d0da47a96eb7f&ei=nrwIavrmGvGmi-gPlsvBgQk&biw=1906&bih=935&ved=0ahUKEwj6reKAvb6UAxVx0wIHHZZlMJAQ4dUDCBI&uact=5&oq=main+causes+of+climate+change&gs_lp=Egxnd3Mtd2l6LXNlcnAiHW1haW4gY2F1c2VzIG9mIGNsaW1hdGUgY2hhbmdlMgcQABiABBgTMgcQABiABBgTMgcQABiABBgTMgcQABiABBgTMgcQABiABBgTMgcQABiABBgTMggQABgWGB4YEzIIEAAYFhgeGBMyCBAAGBYYHhgTMggQABgWGB4YE0ibP1DoHVixO3ACeAGQAQCYAVygAbsQqgECMzC4AQPIAQD4AQGYAiCgAo0SwgIKEAAYRxjWBBiwA8ICDRAAGIAEGIoFGEMYsAPCAgsQABiABBixAxiDAcICDhAAGIAEGIoFGLEDGIMBwgIIEAAYgAQYsQPCAgsQLhiABBixAxiDAcICDhAuGIAEGIoFGLEDGIMBwgIKEAAYgAQYigUYQ8ICDRAAGIAEGIoFGEMYsQPCAhEQLhiABBixAxiDARjHARjRA8ICDhAuGIAEGLEDGMcBGNEDwgIOEC4YxwEYsQMY0QMYgATCAggQLhiABBixA8ICBRAAGIAEwgIdEC4YxwEYsQMY0QMYgAQYlwUY3AQY3gQY4ATYAQHCAggQLhixAxiABMICCxAuGIMBGLEDGIAEwgIFEC4YgATCAhcQLhixAxiABBiXBRjcBBjeBBjfBNgBAcICDBAuGAoYCxixAxiABMICBxAAGIAEGArCAgwQABiABBgKGAsYsQPCAgsQLhivARjHARiABMICGxAuGAoYCxixAxiABBiXBRjcBBjeBBjfBNgBAcICCxAuGIAEGMcBGK8BwgIJEAAYgAQYChgLwgIFECEYoAGYAwCIBgGQBgq6BgYIARABGBSSBwIzMqAHjowCsgcCMzC4B_8RwgcIMC4xLjMwLjHIB58BgAgB&sclient=gws-wiz-serp",
+         "title": "main causes of climate change - Cerca con Google",
+         "status": "complete",
+         "muted": false
+      }
+   },
+   {
+      "session_id": "1778957461_54f9d6d9",
+      "timestamp": 1778957482474,
+      "event": "search",
+      "action": "google",
+      "query": "main causes of climate change",
+      "filename_html": "1778957482474_main causes of climate change.html",
+      "filename_ranking": "1778957482474_main causes of climate change.json"
+   },
+   {
+      "session_id": "1778957461_54f9d6d9",
+      "timestamp": 1778957484308,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628788780,
+         "window_id": 628788696,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.google.com/search?q=main+causes+of+climate+change&sca_esv=801d0da47a96eb7f&ei=nrwIavrmGvGmi-gPlsvBgQk&biw=1906&bih=935&ved=0ahUKEwj6reKAvb6UAxVx0wIHHZZlMJAQ4dUDCBI&uact=5&oq=main+causes+of+climate+change&gs_lp=Egxnd3Mtd2l6LXNlcnAiHW1haW4gY2F1c2VzIG9mIGNsaW1hdGUgY2hhbmdlMgcQABiABBgTMgcQABiABBgTMgcQABiABBgTMgcQABiABBgTMgcQABiABBgTMgcQABiABBgTMggQABgWGB4YEzIIEAAYFhgeGBMyCBAAGBYYHhgTMggQABgWGB4YE0ibP1DoHVixO3ACeAGQAQCYAVygAbsQqgECMzC4AQPIAQD4AQGYAiCgAo0SwgIKEAAYRxjWBBiwA8ICDRAAGIAEGIoFGEMYsAPCAgsQABiABBixAxiDAcICDhAAGIAEGIoFGLEDGIMBwgIIEAAYgAQYsQPCAgsQLhiABBixAxiDAcICDhAuGIAEGIoFGLEDGIMBwgIKEAAYgAQYigUYQ8ICDRAAGIAEGIoFGEMYsQPCAhEQLhiABBixAxiDARjHARjRA8ICDhAuGIAEGLEDGMcBGNEDwgIOEC4YxwEYsQMY0QMYgATCAggQLhiABBixA8ICBRAAGIAEwgIdEC4YxwEYsQMY0QMYgAQYlwUY3AQY3gQY4ATYAQHCAggQLhixAxiABMICCxAuGIMBGLEDGIAEwgIFEC4YgATCAhcQLhixAxiABBiXBRjcBBjeBBjfBNgBAcICDBAuGAoYCxixAxiABMICBxAAGIAEGArCAgwQABiABBgKGAsYsQPCAgsQLhivARjHARiABMICGxAuGAoYCxixAxiABBiXBRjcBBjeBBjfBNgBAcICCxAuGIAEGMcBGK8BwgIJEAAYgAQYChgLwgIFECEYoAGYAwCIBgGQBgq6BgYIARABGBSSBwIzMqAHjowCsgcCMzC4B_8RwgcIMC4xLjMwLjHIB58BgAgB&sclient=gws-wiz-serp",
+         "title": "main causes of climate change - Cerca con Google",
+         "status": "loading",
+         "muted": false
+      }
+   },
+   {
+      "session_id": "1778957461_54f9d6d9",
+      "timestamp": 1778957484309,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628788780,
+         "window_id": 628788696,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.google.com/search?q=main+causes+of+climate+change&sca_esv=801d0da47a96eb7f&ei=nrwIavrmGvGmi-gPlsvBgQk&biw=1906&bih=935&ved=0ahUKEwj6reKAvb6UAxVx0wIHHZZlMJAQ4dUDCBI&uact=5&oq=main+causes+of+climate+change&gs_lp=Egxnd3Mtd2l6LXNlcnAiHW1haW4gY2F1c2VzIG9mIGNsaW1hdGUgY2hhbmdlMgcQABiABBgTMgcQABiABBgTMgcQABiABBgTMgcQABiABBgTMgcQABiABBgTMgcQABiABBgTMggQABgWGB4YEzIIEAAYFhgeGBMyCBAAGBYYHhgTMggQABgWGB4YE0ibP1DoHVixO3ACeAGQAQCYAVygAbsQqgECMzC4AQPIAQD4AQGYAiCgAo0SwgIKEAAYRxjWBBiwA8ICDRAAGIAEGIoFGEMYsAPCAgsQABiABBixAxiDAcICDhAAGIAEGIoFGLEDGIMBwgIIEAAYgAQYsQPCAgsQLhiABBixAxiDAcICDhAuGIAEGIoFGLEDGIMBwgIKEAAYgAQYigUYQ8ICDRAAGIAEGIoFGEMYsQPCAhEQLhiABBixAxiDARjHARjRA8ICDhAuGIAEGLEDGMcBGNEDwgIOEC4YxwEYsQMY0QMYgATCAggQLhiABBixA8ICBRAAGIAEwgIdEC4YxwEYsQMY0QMYgAQYlwUY3AQY3gQY4ATYAQHCAggQLhixAxiABMICCxAuGIMBGLEDGIAEwgIFEC4YgATCAhcQLhixAxiABBiXBRjcBBjeBBjfBNgBAcICDBAuGAoYCxixAxiABMICBxAAGIAEGArCAgwQABiABBgKGAsYsQPCAgsQLhivARjHARiABMICGxAuGAoYCxixAxiABBiXBRjcBBjeBBjfBNgBAcICCxAuGIAEGMcBGK8BwgIJEAAYgAQYChgLwgIFECEYoAGYAwCIBgGQBgq6BgYIARABGBSSBwIzMqAHjowCsgcCMzC4B_8RwgcIMC4xLjMwLjHIB58BgAgB&sclient=gws-wiz-serp",
+         "title": "main causes of climate change - Cerca con Google",
+         "status": "complete",
+         "muted": false
+      }
+   },
+   {
+      "session_id": "1778957461_54f9d6d9",
+      "timestamp": 1778957484313,
+      "event": "search",
+      "action": "google",
+      "query": "main causes of climate change",
+      "filename_html": "1778957482474_main causes of climate change.html",
+      "filename_ranking": "1778957482474_main causes of climate change.json"
+   },
+   {
+      "session_id": "1778957461_54f9d6d9",
+      "timestamp": 1778957485386,
+      "event": "mouse",
+      "action": "mouse_move",
+      "mouse_from": {
+         "x": 785,
+         "y": 137
+      },
+      "mouse_to": {
+         "x": 858,
+         "y": 442
+      },
+      "hovered_text": "The primary driver of climate change is human activity, specifically the burning of fossil fuels (coal, oil, and gas). This releases heat-trapping gases into the atmosphere, intensifying the natural greenhouse effect and driving rapid global warming.\u00a0\nWelcome to the United Nations\n\u00a0+2"
+   },
+   {
+      "session_id": "1778957461_54f9d6d9",
+      "timestamp": 1778957485625,
+      "event": "mouse",
+      "action": "scroll",
+      "scroll_start": {
+         "x": 0,
+         "y": 5
+      },
+      "scroll_end": {
+         "x": 0,
+         "y": 360
+      }
+   },
+   {
+      "session_id": "1778957461_54f9d6d9",
+      "timestamp": 1778957486452,
+      "event": "mouse",
+      "action": "mouse_move",
+      "mouse_from": {
+         "x": 853,
+         "y": 445
+      },
+      "mouse_to": {
+         "x": 549,
+         "y": 530
+      },
+      "hovered_text": "Causes and Effects of Climate Change"
+   },
+   {
+      "session_id": "1778957461_54f9d6d9",
+      "timestamp": 1778957486765,
+      "event": "mouse",
+      "action": "mouse_click",
+      "mouse": {
+         "x": 549,
+         "y": 530
+      },
+      "hovered_text": "Causes and Effects of Climate Change"
+   },
+   {
+      "session_id": "1778957461_54f9d6d9",
+      "timestamp": 1778957486968,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628788780,
+         "window_id": 628788696,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.un.org/en/climatechange/science/causes-effects-climate-change",
+         "title": "un.org/en/climatechange/science/causes-effects-climate-change",
+         "status": "loading",
+         "muted": false
+      }
+   },
+   {
+      "session_id": "1778957461_54f9d6d9",
+      "timestamp": 1778957486981,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628788780,
+         "window_id": 628788696,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.un.org/en/climatechange/science/causes-effects-climate-change",
+         "title": "Causes and Effects of Climate Change | United Nations",
+         "status": "loading",
+         "muted": false
+      }
+   },
+   {
+      "session_id": "1778957461_54f9d6d9",
+      "timestamp": 1778957487242,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628788780,
+         "window_id": 628788696,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.un.org/en/climatechange/science/causes-effects-climate-change",
+         "title": "Causes and Effects of Climate Change | United Nations",
+         "status": "complete",
+         "muted": false
+      }
+   },
+   {
+      "session_id": "1778957461_54f9d6d9",
+      "timestamp": 1778957487839,
+      "event": "mouse",
+      "action": "mouse_move",
+      "mouse_from": {
+         "x": 768,
+         "y": 539
+      },
+      "mouse_to": {
+         "x": 1227,
+         "y": 567
+      },
+      "hovered_text": "As greenhouse gas emissions blanket the Earth, they trap the sun\u2019s heat. Because of this, the planet is warming up and the climate is changing. The world is now warming faster than at any point in recorded history. Warmer temperatures over time are changing weather patterns and disrupting the usual balance of nature. This poses many risks to human beings and all other forms of life on\u00a0Earth."
+   },
+   {
+      "session_id": "1778957461_54f9d6d9",
+      "timestamp": 1778957492067,
+      "event": "mouse",
+      "action": "mouse_move",
+      "mouse_from": {
+         "x": 1227,
+         "y": 563
+      },
+      "mouse_to": {
+         "x": 1277,
+         "y": 256
+      },
+      "hovered_text": "Climate Action\nSearch the United Nations\nSUBMIT SEARCH\nA-Z Site Index"
+   },
+   {
+      "session_id": "1778957461_54f9d6d9",
+      "timestamp": 1778957492341,
+      "event": "mouse",
+      "action": "mouse_click",
+      "mouse": {
+         "x": 1310,
+         "y": 211
+      },
+      "hovered_text": ""
+   },
+   {
+      "session_id": "1778957461_54f9d6d9",
+      "timestamp": 1778957492463,
+      "event": "mouse",
+      "action": "mouse_move",
+      "mouse_from": {
+         "x": 1277,
+         "y": 255
+      },
+      "mouse_to": {
+         "x": 1310,
+         "y": 211
+      },
+      "hovered_text": ""
+   },
+   {
+      "session_id": "1778957461_54f9d6d9",
+      "timestamp": 1778957493264,
+      "event": "keyboard",
+      "action": "write",
+      "typed": "gree"
+   },
+   {
+      "session_id": "1778957461_54f9d6d9",
+      "timestamp": 1778957494912,
+      "event": "keyboard",
+      "action": "write",
+      "typed": "nhouse ga"
+   },
+   {
+      "session_id": "1778957461_54f9d6d9",
+      "timestamp": 1778957495627,
+      "event": "keyboard",
+      "action": "write",
+      "typed": "sses"
+   },
+   {
+      "session_id": "1778957461_54f9d6d9",
+      "timestamp": 1778957495813,
+      "event": "mouse",
+      "action": "mouse_click",
+      "mouse": {
+         "x": 0,
+         "y": 0
+      },
+      "hovered_text": ""
+   },
+   {
+      "session_id": "1778957461_54f9d6d9",
+      "timestamp": 1778957496062,
+      "event": "keyboard",
+      "action": "write",
+      "typed": "[ENTER]"
+   },
+   {
+      "session_id": "1778957461_54f9d6d9",
+      "timestamp": 1778957496212,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628788780,
+         "window_id": 628788696,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.un.org/site-search/?query=greenhouse+gasses",
+         "title": "un.org/site-search/?query=greenhouse+gasses",
+         "status": "loading",
+         "muted": false
+      }
+   },
+   {
+      "session_id": "1778957461_54f9d6d9",
+      "timestamp": 1778957496224,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628788780,
+         "window_id": 628788696,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.un.org/site-search/?query=greenhouse+gasses",
+         "title": "Site search | United Nations",
+         "status": "loading",
+         "muted": false
+      }
+   },
+   {
+      "session_id": "1778957461_54f9d6d9",
+      "timestamp": 1778957496300,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628788780,
+         "window_id": 628788696,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.un.org/site-search/?query=greenhouse+gasses",
+         "title": "Site search | United Nations",
+         "status": "complete",
+         "muted": false
+      }
+   },
+   {
+      "session_id": "1778957461_54f9d6d9",
+      "timestamp": 1778957498396,
+      "event": "mouse",
+      "action": "mouse_move",
+      "mouse_from": {
+         "x": 1311,
+         "y": 211
+      },
+      "mouse_to": {
+         "x": 1704,
+         "y": 90
+      },
+      "hovered_text": "\u0420\u0443\u0441\u0441\u043a\u0438\u0439"
+   },
+   {
+      "session_id": "1778957461_54f9d6d9",
+      "timestamp": 1778957498618,
+      "event": "window",
+      "action": "window_focus",
+      "window": {
+         "id": 628788696,
+         "type": "normal",
+         "width": 1906,
+         "height": 1025,
+         "is_incognito": false
+      }
+   },
+   {
+      "session_id": "1778957461_54f9d6d9",
+      "timestamp": 1778957498619,
+      "event": "window",
+      "action": "window_focus_outside"
+   }
+]

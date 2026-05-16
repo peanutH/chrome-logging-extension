@@ -1,0 +1,151 @@
+[
+   {
+      "session_id": "1778957863_04c5385c",
+      "timestamp": 1778957863977,
+      "event": "window",
+      "action": "window_focus",
+      "window": {
+         "id": 628788696,
+         "type": "normal",
+         "width": 1906,
+         "height": 1025,
+         "is_incognito": false
+      }
+   },
+   {
+      "session_id": "1778957863_04c5385c",
+      "timestamp": 1778957864112,
+      "event": "mouse",
+      "action": "mouse_click",
+      "mouse": {
+         "x": 1677,
+         "y": 339
+      },
+      "hovered_text": "For Business\n|\nWarnings\nData Suite\nForensics\nAdvertising\nSuperior Accuracy\u2122\nBologna, Emilia-Romagna\n16\u00b0C\nLocation\nTODAY\nHOURLY\n10-DAY\nRADAR\nMINUTECAST\u00ae\nMONTHLY\nAIR QUALITY\nHEALTH & ACTIVITIES\nSUNDAY, MAY 17\nDay\n5/17\n24\u00b0Hi\nRealFeel\u00ae 27\u00b0\nRealFeel Shade\u2122 23\u00b0\nPleasant with sunshine and some clouds\n\nMax UV Index\n9.0 (Very High)\n\nAccuLumen Brightness Index\u2122\n8 (Bright)\n\nWind\nN 9 km/h\n\nWind Gusts\n24 km/h\n\nProbability of Precipitation\n2%\n\nProbability of Thunderstorms\n0%\n\nPrecipitation\n0.0 mm\n\nCloud Cover\n39%\n\nMORNING\nAFTERNOON\nNight\n5/17\n11\u00b0Lo\nRealFeel\u00ae 10\u00b0\nPartly cloudy\n\nWind\nSW 11 km/h\n\nWind Gusts\n19 km/h\n\nProbability of Precipitation\n3%\n\nProbability of Thunderstorms\n0%\n\nPrecipitation\n0.0 mm\n\nCloud Cover\n52%\n\nEVENING\nOVERNIGHT\nSUN & MOON\n14 hrs 52 mins\nRise\n5:45 AM\nSet\n8:37 PM\nWaxing Crescent\nRise\n5:36 AM\nSet\n10:08 PM\nTEMPERATURE HISTORY\n5/17\nHigh\nLow\nForecast\n24\u00b0\n11\u00b0\nAverage\n30\u00b0\n15\u00b0\nLast Year\n23\u00b0\n11\u00b0\n\nFURTHER AHEAD\n\nHOURLY\n10-DAY\nMONTHLY\n\nAROUND THE GLOBE\n\nHURRICANE TRACKER\nSEVERE WEATHER\nRADAR & MAPS\nNEWS\nVIDEO\n\nTop Stories\n\nCLIMATE\n\nSuper El Ni\u00f1o could strain food and water supplies around the world\n\n1 day ago\n\nSEVERE WEATHER\n\nHigh-risk severe weather setup to focus on Plains, Midwest into Monday\n\n3 hours ago\n\nWEATHER FORECASTS\n\nHeat wave to complete spring weather whiplash, worsen drought in East\n\n1 hour ago\n\nSEVERE WEATHER\n\nDeadly storms, flooding rain kill at least 96 in India\n\n1 day ago\n\nWINTER WEATHER\n\nWinter to return to Colorado, Wyoming with more May mountain snow\n\n9 hours ago\n\nMore Stories\n\nFeatured Stories\n\nHURRICANE\n\nEl Nino to fuel Pacific hurricane season, raise risks for California\n\n1 day ago\n\nHEALTH\n\nWet spring, more mice? The weather link behind rare hantavirus risk\n\n1 day ago\n\nCLIMATE\n\nTurkmenistan's fiery 'Gates of Hell' crater is dimming\n\n1 day ago\n\nWEATHER NEWS\n\nHere's how New York residents can get free A/C this summer\n\n3 days ago\n\nRECREATION\n\nBrain-eating amoeba found in hot springs at 3 National Parks: study\n\n4 days ago\n\nWorld\nEurope\nItaly\nEmilia-Romagna\nBologna\nWeather Near Bologna:\nFerrara, Emilia-Romagna\nModena, Emilia-Romagna\nSan Lazzaro, Emilia-Romagna\nCOMPANY\nProven Superior Accuracy\u2122\nAbout AccuWeather\nDigital Advertising\nCareers\nPress\nContact Us\nPRODUCTS & SERVICES\nFor Business\nFor Partners\nFor Advertising\nAccuWeather APIs\nAccuWeather Connect\nPersonal Weather Stations\nAPPS & DOWNLOADS\niPhone App\nAndroid App\nSee all Apps & Downloads\nSUBSCRIPTION SERVICES\nAccuWeather Premium\nAccuWeather Professional\nMORE\nAccuWeather Ready\nBusiness\nHealth\nHurricane\nLeisure and Recreation\nSevere Weather\nSpace and Astronomy\nSports\nTravel\nWeather News\n\u00a9 2026 AccuWeather, Inc. \"AccuWeather\" and sun design are registered trademarks of AccuWeather, Inc. All Rights Reserved.\nTerms of Use | Privacy Policy | Cookie Policy | Data Sources"
+   },
+   {
+      "session_id": "1778957863_04c5385c",
+      "timestamp": 1778957864233,
+      "event": "mouse",
+      "action": "mouse_move",
+      "mouse_from": {
+         "x": 1646,
+         "y": 308
+      },
+      "mouse_to": {
+         "x": 1677,
+         "y": 339
+      },
+      "hovered_text": "For Business\n|\nWarnings\nData Suite\nForensics\nAdvertising\nSuperior Accuracy\u2122\nBologna, Emilia-Romagna\n16\u00b0C\nLocation\nTODAY\nHOURLY\n10-DAY\nRADAR\nMINUTECAST\u00ae\nMONTHLY\nAIR QUALITY\nHEALTH & ACTIVITIES\nSUNDAY, MAY 17\nDay\n5/17\n24\u00b0Hi\nRealFeel\u00ae 27\u00b0\nRealFeel Shade\u2122 23\u00b0\nPleasant with sunshine and some clouds\n\nMax UV Index\n9.0 (Very High)\n\nAccuLumen Brightness Index\u2122\n8 (Bright)\n\nWind\nN 9 km/h\n\nWind Gusts\n24 km/h\n\nProbability of Precipitation\n2%\n\nProbability of Thunderstorms\n0%\n\nPrecipitation\n0.0 mm\n\nCloud Cover\n39%\n\nMORNING\nAFTERNOON\nNight\n5/17\n11\u00b0Lo\nRealFeel\u00ae 10\u00b0\nPartly cloudy\n\nWind\nSW 11 km/h\n\nWind Gusts\n19 km/h\n\nProbability of Precipitation\n3%\n\nProbability of Thunderstorms\n0%\n\nPrecipitation\n0.0 mm\n\nCloud Cover\n52%\n\nEVENING\nOVERNIGHT\nSUN & MOON\n14 hrs 52 mins\nRise\n5:45 AM\nSet\n8:37 PM\nWaxing Crescent\nRise\n5:36 AM\nSet\n10:08 PM\nTEMPERATURE HISTORY\n5/17\nHigh\nLow\nForecast\n24\u00b0\n11\u00b0\nAverage\n30\u00b0\n15\u00b0\nLast Year\n23\u00b0\n11\u00b0\n\nFURTHER AHEAD\n\nHOURLY\n10-DAY\nMONTHLY\n\nAROUND THE GLOBE\n\nHURRICANE TRACKER\nSEVERE WEATHER\nRADAR & MAPS\nNEWS\nVIDEO\n\nTop Stories\n\nCLIMATE\n\nSuper El Ni\u00f1o could strain food and water supplies around the world\n\n1 day ago\n\nSEVERE WEATHER\n\nHigh-risk severe weather setup to focus on Plains, Midwest into Monday\n\n3 hours ago\n\nWEATHER FORECASTS\n\nHeat wave to complete spring weather whiplash, worsen drought in East\n\n1 hour ago\n\nSEVERE WEATHER\n\nDeadly storms, flooding rain kill at least 96 in India\n\n1 day ago\n\nWINTER WEATHER\n\nWinter to return to Colorado, Wyoming with more May mountain snow\n\n9 hours ago\n\nMore Stories\n\nFeatured Stories\n\nHURRICANE\n\nEl Nino to fuel Pacific hurricane season, raise risks for California\n\n1 day ago\n\nHEALTH\n\nWet spring, more mice? The weather link behind rare hantavirus risk\n\n1 day ago\n\nCLIMATE\n\nTurkmenistan's fiery 'Gates of Hell' crater is dimming\n\n1 day ago\n\nWEATHER NEWS\n\nHere's how New York residents can get free A/C this summer\n\n3 days ago\n\nRECREATION\n\nBrain-eating amoeba found in hot springs at 3 National Parks: study\n\n4 days ago\n\nWorld\nEurope\nItaly\nEmilia-Romagna\nBologna\nWeather Near Bologna:\nFerrara, Emilia-Romagna\nModena, Emilia-Romagna\nSan Lazzaro, Emilia-Romagna\nCOMPANY\nProven Superior Accuracy\u2122\nAbout AccuWeather\nDigital Advertising\nCareers\nPress\nContact Us\nPRODUCTS & SERVICES\nFor Business\nFor Partners\nFor Advertising\nAccuWeather APIs\nAccuWeather Connect\nPersonal Weather Stations\nAPPS & DOWNLOADS\niPhone App\nAndroid App\nSee all Apps & Downloads\nSUBSCRIPTION SERVICES\nAccuWeather Premium\nAccuWeather Professional\nMORE\nAccuWeather Ready\nBusiness\nHealth\nHurricane\nLeisure and Recreation\nSevere Weather\nSpace and Astronomy\nSports\nTravel\nWeather News\n\u00a9 2026 AccuWeather, Inc. \"AccuWeather\" and sun design are registered trademarks of AccuWeather, Inc. All Rights Reserved.\nTerms of Use | Privacy Policy | Cookie Policy | Data Sources"
+   },
+   {
+      "session_id": "1778957863_04c5385c",
+      "timestamp": 1778957868402,
+      "event": "mouse",
+      "action": "mouse_move",
+      "mouse_from": {
+         "x": 1676,
+         "y": 339
+      },
+      "mouse_to": {
+         "x": 177,
+         "y": 94
+      },
+      "hovered_text": "For Business\n|\nWarnings\nData Suite\nForensics\nAdvertising\nSuperior Accuracy\u2122"
+   },
+   {
+      "session_id": "1778957863_04c5385c",
+      "timestamp": 1778957868558,
+      "event": "window",
+      "action": "window_focus_outside"
+   },
+   {
+      "session_id": "1778957863_04c5385c",
+      "timestamp": 1778957868567,
+      "event": "tab",
+      "action": "tab_focus",
+      "tab": {
+         "id": 628788785,
+         "window_id": 628788696,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://accounts.google.com/v3/signin/challenge/pwd?TL=APouJz7woLhKamYU1i-hA7PEhFDXNVPC-Oy_v-3A-XfEAGjcDwExR_ZsmQjIdcN2&checkConnection=youtube%3A59&checkedDomains=youtube&cid=2&continue=https%3A%2F%2Fwww.google.com%2Fsearch%3Fq%3Dhow%2Bdoes%2Bphotosynthesis%2Bwork%26sca_esv%3D801d0da47a96eb7f%26ei%3DOr0IauHpG4Gni-gP15_20Q8%26biw%3D1906%26bih%3D935%26ved%3D0ahUKEwjh7pTLvb6UAxWB0wIHHdePPfoQ4dUDCBI%26uact%3D5%26oq%3Dhow%2Bdoes%2Bphotosynthesis%2Bwork%26gs_lp%3DEgxnd3Mtd2l6LXNlcnAiHGhvdyBkb2VzIHBob3Rvc3ludGhlc2lzIHdvcmsyBxAAGIAEGBMyBxAAGIAEGBMyBxAAGIAEGBMyBxAAGIAEGBMyBxAAGIAEGBMyBxAAGIAEGBMyBxAAGIAEGBMyBxAAGIAEGBMyBxAAGIAEGBMyBxAAGIAEGBNIrSlQlghY1SdwAXgBkAEAmAFToAGqDaoBAjI4uAEDyAEA-AEBmAIdoAKED8ICChAAGEcY1gQYsAPCAg4QLhiABBiKBRixAxiDAcICCxAAGIAEGLEDGIMBwgIIEAAYgAQYsQPCAgUQLhiABMICDhAuGMcBGLEDGNEDGIAEwgIUEC4YgAQYigUYsQMYgwEYxwEYrwHCAggQLhiABBixA8ICBRAAGIAEwgIdEC4YgAQYigUYsQMYgwEYlwUY3AQY3gQY3wTYAQHCAgoQABiABBiKBRhDwgIOEC4YgAQYsQMYxwEY0QPCAgsQLhjHARjRAxiABMICEBAuGIAEGIoFGEMYxwEY0QPCAgoQLhiABBiKBRhDwgIOEAAYgAQYigUYsQMYgwHCAgsQABiABBiKBRixA8ICFxAuGIAEGLEDGJcFGNwEGN4EGOAE2AEBwgIUEC4YgAQYlwUY3AQY3gQY4ATYAQHCAgQQABgDmAMAiAYBkAYHugYGCAEQARgUkgcCMjmgB4GiArIHAjI4uAf9DsIHBjItMjcuMsgHpgGACAE%26sclient%3Dgws-wiz-serp&dsh=S488197915%3A1778957753374064&ec=futura_srp_og_si_72236_p&flowEntry=ServiceLogin&flowName=GlifWebSignIn&hl=it&ifkv=AWa2PavQx4nSh46GO2-elWdRuoTTWNvHqg-t5cZaQIcF6-BtHoh4Vdi4FsQoIcrdwjbarB9VMqmXlQ&pstMsg=1",
+         "title": "Ciao",
+         "status": "complete",
+         "muted": false
+      }
+   },
+   {
+      "session_id": "1778957863_04c5385c",
+      "timestamp": 1778957869823,
+      "event": "mouse",
+      "action": "mouse_click",
+      "mouse": {
+         "x": 1159,
+         "y": 503
+      },
+      "hovered_text": ""
+   },
+   {
+      "session_id": "1778957863_04c5385c",
+      "timestamp": 1778957869895,
+      "event": "mouse",
+      "action": "mouse_move",
+      "mouse_from": {
+         "x": 475,
+         "y": 93
+      },
+      "mouse_to": {
+         "x": 1159,
+         "y": 503
+      },
+      "hovered_text": ""
+   },
+   {
+      "session_id": "1778957863_04c5385c",
+      "timestamp": 1778957870959,
+      "event": "keyboard",
+      "action": "write",
+      "typed": "[HIDDEN][HIDDEN]"
+   },
+   {
+      "session_id": "1778957863_04c5385c",
+      "timestamp": 1778957871600,
+      "event": "keyboard",
+      "action": "write",
+      "typed": "[HIDDEN][HIDDEN]"
+   },
+   {
+      "session_id": "1778957863_04c5385c",
+      "timestamp": 1778957872379,
+      "event": "keyboard",
+      "action": "write",
+      "typed": "[HIDDEN][HIDDEN][HIDDEN]"
+   },
+   {
+      "session_id": "1778957863_04c5385c",
+      "timestamp": 1778957872897,
+      "event": "keyboard",
+      "action": "write",
+      "typed": "[HIDDEN]"
+   },
+   {
+      "session_id": "1778957863_04c5385c",
+      "timestamp": 1778957875727,
+      "event": "window",
+      "action": "window_focus",
+      "window": {
+         "id": 628788696,
+         "type": "normal",
+         "width": 1906,
+         "height": 1025,
+         "is_incognito": false
+      }
+   },
+   {
+      "session_id": "1778957863_04c5385c",
+      "timestamp": 1778957875728,
+      "event": "window",
+      "action": "window_focus_outside"
+   }
+]

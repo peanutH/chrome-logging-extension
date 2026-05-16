@@ -1,0 +1,261 @@
+[
+   {
+      "session_id": "1778957794_30414bf7",
+      "timestamp": 1778957795174,
+      "event": "window",
+      "action": "window_focus",
+      "window": {
+         "id": 628788696,
+         "type": "normal",
+         "width": 1906,
+         "height": 1025,
+         "is_incognito": false
+      }
+   },
+   {
+      "session_id": "1778957794_30414bf7",
+      "timestamp": 1778957800015,
+      "event": "window",
+      "action": "window_focus_outside"
+   },
+   {
+      "session_id": "1778957794_30414bf7",
+      "timestamp": 1778957800082,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628788788,
+         "window_id": 628788696,
+         "index": 1,
+         "group_id": -1,
+         "url": "https://www.google.com/search?q=public+library+near+me&oq=public+library+near+me&gs_lcrp=EgZjaHJvbWUyDggAEEUYORhDGIAEGIoFMgwIARAAGEMYgAQYigUyDQgCEC4YxwEY0QMYgAQyBwgDEAAYgAQyBwgEEAAYgAQyBwgFEAAYgAQyBwgGEAAYgAQyDAgHEAAYQxiABBiKBTIHCAgQABiABDIHCAkQABiABNIBCDM1NDFqMGo3qAIIsAIB8QX-rzWfoGSb6g&sourceid=chrome&ie=UTF-8&source=chrome.ob",
+         "title": "google.com/search?q=public+library+near+me&oq=public+library+near+me&gs_lcrp=EgZjaHJvbWUyDggAEEUYORhDGIAEGIoFMgwIARAAGEMYgAQYigUyDQgCEC4YxwEY0QMYgAQyBwgDEAAYgAQyBwgEEAAYgAQyBwgFEAAYgAQyBwgGEAAYgAQyDAgHEAAYQxiABBiKBTIHCAgQABiABDIHCAkQABiABNIBCDM1NDFqMGo3qAIIsAIB8QX-rzWfoGSb6g&sourceid=chrome&ie=UTF-8&source=chrome.ob",
+         "status": "loading",
+         "muted": false
+      }
+   },
+   {
+      "session_id": "1778957794_30414bf7",
+      "timestamp": 1778957800104,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628788788,
+         "window_id": 628788696,
+         "index": 1,
+         "group_id": -1,
+         "url": "https://www.google.com/search?q=public+library+near+me&oq=public+library+near+me&gs_lcrp=EgZjaHJvbWUyDggAEEUYORhDGIAEGIoFMgwIARAAGEMYgAQYigUyDQgCEC4YxwEY0QMYgAQyBwgDEAAYgAQyBwgEEAAYgAQyBwgFEAAYgAQyBwgGEAAYgAQyDAgHEAAYQxiABBiKBTIHCAgQABiABDIHCAkQABiABNIBCDM1NDFqMGo3qAIIsAIB8QX-rzWfoGSb6g&sourceid=chrome&ie=UTF-8&source=chrome.ob",
+         "title": "public library near me - Cerca con Google",
+         "status": "loading",
+         "muted": false
+      }
+   },
+   {
+      "session_id": "1778957794_30414bf7",
+      "timestamp": 1778957800108,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628788788,
+         "window_id": 628788696,
+         "index": 1,
+         "group_id": -1,
+         "url": "https://www.google.com/search?q=public+library+near+me&oq=public+library+near+me&gs_lcrp=EgZjaHJvbWUyDggAEEUYORhDGIAEGIoFMgwIARAAGEMYgAQYigUyDQgCEC4YxwEY0QMYgAQyBwgDEAAYgAQyBwgEEAAYgAQyBwgFEAAYgAQyBwgGEAAYgAQyDAgHEAAYQxiABBiKBTIHCAgQABiABDIHCAkQABiABNIBCDM1NDFqMGo3qAIIsAIB8QX-rzWfoGSb6g&sourceid=chrome&ie=UTF-8&source=chrome.ob",
+         "title": "public library near me - Cerca con Google",
+         "status": "loading",
+         "muted": false
+      }
+   },
+   {
+      "session_id": "1778957794_30414bf7",
+      "timestamp": 1778957800568,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628788788,
+         "window_id": 628788696,
+         "index": 1,
+         "group_id": -1,
+         "url": "https://www.google.com/search?q=public+library+near+me&oq=public+library+near+me&gs_lcrp=EgZjaHJvbWUyDggAEEUYORhDGIAEGIoFMgwIARAAGEMYgAQYigUyDQgCEC4YxwEY0QMYgAQyBwgDEAAYgAQyBwgEEAAYgAQyBwgFEAAYgAQyBwgGEAAYgAQyDAgHEAAYQxiABBiKBTIHCAgQABiABDIHCAkQABiABNIBCDM1NDFqMGo3qAIIsAIB8QX-rzWfoGSb6g&sourceid=chrome&ie=UTF-8&source=chrome.ob",
+         "title": "public library near me - Cerca con Google",
+         "status": "loading",
+         "muted": false
+      }
+   },
+   {
+      "session_id": "1778957794_30414bf7",
+      "timestamp": 1778957800927,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628788788,
+         "window_id": 628788696,
+         "index": 1,
+         "group_id": -1,
+         "url": "https://www.google.com/search?q=public+library+near+me&oq=public+library+near+me&gs_lcrp=EgZjaHJvbWUyDggAEEUYORhDGIAEGIoFMgwIARAAGEMYgAQYigUyDQgCEC4YxwEY0QMYgAQyBwgDEAAYgAQyBwgEEAAYgAQyBwgFEAAYgAQyBwgGEAAYgAQyDAgHEAAYQxiABBiKBTIHCAgQABiABDIHCAkQABiABNIBCDM1NDFqMGo3qAIIsAIB8QX-rzWfoGSb6g&sourceid=chrome&ie=UTF-8&source=chrome.ob",
+         "title": "public library near me - Cerca con Google",
+         "status": "complete",
+         "muted": false
+      }
+   },
+   {
+      "session_id": "1778957794_30414bf7",
+      "timestamp": 1778957800933,
+      "event": "search",
+      "action": "google",
+      "query": "public library near me",
+      "filename_html": "1778957800932_public library near me.html",
+      "filename_ranking": "1778957800932_public library near me.json"
+   },
+   {
+      "session_id": "1778957794_30414bf7",
+      "timestamp": 1778957801739,
+      "event": "mouse",
+      "action": "mouse_move",
+      "mouse_from": {
+         "x": 1416,
+         "y": 142
+      },
+      "mouse_to": {
+         "x": 1252,
+         "y": 455
+      },
+      "hovered_text": "Lame, Bologna\n\u00a0\n\u00a0\nSiti di luoghi\nTHE 15 BEST Bologna Libraries (2026) - Tripadvisor\nTripadvisor\nTHE BEST 10 LIBRARIES in BOLOGNA, ITALY - Updated 2026 - Hours\nYelp\nBiblioteca Salaborsa (Public Library)\nZero.eu\nUniversity of Bologna Library, Italy A little hard to find among the sprawling buildings of the university but when you do it is worth it. There are mixed reviews about which parts you can go into as a member of the public but we managed to find a friendly librarian who took us on our own little tour (free of charge). The highlight was the Aula Magna, a beautiful room lined with books from floor to ceiling with globes standing next to wooden reading desks and ladders leading to the higher shelves.\nFacebook\nUniversity Library of Bologna Tickets [2026] - Trip.com\nTrip.com\nI\u2019ve lived in Bologna for 20 years \u2013 here\u2019s my itinerary for Italy\u2019s foodie city\nThe Telegraph\nFind a Library\nDublin City Council\nAltri siti\nRisultati locali\nLuoghi\nMappa\nBiblioteca Salaborsa\nBiblioteca pubblica\nPiazza del Nettuno, 3 \u00b7 051 219 4400\nChiuso \u00b7 Apre lun alle ore 14\nServizi in loco\n\t\nSito web\n\t\nIndicazioni\nBiblioteca Lame-Cesare Malservisi\nBiblioteca\nVia Marco Polo, 21/13 \u00b7 051 219 6570\nChiuso \u00b7 Apre lun alle ore 14\n\t\nSito web\n\t\nIndicazioni\nBiblioteca Casa di Khaoula\nBiblioteca pubblica\nVia di Corticella, 104 \u00b7 051 219 6090\nChiuso \u00b7 Apre lun alle ore 14\n\t\nSito web\n\t\nIndicazioni\nAltri luoghi\nWeb results\nTHE 15 BEST Bologna Libraries (2026)\n\nTripadvisor\nhttps://www.tripadvisor.com \u203a ...\n\u00b7\nTraduci questa pagina\nThe library is located Piazza del Nettuno and we found it easy to identify by the number of young people sat on the steps outside. It is completely free to\u00a0...\nLe persone hanno chiesto anche\nAre libraries in Italy free?\nDo they have public libraries in Italy?\nCan you spend all day at a library?\nWhat's special about Milan's libraries?\nWeb results\nLibraries in Bologna - The best for studying\n\nBologna Welcome\nhttps://www.bolognawelcome.com \u203a ...\n\u00b7\nTraduci questa pagina\n17 ott 2024 \u2014 Biblioteca Salaborsa - Piazza del Nettuno, 3. Located in the heart of the city, the Salaborsa is Bologna's central library. In addition to its\u00a0...\nMancanti: me \u200e| Deve includere: me\nTHE BEST 10 LIBRARIES in BOLOGNA, ITALY\n\nYelp\nhttps://www.yelp.com \u203a search\n\u00b7\nTraduci questa pagina\nBest Libraries in Bologna - Last Updated April 2026 - Biblioteca Salaborsa, Archiginnasio, Piazza Maggiore, Libreria Nanni Arnaldo & C, Biblioteca Giuridica\u00a0...\n4,5(43) \u00a0\u00a0\u00a0\nBiblioteca Salaborsa (Public Library) - Bologna\n\nZero.eu\nhttps://zero.eu \u203a Bologna \u203a Venues\nHuge archive of periodicals, movies, illustrated volumes, besides being the symbol of the brand new city.\nBiblioteca Salaborsa: Bologna's unique library\n\nTaste Bologna - Bologna Food Tour\nhttps://www.tastebologna.net \u203a ...\n\u00b7\nTraduci questa pagina\n22 mag 2024 \u2014 Biblioteca Salaborsa: its history and what to visit inside Bologna's best library.\nThe Salaborsa Library and its incredible uses over the time\n\nbologna-experience.eu\nhttps://www.bologna-experience.eu \u203a ...\n\u00b7\nTraduci questa pagina\nThe Salaborsa Library is a real multimedia library; it offers resources also available remotely through the official website, which allows to combine history\u00a0...\nBiblioteca Salaborsa - Italia.it\n\nwww.italia.it\nhttps://www.italia.it \u203a bologna\n\u00b7\nTraduci questa pagina\nSalaborsa is a multimedia library that opened in 2001 and is located inside Palazzo d'Accursio, a historic building overlooking the beautiful Piazza Maggiore.\nUniversity of Bologna Library, Italy A little hard ... - Facebook\n\nFacebook\u00a0\u00b7\u00a0We Are Bookish\nOltre 90 reazioni \u00b7 1 anno fa\nUniversity of Bologna Library, Italy A little hard to find among the sprawling buildings of the university but when you do it is worth it.\nLibraries in and around Bologna\n\nBologna Welcome\nhttps://www.bolognawelcome.com \u203a ...\n\u00b7\nTraduci questa pagina\nMuncipal Library Castel San Pietro Terme LibrariesMuncipal Library Castel San Pietro Terme Imola area Accessible< 30 Km from Bologna. Municipal library\u00a0...\nMancanti: me \u200e| Deve includere: me\nLibraries, digital resources and study rooms - Bologna\n\nUniversit\u00e0 di Bologna\nhttps://www.unibo.it \u203a study \u203a li...\n\u00b7\nTraduci questa pagina\nThe Bologna University Library, with important collections of antique and modern books, is the University's central library, offering general library services,\u00a0...\nRisultati locali\nLuoghi\nBiblioteca Comunale dell'Archiginnasio\nBiblioteca\nP.zza Galvani, 1 \u00b7 051 219 6611\nChiuso \u00b7 Apre lun alle ore 09\nServizi in loco\n\t\nSito web\n\t\nIndicazioni\nBiblioteca Jorge Luis Borges\nBiblioteca\nVia dello Scalo, 21/2 \u00b7 051 219 7770\nChiuso \u00b7 Apre lun alle ore 14\n\t\nSito web\n\t\nIndicazioni\nPalazzo Paleotti\nBiblioteca universitaria\nPalazzo Paleotti, Via Zamboni, 25 \u00b7 051 209 9830\nAperto \u00b7 Chiude alle ore 22\n\t\nSito web\n\t\nIndicazioni\nRicerche correlate\npublic library modena mo\nBologna Library\nBologna library with ruins\nUniversity of Bologna Library\nBologna university library visit\nBologna library hours\nOld library Bologna\nSalaborsa Library\nNavigazione nelle pagine\n\t\n1\t\n2\n\t\n3\n\t\n4\n\t\n5\n\t\n6\n\t\n7\n\t\n8\n\t\n9\n\t\n10\n\t\nAvanti"
+   },
+   {
+      "session_id": "1778957794_30414bf7",
+      "timestamp": 1778957802257,
+      "event": "mouse",
+      "action": "mouse_move",
+      "mouse_from": {
+         "x": 1252,
+         "y": 453
+      },
+      "mouse_to": {
+         "x": 1251,
+         "y": 456
+      },
+      "hovered_text": "Lame, Bologna\n\u00a0\n\u00a0\nSiti di luoghi\nTHE 15 BEST Bologna Libraries (2026) - Tripadvisor\nTripadvisor\nTHE BEST 10 LIBRARIES in BOLOGNA, ITALY - Updated 2026 - Hours\nYelp\nBiblioteca Salaborsa (Public Library)\nZero.eu\nUniversity of Bologna Library, Italy A little hard to find among the sprawling buildings of the university but when you do it is worth it. There are mixed reviews about which parts you can go into as a member of the public but we managed to find a friendly librarian who took us on our own little tour (free of charge). The highlight was the Aula Magna, a beautiful room lined with books from floor to ceiling with globes standing next to wooden reading desks and ladders leading to the higher shelves.\nFacebook\nUniversity Library of Bologna Tickets [2026] - Trip.com\nTrip.com\nI\u2019ve lived in Bologna for 20 years \u2013 here\u2019s my itinerary for Italy\u2019s foodie city\nThe Telegraph\nFind a Library\nDublin City Council\nAltri siti\nRisultati locali\nLuoghi\nMappa\nBiblioteca Salaborsa\nBiblioteca pubblica\nPiazza del Nettuno, 3 \u00b7 051 219 4400\nChiuso \u00b7 Apre lun alle ore 14\nServizi in loco\n\t\nSito web\n\t\nIndicazioni\nBiblioteca Lame-Cesare Malservisi\nBiblioteca\nVia Marco Polo, 21/13 \u00b7 051 219 6570\nChiuso \u00b7 Apre lun alle ore 14\n\t\nSito web\n\t\nIndicazioni\nBiblioteca Casa di Khaoula\nBiblioteca pubblica\nVia di Corticella, 104 \u00b7 051 219 6090\nChiuso \u00b7 Apre lun alle ore 14\n\t\nSito web\n\t\nIndicazioni\nAltri luoghi\nWeb results\nTHE 15 BEST Bologna Libraries (2026)\n\nTripadvisor\nhttps://www.tripadvisor.com \u203a ...\n\u00b7\nTraduci questa pagina\nThe library is located Piazza del Nettuno and we found it easy to identify by the number of young people sat on the steps outside. It is completely free to\u00a0...\nLe persone hanno chiesto anche\nAre libraries in Italy free?\nDo they have public libraries in Italy?\nCan you spend all day at a library?\nWhat's special about Milan's libraries?\nWeb results\nLibraries in Bologna - The best for studying\n\nBologna Welcome\nhttps://www.bolognawelcome.com \u203a ...\n\u00b7\nTraduci questa pagina\n17 ott 2024 \u2014 Biblioteca Salaborsa - Piazza del Nettuno, 3. Located in the heart of the city, the Salaborsa is Bologna's central library. In addition to its\u00a0...\nMancanti: me \u200e| Deve includere: me\nTHE BEST 10 LIBRARIES in BOLOGNA, ITALY\n\nYelp\nhttps://www.yelp.com \u203a search\n\u00b7\nTraduci questa pagina\nBest Libraries in Bologna - Last Updated April 2026 - Biblioteca Salaborsa, Archiginnasio, Piazza Maggiore, Libreria Nanni Arnaldo & C, Biblioteca Giuridica\u00a0...\n4,5(43) \u00a0\u00a0\u00a0\nBiblioteca Salaborsa (Public Library) - Bologna\n\nZero.eu\nhttps://zero.eu \u203a Bologna \u203a Venues\nHuge archive of periodicals, movies, illustrated volumes, besides being the symbol of the brand new city.\nBiblioteca Salaborsa: Bologna's unique library\n\nTaste Bologna - Bologna Food Tour\nhttps://www.tastebologna.net \u203a ...\n\u00b7\nTraduci questa pagina\n22 mag 2024 \u2014 Biblioteca Salaborsa: its history and what to visit inside Bologna's best library.\nThe Salaborsa Library and its incredible uses over the time\n\nbologna-experience.eu\nhttps://www.bologna-experience.eu \u203a ...\n\u00b7\nTraduci questa pagina\nThe Salaborsa Library is a real multimedia library; it offers resources also available remotely through the official website, which allows to combine history\u00a0...\nBiblioteca Salaborsa - Italia.it\n\nwww.italia.it\nhttps://www.italia.it \u203a bologna\n\u00b7\nTraduci questa pagina\nSalaborsa is a multimedia library that opened in 2001 and is located inside Palazzo d'Accursio, a historic building overlooking the beautiful Piazza Maggiore.\nUniversity of Bologna Library, Italy A little hard ... - Facebook\n\nFacebook\u00a0\u00b7\u00a0We Are Bookish\nOltre 90 reazioni \u00b7 1 anno fa\nUniversity of Bologna Library, Italy A little hard to find among the sprawling buildings of the university but when you do it is worth it.\nLibraries in and around Bologna\n\nBologna Welcome\nhttps://www.bolognawelcome.com \u203a ...\n\u00b7\nTraduci questa pagina\nMuncipal Library Castel San Pietro Terme LibrariesMuncipal Library Castel San Pietro Terme Imola area Accessible< 30 Km from Bologna. Municipal library\u00a0...\nMancanti: me \u200e| Deve includere: me\nLibraries, digital resources and study rooms - Bologna\n\nUniversit\u00e0 di Bologna\nhttps://www.unibo.it \u203a study \u203a li...\n\u00b7\nTraduci questa pagina\nThe Bologna University Library, with important collections of antique and modern books, is the University's central library, offering general library services,\u00a0...\nRisultati locali\nLuoghi\nBiblioteca Comunale dell'Archiginnasio\nBiblioteca\nP.zza Galvani, 1 \u00b7 051 219 6611\nChiuso \u00b7 Apre lun alle ore 09\nServizi in loco\n\t\nSito web\n\t\nIndicazioni\nBiblioteca Jorge Luis Borges\nBiblioteca\nVia dello Scalo, 21/2 \u00b7 051 219 7770\nChiuso \u00b7 Apre lun alle ore 14\n\t\nSito web\n\t\nIndicazioni\nPalazzo Paleotti\nBiblioteca universitaria\nPalazzo Paleotti, Via Zamboni, 25 \u00b7 051 209 9830\nAperto \u00b7 Chiude alle ore 22\n\t\nSito web\n\t\nIndicazioni\nRicerche correlate\npublic library modena mo\nBologna Library\nBologna library with ruins\nUniversity of Bologna Library\nBologna university library visit\nBologna library hours\nOld library Bologna\nSalaborsa Library\nNavigazione nelle pagine\n\t\n1\t\n2\n\t\n3\n\t\n4\n\t\n5\n\t\n6\n\t\n7\n\t\n8\n\t\n9\n\t\n10\n\t\nAvanti"
+   },
+   {
+      "session_id": "1778957794_30414bf7",
+      "timestamp": 1778957804282,
+      "event": "mouse",
+      "action": "scroll",
+      "scroll_start": {
+         "x": 0,
+         "y": 5
+      },
+      "scroll_end": {
+         "x": 0,
+         "y": 480
+      }
+   },
+   {
+      "session_id": "1778957794_30414bf7",
+      "timestamp": 1778957807043,
+      "event": "mouse",
+      "action": "scroll",
+      "scroll_start": {
+         "x": 0,
+         "y": 482
+      },
+      "scroll_end": {
+         "x": 0,
+         "y": 840
+      }
+   },
+   {
+      "session_id": "1778957794_30414bf7",
+      "timestamp": 1778957807851,
+      "event": "mouse",
+      "action": "mouse_move",
+      "mouse_from": {
+         "x": 1250,
+         "y": 456
+      },
+      "mouse_to": {
+         "x": 504,
+         "y": 632
+      },
+      "hovered_text": "THE 15 BEST Bologna Libraries (2026)"
+   },
+   {
+      "session_id": "1778957794_30414bf7",
+      "timestamp": 1778957808172,
+      "event": "mouse",
+      "action": "mouse_click",
+      "mouse": {
+         "x": 504,
+         "y": 632
+      },
+      "hovered_text": "THE 15 BEST Bologna Libraries (2026)"
+   },
+   {
+      "session_id": "1778957794_30414bf7",
+      "timestamp": 1778957808312,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628788788,
+         "window_id": 628788696,
+         "index": 1,
+         "group_id": -1,
+         "url": "https://www.tripadvisor.com/Attractions-g187801-Activities-c60-t21-Bologna_Province_of_Bologna_Emilia_Romagna.html",
+         "title": "tripadvisor.com/Attractions-g187801-Activities-c60-t21-Bologna_Province_of_Bologna_Emilia_Romagna.html",
+         "status": "loading",
+         "muted": false
+      }
+   },
+   {
+      "session_id": "1778957794_30414bf7",
+      "timestamp": 1778957808323,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628788788,
+         "window_id": 628788696,
+         "index": 1,
+         "group_id": -1,
+         "url": "https://www.tripadvisor.com/Attractions-g187801-Activities-c60-t21-Bologna_Province_of_Bologna_Emilia_Romagna.html",
+         "title": "tripadvisor.com",
+         "status": "loading",
+         "muted": false
+      }
+   },
+   {
+      "session_id": "1778957794_30414bf7",
+      "timestamp": 1778957808598,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628788788,
+         "window_id": 628788696,
+         "index": 1,
+         "group_id": -1,
+         "url": "https://www.tripadvisor.com/Attractions-g187801-Activities-c60-t21-Bologna_Province_of_Bologna_Emilia_Romagna.html",
+         "title": "tripadvisor.com",
+         "status": "complete",
+         "muted": false
+      }
+   },
+   {
+      "session_id": "1778957794_30414bf7",
+      "timestamp": 1778957816150,
+      "event": "window",
+      "action": "window_focus",
+      "window": {
+         "id": 628788696,
+         "type": "normal",
+         "width": 1906,
+         "height": 1025,
+         "is_incognito": false
+      }
+   },
+   {
+      "session_id": "1778957794_30414bf7",
+      "timestamp": 1778957816150,
+      "event": "window",
+      "action": "window_focus_outside"
+   }
+]

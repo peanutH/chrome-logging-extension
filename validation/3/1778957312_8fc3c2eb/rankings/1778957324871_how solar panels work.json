@@ -1,0 +1,70 @@
+[
+   {
+      "rank": 0,
+      "type": "ai_overview",
+      "text": "Solar panels convert sunlight into electricity using the photovoltaic (PV) effect. When sunlight's energy (photons) strikes a panel, it knocks electrons free from silicon atoms. An internal electric field forces these loose electrons to flow through a circuit, generating usable electricity.\u00a0Union of Concerned Scientists\u00a0+3The Step-by-Step Process\u00a0Light Absorption: A solar panel is made up of multiple individual solar cells constructed of silicon. When sunlight hits these panels, the cells absorb photons (tiny packets of light energy).The Electric Field: Each solar cell has two layers of silicon. The top layer is treated to have a negative charge, while the bottom layer has a positive charge. This creates an electric field at the border between the two layers.Current Generation: When the photons smash into the silicon, they knock electrons loose from their atoms. The built-in electric field pushes these free electrons in one specific direction. Conductive metal plates at the edges of the cell collect these flowing electrons, creating direct current (DC) electricity.Power Conversion: Your home appliances and the electrical grid run on alternating current (AC). To make the energy usable, the DC electricity is sent to a device called an inverter, which converts it into AC power.Usage & Storage: Once the power passes through the inverter, it is directed to your home's breaker box to run your appliances. Excess energy can be stored in a battery for later use, or sent back into the electrical grid to earn credits on your utility bill.\u00a0Regalgrid\u00a0+4For a quick, visual breakdown of the atomic process behind solar energy:54sHow does it work? The Science of Solar PanelsLIGHTHIEF PolandYouTube\u2022 26 gen 2024To see how solar panels and inverters fit together to power a home:1mHow Home Solar Systems Work: A Beginner's GuideSolarQuotesYouTube\u2022 21 lug 2025"
+   },
+   {
+      "rank": 1,
+      "type": "text_result",
+      "title": "Solar Basics: How Do Solar Panels Work?",
+      "link": "https://www.maxeon.com/maxeon-blog/solar-basics-how-do-solar-panels-work",
+      "description": "15 lug 2025 \u2014 First, sunlight hits a solar panel on the roof. The panels convert the energy to DC current, which flows to an inverter. The inverter converts\u00a0..."
+   },
+   {
+      "rank": 2,
+      "type": "text_result",
+      "title": "How do solar panels work?",
+      "link": "https://regalgrid.com/magazine/how-solar-panels-work/",
+      "description": "Solar panels generate DC (direct current) electricity, which is transformed into AC (alternating current) at the appropriate voltage by the system's inverter."
+   },
+   {
+      "rank": 3,
+      "type": "text_result",
+      "title": "How Do Solar Panels Work? Solar Power Explained",
+      "link": "https://www.energysage.com/solar/solar-panels-work/",
+      "description": "Solar panels are made up of solar cells, which absorb sunlight. They use this sunlight to create direct current (DC) electricity through a process called the\u00a0..."
+   },
+   {
+      "rank": 4,
+      "type": "text_result",
+      "title": "Eli5, How the hell do solar panels work? : r/explainlikeimfive",
+      "link": "https://www.reddit.com/r/explainlikeimfive/comments/13ycao0/eli5_how_the_hell_do_solar_panels_work/",
+      "description": "And no don't say \"cells generate electricity\" Yes I know that, but what chemical or whatever process makes it that sunlight is converted to electricity? ..."
+   },
+   {
+      "rank": 5,
+      "type": "text_result",
+      "title": "Solar panel",
+      "link": "https://en.wikipedia.org/wiki/Solar_panel",
+      "description": "A solar panel is a device that converts sunlight into electricity by using multiple solar modules that consists of photovoltaic (PV) cells."
+   },
+   {
+      "rank": 6,
+      "type": "text_result",
+      "title": "Turning sunlight into electricity: how does solar power work?",
+      "link": "https://www.netzero.gov.au/turning-sunlight-electricity-how-does-solar-power-work",
+      "description": "24 giu 2025 \u2014 When sunlight hits a solar panel, it excites electrons in the cells, creating an electric current. This direct current is then converted into\u00a0..."
+   },
+   {
+      "rank": 7,
+      "type": "text_result",
+      "title": "How Solar Panels Work",
+      "link": "https://www.ucs.org/resources/how-solar-panels-work",
+      "description": "18 dic 2015 \u2014 Solar photovoltaic (PV) panels are based on a high-tech but remarkably simple technology that converts sunlight directly to electricity."
+   },
+   {
+      "rank": 8,
+      "type": "text_result",
+      "title": "Solar panels: costs, savings and benefits explained",
+      "link": "https://energysavingtrust.org.uk/advice/solar-panels/",
+      "description": "When the sun shines on a solar panel, solar energy is absorbed by individual PV cells. \u00b7 The PV cells produce an electrical charge as they become energised by\u00a0..."
+   },
+   {
+      "rank": 9,
+      "type": "text_result",
+      "title": "How do solar panels work?",
+      "link": "https://www.edfenergy.com/energywise/guide-solar-panels",
+      "description": "23 ott 2024 \u2014 The solar panels capture sunlight, which the inverter then converts into electricity. This electricity can be used immediately to power\u00a0..."
+   }
+]
