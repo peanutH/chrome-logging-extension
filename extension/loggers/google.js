@@ -29,7 +29,7 @@ export class GoogleEventsHandler {
                 constructor(session_id, query, filename_html, filename_ranking) {
                     super(session_id);
                     this.event = "search";
-                    this.action = "google";
+                    this.search_engine = "google";
                     this.query = query;
                     this.filename_html = filename_html;
                     this.filename_ranking = filename_ranking;
