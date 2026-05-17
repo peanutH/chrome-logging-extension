@@ -81,8 +81,6 @@ The tester performs searches that may trigger Google AI Overview content.
 ## Script 6: Privacy and Session Boundary Check
 
 The tester checks whether logging only occurs during an active session and whether sensitive fields are handled appropriately.
-
-\begin{enumerate}
 - Start a new logging session.
 - Go to Google Search.
 - Search for: *public library near me*.
@@ -94,4 +92,3 @@ The tester checks whether logging only occurs during an active session and wheth
 - Open a test webpage with a password field.
 - Type sample text into the password field, such as *testpassword123*.
 - Stop the logging session.
-\end{enumerate}

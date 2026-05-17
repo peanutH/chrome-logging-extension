@@ -1,0 +1,162 @@
+[
+   {
+      "session_id": "1779010027_c810d449",
+      "timestamp": 1779010031341,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789009,
+         "window_id": 628788841,
+         "index": 1,
+         "group_id": -1,
+         "url": "https://www.google.com/search?q=test+login+page&oq=test+login&gs_lcrp=EgZjaHJvbWUqCggAEEUYFhgeGDsyCggAEEUYFhgeGDsyBggBEEUYOTIHCAIQABiABDIHCAMQABiABDIICAQQABgWGB4yCAgFEAAYFhgeMggIBhAAGBYYHjIGCAcQRRg80gEIMjEyOWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8&source=chrome.ob",
+         "title": "google.com/search?q=test+login+page&oq=test+login&gs_lcrp=EgZjaHJvbWUqCggAEEUYFhgeGDsyCggAEEUYFhgeGDsyBggBEEUYOTIHCAIQABiABDIHCAMQABiABDIICAQQABgWGB4yCAgFEAAYFhgeMggIBhAAGBYYHjIGCAcQRRg80gEIMjEyOWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8&source=chrome.ob",
+         "status": "loading",
+         "muted": false
+      }
+   },
+   {
+      "session_id": "1779010027_c810d449",
+      "timestamp": 1779010031355,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789009,
+         "window_id": 628788841,
+         "index": 1,
+         "group_id": -1,
+         "url": "https://www.google.com/search?q=test+login+page&oq=test+login&gs_lcrp=EgZjaHJvbWUqCggAEEUYFhgeGDsyCggAEEUYFhgeGDsyBggBEEUYOTIHCAIQABiABDIHCAMQABiABDIICAQQABgWGB4yCAgFEAAYFhgeMggIBhAAGBYYHjIGCAcQRRg80gEIMjEyOWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8&source=chrome.ob",
+         "title": "test login page - Cerca con Google",
+         "status": "loading",
+         "muted": false
+      }
+   },
+   {
+      "session_id": "1779010027_c810d449",
+      "timestamp": 1779010031357,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789009,
+         "window_id": 628788841,
+         "index": 1,
+         "group_id": -1,
+         "url": "https://www.google.com/search?q=test+login+page&oq=test+login&gs_lcrp=EgZjaHJvbWUqCggAEEUYFhgeGDsyCggAEEUYFhgeGDsyBggBEEUYOTIHCAIQABiABDIHCAMQABiABDIICAQQABgWGB4yCAgFEAAYFhgeMggIBhAAGBYYHjIGCAcQRRg80gEIMjEyOWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8&source=chrome.ob",
+         "title": "test login page - Cerca con Google",
+         "status": "loading",
+         "muted": false
+      }
+   },
+   {
+      "session_id": "1779010027_c810d449",
+      "timestamp": 1779010031670,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789009,
+         "window_id": 628788841,
+         "index": 1,
+         "group_id": -1,
+         "url": "https://www.google.com/search?q=test+login+page&oq=test+login&gs_lcrp=EgZjaHJvbWUqCggAEEUYFhgeGDsyCggAEEUYFhgeGDsyBggBEEUYOTIHCAIQABiABDIHCAMQABiABDIICAQQABgWGB4yCAgFEAAYFhgeMggIBhAAGBYYHjIGCAcQRRg80gEIMjEyOWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8&source=chrome.ob",
+         "title": "test login page - Cerca con Google",
+         "status": "loading",
+         "muted": false
+      }
+   },
+   {
+      "session_id": "1779010027_c810d449",
+      "timestamp": 1779010031813,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789009,
+         "window_id": 628788841,
+         "index": 1,
+         "group_id": -1,
+         "url": "https://www.google.com/search?q=test+login+page&oq=test+login&gs_lcrp=EgZjaHJvbWUqCggAEEUYFhgeGDsyCggAEEUYFhgeGDsyBggBEEUYOTIHCAIQABiABDIHCAMQABiABDIICAQQABgWGB4yCAgFEAAYFhgeMggIBhAAGBYYHjIGCAcQRRg80gEIMjEyOWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8&source=chrome.ob",
+         "title": "test login page - Cerca con Google",
+         "status": "complete",
+         "muted": false
+      }
+   },
+   {
+      "session_id": "1779010027_c810d449",
+      "timestamp": 1779010031813,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789009,
+         "window_id": 628788841,
+         "index": 1,
+         "group_id": -1,
+         "url": "https://www.google.com/search?q=test+login+page&oq=test+login&gs_lcrp=EgZjaHJvbWUqCggAEEUYFhgeGDsyCggAEEUYFhgeGDsyBggBEEUYOTIHCAIQABiABDIHCAMQABiABDIICAQQABgWGB4yCAgFEAAYFhgeMggIBhAAGBYYHjIGCAcQRRg80gEIMjEyOWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8&source=chrome.ob",
+         "title": "test login page - Cerca con Google",
+         "status": "complete",
+         "muted": false
+      }
+   },
+   {
+      "session_id": "1779010027_c810d449",
+      "timestamp": 1779010033333,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789009,
+         "window_id": 628788841,
+         "index": 1,
+         "group_id": -1,
+         "url": "https://practicetestautomation.com/practice-test-login/",
+         "title": "practicetestautomation.com/practice-test-login/",
+         "status": "loading",
+         "muted": false
+      }
+   },
+   {
+      "session_id": "1779010027_c810d449",
+      "timestamp": 1779010033343,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789009,
+         "window_id": 628788841,
+         "index": 1,
+         "group_id": -1,
+         "url": "https://practicetestautomation.com/practice-test-login/",
+         "title": "Test Login | Practice Test Automation",
+         "status": "loading",
+         "muted": false
+      }
+   },
+   {
+      "session_id": "1779010027_c810d449",
+      "timestamp": 1779010033343,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789009,
+         "window_id": 628788841,
+         "index": 1,
+         "group_id": -1,
+         "url": "https://practicetestautomation.com/practice-test-login/",
+         "title": "Test Login | Practice Test Automation",
+         "status": "loading",
+         "muted": false
+      }
+   },
+   {
+      "session_id": "1779010027_c810d449",
+      "timestamp": 1779010033566,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789009,
+         "window_id": 628788841,
+         "index": 1,
+         "group_id": -1,
+         "url": "https://practicetestautomation.com/practice-test-login/",
+         "title": "Test Login | Practice Test Automation",
+         "status": "complete",
+         "muted": false
+      }
+   }
+]

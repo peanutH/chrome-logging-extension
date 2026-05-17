@@ -1,0 +1,274 @@
+[
+   {
+      "session_id": "1779009980_6b0d6b4c",
+      "timestamp": 1779009982807,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789005,
+         "window_id": 628788841,
+         "index": 1,
+         "group_id": -1,
+         "url": "https://www.google.com/",
+         "title": "Google",
+         "status": "loading",
+         "muted": false
+      }
+   },
+   {
+      "session_id": "1779009980_6b0d6b4c",
+      "timestamp": 1779009982810,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789005,
+         "window_id": 628788841,
+         "index": 1,
+         "group_id": -1,
+         "url": "https://www.google.com/",
+         "title": "Google",
+         "status": "loading",
+         "muted": false
+      }
+   },
+   {
+      "session_id": "1779009980_6b0d6b4c",
+      "timestamp": 1779009982811,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789005,
+         "window_id": 628788841,
+         "index": 1,
+         "group_id": -1,
+         "url": "https://www.google.com/",
+         "title": "Google",
+         "status": "complete",
+         "muted": false
+      }
+   },
+   {
+      "session_id": "1779009980_6b0d6b4c",
+      "timestamp": 1779009982813,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789005,
+         "window_id": 628788841,
+         "index": 1,
+         "group_id": -1,
+         "url": "https://www.google.com/",
+         "title": "Google",
+         "status": "complete",
+         "muted": false
+      }
+   },
+   {
+      "session_id": "1779009980_6b0d6b4c",
+      "timestamp": 1779009988214,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789005,
+         "window_id": 628788841,
+         "index": 1,
+         "group_id": -1,
+         "url": "https://www.google.com/search?q=public+library+near+me&sca_esv=929a8c14f1388644&source=hp&ei=vYkJaveJKKvcp84Pv4rb2Qo&iflsig=AFdpzrgAAAAAagmXzVq-tONhfvnlI2GpOAbCVOQrG1Z3&ved=0ahUKEwi33IjQgMCUAxUr7skDHT_FNqsQ4dUDCBk&uact=5&oq=public+library+near+me&gs_lp=Egdnd3Mtd2l6IhZwdWJsaWMgbGlicmFyeSBuZWFyIG1lMgUQABiABDIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHkiLHlCrBFj2HHABeACQAQCYAVSgAY4KqgECMjK4AQPIAQD4AQGYAhegAv4KqAIKwgIKEAAYAxiPARjqAsICChAuGAMYjwEY6gLCAg4QLhiABBixAxjHARjRA8ICCxAAGIAEGLEDGIMBwgIIEAAYgAQYsQPCAg4QABiABBiKBRixAxiDAcICCxAuGIAEGMcBGNEDwgIIEC4YgAQYsQPCAgUQLhiABMICCxAAGIAEGIoFGJIDwgIIEAAYgAQYyQPCAhEQLhiABBixAxjHARivARiOBcICERAuGIAEGLEDGIMBGMcBGK8BwgIOEC4YxwEYsQMY0QMYgATCAhEQLhivARjHARixAxiABBiOBcICDhAuGIAEGMcBGK8BGI4FwgILEC4YgAQYxwEYrwGYAwvxBVri2mjcqEVVkgcCMjOgB9G-AbIHAjIyuAfzCsIHCTAuMTAuMTIuMcgHT4AIAQ&sclient=gws-wiz",
+         "title": "google.com/search?q=public+library+near+me&sca_esv=929a8c14f1388644&source=hp&ei=vYkJaveJKKvcp84Pv4rb2Qo&iflsig=AFdpzrgAAAAAagmXzVq-tONhfvnlI2GpOAbCVOQrG1Z3&ved=0ahUKEwi33IjQgMCUAxUr7skDHT_FNqsQ4dUDCBk&uact=5&oq=public+library+near+me&gs_lp=Egdnd3Mtd2l6IhZwdWJsaWMgbGlicmFyeSBuZWFyIG1lMgUQABiABDIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHkiLHlCrBFj2HHABeACQAQCYAVSgAY4KqgECMjK4AQPIAQD4AQGYAhegAv4KqAIKwgIKEAAYAxiPARjqAsICChAuGAMYjwEY6gLCAg4QLhiABBixAxjHARjRA8ICCxAAGIAEGLEDGIMBwgIIEAAYgAQYsQPCAg4QABiABBiKBRixAxiDAcICCxAuGIAEGMcBGNEDwgIIEC4YgAQYsQPCAgUQLhiABMICCxAAGIAEGIoFGJIDwgIIEAAYgAQYyQPCAhEQLhiABBixAxjHARivARiOBcICERAuGIAEGLEDGIMBGMcBGK8BwgIOEC4YxwEYsQMY0QMYgATCAhEQLhivARjHARixAxiABBiOBcICDhAuGIAEGMcBGK8BGI4FwgILEC4YgAQYxwEYrwGYAwvxBVri2mjcqEVVkgcCMjOgB9G-AbIHAjIyuAfzCsIHCTAuMTAuMTIuMcgHT4AIAQ&sclient=gws-wiz",
+         "status": "loading",
+         "muted": false
+      }
+   },
+   {
+      "session_id": "1779009980_6b0d6b4c",
+      "timestamp": 1779009988232,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789005,
+         "window_id": 628788841,
+         "index": 1,
+         "group_id": -1,
+         "url": "https://www.google.com/search?q=public+library+near+me&sca_esv=929a8c14f1388644&source=hp&ei=vYkJaveJKKvcp84Pv4rb2Qo&iflsig=AFdpzrgAAAAAagmXzVq-tONhfvnlI2GpOAbCVOQrG1Z3&ved=0ahUKEwi33IjQgMCUAxUr7skDHT_FNqsQ4dUDCBk&uact=5&oq=public+library+near+me&gs_lp=Egdnd3Mtd2l6IhZwdWJsaWMgbGlicmFyeSBuZWFyIG1lMgUQABiABDIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHkiLHlCrBFj2HHABeACQAQCYAVSgAY4KqgECMjK4AQPIAQD4AQGYAhegAv4KqAIKwgIKEAAYAxiPARjqAsICChAuGAMYjwEY6gLCAg4QLhiABBixAxjHARjRA8ICCxAAGIAEGLEDGIMBwgIIEAAYgAQYsQPCAg4QABiABBiKBRixAxiDAcICCxAuGIAEGMcBGNEDwgIIEC4YgAQYsQPCAgUQLhiABMICCxAAGIAEGIoFGJIDwgIIEAAYgAQYyQPCAhEQLhiABBixAxjHARivARiOBcICERAuGIAEGLEDGIMBGMcBGK8BwgIOEC4YxwEYsQMY0QMYgATCAhEQLhivARjHARixAxiABBiOBcICDhAuGIAEGMcBGK8BGI4FwgILEC4YgAQYxwEYrwGYAwvxBVri2mjcqEVVkgcCMjOgB9G-AbIHAjIyuAfzCsIHCTAuMTAuMTIuMcgHT4AIAQ&sclient=gws-wiz",
+         "title": "public library near me - Cerca con Google",
+         "status": "loading",
+         "muted": false
+      }
+   },
+   {
+      "session_id": "1779009980_6b0d6b4c",
+      "timestamp": 1779009988233,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789005,
+         "window_id": 628788841,
+         "index": 1,
+         "group_id": -1,
+         "url": "https://www.google.com/search?q=public+library+near+me&sca_esv=929a8c14f1388644&source=hp&ei=vYkJaveJKKvcp84Pv4rb2Qo&iflsig=AFdpzrgAAAAAagmXzVq-tONhfvnlI2GpOAbCVOQrG1Z3&ved=0ahUKEwi33IjQgMCUAxUr7skDHT_FNqsQ4dUDCBk&uact=5&oq=public+library+near+me&gs_lp=Egdnd3Mtd2l6IhZwdWJsaWMgbGlicmFyeSBuZWFyIG1lMgUQABiABDIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHkiLHlCrBFj2HHABeACQAQCYAVSgAY4KqgECMjK4AQPIAQD4AQGYAhegAv4KqAIKwgIKEAAYAxiPARjqAsICChAuGAMYjwEY6gLCAg4QLhiABBixAxjHARjRA8ICCxAAGIAEGLEDGIMBwgIIEAAYgAQYsQPCAg4QABiABBiKBRixAxiDAcICCxAuGIAEGMcBGNEDwgIIEC4YgAQYsQPCAgUQLhiABMICCxAAGIAEGIoFGJIDwgIIEAAYgAQYyQPCAhEQLhiABBixAxjHARivARiOBcICERAuGIAEGLEDGIMBGMcBGK8BwgIOEC4YxwEYsQMY0QMYgATCAhEQLhivARjHARixAxiABBiOBcICDhAuGIAEGMcBGK8BGI4FwgILEC4YgAQYxwEYrwGYAwvxBVri2mjcqEVVkgcCMjOgB9G-AbIHAjIyuAfzCsIHCTAuMTAuMTIuMcgHT4AIAQ&sclient=gws-wiz",
+         "title": "public library near me - Cerca con Google",
+         "status": "loading",
+         "muted": false
+      }
+   },
+   {
+      "session_id": "1779009980_6b0d6b4c",
+      "timestamp": 1779009988756,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789005,
+         "window_id": 628788841,
+         "index": 1,
+         "group_id": -1,
+         "url": "https://www.google.com/search?q=public+library+near+me&sca_esv=929a8c14f1388644&source=hp&ei=vYkJaveJKKvcp84Pv4rb2Qo&iflsig=AFdpzrgAAAAAagmXzVq-tONhfvnlI2GpOAbCVOQrG1Z3&ved=0ahUKEwi33IjQgMCUAxUr7skDHT_FNqsQ4dUDCBk&uact=5&oq=public+library+near+me&gs_lp=Egdnd3Mtd2l6IhZwdWJsaWMgbGlicmFyeSBuZWFyIG1lMgUQABiABDIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHkiLHlCrBFj2HHABeACQAQCYAVSgAY4KqgECMjK4AQPIAQD4AQGYAhegAv4KqAIKwgIKEAAYAxiPARjqAsICChAuGAMYjwEY6gLCAg4QLhiABBixAxjHARjRA8ICCxAAGIAEGLEDGIMBwgIIEAAYgAQYsQPCAg4QABiABBiKBRixAxiDAcICCxAuGIAEGMcBGNEDwgIIEC4YgAQYsQPCAgUQLhiABMICCxAAGIAEGIoFGJIDwgIIEAAYgAQYyQPCAhEQLhiABBixAxjHARivARiOBcICERAuGIAEGLEDGIMBGMcBGK8BwgIOEC4YxwEYsQMY0QMYgATCAhEQLhivARjHARixAxiABBiOBcICDhAuGIAEGMcBGK8BGI4FwgILEC4YgAQYxwEYrwGYAwvxBVri2mjcqEVVkgcCMjOgB9G-AbIHAjIyuAfzCsIHCTAuMTAuMTIuMcgHT4AIAQ&sclient=gws-wiz",
+         "title": "public library near me - Cerca con Google",
+         "status": "loading",
+         "muted": false
+      }
+   },
+   {
+      "session_id": "1779009980_6b0d6b4c",
+      "timestamp": 1779009989151,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789005,
+         "window_id": 628788841,
+         "index": 1,
+         "group_id": -1,
+         "url": "https://www.google.com/search?q=public+library+near+me&sca_esv=929a8c14f1388644&source=hp&ei=vYkJaveJKKvcp84Pv4rb2Qo&iflsig=AFdpzrgAAAAAagmXzVq-tONhfvnlI2GpOAbCVOQrG1Z3&ved=0ahUKEwi33IjQgMCUAxUr7skDHT_FNqsQ4dUDCBk&uact=5&oq=public+library+near+me&gs_lp=Egdnd3Mtd2l6IhZwdWJsaWMgbGlicmFyeSBuZWFyIG1lMgUQABiABDIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHkiLHlCrBFj2HHABeACQAQCYAVSgAY4KqgECMjK4AQPIAQD4AQGYAhegAv4KqAIKwgIKEAAYAxiPARjqAsICChAuGAMYjwEY6gLCAg4QLhiABBixAxjHARjRA8ICCxAAGIAEGLEDGIMBwgIIEAAYgAQYsQPCAg4QABiABBiKBRixAxiDAcICCxAuGIAEGMcBGNEDwgIIEC4YgAQYsQPCAgUQLhiABMICCxAAGIAEGIoFGJIDwgIIEAAYgAQYyQPCAhEQLhiABBixAxjHARivARiOBcICERAuGIAEGLEDGIMBGMcBGK8BwgIOEC4YxwEYsQMY0QMYgATCAhEQLhivARjHARixAxiABBiOBcICDhAuGIAEGMcBGK8BGI4FwgILEC4YgAQYxwEYrwGYAwvxBVri2mjcqEVVkgcCMjOgB9G-AbIHAjIyuAfzCsIHCTAuMTAuMTIuMcgHT4AIAQ&sclient=gws-wiz",
+         "title": "public library near me - Cerca con Google",
+         "status": "complete",
+         "muted": false
+      }
+   },
+   {
+      "session_id": "1779009980_6b0d6b4c",
+      "timestamp": 1779009989153,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789005,
+         "window_id": 628788841,
+         "index": 1,
+         "group_id": -1,
+         "url": "https://www.google.com/search?q=public+library+near+me&sca_esv=929a8c14f1388644&source=hp&ei=vYkJaveJKKvcp84Pv4rb2Qo&iflsig=AFdpzrgAAAAAagmXzVq-tONhfvnlI2GpOAbCVOQrG1Z3&ved=0ahUKEwi33IjQgMCUAxUr7skDHT_FNqsQ4dUDCBk&uact=5&oq=public+library+near+me&gs_lp=Egdnd3Mtd2l6IhZwdWJsaWMgbGlicmFyeSBuZWFyIG1lMgUQABiABDIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHkiLHlCrBFj2HHABeACQAQCYAVSgAY4KqgECMjK4AQPIAQD4AQGYAhegAv4KqAIKwgIKEAAYAxiPARjqAsICChAuGAMYjwEY6gLCAg4QLhiABBixAxjHARjRA8ICCxAAGIAEGLEDGIMBwgIIEAAYgAQYsQPCAg4QABiABBiKBRixAxiDAcICCxAuGIAEGMcBGNEDwgIIEC4YgAQYsQPCAgUQLhiABMICCxAAGIAEGIoFGJIDwgIIEAAYgAQYyQPCAhEQLhiABBixAxjHARivARiOBcICERAuGIAEGLEDGIMBGMcBGK8BwgIOEC4YxwEYsQMY0QMYgATCAhEQLhivARjHARixAxiABBiOBcICDhAuGIAEGMcBGK8BGI4FwgILEC4YgAQYxwEYrwGYAwvxBVri2mjcqEVVkgcCMjOgB9G-AbIHAjIyuAfzCsIHCTAuMTAuMTIuMcgHT4AIAQ&sclient=gws-wiz",
+         "title": "public library near me - Cerca con Google",
+         "status": "complete",
+         "muted": false
+      }
+   },
+   {
+      "session_id": "1779009980_6b0d6b4c",
+      "timestamp": 1779009995593,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789005,
+         "window_id": 628788841,
+         "index": 1,
+         "group_id": -1,
+         "url": "https://www.tripadvisor.com/Attractions-g187801-Activities-c60-t21-Bologna_Province_of_Bologna_Emilia_Romagna.html",
+         "title": "tripadvisor.com/Attractions-g187801-Activities-c60-t21-Bologna_Province_of_Bologna_Emilia_Romagna.html",
+         "status": "loading",
+         "muted": false
+      }
+   },
+   {
+      "session_id": "1779009980_6b0d6b4c",
+      "timestamp": 1779009995607,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789005,
+         "window_id": 628788841,
+         "index": 1,
+         "group_id": -1,
+         "url": "https://www.tripadvisor.com/Attractions-g187801-Activities-c60-t21-Bologna_Province_of_Bologna_Emilia_Romagna.html",
+         "title": "tripadvisor.com/Attractions-g187801-Activities-c60-t21-Bologna_Province_of_Bologna_Emilia_Romagna.html",
+         "status": "loading",
+         "muted": false
+      }
+   },
+   {
+      "session_id": "1779009980_6b0d6b4c",
+      "timestamp": 1779009996372,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789005,
+         "window_id": 628788841,
+         "index": 1,
+         "group_id": -1,
+         "url": "https://www.tripadvisor.com/Attractions-g187801-Activities-c60-t21-Bologna_Province_of_Bologna_Emilia_Romagna.html",
+         "title": "THE 15 BEST Bologna Libraries (2026) - Tripadvisor",
+         "status": "loading",
+         "muted": false
+      }
+   },
+   {
+      "session_id": "1779009980_6b0d6b4c",
+      "timestamp": 1779009996801,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789005,
+         "window_id": 628788841,
+         "index": 1,
+         "group_id": -1,
+         "url": "https://www.tripadvisor.com/Attractions-g187801-Activities-c60-t21-Bologna_Province_of_Bologna_Emilia_Romagna.html",
+         "title": "THE 15 BEST Bologna Libraries (2026) - Tripadvisor",
+         "status": "complete",
+         "muted": false
+      }
+   },
+   {
+      "session_id": "1779009980_6b0d6b4c",
+      "timestamp": 1779009996813,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789005,
+         "window_id": 628788841,
+         "index": 1,
+         "group_id": -1,
+         "url": "https://www.tripadvisor.com/Attractions-g187801-Activities-c60-t21-Bologna_Province_of_Bologna_Emilia_Romagna.html",
+         "title": "THE 15 BEST Bologna Libraries (2026) - Tripadvisor",
+         "status": "loading",
+         "muted": false
+      }
+   },
+   {
+      "session_id": "1779009980_6b0d6b4c",
+      "timestamp": 1779009996816,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789005,
+         "window_id": 628788841,
+         "index": 1,
+         "group_id": -1,
+         "url": "https://www.tripadvisor.com/Attractions-g187801-Activities-c60-t21-Bologna_Province_of_Bologna_Emilia_Romagna.html",
+         "title": "THE 15 BEST Bologna Libraries (2026) - Tripadvisor",
+         "status": "complete",
+         "muted": false
+      }
+   },
+   {
+      "session_id": "1779009980_6b0d6b4c",
+      "timestamp": 1779009997209,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789005,
+         "window_id": 628788841,
+         "index": 1,
+         "group_id": -1,
+         "url": "https://www.tripadvisor.com/Attractions-g187801-Activities-c60-t21-Bologna_Province_of_Bologna_Emilia_Romagna.html",
+         "title": "THE 15 BEST Bologna Libraries (2026) - Tripadvisor",
+         "status": "complete",
+         "muted": false
+      }
+   }
+]

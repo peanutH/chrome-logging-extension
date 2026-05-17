@@ -1,0 +1,375 @@
+[
+   {
+      "session_id": "1779009704_a1cb7ffe",
+      "timestamp": 1779009708555,
+      "event": "mouse",
+      "action": "mouse_click",
+      "mouse": {
+         "x": 931,
+         "y": 404
+      },
+      "hovered_text": ""
+   },
+   {
+      "session_id": "1779009704_a1cb7ffe",
+      "timestamp": 1779009708982,
+      "event": "mouse",
+      "action": "mouse_move",
+      "mouse_from": {
+         "x": 1027,
+         "y": 1
+      },
+      "mouse_to": {
+         "x": 923,
+         "y": 385
+      },
+      "hovered_text": ""
+   },
+   {
+      "session_id": "1779009704_a1cb7ffe",
+      "timestamp": 1779009711393,
+      "event": "keyboard",
+      "action": "write",
+      "typed": "how solar panels work"
+   },
+   {
+      "session_id": "1779009704_a1cb7ffe",
+      "timestamp": 1779009712330,
+      "event": "search",
+      "search_engine": "google",
+      "query": "how solar panels work",
+      "filename_html": "1779009712330_how solar panels work.html",
+      "filename_ranking": "1779009712330_how solar panels work.json"
+   },
+   {
+      "session_id": "1779009704_a1cb7ffe",
+      "timestamp": 1779009713110,
+      "event": "mouse",
+      "action": "mouse_move",
+      "mouse_from": {
+         "x": 923,
+         "y": 386
+      },
+      "mouse_to": {
+         "x": 921,
+         "y": 387
+      },
+      "hovered_text": ""
+   },
+   {
+      "session_id": "1779009704_a1cb7ffe",
+      "timestamp": 1779009713633,
+      "event": "mouse",
+      "action": "scroll",
+      "scroll_start": {
+         "x": 0,
+         "y": 5
+      },
+      "scroll_end": {
+         "x": 0,
+         "y": 600
+      }
+   },
+   {
+      "session_id": "1779009704_a1cb7ffe",
+      "timestamp": 1779009714895,
+      "event": "mouse",
+      "action": "mouse_click",
+      "mouse": {
+         "x": 701,
+         "y": 1273
+      },
+      "hovered_text": "Eli5, How the hell do solar panels work? : r/explainlikeimfive"
+   },
+   {
+      "session_id": "1779009704_a1cb7ffe",
+      "timestamp": 1779009714974,
+      "event": "mouse",
+      "action": "mouse_move",
+      "mouse_from": {
+         "x": 921,
+         "y": 987
+      },
+      "mouse_to": {
+         "x": 701,
+         "y": 1273
+      },
+      "hovered_text": "Eli5, How the hell do solar panels work? : r/explainlikeimfive"
+   },
+   {
+      "session_id": "1779009704_a1cb7ffe",
+      "timestamp": 1779009715941,
+      "event": "mouse",
+      "action": "mouse_move",
+      "mouse_from": {
+         "x": 907,
+         "y": 640
+      },
+      "mouse_to": {
+         "x": 910,
+         "y": 639
+      },
+      "hovered_text": "Engels33\n\u2022\n3y ago\n\nThis isn't an ELI5 answer tho.\n\nIt relies on understanding what an LED is and how it works as well as what a diode is which wouldn't even pass the man on the clapham omnibus test. Not least it assumes knowledge of photons, electrons and doesn't add depth to what you mean by a high energy state or low energy state.\n\n1\nMinyguy\n\u2022\n3y ago\n\nNo, he explains what an LED is. And you don't really need to know what a diode is.\n\n11\nKaptenNicco123\n\u2022\n3y ago\n\nIt was either \"assume he's seen an LED ever\" or \"make a 5 paragraph comment explaining electrons, electric circuits, diodes, LEDs, and energy states\".\n\n5\nwissahickon_schist\n\u2022\n3y ago\n\nI don\u2019t know what most of the words in your comment mean, but I understand the OC\u2019s explanation.\n\n5\nwissahickon_schist\n\u2022\n3y ago\n\nI don\u2019t know what most of the words in your comment mean, but I understand the OC\u2019s explanation.\n\n0"
+   },
+   {
+      "session_id": "1779009704_a1cb7ffe",
+      "timestamp": 1779009721071,
+      "event": "mouse",
+      "action": "mouse_move",
+      "mouse_from": {
+         "x": 909,
+         "y": 637
+      },
+      "mouse_to": {
+         "x": 927,
+         "y": 125
+      },
+      "hovered_text": "Eli5, How the hell do solar panels work?"
+   },
+   {
+      "session_id": "1779009704_a1cb7ffe",
+      "timestamp": 1779009725116,
+      "event": "mouse",
+      "action": "text_select",
+      "text": "\n"
+   },
+   {
+      "session_id": "1779009704_a1cb7ffe",
+      "timestamp": 1779009725633,
+      "event": "mouse",
+      "action": "text_select",
+      "text": "A solar panel is basically just a reverse LED"
+   },
+   {
+      "session_id": "1779009704_a1cb7ffe",
+      "timestamp": 1779009725747,
+      "event": "mouse",
+      "action": "mouse_move",
+      "mouse_from": {
+         "x": 921,
+         "y": 126
+      },
+      "mouse_to": {
+         "x": 855,
+         "y": 354
+      }
+   },
+   {
+      "session_id": "1779009704_a1cb7ffe",
+      "timestamp": 1779009726268,
+      "event": "mouse",
+      "action": "text_select",
+      "text": "A solar panel is basically just a reverse LED."
+   },
+   {
+      "session_id": "1779009704_a1cb7ffe",
+      "timestamp": 1779009726398,
+      "event": "mouse",
+      "action": "mouse_click",
+      "mouse": {
+         "x": 860,
+         "y": 356
+      },
+      "hovered_text": "A solar panel is basically just a reverse LED. An LED creates light by letting electrons flow from a high energy state to a low energy state (through a diode). This process can be reversed. If you strike an LED (or any diode) with a photon, an electron can travel from a low energy state to a high energy state and that energy can be collected by a battery."
+   },
+   {
+      "session_id": "1779009704_a1cb7ffe",
+      "timestamp": 1779009726548,
+      "event": "mouse",
+      "action": "mouse_move",
+      "mouse_from": {
+         "x": 856,
+         "y": 354
+      },
+      "mouse_to": {
+         "x": 860,
+         "y": 356
+      },
+      "hovered_text": "A solar panel is basically just a reverse LED. An LED creates light by letting electrons flow from a high energy state to a low energy state (through a diode). This process can be reversed. If you strike an LED (or any diode) with a photon, an electron can travel from a low energy state to a high energy state and that energy can be collected by a battery."
+   },
+   {
+      "session_id": "1779009704_a1cb7ffe",
+      "timestamp": 1779009727197,
+      "event": "mouse",
+      "action": "mouse_move",
+      "mouse_from": {
+         "x": 862,
+         "y": 356
+      },
+      "mouse_to": {
+         "x": 945,
+         "y": 354
+      },
+      "hovered_text": "A solar panel is basically just a reverse LED. An LED creates light by letting electrons flow from a high energy state to a low energy state (through a diode). This process can be reversed. If you strike an LED (or any diode) with a photon, an electron can travel from a low energy state to a high energy state and that energy can be collected by a battery."
+   },
+   {
+      "session_id": "1779009704_a1cb7ffe",
+      "timestamp": 1779009728197,
+      "event": "mouse",
+      "action": "mouse_move",
+      "mouse_from": {
+         "x": 946,
+         "y": 354
+      },
+      "mouse_to": {
+         "x": 972,
+         "y": 350
+      },
+      "hovered_text": "A solar panel is basically just a reverse LED. An LED creates light by letting electrons flow from a high energy state to a low energy state (through a diode). This process can be reversed. If you strike an LED (or any diode) with a photon, an electron can travel from a low energy state to a high energy state and that energy can be collected by a battery."
+   },
+   {
+      "session_id": "1779009704_a1cb7ffe",
+      "timestamp": 1779009729752,
+      "event": "mouse",
+      "action": "mouse_move",
+      "mouse_from": {
+         "x": 972,
+         "y": 1429
+      },
+      "mouse_to": {
+         "x": 972,
+         "y": 1429
+      },
+      "hovered_text": "[deleted]\n\u2022\n3y ago\n\nPhD in Physics here, and I'm confused.\n\n6\n5 more replies"
+   },
+   {
+      "session_id": "1779009704_a1cb7ffe",
+      "timestamp": 1779009730008,
+      "event": "mouse",
+      "action": "scroll",
+      "scroll_start": {
+         "x": 0,
+         "y": 2
+      },
+      "scroll_end": {
+         "x": 0,
+         "y": 1440
+      }
+   },
+   {
+      "session_id": "1779009704_a1cb7ffe",
+      "timestamp": 1779009730303,
+      "event": "mouse",
+      "action": "mouse_move",
+      "mouse_from": {
+         "x": 972,
+         "y": 1790
+      },
+      "mouse_to": {
+         "x": 972,
+         "y": 1790
+      },
+      "hovered_text": "But that is less correct, as in solar cells a single photon only jumps one electron, not many. That's actually why we cannot simply make them work on low frequency light, as it lacks the minimum energy to shoot the electron out."
+   },
+   {
+      "session_id": "1779009704_a1cb7ffe",
+      "timestamp": 1779009731439,
+      "event": "mouse",
+      "action": "mouse_move",
+      "mouse_from": {
+         "x": 972,
+         "y": 591
+      },
+      "mouse_to": {
+         "x": 972,
+         "y": 593
+      },
+      "hovered_text": "[deleted]\n\u2022\n3y ago"
+   },
+   {
+      "session_id": "1779009704_a1cb7ffe",
+      "timestamp": 1779009731677,
+      "event": "mouse",
+      "action": "scroll",
+      "scroll_start": {
+         "x": 0,
+         "y": 1438
+      },
+      "scroll_end": {
+         "x": 0,
+         "y": 0
+      }
+   },
+   {
+      "session_id": "1779009704_a1cb7ffe",
+      "timestamp": 1779009732597,
+      "event": "mouse",
+      "action": "mouse_click",
+      "mouse": {
+         "x": 847,
+         "y": 320
+      },
+      "hovered_text": "KaptenNicco123\n\u2022\n3y ago\n\nA solar panel is basically just a reverse LED. An LED creates light by letting electrons flow from a high energy state to a low energy state (through a diode). This process can be reversed. If you strike an LED (or any diode) with a photon, an electron can travel from a low energy state to a high energy state and that energy can be collected by a battery.\n\n197\nGermaneRiposte101\n\u2022\n3y ago\n\nI like this explanation. Explains two things at once.\n\n45\n[deleted]\n\u2022\n3y ago\n[deleted]\n\u2022\n3y ago\nEngels33\n\u2022\n3y ago\n\nThis isn't an ELI5 answer tho.\n\nIt relies on understanding what an LED is and how it works as well as what a diode is which wouldn't even pass the man on the clapham omnibus test. Not least it assumes knowledge of photons, electrons and doesn't add depth to what you mean by a high energy state or low energy state.\n\n1\nMinyguy\n\u2022\n3y ago\n\nNo, he explains what an LED is. And you don't really need to know what a diode is.\n\n11\nKaptenNicco123\n\u2022\n3y ago\n\nIt was either \"assume he's seen an LED ever\" or \"make a 5 paragraph comment explaining electrons, electric circuits, diodes, LEDs, and energy states\".\n\n5\nwissahickon_schist\n\u2022\n3y ago\n\nI don\u2019t know what most of the words in your comment mean, but I understand the OC\u2019s explanation.\n\n5\nwissahickon_schist\n\u2022\n3y ago\n\nI don\u2019t know what most of the words in your comment mean, but I understand the OC\u2019s explanation.\n\n0\n3 more replies\nmfb-\n\u2022\n3y ago\n\nImagine two buckets at different height next to each other, with a long ramp going from the upper one to the lower one. The lower bucket is filled with balls (electrons) and you shoot a different type of balls (light) into the bucket. Each collision has some chance to kick a ball into the upper bucket, from there it will use the ramp and end up in the lower bucket again.\n\nThe ramp is your electric circuit and the flow of balls is the electric current. The buckets represent different energies the electrons can have in the solar cell.\n\n59\nlungflook\n\u2022\n3y ago\n\nThis is a really good explanation\n\n7\n[deleted]\n\u2022\n3y ago\n\nPhD in Physics here, and I'm confused.\n\n6\n5 more replies\nkymar123\n\u2022\n3y ago\n\nI think this could be simplified and made clearer but I love the approach. Here's my go. Imagine there's a big ball-pit, with tons of lightweight electron balls in a pile. There is also a slide next to the ball pit. Every now and then, a kid jumps in and a number of balls are thrown into the air, and some happen to land at the top of the slide, and roll down the ramp (the circuit) back into the ball pit. The kids jumping in represent the light that's energizing the electrons. I imagine that a very efficient solar panel might have a larger platform at the top of the slide, and maybe a wall or plate that deflects more of the tossed balls onto the slide-platform.\n\n4\nChromotron\n\u2022\n3y ago\n\nBut that is less correct, as in solar cells a single photon only jumps one electron, not many. That's actually why we cannot simply make them work on low frequency light, as it lacks the minimum energy to shoot the electron out.\n\n4\n1 more reply\nVerence17\n\u2022\n3y ago\n\nThe thing you're looking for is photovoltaic effect. It's a physical process, not chemical. To put it very simply, when different materials absorb light (electromagnetic wave), it adds energy to the particle that \"collided\" with a photon. Usually this results in added hit. However, in some materials this \"collision\" can eject an electron out of the atom. When electrons and protons get separated like that, that's where we get charged particles, and when we get charged particles, we can try to exploit it and generate electricity as they try to rejoin.\n\n22\nDan19_82\n\u2022\n3y ago\n\nIf electrons are leaving the material. Does the material degrade or is this process continuous?\n\n3\nChromotron\n\u2022\n3y ago\n\nThere is no degradation, only proper chemical bonds get damaged by forcefully moving electrons around. In metals, a lot of electrons automatically detach from atoms to fly around freely, like a gas; this is what makes them conductive. Yet they stay metals (also lacking an alternative for that they would turn into).\n\n1\n2 more replies\n[deleted]\n\u2022\n3y ago\n\nThank you all guys for your responses, you made a girl very happy today, been wondering this all my life, and well, now I know!\n\n12\nMrWedge18\n\u2022\n3y ago\n\nBit late, but wanted to drop this video: https://www.youtube.com/watch?v=TGUteH93xNo\n\nI find having the visuals really helpful\n\n7\nryschwith\n\u2022\n3y ago\n\nIt\u2019s due to the photovoltaic effect. Certain materials absorb energy from incoming photons, and that extra energy creates a voltage (which is really just a difference in electrical energy between two connected areas).\n\n(Note: this is a very ELI5 explanation, and there are likely a few physicists gritting their teeth at it.)\n\n2\n[deleted]\n\u2022\n3y ago\n\nWhen light hits an atom, it can knock free an electron. This electron will push on other free electrons which will push another and another and another. This act of pushing is called voltage and the act of motion is current. Both, measured together, is power.\n\nPlug it into an inverter and you can turn this rudimentary electricity into something useful.\n\n3\nporcelainvacation\n\u2022\n3y ago\n\nThink of it as a bunch of electrons sitting on the edge of a cliff. In the dark, they all just sit there chilling. When it gets bright and sunny, they get all confused and start wandering around, but the sunlight makes them blind so they fall over the cliff. This makes the current flow.\n\n-1"
+   },
+   {
+      "session_id": "1779009704_a1cb7ffe",
+      "timestamp": 1779009732655,
+      "event": "mouse",
+      "action": "mouse_move",
+      "mouse_from": {
+         "x": 968,
+         "y": 351
+      },
+      "mouse_to": {
+         "x": 847,
+         "y": 320
+      },
+      "hovered_text": "KaptenNicco123\n\u2022\n3y ago\n\nA solar panel is basically just a reverse LED. An LED creates light by letting electrons flow from a high energy state to a low energy state (through a diode). This process can be reversed. If you strike an LED (or any diode) with a photon, an electron can travel from a low energy state to a high energy state and that energy can be collected by a battery.\n\n197\nGermaneRiposte101\n\u2022\n3y ago\n\nI like this explanation. Explains two things at once.\n\n45\n[deleted]\n\u2022\n3y ago\n[deleted]\n\u2022\n3y ago\nEngels33\n\u2022\n3y ago\n\nThis isn't an ELI5 answer tho.\n\nIt relies on understanding what an LED is and how it works as well as what a diode is which wouldn't even pass the man on the clapham omnibus test. Not least it assumes knowledge of photons, electrons and doesn't add depth to what you mean by a high energy state or low energy state.\n\n1\nMinyguy\n\u2022\n3y ago\n\nNo, he explains what an LED is. And you don't really need to know what a diode is.\n\n11\nKaptenNicco123\n\u2022\n3y ago\n\nIt was either \"assume he's seen an LED ever\" or \"make a 5 paragraph comment explaining electrons, electric circuits, diodes, LEDs, and energy states\".\n\n5\nwissahickon_schist\n\u2022\n3y ago\n\nI don\u2019t know what most of the words in your comment mean, but I understand the OC\u2019s explanation.\n\n5\nwissahickon_schist\n\u2022\n3y ago\n\nI don\u2019t know what most of the words in your comment mean, but I understand the OC\u2019s explanation.\n\n0\n3 more replies\nmfb-\n\u2022\n3y ago\n\nImagine two buckets at different height next to each other, with a long ramp going from the upper one to the lower one. The lower bucket is filled with balls (electrons) and you shoot a different type of balls (light) into the bucket. Each collision has some chance to kick a ball into the upper bucket, from there it will use the ramp and end up in the lower bucket again.\n\nThe ramp is your electric circuit and the flow of balls is the electric current. The buckets represent different energies the electrons can have in the solar cell.\n\n59\nlungflook\n\u2022\n3y ago\n\nThis is a really good explanation\n\n7\n[deleted]\n\u2022\n3y ago\n\nPhD in Physics here, and I'm confused.\n\n6\n5 more replies\nkymar123\n\u2022\n3y ago\n\nI think this could be simplified and made clearer but I love the approach. Here's my go. Imagine there's a big ball-pit, with tons of lightweight electron balls in a pile. There is also a slide next to the ball pit. Every now and then, a kid jumps in and a number of balls are thrown into the air, and some happen to land at the top of the slide, and roll down the ramp (the circuit) back into the ball pit. The kids jumping in represent the light that's energizing the electrons. I imagine that a very efficient solar panel might have a larger platform at the top of the slide, and maybe a wall or plate that deflects more of the tossed balls onto the slide-platform.\n\n4\nChromotron\n\u2022\n3y ago\n\nBut that is less correct, as in solar cells a single photon only jumps one electron, not many. That's actually why we cannot simply make them work on low frequency light, as it lacks the minimum energy to shoot the electron out.\n\n4\n1 more reply\nVerence17\n\u2022\n3y ago\n\nThe thing you're looking for is photovoltaic effect. It's a physical process, not chemical. To put it very simply, when different materials absorb light (electromagnetic wave), it adds energy to the particle that \"collided\" with a photon. Usually this results in added hit. However, in some materials this \"collision\" can eject an electron out of the atom. When electrons and protons get separated like that, that's where we get charged particles, and when we get charged particles, we can try to exploit it and generate electricity as they try to rejoin.\n\n22\nDan19_82\n\u2022\n3y ago\n\nIf electrons are leaving the material. Does the material degrade or is this process continuous?\n\n3\nChromotron\n\u2022\n3y ago\n\nThere is no degradation, only proper chemical bonds get damaged by forcefully moving electrons around. In metals, a lot of electrons automatically detach from atoms to fly around freely, like a gas; this is what makes them conductive. Yet they stay metals (also lacking an alternative for that they would turn into).\n\n1\n2 more replies\n[deleted]\n\u2022\n3y ago\n\nThank you all guys for your responses, you made a girl very happy today, been wondering this all my life, and well, now I know!\n\n12\nMrWedge18\n\u2022\n3y ago\n\nBit late, but wanted to drop this video: https://www.youtube.com/watch?v=TGUteH93xNo\n\nI find having the visuals really helpful\n\n7\nryschwith\n\u2022\n3y ago\n\nIt\u2019s due to the photovoltaic effect. Certain materials absorb energy from incoming photons, and that extra energy creates a voltage (which is really just a difference in electrical energy between two connected areas).\n\n(Note: this is a very ELI5 explanation, and there are likely a few physicists gritting their teeth at it.)\n\n2\n[deleted]\n\u2022\n3y ago\n\nWhen light hits an atom, it can knock free an electron. This electron will push on other free electrons which will push another and another and another. This act of pushing is called voltage and the act of motion is current. Both, measured together, is power.\n\nPlug it into an inverter and you can turn this rudimentary electricity into something useful.\n\n3\nporcelainvacation\n\u2022\n3y ago\n\nThink of it as a bunch of electrons sitting on the edge of a cliff. In the dark, they all just sit there chilling. When it gets bright and sunny, they get all confused and start wandering around, but the sunlight makes them blind so they fall over the cliff. This makes the current flow.\n\n-1"
+   },
+   {
+      "session_id": "1779009704_a1cb7ffe",
+      "timestamp": 1779009733258,
+      "event": "mouse",
+      "action": "mouse_move",
+      "mouse_from": {
+         "x": 847,
+         "y": 321
+      },
+      "mouse_to": {
+         "x": 829,
+         "y": 363
+      },
+      "hovered_text": "reverse LED"
+   },
+   {
+      "session_id": "1779009704_a1cb7ffe",
+      "timestamp": 1779009733358,
+      "event": "mouse",
+      "action": "mouse_click",
+      "mouse": {
+         "x": 829,
+         "y": 363
+      },
+      "hovered_text": "reverse LED"
+   },
+   {
+      "session_id": "1779009704_a1cb7ffe",
+      "timestamp": 1779009733626,
+      "event": "mouse",
+      "action": "mouse_move",
+      "mouse_from": {
+         "x": 829,
+         "y": 364
+      },
+      "mouse_to": {
+         "x": 829,
+         "y": 364
+      },
+      "hovered_text": "reverse LED"
+   },
+   {
+      "session_id": "1779009704_a1cb7ffe",
+      "timestamp": 1779009735879,
+      "event": "mouse",
+      "action": "mouse_move",
+      "mouse_from": {
+         "x": 830,
+         "y": 363
+      },
+      "mouse_to": {
+         "x": 1698,
+         "y": 0
+      },
+      "hovered_text": "Sign Up\nLog In\nExpand user menu"
+   }
+]

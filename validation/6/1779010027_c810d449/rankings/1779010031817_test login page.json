@@ -1,0 +1,65 @@
+[
+   {
+      "rank": 1,
+      "type": "text_result",
+      "title": "Test Login",
+      "link": "https://practicetestautomation.com/practice-test-login/",
+      "description": "This is a simple Login page. Students can use this page to practice writing simple positive and negative LogIn tests. Login functionality is something that most\u00a0..."
+   },
+   {
+      "rank": 2,
+      "type": "text_result",
+      "title": "Test Login Page for Automation Testing Practice",
+      "link": "https://practice.expandtesting.com/login",
+      "description": "This Test Login page is designed for automation testing practice. Test various positive and negative login scenarios in a testing environment."
+   },
+   {
+      "rank": 3,
+      "type": "text_result",
+      "title": "Login Page Testing Checklist: 11 Test Cases Every QA ...",
+      "link": "https://medium.com/@hartwellasher/login-page-testing-checklist-11-test-cases-every-qa-should-know-fd76d098bd2a",
+      "description": "11 Types of Test Cases for Login Page \u00b7 1. Login with valid/invalid credentials \u00b7 2. Session management post login \u00b7 3. Password flexibility \u00b7 4\u00a0..."
+   },
+   {
+      "rank": 4,
+      "type": "text_result",
+      "title": "Test Cases for Login Pages",
+      "link": "https://testgrid.io/blog/test-cases-for-login-page/",
+      "description": "22 apr 2025 \u2014 Learn how to write effective test cases for login pages\u2014including positive/negative scenarios, security testing, cross-browser checks,\u00a0..."
+   },
+   {
+      "rank": 5,
+      "type": "text_result",
+      "title": "Login Page Test Cases Overview - Google Chrome",
+      "link": "https://it.scribd.com/document/166111637/Login-sample-test-cases-xls",
+      "description": "It includes test cases for basic login and logout flows with valid and invalid credentials, as well as tests of boundary values, different browsers, and user\u00a0..."
+   },
+   {
+      "rank": 6,
+      "type": "text_result",
+      "title": "Test Cases for Login page - UI, Functional & Security ...",
+      "link": "https://artoftesting.com/login",
+      "description": "3 dic 2023 \u2014 A comprehensive list of test scenarios for Login page - positive, negative, usability, performance and security related test cases for a\u00a0..."
+   },
+   {
+      "rank": 7,
+      "type": "text_result",
+      "title": "Login | Salesforce",
+      "link": "https://test.salesforce.com/",
+      "description": "Salesforce Customer Secure Login Page. Login to your Salesforce Customer Account ... To go to your company's login page, enter the custom domain name."
+   },
+   {
+      "rank": 8,
+      "type": "text_result",
+      "title": "Test Cases For Registration and Login Page",
+      "link": "https://www.geeksforgeeks.org/software-testing/test-cases-for-registration-and-login-page/",
+      "description": "When creating test cases for registration and login pages, it's essential to cover various scenarios such as input validation, security, and\u00a0..."
+   },
+   {
+      "rank": 9,
+      "type": "text_result",
+      "title": "Login Test",
+      "link": "http://vbsca.ca/login/login.asp",
+      "description": "Login Test. Username: Password:"
+   }
+]

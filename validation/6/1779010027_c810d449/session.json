@@ -1,0 +1,122 @@
+[
+   {
+      "session_id": "1779010027_c810d449",
+      "timestamp": 1779010031817,
+      "event": "search",
+      "search_engine": "google",
+      "query": "test login page",
+      "filename_html": "1779010031817_test login page.html",
+      "filename_ranking": "1779010031817_test login page.json"
+   },
+   {
+      "session_id": "1779010027_c810d449",
+      "timestamp": 1779010032843,
+      "event": "mouse",
+      "action": "mouse_click",
+      "mouse": {
+         "x": 269,
+         "y": 275
+      },
+      "hovered_text": "Test Login"
+   },
+   {
+      "session_id": "1779010027_c810d449",
+      "timestamp": 1779010034059,
+      "event": "mouse",
+      "action": "mouse_move",
+      "mouse_from": {
+         "x": 1140,
+         "y": 380
+      },
+      "mouse_to": {
+         "x": 1185,
+         "y": 371
+      },
+      "hovered_text": "This is a simple Login page. Students can use this page to practice writing simple positive and negative LogIn tests. Login functionality is something that most of the test automation engineers need to automate."
+   },
+   {
+      "session_id": "1779010027_c810d449",
+      "timestamp": 1779010034603,
+      "event": "mouse",
+      "action": "mouse_move",
+      "mouse_from": {
+         "x": 1185,
+         "y": 370
+      },
+      "mouse_to": {
+         "x": 1185,
+         "y": 366
+      },
+      "hovered_text": "This is a simple Login page. Students can use this page to practice writing simple positive and negative LogIn tests. Login functionality is something that most of the test automation engineers need to automate."
+   },
+   {
+      "session_id": "1779010027_c810d449",
+      "timestamp": 1779010036826,
+      "event": "mouse",
+      "action": "mouse_click",
+      "mouse": {
+         "x": 947,
+         "y": 575
+      },
+      "hovered_text": ""
+   },
+   {
+      "session_id": "1779010027_c810d449",
+      "timestamp": 1779010036989,
+      "event": "mouse",
+      "action": "mouse_move",
+      "mouse_from": {
+         "x": 1184,
+         "y": 366
+      },
+      "mouse_to": {
+         "x": 947,
+         "y": 575
+      },
+      "hovered_text": ""
+   },
+   {
+      "session_id": "1779010027_c810d449",
+      "timestamp": 1779010037310,
+      "event": "mouse",
+      "action": "mouse_move",
+      "mouse_from": {
+         "x": 946,
+         "y": 573
+      },
+      "mouse_to": {
+         "x": 945,
+         "y": 568
+      },
+      "hovered_text": ""
+   },
+   {
+      "session_id": "1779010027_c810d449",
+      "timestamp": 1779010038573,
+      "event": "keyboard",
+      "action": "write",
+      "typed": "username[TAB]"
+   },
+   {
+      "session_id": "1779010027_c810d449",
+      "timestamp": 1779010040051,
+      "event": "keyboard",
+      "action": "write",
+      "typed": "[HIDDEN][HIDDEN][HIDDEN][HIDDEN][HIDDEN][HIDDEN][HIDDEN][HIDDEN]"
+   },
+   {
+      "session_id": "1779010027_c810d449",
+      "timestamp": 1779010042150,
+      "event": "mouse",
+      "action": "mouse_move",
+      "mouse_from": {
+         "x": 946,
+         "y": 568
+      },
+      "mouse_to": {
+         "x": 1763,
+         "y": 0
+      },
+      "hovered_text": "HOME PRACTICE COURSES BLOG CONTACT\nTest login\nThis is a simple Login page. Students can use this page to practice writing simple positive and negative LogIn tests. Login functionality is something that most of the test automation engineers need to automate.\nUse next credentials to execute Login:\nUsername: student\nPassword: Password123\nUsername \nPassword \nSubmit\nYour username is invalid!\nTest case 1: Positive LogIn test\nOpen page\nType username student into Username field\nType password Password123 into Password field\nPush Submit button\nVerify new page URL contains practicetestautomation.com/logged-in-successfully/\nVerify new page contains expected text ('Congratulations' or 'successfully logged in')\nVerify button Log out is displayed on the new page\nTest case 2: Negative username test\nOpen page\nType username incorrectUser into Username field\nType password Password123 into Password field\nPush Submit button\nVerify error message is displayed\nVerify error message text is Your username is invalid!\nTest case 3: Negative password test\nOpen page\nType username student into Username field\nType password incorrectPassword into Password field\nPush Submit button\nVerify error message is displayed\nVerify error message text is Your password is invalid!\n\u00a9 Copyright 2020 Practice Test Automation. All rights reserved | Privacy Policy"
+   }
+]
