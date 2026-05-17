@@ -64,6 +64,14 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
             })
             return true
 
+        case "submit-raw":
+            backendRequest("/log-raw", { 
+                method: "POST", 
+                headers: { "Content-Type": "application/json", },
+                body: message.log
+            })
+            return true
+
         case "submit-html":
             backendRequest("/html", { 
                 method: "POST", 

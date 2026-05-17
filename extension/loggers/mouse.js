@@ -86,6 +86,9 @@ export class MouseEventsHandler {
                 await chrome.runtime.sendMessage({ action: "submit-log", log: JSON.stringify(event) });
             }
 
+            async function submit_raw_event(event) {
+                await chrome.runtime.sendMessage({ action: "submit-raw", log: JSON.stringify(event) });
+            }
 
             // *** Hovered element tracking ***
             var curr_hovered_text = "";
@@ -95,13 +98,13 @@ export class MouseEventsHandler {
 
             // *** Mouse single click tracking ***
             async function mouse_click(e) {
-                const event = new MouseEvent(session_id, MouseAction.CLICK, new Coord(e.screenX, e.screenY), curr_hovered_text);
+                const event = new MouseEvent(session_id, MouseAction.CLICK, new Coord(e.pageX, e.pageY), curr_hovered_text);
                 submit_event(event);
             }
 
             // *** Mouse double click tracking ***
             async function mouse_double_click(e) {
-                const event = new MouseEvent(session_id, MouseAction.DOUBLE_CLICK, new Coord(e.screenX, e.screenY), curr_hovered_text);
+                const event = new MouseEvent(session_id, MouseAction.DOUBLE_CLICK, new Coord(e.pageX, e.pageY), curr_hovered_text);
                 submit_event(event);
             }
 
@@ -110,13 +113,16 @@ export class MouseEventsHandler {
             var curr_mouse_move_end = null;
             var curr_mouse_move_promise = null;
             async function mouse_move(e) {
+                const event_raw = new MouseMoveEvent(session_id, MouseAction.MOVE, new Coord(e.pageX, e.pageY), new Coord(e.pageX+e.movementX, e.pageY+e.movementY), "");
+                submit_raw_event(event_raw);
+
                 if (curr_mouse_move_start === null) {
                     // First time tracking cursor
-                    curr_mouse_move_start = new Coord(e.screenX, e.screenY)
-                    curr_mouse_move_end = new Coord(e.screenX, e.screenY)
+                    curr_mouse_move_start = new Coord(e.pageX, e.pageY)
+                    curr_mouse_move_end = new Coord(e.pageX, e.pageY)
                 } else {
                     // Keep tracking cursor
-                    curr_mouse_move_end = new Coord(e.screenX, e.screenY)
+                    curr_mouse_move_end = new Coord(e.pageX, e.pageY)
                 }
                 // Create a promise with timeout. If the cursor does not move after a while, record movement.
                 const curr_promise = new Promise(resolve => setTimeout(async () => {

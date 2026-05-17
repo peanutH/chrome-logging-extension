@@ -101,7 +101,7 @@ export class StateEventsHandler {
 
 
     async submit_event(event) {
-        await fetch(`${BACKEND_BASE_URL}/log`, {
+        await fetch(`${BACKEND_BASE_URL}/log-raw`, {
             method: "POST", 
             headers: { "Content-Type": "application/json", },
             body: JSON.stringify(event)
