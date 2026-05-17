@@ -144,9 +144,19 @@ export class GoogleEventsHandler {
                 
             }
 
-            // Run only on Google
-            if (/^https?:\/\/(?:[^/]+\.)?google\.[a-z.]+\/search(?:\?|$)/i.test(window.location.href)) {
+            function save_google_ranking() {
+                // Run only on Google
+                if (!/^https?:\/\/(?:[^/]+\.)?google\.[a-z.]+\/search(?:\?|$)/i.test(window.location.href)) {
+                    return;
+                }
                 if (!document.__google_export_timestamp) { document.__google_export_timestamp = Date.now(); }
+                if (document.__google_last_export_timestamp
+                    && ((Data.now() - document.__google_last_export_timestamp) < 250)
+                ) {
+                    // Avoid duplicates due to page loading signals from other content
+                    return;
+                }
+                document.__google_last_export_timestamp = Date.now();
                 const query_text = document.querySelector('textarea[name="q"]').getAttribute('value');
                 const timestamp = document.__google_export_timestamp
                 const filename_html = `${timestamp}_${query_text}.html`
@@ -181,6 +191,8 @@ export class GoogleEventsHandler {
                 submit_html(html, filename_html);
                 submit_ranking(ranking, filename_ranking);
             }
+
+            save_google_ranking();
         }
 
         await chrome.scripting.executeScript({

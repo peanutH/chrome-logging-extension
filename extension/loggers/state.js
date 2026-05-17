@@ -101,6 +101,14 @@ export class StateEventsHandler {
 
 
     async submit_event(event) {
+        await fetch(`${BACKEND_BASE_URL}/log`, {
+            method: "POST", 
+            headers: { "Content-Type": "application/json", },
+            body: JSON.stringify(event)
+        });
+    }
+
+    async submit_raw_event(event) {
         await fetch(`${BACKEND_BASE_URL}/log-raw`, {
             method: "POST", 
             headers: { "Content-Type": "application/json", },
@@ -112,50 +120,48 @@ export class StateEventsHandler {
     async window_created(window) {
         this.all_windows[window.id] = new Window(window.id, window.type, window.width, window.height, window.incognito);
         const event = new WindowEvent(this.session_id, StateEvent.WINDOW_CREATED, this.all_windows[window.id]);
-        await this.submit_event(event);
+        await this.submit_raw_event(event);
     }
 
     async window_focused(window_id) {
         const state_event = this.all_windows[window_id] === undefined ? StateEvent.WINDOW_FOCUS_OUT : StateEvent.WINDOW_FOCUS
         const event = new WindowEvent(this.session_id, state_event, this.all_windows[window_id]);
-        await this.submit_event(event);
+        await this.submit_raw_event(event);
     }
 
     async window_resized(window) {
         this.all_windows[window.id] = new Window(window.id, window.type, window.width, window.height, window.incognito);
         const event = new WindowEvent(this.session_id, StateEvent.WINDOW_RESIZED, this.all_windows[window.id]);
-        await this.submit_event(event);
+        await this.submit_raw_event(event);
     }
 
     async window_removed(window_id) {
         const event = new WindowEvent(this.session_id, StateEvent.WINDOW_CLOSED, this.all_windows[window_id]);
-        await this.submit_event(event);
+        await this.submit_raw_event(event);
         delete this.all_windows[window_id];
     }
 
     async tab_created(tab) {
         this.all_tabs[tab.id] = new Tab(tab.id, tab.windowId, tab.index, tab.groupId, tab.url, tab.title, tab.status, tab.mutedInfo.muted);
         const event = new TabEvent(this.session_id, StateEvent.TAB_CREATED, this.all_tabs[tab.id]);
-        await this.submit_event(event);
+        await this.submit_raw_event(event);
     }
 
     async tab_focused(info) {
         const event = new TabEvent(this.session_id, StateEvent.TAB_FOCUS, this.all_tabs[info.tabIds[0]]);
+        await this.submit_raw_event(event);
         await this.submit_event(event);
     }
 
     async tab_updated(tab_id, changed_info, tab) {
-        if (("favIconUrl" in changed_info) && (Object.keys(changed_info).length == 1)) {
-            return
-        }
         this.all_tabs[tab_id] = new Tab(tab.id, tab.windowId, tab.index, tab.groupId, tab.url, tab.title, tab.status, tab.mutedInfo.muted);
         const event = new TabEvent(this.session_id, StateEvent.TAB_UPDATED, this.all_tabs[tab_id]);
-        await this.submit_event(event);
+        await this.submit_raw_event(event);
     }
 
     async tab_removed(tab_id, remove_info) {
         const event = new TabEvent(this.session_id, StateEvent.TAB_CLOSED, this.all_tabs[tab_id]);
-        await this.submit_event(event);
+        await this.submit_raw_event(event);
         delete this.all_tabs[tab_id];
     }
 
