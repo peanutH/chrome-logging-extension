@@ -66,12 +66,10 @@ def start_session():
 
     active_sessions[session_id] = {
         "out_dir": out_dir,
-        "out_file_path": out_log_file,
         "events_log": LoggingManager(out_log_file),
         "raw_logs": {},
         "ranking_dir": ranking_dir,
-        "html_dir": html_dir,
-        "num_logs": 0
+        "html_dir": html_dir
     }
 
     return jsonify({
