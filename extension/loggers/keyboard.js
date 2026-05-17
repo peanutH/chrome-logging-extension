@@ -13,6 +13,7 @@ export class KeyboardEventsHandler {
          * @param {string} session_id
          */
         this.session_id = session_id;
+        this.injected_tabs = [];
         
         // Bind `this` so that the functions can be passed as listeners without losing `this`
         this.on_tab_focused = this.on_tab_focused.bind(this)
@@ -23,6 +24,7 @@ export class KeyboardEventsHandler {
         function inject_listeners(session_id) {
             if (document.__myClickListenerAdded_keyboard) { return; }
             document.__myClickListenerAdded_keyboard = true;
+            document.__areListenersActive_keyboard = true;
 
             const KeyboardAction = Object.freeze({
                 WRITE: "write",
@@ -68,6 +70,7 @@ export class KeyboardEventsHandler {
             var curr_keyboard_string = "";
             var curr_keyboard_promise = null
             async function keyboard_press(e) {
+                if (!document.__areListenersActive_keyboard) { return; }
                 // Decode typed key
                 let typed = ""
                 switch (e.code) {
@@ -138,6 +141,7 @@ export class KeyboardEventsHandler {
 
             // *** Copy tracking ***
             async function copy_event(e) {
+                if (!document.__areListenersActive_keyboard) { return; }
                 const content = document.getSelection().toString();
                 const event = new CopyPasteEvent(session_id, CopyPasteAction.COPY, content);
                 submit_event(event);
@@ -145,6 +149,7 @@ export class KeyboardEventsHandler {
 
             // *** Past tracking ***
             async function paste_event(e) {
+                if (!document.__areListenersActive_keyboard) { return; }
                 const content = (e.clipboardData || window.clipboardData).getData("text");
                 const event = new CopyPasteEvent(session_id, CopyPasteAction.PASTE, content);
                 submit_event(event);
@@ -152,6 +157,7 @@ export class KeyboardEventsHandler {
 
             // *** Cut tracking ***
             async function cut_event(e) {
+                if (!document.__areListenersActive_keyboard) { return; }
                 const content = document.getSelection().toString();
                 const event = new CopyPasteEvent(session_id, CopyPasteAction.CUT, content);
                 submit_event(event);
@@ -167,6 +173,19 @@ export class KeyboardEventsHandler {
             target: { tabId: tab_id },
             func: inject_listeners,
             args: [this.session_id]
+        });
+        this.injected_tabs.push(tab_id);
+    }
+
+    async stop_listeners_on_tab(tab_id) {
+        function stop_injected_listeners() {
+            document.__areListenersActive_keyboard = false;
+        }
+
+        await chrome.scripting.executeScript({
+            target: { tabId: tab_id },
+            func: stop_injected_listeners,
+            args: []
         });
     }
 
@@ -187,7 +206,12 @@ export class KeyboardEventsHandler {
     } 
 
     stop_listeners() {
-        chrome.tabs.onHighlighted.removeListener(this.on_tab_focused)
-        chrome.tabs.onUpdated.removeListener(this.on_tab_updated)
+        chrome.tabs.onHighlighted.removeListener(this.on_tab_focused);
+        chrome.tabs.onUpdated.removeListener(this.on_tab_updated);
+
+        for (const id of this.injected_tabs) {
+            this.stop_listeners_on_tab(id);
+        }
+        this.injected_tabs = [];
     }
 }

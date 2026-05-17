@@ -14,6 +14,7 @@ export class MouseEventsHandler {
          * @param {string} session_id
          */
         this.session_id = session_id;
+        this.injected_tabs = [];
         
         // Bind `this` so that the functions can be passed as listeners without losing `this`
         this.on_tab_focused = this.on_tab_focused.bind(this)
@@ -24,6 +25,7 @@ export class MouseEventsHandler {
         function inject_listeners(session_id) {
             if (document.__myClickListenerAdded_mouse) { return; }
             document.__myClickListenerAdded_mouse = true;
+            document.__areListenersActive_mouse = true;
 
             const MouseAction = Object.freeze({
                 MOVE: "mouse_move",
@@ -93,17 +95,20 @@ export class MouseEventsHandler {
             // *** Hovered element tracking ***
             var curr_hovered_text = "";
             async function mouse_hover(e) {
+                if (!document.__areListenersActive_mouse) { return; }
                 curr_hovered_text = e.target.innerText;
             }
 
             // *** Mouse single click tracking ***
             async function mouse_click(e) {
+                if (!document.__areListenersActive_mouse) { return; }
                 const event = new MouseEvent(session_id, MouseAction.CLICK, new Coord(e.pageX, e.pageY), curr_hovered_text);
                 submit_event(event);
             }
 
             // *** Mouse double click tracking ***
             async function mouse_double_click(e) {
+                if (!document.__areListenersActive_mouse) { return; }
                 const event = new MouseEvent(session_id, MouseAction.DOUBLE_CLICK, new Coord(e.pageX, e.pageY), curr_hovered_text);
                 submit_event(event);
             }
@@ -113,6 +118,7 @@ export class MouseEventsHandler {
             var curr_mouse_move_end = null;
             var curr_mouse_move_promise = null;
             async function mouse_move(e) {
+                if (!document.__areListenersActive_mouse) { return; }
                 const event_raw = new MouseMoveEvent(session_id, MouseAction.MOVE, new Coord(e.pageX, e.pageY), new Coord(e.pageX+e.movementX, e.pageY+e.movementY), "");
                 submit_raw_event(event_raw);
 
@@ -140,6 +146,7 @@ export class MouseEventsHandler {
             // *** Text selection (with mouse or keyboard) tracking ***
             var curr_selected_promise = null;
             async function text_select(e) {
+                if (!document.__areListenersActive_mouse) { return; }
                 const curr_promise = new Promise(resolve => setTimeout(async () => {
                     if (curr_selected_promise !== curr_promise) { return resolve(); } // Selection changed, ignore this promise
                     const selection = window.getSelection().toString();
@@ -158,6 +165,7 @@ export class MouseEventsHandler {
             var curr_scroll_end = null;
             var curr_scroll_promise = null;
             async function page_scroll(e) {
+                if (!document.__areListenersActive_mouse) { return; }
                 if (curr_scroll_start === null) {
                     // First time tracking cursor
                     curr_scroll_start = new Coord(window.scrollX, window.scrollY)
@@ -176,7 +184,6 @@ export class MouseEventsHandler {
                 }, 250));
                 curr_scroll_promise = curr_promise;
                 await curr_promise;
-
             }
 
             document.addEventListener("click", mouse_click);
@@ -192,14 +199,27 @@ export class MouseEventsHandler {
             func: inject_listeners,
             args: [this.session_id]
         });
+        this.injected_tabs.push(tab_id);
+    }
+
+    async stop_listeners_on_tab(tab_id) {
+        function stop_injected_listeners() {
+            document.__areListenersActive_mouse = false;
+        }
+
+        await chrome.scripting.executeScript({
+            target: { tabId: tab_id },
+            func: stop_injected_listeners,
+            args: []
+        });
     }
 
     on_tab_focused(info) {
-        this.start_listeners_on_tab(info.tabIds[0])
+        this.start_listeners_on_tab(info.tabIds[0]);
     }
 
     on_tab_updated(tab_id, info) {
-        this.start_listeners_on_tab(tab_id)
+        this.start_listeners_on_tab(tab_id);
     }
 
     async start_listeners() {
@@ -213,5 +233,10 @@ export class MouseEventsHandler {
     stop_listeners() {
         chrome.tabs.onHighlighted.removeListener(this.on_tab_focused)
         chrome.tabs.onUpdated.removeListener(this.on_tab_updated)
+
+        for (const id of this.injected_tabs) {
+            this.stop_listeners_on_tab(id);
+        }
+        this.injected_tabs = [];
     }
 }
