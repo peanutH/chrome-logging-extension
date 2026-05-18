@@ -1,0 +1,4 @@
+playwright==1.60.0
+pillow==10.3.0
+numpy==2.2.6
+matplotlib==3.10.0
