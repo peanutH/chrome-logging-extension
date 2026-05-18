@@ -1,0 +1,200 @@
+[
+   {
+      "session_id": "1779140461_9f628760",
+      "timestamp": 1779140464377,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789324,
+         "window_id": 628789247,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.google.com/",
+         "title": "Google",
+         "status": "complete",
+         "muted": false,
+         "filename_html": "1779140464310_1456193233.html"
+      }
+   },
+   {
+      "session_id": "1779140461_9f628760",
+      "timestamp": 1779140465656,
+      "event": "mouse",
+      "action": "mouse_click",
+      "screen_width": 1507,
+      "screen_height": 869,
+      "mouse": {
+         "x": 799,
+         "y": 371
+      },
+      "hovered_text": ""
+   },
+   {
+      "session_id": "1779140461_9f628760",
+      "timestamp": 1779140465727,
+      "event": "mouse",
+      "action": "mouse_move",
+      "screen_width": 1507,
+      "screen_height": 869,
+      "mouse_from": {
+         "x": 824,
+         "y": 33
+      },
+      "mouse_to": {
+         "x": 799,
+         "y": 371
+      },
+      "hovered_text": ""
+   },
+   {
+      "session_id": "1779140461_9f628760",
+      "timestamp": 1779140467700,
+      "event": "keyboard",
+      "action": "write",
+      "typed": "public libray"
+   },
+   {
+      "session_id": "1779140461_9f628760",
+      "timestamp": 1779140468887,
+      "event": "keyboard",
+      "action": "write",
+      "typed": "[BACKSPACE]ry new"
+   },
+   {
+      "session_id": "1779140461_9f628760",
+      "timestamp": 1779140469470,
+      "event": "keyboard",
+      "action": "write",
+      "typed": "[BACKSPACE]"
+   },
+   {
+      "session_id": "1779140461_9f628760",
+      "timestamp": 1779140470321,
+      "event": "keyboard",
+      "action": "write",
+      "typed": "ar me"
+   },
+   {
+      "session_id": "1779140461_9f628760",
+      "timestamp": 1779140472134,
+      "event": "search",
+      "search_engine": "google",
+      "query": "public library near me",
+      "filename_html": "1779140472134_public library near me.html",
+      "filename_ranking": "1779140472134_public library near me.json"
+   },
+   {
+      "session_id": "1779140461_9f628760",
+      "timestamp": 1779140472212,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789324,
+         "window_id": 628789247,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.google.com/search?q=public+library+near+me&sca_esv=906dd05171cbdcc8&source=hp&ei=bocLauP8LtGOhbIPu6ri4Ak&iflsig=AFdpzrgAAAAAaguVfk0GpEbo7eDHuLgmv6j5oixbFDxj&ved=0ahUKEwjj66fa5sOUAxVRR0EAHTuVGJwQ4dUDCBk&uact=5&oq=public+library+near+me&gs_lp=Egdnd3Mtd2l6IhZwdWJsaWMgbGlicmFyeSBuZWFyIG1lMgUQABiABDIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHkjHJlDkAVjNInADeACQAQCYAc8CoAHtG6oBCDcuMTIuNC4xuAEDyAEA-AEBmAIboAKkHagCCsICChAAGAMYjwEY6gLCAgoQLhgDGI8BGOoCwgILEAAYgAQYsQMYgwHCAhEQLhiABBixAxiDARjHARjRA8ICDhAAGIAEGIoFGLEDGIMBwgILEC4YgAQYxwEY0QPCAgsQLhiABBixAxiDAcICCBAAGIAEGLEDwgIIEC4YgAQYsQPCAgUQLhiABMICCxAAGIAEGIoFGJIDwgIIEAAYgAQYyQPCAhEQLhiABBixAxjHARivARiOBcICDhAuGMcBGLEDGNEDGIAEwgILEC4YgAQYxwEYrwHCAhEQLhivARjHARixAxiABBiOBcICDhAuGIAEGMcBGK8BGI4FwgIHEAAYgAQYDcICDRAuGIAEGA0YxwEY0QOYAwfxBUKxudceAM6_kgcIOS4xMy40LjGgB-vOAbIHCDYuMTMuNC4xuAePHcIHBjAuMy4yNMgHfoAIAQ&sclient=gws-wiz",
+         "title": "public library near me - Cerca con Google",
+         "status": "complete",
+         "muted": false,
+         "filename_html": "1779140472052_3305210181.html"
+      }
+   },
+   {
+      "session_id": "1779140461_9f628760",
+      "timestamp": 1779140473792,
+      "event": "mouse",
+      "action": "mouse_scroll",
+      "screen_width": 1507,
+      "screen_height": 4162,
+      "scroll_start": {
+         "x": 0,
+         "y": 29
+      },
+      "scroll_end": {
+         "x": 0,
+         "y": 927.5
+      }
+   },
+   {
+      "session_id": "1779140461_9f628760",
+      "timestamp": 1779140474474,
+      "event": "mouse",
+      "action": "mouse_move",
+      "screen_width": 1507,
+      "screen_height": 4162,
+      "mouse_from": {
+         "x": 794,
+         "y": 1300
+      },
+      "mouse_to": {
+         "x": 514,
+         "y": 1384
+      },
+      "hovered_text": "THE 15 BEST Bologna Libraries (2026)"
+   },
+   {
+      "session_id": "1779140461_9f628760",
+      "timestamp": 1779140475146,
+      "event": "mouse",
+      "action": "mouse_click",
+      "screen_width": 1507,
+      "screen_height": 4162,
+      "mouse": {
+         "x": 514,
+         "y": 1384
+      },
+      "hovered_text": "THE 15 BEST Bologna Libraries (2026)"
+   },
+   {
+      "session_id": "1779140461_9f628760",
+      "timestamp": 1779140476932,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789324,
+         "window_id": 628789247,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.tripadvisor.com/Attractions-g187801-Activities-c60-t21-Bologna_Province_of_Bologna_Emilia_Romagna.html",
+         "title": "THE 15 BEST Bologna Libraries (2026) - Tripadvisor",
+         "status": "complete",
+         "muted": false,
+         "filename_html": "1779140476837_4198909808.html"
+      }
+   },
+   {
+      "session_id": "1779140461_9f628760",
+      "timestamp": 1779140476933,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789324,
+         "window_id": 628789247,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.tripadvisor.com/Attractions-g187801-Activities-c60-t21-Bologna_Province_of_Bologna_Emilia_Romagna.html",
+         "title": "THE 15 BEST Bologna Libraries (2026) - Tripadvisor",
+         "status": "complete",
+         "muted": false,
+         "filename_html": "1779140476837_4198909808.html"
+      }
+   },
+   {
+      "session_id": "1779140461_9f628760",
+      "timestamp": 1779140478565,
+      "event": "mouse",
+      "action": "mouse_move",
+      "screen_width": 1507,
+      "screen_height": 8613,
+      "mouse_from": {
+         "x": 559,
+         "y": 443
+      },
+      "mouse_to": {
+         "x": 1373,
+         "y": 0
+      },
+      "hovered_text": ""
+   }
+]

@@ -1,0 +1,483 @@
+[
+   {
+      "session_id": "1779139898_65287440",
+      "timestamp": 1779139900860,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789306,
+         "window_id": 628789247,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.google.com/",
+         "title": "Google",
+         "status": "complete",
+         "muted": false,
+         "filename_html": "1779139900828_1006554517.html"
+      }
+   },
+   {
+      "session_id": "1779139898_65287440",
+      "timestamp": 1779139904134,
+      "event": "mouse",
+      "action": "mouse_click",
+      "screen_width": 1507,
+      "screen_height": 857,
+      "mouse": {
+         "x": 806,
+         "y": 369
+      },
+      "hovered_text": ""
+   },
+   {
+      "session_id": "1779139898_65287440",
+      "timestamp": 1779139904194,
+      "event": "mouse",
+      "action": "mouse_move",
+      "screen_width": 1507,
+      "screen_height": 857,
+      "mouse_from": {
+         "x": 893,
+         "y": 72
+      },
+      "mouse_to": {
+         "x": 806,
+         "y": 369
+      },
+      "hovered_text": ""
+   },
+   {
+      "session_id": "1779139898_65287440",
+      "timestamp": 1779139906422,
+      "event": "keyboard",
+      "action": "write",
+      "typed": "best way to lea"
+   },
+   {
+      "session_id": "1779139898_65287440",
+      "timestamp": 1779139906761,
+      "event": "keyboard",
+      "action": "write",
+      "typed": "r"
+   },
+   {
+      "session_id": "1779139898_65287440",
+      "timestamp": 1779139907230,
+      "event": "keyboard",
+      "action": "write",
+      "typed": "n "
+   },
+   {
+      "session_id": "1779139898_65287440",
+      "timestamp": 1779139907575,
+      "event": "keyboard",
+      "action": "write",
+      "typed": "p"
+   },
+   {
+      "session_id": "1779139898_65287440",
+      "timestamp": 1779139908354,
+      "event": "keyboard",
+      "action": "write",
+      "typed": "ython"
+   },
+   {
+      "session_id": "1779139898_65287440",
+      "timestamp": 1779139911095,
+      "event": "keyboard",
+      "action": "write",
+      "typed": "[ARROW_LEFT]s"
+   },
+   {
+      "session_id": "1779139898_65287440",
+      "timestamp": 1779139911748,
+      "event": "search",
+      "search_engine": "google",
+      "query": "best ways to learn python",
+      "filename_html": "1779139911748_best ways to learn python.html",
+      "filename_ranking": "1779139911748_best ways to learn python.json"
+   },
+   {
+      "session_id": "1779139898_65287440",
+      "timestamp": 1779139911767,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789306,
+         "window_id": 628789247,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.google.com/search?q=best+ways+to+learn+python&sca_esv=906dd05171cbdcc8&source=hp&ei=O4ULau2INbGs4-EPite7iAs&iflsig=AFdpzrgAAAAAaguTS4XxNop4RSQ2xmCoqnFBw3HR1ySz&ved=0ahUKEwitkvPN5MOUAxUx1jgGHYrrDrEQ4dUDCBk&uact=5&oq=best+ways+to+learn+python&gs_lp=Egdnd3Mtd2l6IhliZXN0IHdheXMgdG8gbGVhcm4gcHl0aG9uMgcQABiABBgTMgcQABiABBgTMgcQABiABBgTMgcQABiABBgTMgYQABgeGBMyBhAAGB4YEzIGEAAYHhgTMggQABgeGBMYCjIGEAAYHhgTMgYQABgeGBNIjzZQhQNYxjRwAXgAkAEAmAFXoAH2C6oBAjI1uAEDyAEA-AEBmAIaoALiDKgCCsICChAAGAMYjwEY6gLCAgoQLhgDGI8BGOoCwgILEAAYgAQYsQMYgwHCAg4QABiABBiKBRixAxiDAcICERAuGIAEGLEDGIMBGMcBGNEDwgIFEC4YgATCAg4QLhiABBixAxjHARjRA8ICDhAuGIAEGIoFGLEDGIMBwgIFEAAYgATCAggQLhiABBixA8ICCBAAGIAEGLEDwgIUEC4YgAQYigUYsQMYgwEYxwEY0QPCAgQQABgDwgIXEC4YgAQYxwEYrwEYmAUYngUYmQUYjgXCAgsQLhiABBjHARivAcICFBAuGIAEGMcBGK8BGJgFGJ4FGJkFwgIHEAAYgAQYCsICBhAAGBYYHpgDCPEF7YZbdnV2C6-SBwIyNqAHucsBsgcCMjW4B9kMwgcGMC4xOC44yAdMgAgB&sclient=gws-wiz",
+         "title": "best ways to learn python - Cerca con Google",
+         "status": "complete",
+         "muted": false,
+         "filename_html": "1779139911731_2645135094.html"
+      }
+   },
+   {
+      "session_id": "1779139898_65287440",
+      "timestamp": 1779139914873,
+      "event": "mouse",
+      "action": "mouse_move",
+      "screen_width": 1507,
+      "screen_height": 2829,
+      "mouse_from": {
+         "x": 801,
+         "y": 366
+      },
+      "mouse_to": {
+         "x": 533,
+         "y": 219
+      },
+      "hovered_text": "Best way to learn python? : r/learnpython"
+   },
+   {
+      "session_id": "1779139898_65287440",
+      "timestamp": 1779139915012,
+      "event": "mouse",
+      "action": "mouse_click",
+      "screen_width": 1507,
+      "screen_height": 2829,
+      "mouse": {
+         "x": 533,
+         "y": 219
+      },
+      "hovered_text": "Best way to learn python? : r/learnpython"
+   },
+   {
+      "session_id": "1779139898_65287440",
+      "timestamp": 1779139915959,
+      "event": "mouse",
+      "action": "mouse_move",
+      "screen_width": 1507,
+      "screen_height": 2829,
+      "mouse_from": {
+         "x": 533,
+         "y": 219
+      },
+      "mouse_to": {
+         "x": 414,
+         "y": 0
+      },
+      "hovered_text": ""
+   },
+   {
+      "session_id": "1779139898_65287440",
+      "timestamp": 1779139916134,
+      "event": "tab",
+      "action": "tab_focus",
+      "tab": {
+         "id": 628789308,
+         "window_id": 628789247,
+         "index": 1,
+         "group_id": -1,
+         "url": "https://www.reddit.com/r/learnpython/comments/11kcko1/best_way_to_learn_python/",
+         "title": "Best way to learn python? : r/learnpython",
+         "status": "loading",
+         "muted": false,
+         "filename_html": null
+      }
+   },
+   {
+      "session_id": "1779139898_65287440",
+      "timestamp": 1779139916837,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789308,
+         "window_id": 628789247,
+         "index": 1,
+         "group_id": -1,
+         "url": "https://www.reddit.com/r/learnpython/comments/11kcko1/best_way_to_learn_python/",
+         "title": "Best way to learn python? : r/learnpython",
+         "status": "complete",
+         "muted": false,
+         "filename_html": "1779139916758_1194108776.html"
+      }
+   },
+   {
+      "session_id": "1779139898_65287440",
+      "timestamp": 1779139918420,
+      "event": "tab",
+      "action": "tab_focus",
+      "tab": {
+         "id": 628789306,
+         "window_id": 628789247,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.google.com/search?q=best+ways+to+learn+python&sca_esv=906dd05171cbdcc8&source=hp&ei=O4ULau2INbGs4-EPite7iAs&iflsig=AFdpzrgAAAAAaguTS4XxNop4RSQ2xmCoqnFBw3HR1ySz&ved=0ahUKEwitkvPN5MOUAxUx1jgGHYrrDrEQ4dUDCBk&uact=5&oq=best+ways+to+learn+python&gs_lp=Egdnd3Mtd2l6IhliZXN0IHdheXMgdG8gbGVhcm4gcHl0aG9uMgcQABiABBgTMgcQABiABBgTMgcQABiABBgTMgcQABiABBgTMgYQABgeGBMyBhAAGB4YEzIGEAAYHhgTMggQABgeGBMYCjIGEAAYHhgTMgYQABgeGBNIjzZQhQNYxjRwAXgAkAEAmAFXoAH2C6oBAjI1uAEDyAEA-AEBmAIaoALiDKgCCsICChAAGAMYjwEY6gLCAgoQLhgDGI8BGOoCwgILEAAYgAQYsQMYgwHCAg4QABiABBiKBRixAxiDAcICERAuGIAEGLEDGIMBGMcBGNEDwgIFEC4YgATCAg4QLhiABBixAxjHARjRA8ICDhAuGIAEGIoFGLEDGIMBwgIFEAAYgATCAggQLhiABBixA8ICCBAAGIAEGLEDwgIUEC4YgAQYigUYsQMYgwEYxwEY0QPCAgQQABgDwgIXEC4YgAQYxwEYrwEYmAUYngUYmQUYjgXCAgsQLhiABBjHARivAcICFBAuGIAEGMcBGK8BGJgFGJ4FGJkFwgIHEAAYgAQYCsICBhAAGBYYHpgDCPEF7YZbdnV2C6-SBwIyNqAHucsBsgcCMjW4B9kMwgcGMC4xOC44yAdMgAgB&sclient=gws-wiz",
+         "title": "best ways to learn python - Cerca con Google",
+         "status": "complete",
+         "muted": false,
+         "filename_html": "1779139911731_2645135094.html"
+      }
+   },
+   {
+      "session_id": "1779139898_65287440",
+      "timestamp": 1779139919911,
+      "event": "mouse",
+      "action": "mouse_move",
+      "screen_width": 1507,
+      "screen_height": 2829,
+      "mouse_from": {
+         "x": 414,
+         "y": 0
+      },
+      "mouse_to": {
+         "x": 452,
+         "y": 458
+      },
+      "hovered_text": "How to Learn Python From Scratch in 2026: An Expert Guide"
+   },
+   {
+      "session_id": "1779139898_65287440",
+      "timestamp": 1779139920138,
+      "event": "mouse",
+      "action": "mouse_click",
+      "screen_width": 1507,
+      "screen_height": 2829,
+      "mouse": {
+         "x": 452,
+         "y": 458
+      },
+      "hovered_text": "How to Learn Python From Scratch in 2026: An Expert Guide"
+   },
+   {
+      "session_id": "1779139898_65287440",
+      "timestamp": 1779139920984,
+      "event": "mouse",
+      "action": "mouse_move",
+      "screen_width": 1507,
+      "screen_height": 2829,
+      "mouse_from": {
+         "x": 452,
+         "y": 458
+      },
+      "mouse_to": {
+         "x": 603,
+         "y": 1
+      },
+      "hovered_text": ""
+   },
+   {
+      "session_id": "1779139898_65287440",
+      "timestamp": 1779139921215,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789309,
+         "window_id": 628789247,
+         "index": 2,
+         "group_id": -1,
+         "url": "https://www.datacamp.com/blog/how-to-learn-python-expert-guide",
+         "title": "How to Learn Python From Scratch in 2026: An Expert Guide | DataCamp",
+         "status": "complete",
+         "muted": false,
+         "filename_html": "1779139921171_3035977235.html"
+      }
+   },
+   {
+      "session_id": "1779139898_65287440",
+      "timestamp": 1779139921378,
+      "event": "tab",
+      "action": "tab_focus",
+      "tab": {
+         "id": 628789309,
+         "window_id": 628789247,
+         "index": 2,
+         "group_id": -1,
+         "url": "https://www.datacamp.com/blog/how-to-learn-python-expert-guide",
+         "title": "How to Learn Python From Scratch in 2026: An Expert Guide | DataCamp",
+         "status": "complete",
+         "muted": false,
+         "filename_html": "1779139921171_3035977235.html"
+      }
+   },
+   {
+      "session_id": "1779139898_65287440",
+      "timestamp": 1779139926622,
+      "event": "mouse",
+      "action": "mouse_move",
+      "screen_width": 1507,
+      "screen_height": 27145,
+      "mouse_from": {
+         "x": 672,
+         "y": 6
+      },
+      "mouse_to": {
+         "x": 626,
+         "y": 1
+      },
+      "hovered_text": "Last chance! 50% off DataCamp Premium\n\nSale ends in\n\n3d\n00h\n27m\n54s\nBuy Now"
+   },
+   {
+      "session_id": "1779139898_65287440",
+      "timestamp": 1779139927239,
+      "event": "tab",
+      "action": "tab_focus",
+      "tab": {
+         "id": 628789308,
+         "window_id": 628789247,
+         "index": 1,
+         "group_id": -1,
+         "url": "https://www.reddit.com/r/learnpython/comments/11kcko1/best_way_to_learn_python/",
+         "title": "Best way to learn python? : r/learnpython",
+         "status": "complete",
+         "muted": false,
+         "filename_html": "1779139916758_1194108776.html"
+      }
+   },
+   {
+      "session_id": "1779139898_65287440",
+      "timestamp": 1779139928665,
+      "event": "mouse",
+      "action": "mouse_move",
+      "screen_width": 1507,
+      "screen_height": 5511,
+      "mouse_from": {
+         "x": 537,
+         "y": 9
+      },
+      "mouse_to": {
+         "x": 531,
+         "y": 228
+      },
+      "hovered_text": "Go to learnpython\nr/learnpython\n\u2022\n3y ago\nHBubli\nBest way to learn python?\n\nWhat is the best way to learn python for free? I have next to zero knowledge of coding (played around with scratch and that stuff but that prob doesnt even really count)."
+   },
+   {
+      "session_id": "1779139898_65287440",
+      "timestamp": 1779139929311,
+      "event": "mouse",
+      "action": "mouse_move",
+      "screen_width": 1507,
+      "screen_height": 5511,
+      "mouse_from": {
+         "x": 531,
+         "y": 228
+      },
+      "mouse_to": {
+         "x": 412,
+         "y": 0
+      },
+      "hovered_text": ""
+   },
+   {
+      "session_id": "1779139898_65287440",
+      "timestamp": 1779139929907,
+      "event": "tab",
+      "action": "tab_focus",
+      "tab": {
+         "id": 628789309,
+         "window_id": 628789247,
+         "index": 2,
+         "group_id": -1,
+         "url": "https://www.datacamp.com/blog/how-to-learn-python-expert-guide",
+         "title": "How to Learn Python From Scratch in 2026: An Expert Guide | DataCamp",
+         "status": "complete",
+         "muted": false,
+         "filename_html": "1779139921171_3035977235.html"
+      }
+   },
+   {
+      "session_id": "1779139898_65287440",
+      "timestamp": 1779139932080,
+      "event": "mouse",
+      "action": "mouse_move",
+      "screen_width": 1507,
+      "screen_height": 27145,
+      "mouse_from": {
+         "x": 626,
+         "y": 1
+      },
+      "mouse_to": {
+         "x": 736,
+         "y": 1
+      },
+      "hovered_text": "Last chance! 50% off DataCamp Premium\n\nSale ends in\n\n3d\n00h\n27m\n48s\nBuy Now"
+   },
+   {
+      "session_id": "1779139898_65287440",
+      "timestamp": 1779139934138,
+      "event": "tab",
+      "action": "tab_focus",
+      "tab": {
+         "id": 628789308,
+         "window_id": 628789247,
+         "index": 1,
+         "group_id": -1,
+         "url": "https://www.reddit.com/r/learnpython/comments/11kcko1/best_way_to_learn_python/",
+         "title": "Best way to learn python? : r/learnpython",
+         "status": "complete",
+         "muted": false,
+         "filename_html": "1779139916758_1194108776.html"
+      }
+   },
+   {
+      "session_id": "1779139898_65287440",
+      "timestamp": 1779139937710,
+      "event": "tab",
+      "action": "tab_focus",
+      "tab": {
+         "id": 628789306,
+         "window_id": 628789247,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.google.com/search?q=best+ways+to+learn+python&sca_esv=906dd05171cbdcc8&source=hp&ei=O4ULau2INbGs4-EPite7iAs&iflsig=AFdpzrgAAAAAaguTS4XxNop4RSQ2xmCoqnFBw3HR1ySz&ved=0ahUKEwitkvPN5MOUAxUx1jgGHYrrDrEQ4dUDCBk&uact=5&oq=best+ways+to+learn+python&gs_lp=Egdnd3Mtd2l6IhliZXN0IHdheXMgdG8gbGVhcm4gcHl0aG9uMgcQABiABBgTMgcQABiABBgTMgcQABiABBgTMgcQABiABBgTMgYQABgeGBMyBhAAGB4YEzIGEAAYHhgTMggQABgeGBMYCjIGEAAYHhgTMgYQABgeGBNIjzZQhQNYxjRwAXgAkAEAmAFXoAH2C6oBAjI1uAEDyAEA-AEBmAIaoALiDKgCCsICChAAGAMYjwEY6gLCAgoQLhgDGI8BGOoCwgILEAAYgAQYsQMYgwHCAg4QABiABBiKBRixAxiDAcICERAuGIAEGLEDGIMBGMcBGNEDwgIFEC4YgATCAg4QLhiABBixAxjHARjRA8ICDhAuGIAEGIoFGLEDGIMBwgIFEAAYgATCAggQLhiABBixA8ICCBAAGIAEGLEDwgIUEC4YgAQYigUYsQMYgwEYxwEY0QPCAgQQABgDwgIXEC4YgAQYxwEYrwEYmAUYngUYmQUYjgXCAgsQLhiABBjHARivAcICFBAuGIAEGMcBGK8BGJgFGJ4FGJkFwgIHEAAYgAQYCsICBhAAGBYYHpgDCPEF7YZbdnV2C6-SBwIyNqAHucsBsgcCMjW4B9kMwgcGMC4xOC44yAdMgAgB&sclient=gws-wiz",
+         "title": "best ways to learn python - Cerca con Google",
+         "status": "complete",
+         "muted": false,
+         "filename_html": "1779139911731_2645135094.html"
+      }
+   },
+   {
+      "session_id": "1779139898_65287440",
+      "timestamp": 1779139938981,
+      "event": "mouse",
+      "action": "mouse_move",
+      "screen_width": 1507,
+      "screen_height": 2829,
+      "mouse_from": {
+         "x": 603,
+         "y": 1
+      },
+      "mouse_to": {
+         "x": 793,
+         "y": 208
+      },
+      "hovered_text": "Best way to learn python? : r/learnpython\n\nReddit\u00a0\u00b7\u00a0r/learnpython\nOltre 310 commenti \u00b7 3 anni fa"
+   },
+   {
+      "session_id": "1779139898_65287440",
+      "timestamp": 1779139940250,
+      "event": "mouse",
+      "action": "mouse_move",
+      "screen_width": 1507,
+      "screen_height": 2829,
+      "mouse_from": {
+         "x": 793,
+         "y": 208
+      },
+      "mouse_to": {
+         "x": 828,
+         "y": 280
+      },
+      "hovered_text": "What is the best way to learn python for free? I have next to zero knowledge of coding (played around with scratch and that stuff but that prob doesnt ..."
+   },
+   {
+      "session_id": "1779139898_65287440",
+      "timestamp": 1779139941320,
+      "event": "mouse",
+      "action": "mouse_move",
+      "screen_width": 1507,
+      "screen_height": 2829,
+      "mouse_from": {
+         "x": 828,
+         "y": 280
+      },
+      "mouse_to": {
+         "x": 1349,
+         "y": 0
+      },
+      "hovered_text": ""
+   }
+]

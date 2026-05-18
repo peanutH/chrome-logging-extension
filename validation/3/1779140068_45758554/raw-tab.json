@@ -1,0 +1,257 @@
+[
+   {
+      "session_id": "1779140068_45758554",
+      "timestamp": 1779140071259,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789316,
+         "window_id": 628789247,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.google.com/",
+         "title": "Google",
+         "status": "loading",
+         "muted": false,
+         "filename_html": null
+      }
+   },
+   {
+      "session_id": "1779140068_45758554",
+      "timestamp": 1779140071265,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789316,
+         "window_id": 628789247,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.google.com/",
+         "title": "Google",
+         "status": "loading",
+         "muted": false,
+         "filename_html": null
+      }
+   },
+   {
+      "session_id": "1779140068_45758554",
+      "timestamp": 1779140071309,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789316,
+         "window_id": 628789247,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.google.com/",
+         "title": "Google",
+         "status": "complete",
+         "muted": false,
+         "filename_html": "1779140071267_2956854772.html"
+      }
+   },
+   {
+      "session_id": "1779140068_45758554",
+      "timestamp": 1779140075553,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789316,
+         "window_id": 628789247,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.google.com/search?q=how+solar+panels+work&sca_esv=906dd05171cbdcc8&source=hp&ei=5YULapO0HN6F4-EP1aj9yAs&iflsig=AFdpzrgAAAAAaguT9Z6US5o-N98gG8e-3jFnN92HRiYy&ved=0ahUKEwjTuuKe5cOUAxXewjgGHVVUH7kQ4dUDCBk&uact=5&oq=how+solar+panels+work&gs_lp=Egdnd3Mtd2l6IhVob3cgc29sYXIgcGFuZWxzIHdvcmsyBxAAGIAEGBMyBxAAGIAEGBMyBxAAGIAEGBMyBxAAGIAEGBMyBxAAGIAEGBMyBxAAGIAEGBMyBxAAGIAEGBMyBxAAGIAEGBMyBxAAGIAEGBMyBxAAGIAEGBNIrhFQX1ipEHABeACQAQCYAUKgAc8IqgECMjG4AQPIAQD4AQGYAhagArwJqAIKwgIKEAAYAxiPARjqAsICChAuGAMYjwEY6gLCAgsQABiABBixAxiDAcICDhAuGIAEGIoFGLEDGIMBwgIFEC4YgATCAg4QLhjHARixAxjRAxiABMICBRAAGIAEwgIOEC4YgAQYsQMYxwEY0QPCAggQLhiABBixA8ICCxAAGIAEGIoFGLEDwgILEC4YgAQYsQMYgwHCAggQABiABBixA5gDCvEF6-ufdel7h5SSBwIyMqAH760BsgcCMjG4B7IJwgcIMC41LjE2LjHIB1CACAE&sclient=gws-wiz",
+         "title": "google.com/search?q=how+solar+panels+work&sca_esv=906dd05171cbdcc8&source=hp&ei=5YULapO0HN6F4-EP1aj9yAs&iflsig=AFdpzrgAAAAAaguT9Z6US5o-N98gG8e-3jFnN92HRiYy&ved=0ahUKEwjTuuKe5cOUAxXewjgGHVVUH7kQ4dUDCBk&uact=5&oq=how+solar+panels+work&gs_lp=Egdnd3Mtd2l6IhVob3cgc29sYXIgcGFuZWxzIHdvcmsyBxAAGIAEGBMyBxAAGIAEGBMyBxAAGIAEGBMyBxAAGIAEGBMyBxAAGIAEGBMyBxAAGIAEGBMyBxAAGIAEGBMyBxAAGIAEGBMyBxAAGIAEGBMyBxAAGIAEGBNIrhFQX1ipEHABeACQAQCYAUKgAc8IqgECMjG4AQPIAQD4AQGYAhagArwJqAIKwgIKEAAYAxiPARjqAsICChAuGAMYjwEY6gLCAgsQABiABBixAxiDAcICDhAuGIAEGIoFGLEDGIMBwgIFEC4YgATCAg4QLhjHARixAxjRAxiABMICBRAAGIAEwgIOEC4YgAQYsQMYxwEY0QPCAggQLhiABBixA8ICCxAAGIAEGIoFGLEDwgILEC4YgAQYsQMYgwHCAggQABiABBixA5gDCvEF6-ufdel7h5SSBwIyMqAH760BsgcCMjG4B7IJwgcIMC41LjE2LjHIB1CACAE&sclient=gws-wiz",
+         "status": "loading",
+         "muted": false,
+         "filename_html": null
+      }
+   },
+   {
+      "session_id": "1779140068_45758554",
+      "timestamp": 1779140075578,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789316,
+         "window_id": 628789247,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.google.com/search?q=how+solar+panels+work&sca_esv=906dd05171cbdcc8&source=hp&ei=5YULapO0HN6F4-EP1aj9yAs&iflsig=AFdpzrgAAAAAaguT9Z6US5o-N98gG8e-3jFnN92HRiYy&ved=0ahUKEwjTuuKe5cOUAxXewjgGHVVUH7kQ4dUDCBk&uact=5&oq=how+solar+panels+work&gs_lp=Egdnd3Mtd2l6IhVob3cgc29sYXIgcGFuZWxzIHdvcmsyBxAAGIAEGBMyBxAAGIAEGBMyBxAAGIAEGBMyBxAAGIAEGBMyBxAAGIAEGBMyBxAAGIAEGBMyBxAAGIAEGBMyBxAAGIAEGBMyBxAAGIAEGBMyBxAAGIAEGBNIrhFQX1ipEHABeACQAQCYAUKgAc8IqgECMjG4AQPIAQD4AQGYAhagArwJqAIKwgIKEAAYAxiPARjqAsICChAuGAMYjwEY6gLCAgsQABiABBixAxiDAcICDhAuGIAEGIoFGLEDGIMBwgIFEC4YgATCAg4QLhjHARixAxjRAxiABMICBRAAGIAEwgIOEC4YgAQYsQMYxwEY0QPCAggQLhiABBixA8ICCxAAGIAEGIoFGLEDwgILEC4YgAQYsQMYgwHCAggQABiABBixA5gDCvEF6-ufdel7h5SSBwIyMqAH760BsgcCMjG4B7IJwgcIMC41LjE2LjHIB1CACAE&sclient=gws-wiz",
+         "title": "how solar panels work - Cerca con Google",
+         "status": "loading",
+         "muted": false,
+         "filename_html": null
+      }
+   },
+   {
+      "session_id": "1779140068_45758554",
+      "timestamp": 1779140075584,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789316,
+         "window_id": 628789247,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.google.com/search?q=how+solar+panels+work&sca_esv=906dd05171cbdcc8&source=hp&ei=5YULapO0HN6F4-EP1aj9yAs&iflsig=AFdpzrgAAAAAaguT9Z6US5o-N98gG8e-3jFnN92HRiYy&ved=0ahUKEwjTuuKe5cOUAxXewjgGHVVUH7kQ4dUDCBk&uact=5&oq=how+solar+panels+work&gs_lp=Egdnd3Mtd2l6IhVob3cgc29sYXIgcGFuZWxzIHdvcmsyBxAAGIAEGBMyBxAAGIAEGBMyBxAAGIAEGBMyBxAAGIAEGBMyBxAAGIAEGBMyBxAAGIAEGBMyBxAAGIAEGBMyBxAAGIAEGBMyBxAAGIAEGBMyBxAAGIAEGBNIrhFQX1ipEHABeACQAQCYAUKgAc8IqgECMjG4AQPIAQD4AQGYAhagArwJqAIKwgIKEAAYAxiPARjqAsICChAuGAMYjwEY6gLCAgsQABiABBixAxiDAcICDhAuGIAEGIoFGLEDGIMBwgIFEC4YgATCAg4QLhjHARixAxjRAxiABMICBRAAGIAEwgIOEC4YgAQYsQMYxwEY0QPCAggQLhiABBixA8ICCxAAGIAEGIoFGLEDwgILEC4YgAQYsQMYgwHCAggQABiABBixA5gDCvEF6-ufdel7h5SSBwIyMqAH760BsgcCMjG4B7IJwgcIMC41LjE2LjHIB1CACAE&sclient=gws-wiz",
+         "title": "how solar panels work - Cerca con Google",
+         "status": "loading",
+         "muted": false,
+         "filename_html": null
+      }
+   },
+   {
+      "session_id": "1779140068_45758554",
+      "timestamp": 1779140075982,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789316,
+         "window_id": 628789247,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.google.com/search?q=how+solar+panels+work&sca_esv=906dd05171cbdcc8&source=hp&ei=5YULapO0HN6F4-EP1aj9yAs&iflsig=AFdpzrgAAAAAaguT9Z6US5o-N98gG8e-3jFnN92HRiYy&ved=0ahUKEwjTuuKe5cOUAxXewjgGHVVUH7kQ4dUDCBk&uact=5&oq=how+solar+panels+work&gs_lp=Egdnd3Mtd2l6IhVob3cgc29sYXIgcGFuZWxzIHdvcmsyBxAAGIAEGBMyBxAAGIAEGBMyBxAAGIAEGBMyBxAAGIAEGBMyBxAAGIAEGBMyBxAAGIAEGBMyBxAAGIAEGBMyBxAAGIAEGBMyBxAAGIAEGBMyBxAAGIAEGBNIrhFQX1ipEHABeACQAQCYAUKgAc8IqgECMjG4AQPIAQD4AQGYAhagArwJqAIKwgIKEAAYAxiPARjqAsICChAuGAMYjwEY6gLCAgsQABiABBixAxiDAcICDhAuGIAEGIoFGLEDGIMBwgIFEC4YgATCAg4QLhjHARixAxjRAxiABMICBRAAGIAEwgIOEC4YgAQYsQMYxwEY0QPCAggQLhiABBixA8ICCxAAGIAEGIoFGLEDwgILEC4YgAQYsQMYgwHCAggQABiABBixA5gDCvEF6-ufdel7h5SSBwIyMqAH760BsgcCMjG4B7IJwgcIMC41LjE2LjHIB1CACAE&sclient=gws-wiz",
+         "title": "how solar panels work - Cerca con Google",
+         "status": "loading",
+         "muted": false,
+         "filename_html": null
+      }
+   },
+   {
+      "session_id": "1779140068_45758554",
+      "timestamp": 1779140076612,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789316,
+         "window_id": 628789247,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.google.com/search?q=how+solar+panels+work&sca_esv=906dd05171cbdcc8&source=hp&ei=5YULapO0HN6F4-EP1aj9yAs&iflsig=AFdpzrgAAAAAaguT9Z6US5o-N98gG8e-3jFnN92HRiYy&ved=0ahUKEwjTuuKe5cOUAxXewjgGHVVUH7kQ4dUDCBk&uact=5&oq=how+solar+panels+work&gs_lp=Egdnd3Mtd2l6IhVob3cgc29sYXIgcGFuZWxzIHdvcmsyBxAAGIAEGBMyBxAAGIAEGBMyBxAAGIAEGBMyBxAAGIAEGBMyBxAAGIAEGBMyBxAAGIAEGBMyBxAAGIAEGBMyBxAAGIAEGBMyBxAAGIAEGBMyBxAAGIAEGBNIrhFQX1ipEHABeACQAQCYAUKgAc8IqgECMjG4AQPIAQD4AQGYAhagArwJqAIKwgIKEAAYAxiPARjqAsICChAuGAMYjwEY6gLCAgsQABiABBixAxiDAcICDhAuGIAEGIoFGLEDGIMBwgIFEC4YgATCAg4QLhjHARixAxjRAxiABMICBRAAGIAEwgIOEC4YgAQYsQMYxwEY0QPCAggQLhiABBixA8ICCxAAGIAEGIoFGLEDwgILEC4YgAQYsQMYgwHCAggQABiABBixA5gDCvEF6-ufdel7h5SSBwIyMqAH760BsgcCMjG4B7IJwgcIMC41LjE2LjHIB1CACAE&sclient=gws-wiz",
+         "title": "how solar panels work - Cerca con Google",
+         "status": "complete",
+         "muted": false,
+         "filename_html": "1779140076526_2260076054.html"
+      }
+   },
+   {
+      "session_id": "1779140068_45758554",
+      "timestamp": 1779140079011,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789316,
+         "window_id": 628789247,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.reddit.com/r/explainlikeimfive/comments/13ycao0/eli5_how_the_hell_do_solar_panels_work/",
+         "title": "reddit.com/r/explainlikeimfive/comments/13ycao0/eli5_how_the_hell_do_solar_panels_work/",
+         "status": "loading",
+         "muted": false,
+         "filename_html": null
+      }
+   },
+   {
+      "session_id": "1779140068_45758554",
+      "timestamp": 1779140079024,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789316,
+         "window_id": 628789247,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.reddit.com/r/explainlikeimfive/comments/13ycao0/eli5_how_the_hell_do_solar_panels_work/",
+         "title": "Reddit - The heart of the internet",
+         "status": "loading",
+         "muted": false,
+         "filename_html": null
+      }
+   },
+   {
+      "session_id": "1779140068_45758554",
+      "timestamp": 1779140079243,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789316,
+         "window_id": 628789247,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.reddit.com/r/explainlikeimfive/comments/13ycao0/eli5_how_the_hell_do_solar_panels_work/",
+         "title": "Eli5, How the hell do solar panels work? : r/explainlikeimfive",
+         "status": "loading",
+         "muted": false,
+         "filename_html": null
+      }
+   },
+   {
+      "session_id": "1779140068_45758554",
+      "timestamp": 1779140080272,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789316,
+         "window_id": 628789247,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.reddit.com/r/explainlikeimfive/comments/13ycao0/eli5_how_the_hell_do_solar_panels_work/",
+         "title": "Eli5, How the hell do solar panels work? : r/explainlikeimfive",
+         "status": "complete",
+         "muted": false,
+         "filename_html": "1779140080203_2926002314.html"
+      }
+   },
+   {
+      "session_id": "1779140068_45758554",
+      "timestamp": 1779140105384,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789316,
+         "window_id": 628789247,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.reddit.com/search/?q=solar+panel+reverse+LED+analogy&cId=b4d5eba5-a083-4e72-9487-d47c4b747efe&iId=5838744e-7a9b-495d-809c-55acd22e4f83",
+         "title": "Eli5, How the hell do solar panels work? : r/explainlikeimfive",
+         "status": "loading",
+         "muted": false,
+         "filename_html": null
+      }
+   },
+   {
+      "session_id": "1779140068_45758554",
+      "timestamp": 1779140106418,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789316,
+         "window_id": 628789247,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.reddit.com/search/?q=solar+panel+reverse+LED+analogy&cId=b4d5eba5-a083-4e72-9487-d47c4b747efe&iId=5838744e-7a9b-495d-809c-55acd22e4f83",
+         "title": "solar panel reverse LED analogy - Reddit Search!",
+         "status": "loading",
+         "muted": false,
+         "filename_html": null
+      }
+   },
+   {
+      "session_id": "1779140068_45758554",
+      "timestamp": 1779140106570,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789316,
+         "window_id": 628789247,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.reddit.com/search/?q=solar+panel+reverse+LED+analogy&cId=b4d5eba5-a083-4e72-9487-d47c4b747efe&iId=5838744e-7a9b-495d-809c-55acd22e4f83",
+         "title": "solar panel reverse LED analogy - Reddit Search!",
+         "status": "complete",
+         "muted": false,
+         "filename_html": "1779140106464_3845090731.html"
+      }
+   }
+]

@@ -1,0 +1,21 @@
+[
+   {
+      "session_id": "1779140500_713a11b9",
+      "timestamp": 1779140502356,
+      "event": "window",
+      "action": "window_focus",
+      "window": {
+         "id": 628789247,
+         "type": "normal",
+         "width": 1522,
+         "height": 905,
+         "is_incognito": false
+      }
+   },
+   {
+      "session_id": "1779140500_713a11b9",
+      "timestamp": 1779140516381,
+      "event": "window",
+      "action": "window_focus_outside"
+   }
+]

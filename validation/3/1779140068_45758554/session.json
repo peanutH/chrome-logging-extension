@@ -1,0 +1,470 @@
+[
+   {
+      "session_id": "1779140068_45758554",
+      "timestamp": 1779140071309,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789316,
+         "window_id": 628789247,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.google.com/",
+         "title": "Google",
+         "status": "complete",
+         "muted": false,
+         "filename_html": "1779140071267_2956854772.html"
+      }
+   },
+   {
+      "session_id": "1779140068_45758554",
+      "timestamp": 1779140073245,
+      "event": "mouse",
+      "action": "mouse_click",
+      "screen_width": 1507,
+      "screen_height": 857,
+      "mouse": {
+         "x": 771,
+         "y": 354
+      },
+      "hovered_text": ""
+   },
+   {
+      "session_id": "1779140068_45758554",
+      "timestamp": 1779140073293,
+      "event": "mouse",
+      "action": "mouse_move",
+      "screen_width": 1507,
+      "screen_height": 857,
+      "mouse_from": {
+         "x": 893,
+         "y": 26
+      },
+      "mouse_to": {
+         "x": 771,
+         "y": 354
+      },
+      "hovered_text": ""
+   },
+   {
+      "session_id": "1779140068_45758554",
+      "timestamp": 1779140076570,
+      "event": "search",
+      "search_engine": "google",
+      "query": "how solar panels work",
+      "filename_html": "1779140076570_how solar panels work.html",
+      "filename_ranking": "1779140076570_how solar panels work.json"
+   },
+   {
+      "session_id": "1779140068_45758554",
+      "timestamp": 1779140076612,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789316,
+         "window_id": 628789247,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.google.com/search?q=how+solar+panels+work&sca_esv=906dd05171cbdcc8&source=hp&ei=5YULapO0HN6F4-EP1aj9yAs&iflsig=AFdpzrgAAAAAaguT9Z6US5o-N98gG8e-3jFnN92HRiYy&ved=0ahUKEwjTuuKe5cOUAxXewjgGHVVUH7kQ4dUDCBk&uact=5&oq=how+solar+panels+work&gs_lp=Egdnd3Mtd2l6IhVob3cgc29sYXIgcGFuZWxzIHdvcmsyBxAAGIAEGBMyBxAAGIAEGBMyBxAAGIAEGBMyBxAAGIAEGBMyBxAAGIAEGBMyBxAAGIAEGBMyBxAAGIAEGBMyBxAAGIAEGBMyBxAAGIAEGBMyBxAAGIAEGBNIrhFQX1ipEHABeACQAQCYAUKgAc8IqgECMjG4AQPIAQD4AQGYAhagArwJqAIKwgIKEAAYAxiPARjqAsICChAuGAMYjwEY6gLCAgsQABiABBixAxiDAcICDhAuGIAEGIoFGLEDGIMBwgIFEC4YgATCAg4QLhjHARixAxjRAxiABMICBRAAGIAEwgIOEC4YgAQYsQMYxwEY0QPCAggQLhiABBixA8ICCxAAGIAEGIoFGLEDwgILEC4YgAQYsQMYgwHCAggQABiABBixA5gDCvEF6-ufdel7h5SSBwIyMqAH760BsgcCMjG4B7IJwgcIMC41LjE2LjHIB1CACAE&sclient=gws-wiz",
+         "title": "how solar panels work - Cerca con Google",
+         "status": "complete",
+         "muted": false,
+         "filename_html": "1779140076526_2260076054.html"
+      }
+   },
+   {
+      "session_id": "1779140068_45758554",
+      "timestamp": 1779140077943,
+      "event": "mouse",
+      "action": "mouse_scroll",
+      "screen_width": 1507,
+      "screen_height": 3005,
+      "scroll_start": {
+         "x": 0,
+         "y": 136
+      },
+      "scroll_end": {
+         "x": 0,
+         "y": 1077.5
+      }
+   },
+   {
+      "session_id": "1779140068_45758554",
+      "timestamp": 1779140078597,
+      "event": "mouse",
+      "action": "mouse_move",
+      "screen_width": 1507,
+      "screen_height": 3005,
+      "mouse_from": {
+         "x": 769,
+         "y": 1436
+      },
+      "mouse_to": {
+         "x": 702,
+         "y": 1563
+      },
+      "hovered_text": "Eli5, How the hell do solar panels work? : r/explainlikeimfive"
+   },
+   {
+      "session_id": "1779140068_45758554",
+      "timestamp": 1779140078855,
+      "event": "mouse",
+      "action": "mouse_click",
+      "screen_width": 1507,
+      "screen_height": 3005,
+      "mouse": {
+         "x": 702,
+         "y": 1563
+      },
+      "hovered_text": "Eli5, How the hell do solar panels work? : r/explainlikeimfive"
+   },
+   {
+      "session_id": "1779140068_45758554",
+      "timestamp": 1779140080272,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789316,
+         "window_id": 628789247,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.reddit.com/r/explainlikeimfive/comments/13ycao0/eli5_how_the_hell_do_solar_panels_work/",
+         "title": "Eli5, How the hell do solar panels work? : r/explainlikeimfive",
+         "status": "complete",
+         "muted": false,
+         "filename_html": "1779140080203_2926002314.html"
+      }
+   },
+   {
+      "session_id": "1779140068_45758554",
+      "timestamp": 1779140083288,
+      "event": "mouse",
+      "action": "mouse_move",
+      "screen_width": 1507,
+      "screen_height": 4280,
+      "mouse_from": {
+         "x": 639,
+         "y": 500
+      },
+      "mouse_to": {
+         "x": 1219,
+         "y": 537
+      },
+      "hovered_text": "Can solar panels work at night"
+   },
+   {
+      "session_id": "1779140068_45758554",
+      "timestamp": 1779140084824,
+      "event": "mouse",
+      "action": "mouse_move",
+      "screen_width": 1507,
+      "screen_height": 4280,
+      "mouse_from": {
+         "x": 1219,
+         "y": 537
+      },
+      "mouse_to": {
+         "x": 629,
+         "y": 454
+      },
+      "hovered_text": "197"
+   },
+   {
+      "session_id": "1779140068_45758554",
+      "timestamp": 1779140085324,
+      "event": "mouse",
+      "action": "mouse_move",
+      "screen_width": 1507,
+      "screen_height": 4280,
+      "mouse_from": {
+         "x": 629,
+         "y": 454
+      },
+      "mouse_to": {
+         "x": 630,
+         "y": 455
+      },
+      "hovered_text": "KaptenNicco123\n\u2022\n3y ago\n\nA solar panel is basically just a reverse LED. An LED creates light by letting electrons flow from a high energy state to a low energy state (through a diode). This process can be reversed. If you strike an LED (or any diode) with a photon, an electron can travel from a low energy state to a high energy state and that energy can be collected by a battery.\n\n197\nGermaneRiposte101\n\u2022\n3y ago\n\nI like this explanation. Explains two things at once.\n\n45\n[deleted]\n\u2022\n3y ago\n[deleted]\n\u2022\n3y ago\nEngels33\n\u2022\n3y ago\n\nThis isn't an ELI5 answer tho.\n\nIt relies on understanding what an LED is and how it works as well as what a diode is which wouldn't even pass the man on the clapham omnibus test. Not least it assumes knowledge of photons, electrons and doesn't add depth to what you mean by a high energy state or low energy state.\n\n1\nMinyguy\n\u2022\n3y ago\n\nNo, he explains what an LED is. And you don't really need to know what a diode is.\n\n11\nKaptenNicco123\n\u2022\n3y ago\n\nIt was either \"assume he's seen an LED ever\" or \"make a 5 paragraph comment explaining electrons, electric circuits, diodes, LEDs, and energy states\".\n\n5\nwissahickon_schist\n\u2022\n3y ago\n\nI don\u2019t know what most of the words in your comment mean, but I understand the OC\u2019s explanation.\n\n5\nwissahickon_schist\n\u2022\n3y ago\n\nI don\u2019t know what most of the words in your comment mean, but I understand the OC\u2019s explanation.\n\n0\nTallOrange\n\u2022\n3y ago\n\nIs this the same thing going on with hard solar panels versus thinner, scroll-like solar strips I\u2019m seeing pop up around?\n\n1\nKaptenNicco123\n\u2022\n3y ago\n\nI don't know, but I don't see any reason why the standard process couldn't be made flexible. I'd assume that yes they are the same process, but I can't be sure.\n\n2\n1 more reply"
+   },
+   {
+      "session_id": "1779140068_45758554",
+      "timestamp": 1779140087723,
+      "event": "mouse",
+      "action": "mouse_move",
+      "screen_width": 1507,
+      "screen_height": 4280,
+      "mouse_from": {
+         "x": 630,
+         "y": 455
+      },
+      "mouse_to": {
+         "x": 619,
+         "y": 128
+      },
+      "hovered_text": "Eli5, How the hell do solar panels work?"
+   },
+   {
+      "session_id": "1779140068_45758554",
+      "timestamp": 1779140091952,
+      "event": "mouse",
+      "action": "mouse_move",
+      "screen_width": 1507,
+      "screen_height": 4280,
+      "mouse_from": {
+         "x": 619,
+         "y": 128
+      },
+      "mouse_to": {
+         "x": 380,
+         "y": 362
+      },
+      "hovered_text": "A solar panel is basically just a reverse LED. An LED creates light by letting electrons flow from a high energy state to a low energy state (through a diode). This process can be reversed. If you strike an LED (or any diode) with a photon, an electron can travel from a low energy state to a high energy state and that energy can be collected by a battery."
+   },
+   {
+      "session_id": "1779140068_45758554",
+      "timestamp": 1779140092285,
+      "event": "mouse",
+      "action": "mouse_move",
+      "screen_width": 1507,
+      "screen_height": 4280,
+      "mouse_from": {
+         "x": 380,
+         "y": 362
+      },
+      "mouse_to": {
+         "x": 384,
+         "y": 362
+      },
+      "hovered_text": "A solar panel is basically just a reverse LED. An LED creates light by letting electrons flow from a high energy state to a low energy state (through a diode). This process can be reversed. If you strike an LED (or any diode) with a photon, an electron can travel from a low energy state to a high energy state and that energy can be collected by a battery."
+   },
+   {
+      "session_id": "1779140068_45758554",
+      "timestamp": 1779140092835,
+      "event": "mouse",
+      "action": "mouse_move",
+      "screen_width": 1507,
+      "screen_height": 4280,
+      "mouse_from": {
+         "x": 384,
+         "y": 362
+      },
+      "mouse_to": {
+         "x": 389,
+         "y": 361
+      },
+      "hovered_text": "A solar panel is basically just a reverse LED. An LED creates light by letting electrons flow from a high energy state to a low energy state (through a diode). This process can be reversed. If you strike an LED (or any diode) with a photon, an electron can travel from a low energy state to a high energy state and that energy can be collected by a battery."
+   },
+   {
+      "session_id": "1779140068_45758554",
+      "timestamp": 1779140093999,
+      "event": "mouse",
+      "action": "text_select",
+      "text": "A solar panel is basically just a reverse LED"
+   },
+   {
+      "session_id": "1779140068_45758554",
+      "timestamp": 1779140094057,
+      "event": "mouse",
+      "action": "mouse_move",
+      "screen_width": 1507,
+      "screen_height": 4280,
+      "mouse_from": {
+         "x": 389,
+         "y": 361
+      },
+      "mouse_to": {
+         "x": 646,
+         "y": 370
+      },
+      "hovered_text": "A solar panel is basically just a reverse LED. An LED creates light by letting electrons flow from a high energy state to a low energy state (through a diode). This process can be reversed. If you strike an LED (or any diode) with a photon, an electron can travel from a low energy state to a high energy state and that energy can be collected by a battery."
+   },
+   {
+      "session_id": "1779140068_45758554",
+      "timestamp": 1779140094125,
+      "event": "mouse",
+      "action": "mouse_click",
+      "screen_width": 1507,
+      "screen_height": 4280,
+      "mouse": {
+         "x": 646,
+         "y": 370
+      },
+      "hovered_text": "A solar panel is basically just a reverse LED. An LED creates light by letting electrons flow from a high energy state to a low energy state (through a diode). This process can be reversed. If you strike an LED (or any diode) with a photon, an electron can travel from a low energy state to a high energy state and that energy can be collected by a battery."
+   },
+   {
+      "session_id": "1779140068_45758554",
+      "timestamp": 1779140097674,
+      "event": "mouse",
+      "action": "mouse_move",
+      "screen_width": 1507,
+      "screen_height": 4280,
+      "mouse_from": {
+         "x": 646,
+         "y": 370
+      },
+      "mouse_to": {
+         "x": 688,
+         "y": 471
+      },
+      "hovered_text": "GermaneRiposte101\n\u2022\n3y ago\n\nI like this explanation. Explains two things at once.\n\n45\n[deleted]\n\u2022\n3y ago"
+   },
+   {
+      "session_id": "1779140068_45758554",
+      "timestamp": 1779140098931,
+      "event": "mouse",
+      "action": "mouse_scroll",
+      "screen_width": 1507,
+      "screen_height": 4280,
+      "scroll_start": {
+         "x": 0,
+         "y": 45
+      },
+      "scroll_end": {
+         "x": 0,
+         "y": 1264.5
+      }
+   },
+   {
+      "session_id": "1779140068_45758554",
+      "timestamp": 1779140099829,
+      "event": "mouse",
+      "action": "mouse_move",
+      "screen_width": 1507,
+      "screen_height": 4280,
+      "mouse_from": {
+         "x": 688,
+         "y": 471
+      },
+      "mouse_to": {
+         "x": 883,
+         "y": 1707
+      },
+      "hovered_text": "[deleted]\n\u2022\n3y ago\n\nPhD in Physics here, and I'm confused.\n\n6\n5 more replies"
+   },
+   {
+      "session_id": "1779140068_45758554",
+      "timestamp": 1779140100060,
+      "event": "mouse",
+      "action": "mouse_click",
+      "screen_width": 1507,
+      "screen_height": 4280,
+      "mouse": {
+         "x": 883,
+         "y": 1707
+      },
+      "hovered_text": "[deleted]\n\u2022\n3y ago\n\nPhD in Physics here, and I'm confused.\n\n6\n5 more replies"
+   },
+   {
+      "session_id": "1779140068_45758554",
+      "timestamp": 1779140101729,
+      "event": "mouse",
+      "action": "mouse_move",
+      "screen_width": 1507,
+      "screen_height": 4280,
+      "mouse_from": {
+         "x": 883,
+         "y": 1707
+      },
+      "mouse_to": {
+         "x": 742,
+         "y": 1704
+      },
+      "hovered_text": "[deleted]\n\u2022\n3y ago\n\nPhD in Physics here, and I'm confused.\n\n6\n5 more replies"
+   },
+   {
+      "session_id": "1779140068_45758554",
+      "timestamp": 1779140103804,
+      "event": "mouse",
+      "action": "mouse_scroll",
+      "screen_width": 1507,
+      "screen_height": 4280,
+      "scroll_start": {
+         "x": 0,
+         "y": 1220.5
+      },
+      "scroll_end": {
+         "x": 0,
+         "y": 0
+      }
+   },
+   {
+      "session_id": "1779140068_45758554",
+      "timestamp": 1779140104288,
+      "event": "mouse",
+      "action": "mouse_scroll",
+      "screen_width": 1507,
+      "screen_height": 4280,
+      "scroll_start": {
+         "x": 0,
+         "y": 2
+      },
+      "scroll_end": {
+         "x": 0,
+         "y": 0
+      }
+   },
+   {
+      "session_id": "1779140068_45758554",
+      "timestamp": 1779140105088,
+      "event": "mouse",
+      "action": "mouse_move",
+      "screen_width": 1507,
+      "screen_height": 4280,
+      "mouse_from": {
+         "x": 742,
+         "y": 1704
+      },
+      "mouse_to": {
+         "x": 619,
+         "y": 360
+      },
+      "hovered_text": "reverse LED"
+   },
+   {
+      "session_id": "1779140068_45758554",
+      "timestamp": 1779140105380,
+      "event": "mouse",
+      "action": "mouse_click",
+      "screen_width": 1507,
+      "screen_height": 4280,
+      "mouse": {
+         "x": 619,
+         "y": 360
+      },
+      "hovered_text": "reverse LED"
+   },
+   {
+      "session_id": "1779140068_45758554",
+      "timestamp": 1779140106570,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789316,
+         "window_id": 628789247,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.reddit.com/search/?q=solar+panel+reverse+LED+analogy&cId=b4d5eba5-a083-4e72-9487-d47c4b747efe&iId=5838744e-7a9b-495d-809c-55acd22e4f83",
+         "title": "solar panel reverse LED analogy - Reddit Search!",
+         "status": "complete",
+         "muted": false,
+         "filename_html": "1779140106464_3845090731.html"
+      }
+   },
+   {
+      "session_id": "1779140068_45758554",
+      "timestamp": 1779140108771,
+      "event": "mouse",
+      "action": "mouse_move",
+      "screen_width": 1507,
+      "screen_height": 1570,
+      "mouse_from": {
+         "x": 619,
+         "y": 360
+      },
+      "mouse_to": {
+         "x": 1428,
+         "y": 1
+      },
+      "hovered_text": "Sign Up\nLog In\nExpand user menu"
+   }
+]

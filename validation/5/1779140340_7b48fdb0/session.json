@@ -1,0 +1,400 @@
+[
+   {
+      "session_id": "1779140340_7b48fdb0",
+      "timestamp": 1779140343067,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789320,
+         "window_id": 628789247,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.google.com/",
+         "title": "Google",
+         "status": "complete",
+         "muted": false,
+         "filename_html": "1779140343013_3144204237.html"
+      }
+   },
+   {
+      "session_id": "1779140340_7b48fdb0",
+      "timestamp": 1779140344968,
+      "event": "mouse",
+      "action": "mouse_click",
+      "screen_width": 1507,
+      "screen_height": 857,
+      "mouse": {
+         "x": 781,
+         "y": 374
+      },
+      "hovered_text": ""
+   },
+   {
+      "session_id": "1779140340_7b48fdb0",
+      "timestamp": 1779140345012,
+      "event": "mouse",
+      "action": "mouse_move",
+      "screen_width": 1507,
+      "screen_height": 857,
+      "mouse_from": {
+         "x": 862,
+         "y": 20
+      },
+      "mouse_to": {
+         "x": 781,
+         "y": 374
+      },
+      "hovered_text": ""
+   },
+   {
+      "session_id": "1779140340_7b48fdb0",
+      "timestamp": 1779140346660,
+      "event": "keyboard",
+      "action": "write",
+      "typed": "w"
+   },
+   {
+      "session_id": "1779140340_7b48fdb0",
+      "timestamp": 1779140346997,
+      "event": "mouse",
+      "action": "mouse_move",
+      "screen_width": 1507,
+      "screen_height": 845,
+      "mouse_from": {
+         "x": 781,
+         "y": 374
+      },
+      "mouse_to": {
+         "x": 774,
+         "y": 357
+      },
+      "hovered_text": ""
+   },
+   {
+      "session_id": "1779140340_7b48fdb0",
+      "timestamp": 1779140347061,
+      "event": "keyboard",
+      "action": "write",
+      "typed": "h"
+   },
+   {
+      "session_id": "1779140340_7b48fdb0",
+      "timestamp": 1779140347430,
+      "event": "keyboard",
+      "action": "write",
+      "typed": "y "
+   },
+   {
+      "session_id": "1779140340_7b48fdb0",
+      "timestamp": 1779140350861,
+      "event": "keyboard",
+      "action": "write",
+      "typed": "do leaves change color in aut"
+   },
+   {
+      "session_id": "1779140340_7b48fdb0",
+      "timestamp": 1779140351479,
+      "event": "keyboard",
+      "action": "write",
+      "typed": "umn"
+   },
+   {
+      "session_id": "1779140340_7b48fdb0",
+      "timestamp": 1779140352848,
+      "event": "search",
+      "search_engine": "google",
+      "query": "why do leaves change color in autumn",
+      "filename_html": "1779140352847_why do leaves change color in autumn.html",
+      "filename_ranking": "1779140352847_why do leaves change color in autumn.json"
+   },
+   {
+      "session_id": "1779140340_7b48fdb0",
+      "timestamp": 1779140352877,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789320,
+         "window_id": 628789247,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.google.com/search?q=why+do+leaves+change+color+in+autumn&sca_esv=906dd05171cbdcc8&source=hp&ei=9oYLat21F9GQ4-EP5IK04AM&iflsig=AFdpzrgAAAAAaguVBmhfLPm9W2eeK81ptuid6i4znl0A&ved=0ahUKEwjdiPSg5sOUAxVRyDgGHWQBDTwQ4dUDCBk&uact=5&oq=why+do+leaves+change+color+in+autumn&gs_lp=Egdnd3Mtd2l6IiR3aHkgZG8gbGVhdmVzIGNoYW5nZSBjb2xvciBpbiBhdXR1bW4yBxAAGIAEGBMyCBAAGBYYHhgTMggQABgWGB4YEzIIEAAYFhgeGBMyCBAAGBYYHhgTMgoQABgWGB4YExgKMggQABgWGB4YEzIIEAAYFhgeGBMyCBAAGBYYHhgTMggQABgWGB4YE0iRM1DAC1iTMXABeACQAQCYAWWgAZ4YqgEEMzUuMbgBA8gBAPgBAZgCJaACnBqoAgrCAgoQABgDGI8BGOoCwgIKEC4YAxiPARjqAsICERAuGIAEGLEDGIMBGMcBGNEDwgILEAAYgAQYsQMYgwHCAg4QLhiABBixAxjHARjRA8ICDhAAGIAEGIoFGLEDGIMBwgIIEC4YgAQYsQPCAggQABiABBixA8ICBRAuGIAEwgIFEAAYgATCAg4QLhiABBiKBRixAxiDAcICCxAuGK8BGMcBGIAEwgIGEAAYFhgewgIHEC4YExiABJgDEPEFDaFy-U4DZlOSBwQzMS42oAf0wQKyBwQzMC42uAeMGsIHBjItMzYuMcgHtgGACAE&sclient=gws-wiz",
+         "title": "why do leaves change color in autumn - Cerca con Google",
+         "status": "complete",
+         "muted": false,
+         "filename_html": "1779140352819_20230278.html"
+      }
+   },
+   {
+      "session_id": "1779140340_7b48fdb0",
+      "timestamp": 1779140353770,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789320,
+         "window_id": 628789247,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.google.com/search?q=why+do+leaves+change+color+in+autumn&sca_esv=906dd05171cbdcc8&source=hp&ei=9oYLat21F9GQ4-EP5IK04AM&iflsig=AFdpzrgAAAAAaguVBmhfLPm9W2eeK81ptuid6i4znl0A&ved=0ahUKEwjdiPSg5sOUAxVRyDgGHWQBDTwQ4dUDCBk&uact=5&oq=why+do+leaves+change+color+in+autumn&gs_lp=Egdnd3Mtd2l6IiR3aHkgZG8gbGVhdmVzIGNoYW5nZSBjb2xvciBpbiBhdXR1bW4yBxAAGIAEGBMyCBAAGBYYHhgTMggQABgWGB4YEzIIEAAYFhgeGBMyCBAAGBYYHhgTMgoQABgWGB4YExgKMggQABgWGB4YEzIIEAAYFhgeGBMyCBAAGBYYHhgTMggQABgWGB4YE0iRM1DAC1iTMXABeACQAQCYAWWgAZ4YqgEEMzUuMbgBA8gBAPgBAZgCJaACnBqoAgrCAgoQABgDGI8BGOoCwgIKEC4YAxiPARjqAsICERAuGIAEGLEDGIMBGMcBGNEDwgILEAAYgAQYsQMYgwHCAg4QLhiABBixAxjHARjRA8ICDhAAGIAEGIoFGLEDGIMBwgIIEC4YgAQYsQPCAggQABiABBixA8ICBRAuGIAEwgIFEAAYgATCAg4QLhiABBiKBRixAxiDAcICCxAuGK8BGMcBGIAEwgIGEAAYFhgewgIHEC4YExiABJgDEPEFDaFy-U4DZlOSBwQzMS42oAf0wQKyBwQzMC42uAeMGsIHBjItMzYuMcgHtgGACAE&sclient=gws-wiz",
+         "title": "why do leaves change color in autumn - Cerca con Google",
+         "status": "complete",
+         "muted": false,
+         "filename_html": "1779140352819_20230278.html"
+      }
+   },
+   {
+      "session_id": "1779140340_7b48fdb0",
+      "timestamp": 1779140353777,
+      "event": "search",
+      "search_engine": "google",
+      "query": "why do leaves change color in autumn",
+      "filename_html": "1779140352847_why do leaves change color in autumn.html",
+      "filename_ranking": "1779140352847_why do leaves change color in autumn.json"
+   },
+   {
+      "session_id": "1779140340_7b48fdb0",
+      "timestamp": 1779140357326,
+      "event": "mouse",
+      "action": "mouse_move",
+      "screen_width": 1507,
+      "screen_height": 3072,
+      "mouse_from": {
+         "x": 774,
+         "y": 356
+      },
+      "mouse_to": {
+         "x": 802,
+         "y": 287
+      },
+      "hovered_text": "Leaves change color in autumn because shorter days and cooler temperatures signal trees to stop producing chlorophyll, the pigment that drives photosynthesis. As this green pigment breaks down, other natural pigments\u2014like yellow and orange\u2014that were masked all summer are finally revealed, resulting in brilliant fall foliage.\u00a0\nSmithsonian Institution\n\u00a0+2"
+   },
+   {
+      "session_id": "1779140340_7b48fdb0",
+      "timestamp": 1779140359179,
+      "event": "mouse",
+      "action": "mouse_move",
+      "screen_width": 1507,
+      "screen_height": 3072,
+      "mouse_from": {
+         "x": 802,
+         "y": 287
+      },
+      "mouse_to": {
+         "x": 885,
+         "y": 304
+      },
+      "hovered_text": ""
+   },
+   {
+      "session_id": "1779140340_7b48fdb0",
+      "timestamp": 1779140360038,
+      "event": "mouse",
+      "action": "mouse_move",
+      "screen_width": 1507,
+      "screen_height": 3072,
+      "mouse_from": {
+         "x": 885,
+         "y": 304
+      },
+      "mouse_to": {
+         "x": 885,
+         "y": 303
+      },
+      "hovered_text": ""
+   },
+   {
+      "session_id": "1779140340_7b48fdb0",
+      "timestamp": 1779140361481,
+      "event": "mouse",
+      "action": "mouse_move",
+      "screen_width": 1507,
+      "screen_height": 3072,
+      "mouse_from": {
+         "x": 885,
+         "y": 303
+      },
+      "mouse_to": {
+         "x": 982,
+         "y": 235
+      },
+      "hovered_text": ""
+   },
+   {
+      "session_id": "1779140340_7b48fdb0",
+      "timestamp": 1779140361686,
+      "event": "mouse",
+      "action": "mouse_click",
+      "screen_width": 1507,
+      "screen_height": 3072,
+      "mouse": {
+         "x": 982,
+         "y": 235
+      },
+      "hovered_text": ""
+   },
+   {
+      "session_id": "1779140340_7b48fdb0",
+      "timestamp": 1779140361712,
+      "event": "tab",
+      "action": "tab_focus",
+      "tab": {
+         "id": 628789322,
+         "window_id": 628789247,
+         "index": 1,
+         "group_id": -1,
+         "url": "",
+         "title": "",
+         "status": "complete",
+         "muted": false,
+         "filename_html": null
+      }
+   },
+   {
+      "session_id": "1779140340_7b48fdb0",
+      "timestamp": 1779140363478,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789322,
+         "window_id": 628789247,
+         "index": 1,
+         "group_id": -1,
+         "url": "https://www.si.edu/stories/why-do-leaves-change-color-fall",
+         "title": "Why Do Leaves Change Color in the Fall? | Smithsonian Institution",
+         "status": "complete",
+         "muted": false,
+         "filename_html": "1779140363456_3945890133.html"
+      }
+   },
+   {
+      "session_id": "1779140340_7b48fdb0",
+      "timestamp": 1779140366399,
+      "event": "tab",
+      "action": "tab_focus",
+      "tab": {
+         "id": 628789320,
+         "window_id": 628789247,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.google.com/search?q=why+do+leaves+change+color+in+autumn&sca_esv=906dd05171cbdcc8&source=hp&ei=9oYLat21F9GQ4-EP5IK04AM&iflsig=AFdpzrgAAAAAaguVBmhfLPm9W2eeK81ptuid6i4znl0A&ved=0ahUKEwjdiPSg5sOUAxVRyDgGHWQBDTwQ4dUDCBk&uact=5&oq=why+do+leaves+change+color+in+autumn&gs_lp=Egdnd3Mtd2l6IiR3aHkgZG8gbGVhdmVzIGNoYW5nZSBjb2xvciBpbiBhdXR1bW4yBxAAGIAEGBMyCBAAGBYYHhgTMggQABgWGB4YEzIIEAAYFhgeGBMyCBAAGBYYHhgTMgoQABgWGB4YExgKMggQABgWGB4YEzIIEAAYFhgeGBMyCBAAGBYYHhgTMggQABgWGB4YE0iRM1DAC1iTMXABeACQAQCYAWWgAZ4YqgEEMzUuMbgBA8gBAPgBAZgCJaACnBqoAgrCAgoQABgDGI8BGOoCwgIKEC4YAxiPARjqAsICERAuGIAEGLEDGIMBGMcBGNEDwgILEAAYgAQYsQMYgwHCAg4QLhiABBixAxjHARjRA8ICDhAAGIAEGIoFGLEDGIMBwgIIEC4YgAQYsQPCAggQABiABBixA8ICBRAuGIAEwgIFEAAYgATCAg4QLhiABBiKBRixAxiDAcICCxAuGK8BGMcBGIAEwgIGEAAYFhgewgIHEC4YExiABJgDEPEFDaFy-U4DZlOSBwQzMS42oAf0wQKyBwQzMC42uAeMGsIHBjItMzYuMcgHtgGACAE&sclient=gws-wiz",
+         "title": "why do leaves change color in autumn - Cerca con Google",
+         "status": "complete",
+         "muted": false,
+         "filename_html": "1779140352819_20230278.html"
+      }
+   },
+   {
+      "session_id": "1779140340_7b48fdb0",
+      "timestamp": 1779140368828,
+      "event": "mouse",
+      "action": "mouse_move",
+      "screen_width": 1507,
+      "screen_height": 3072,
+      "mouse_from": {
+         "x": 982,
+         "y": 235
+      },
+      "mouse_to": {
+         "x": 814,
+         "y": 53
+      },
+      "hovered_text": ""
+   },
+   {
+      "session_id": "1779140340_7b48fdb0",
+      "timestamp": 1779140368909,
+      "event": "mouse",
+      "action": "mouse_click",
+      "screen_width": 1507,
+      "screen_height": 3072,
+      "mouse": {
+         "x": 814,
+         "y": 53
+      },
+      "hovered_text": ""
+   },
+   {
+      "session_id": "1779140340_7b48fdb0",
+      "timestamp": 1779140369294,
+      "event": "mouse",
+      "action": "text_select",
+      "text": "why do leaves change color in autumn"
+   },
+   {
+      "session_id": "1779140340_7b48fdb0",
+      "timestamp": 1779140370560,
+      "event": "keyboard",
+      "action": "write",
+      "typed": "how "
+   },
+   {
+      "session_id": "1779140340_7b48fdb0",
+      "timestamp": 1779140372262,
+      "event": "keyboard",
+      "action": "write",
+      "typed": "does p"
+   },
+   {
+      "session_id": "1779140340_7b48fdb0",
+      "timestamp": 1779140373420,
+      "event": "keyboard",
+      "action": "write",
+      "typed": "hotosy"
+   },
+   {
+      "session_id": "1779140340_7b48fdb0",
+      "timestamp": 1779140374852,
+      "event": "keyboard",
+      "action": "write",
+      "typed": "nthe"
+   },
+   {
+      "session_id": "1779140340_7b48fdb0",
+      "timestamp": 1779140376074,
+      "event": "keyboard",
+      "action": "write",
+      "typed": "sis work"
+   },
+   {
+      "session_id": "1779140340_7b48fdb0",
+      "timestamp": 1779140378188,
+      "event": "search",
+      "search_engine": "google",
+      "query": "how does photosynthesis work",
+      "filename_html": "1779140378188_how does photosynthesis work.html",
+      "filename_ranking": "1779140378188_how does photosynthesis work.json"
+   },
+   {
+      "session_id": "1779140340_7b48fdb0",
+      "timestamp": 1779140378266,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789320,
+         "window_id": 628789247,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.google.com/search?q=how+does+photosynthesis+work&sca_esv=906dd05171cbdcc8&ei=_4YLatexH6qG9u8P1N3b-Qk&biw=1522&bih=815&ved=0ahUKEwiXraGl5sOUAxUqg_0HHdTuNp8Q4dUDCBI&uact=5&oq=how+does+photosynthesis+work&gs_lp=Egxnd3Mtd2l6LXNlcnAiHGhvdyBkb2VzIHBob3Rvc3ludGhlc2lzIHdvcmsyBxAAGIAEGBMyBxAAGIAEGBMyBxAAGIAEGBMyBxAAGIAEGBMyBxAAGIAEGBMyBxAAGIAEGBMyBxAAGIAEGBMyBxAAGIAEGBMyBxAAGIAEGBMyBxAAGIAEGBNIljNQAFjOLnAAeAGQAQCYAXGgAbcSqgEEMjYuMrgBA8gBAPgBAZgCHKAC2xTCAgsQABiABBixAxiDAcICDhAuGIAEGIoFGLEDGIMBwgIFEC4YgATCAg4QLhjHARixAxjRAxiABMICBRAAGIAEwgIOEC4YgAQYsQMYxwEY0QPCAgoQABiABBiKBRhDwgIIEC4YgAQYsQPCAhAQLhiABBiKBRhDGMcBGNEDwgIKEC4YgAQYigUYQ8ICCxAAGIAEGIoFGLEDwgILEC4YgAQYsQMYgwHCAggQABiABBixA8ICFxAuGIAEGLEDGJcFGNwEGN4EGOAE2AEBwgIIEC4YsQMYgATCAhQQLhiABBiXBRjcBBjeBBjgBNgBAZgDALoGBggBEAEYFJIHBDIxLjegB92dArIHBDIxLje4B9sUwgcIMi0xOC45LjHIB-EBgAgB&sclient=gws-wiz-serp",
+         "title": "how does photosynthesis work - Cerca con Google",
+         "status": "complete",
+         "muted": false,
+         "filename_html": "1779140378134_2801183936.html"
+      }
+   },
+   {
+      "session_id": "1779140340_7b48fdb0",
+      "timestamp": 1779140380059,
+      "event": "mouse",
+      "action": "mouse_move",
+      "screen_width": 1507,
+      "screen_height": 3095,
+      "mouse_from": {
+         "x": 809,
+         "y": 55
+      },
+      "mouse_to": {
+         "x": 1452,
+         "y": 0
+      },
+      "hovered_text": ""
+   }
+]

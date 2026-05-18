@@ -1,0 +1,59 @@
+[
+   {
+      "session_id": "1779140068_45758554",
+      "timestamp": 1779140068997,
+      "event": "window",
+      "action": "window_focus",
+      "window": {
+         "id": 628789247,
+         "type": "normal",
+         "width": 1522,
+         "height": 905,
+         "is_incognito": false
+      }
+   },
+   {
+      "session_id": "1779140068_45758554",
+      "timestamp": 1779140071250,
+      "event": "window",
+      "action": "window_focus_outside"
+   },
+   {
+      "session_id": "1779140068_45758554",
+      "timestamp": 1779140108959,
+      "event": "window",
+      "action": "window_focus",
+      "window": {
+         "id": 628789247,
+         "type": "normal",
+         "width": 1522,
+         "height": 905,
+         "is_incognito": false
+      }
+   },
+   {
+      "session_id": "1779140068_45758554",
+      "timestamp": 1779140109909,
+      "event": "window",
+      "action": "window_focus_outside"
+   },
+   {
+      "session_id": "1779140068_45758554",
+      "timestamp": 1779140110128,
+      "event": "window",
+      "action": "window_focus",
+      "window": {
+         "id": 628789247,
+         "type": "normal",
+         "width": 1522,
+         "height": 905,
+         "is_incognito": false
+      }
+   },
+   {
+      "session_id": "1779140068_45758554",
+      "timestamp": 1779140110131,
+      "event": "window",
+      "action": "window_focus_outside"
+   }
+]

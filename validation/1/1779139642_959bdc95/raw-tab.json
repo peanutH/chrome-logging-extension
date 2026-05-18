@@ -1,0 +1,291 @@
+[
+   {
+      "session_id": "1779139642_959bdc95",
+      "timestamp": 1779139645695,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789304,
+         "window_id": 628789247,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.google.com/",
+         "title": "Google",
+         "status": "loading",
+         "muted": false,
+         "filename_html": null
+      }
+   },
+   {
+      "session_id": "1779139642_959bdc95",
+      "timestamp": 1779139645702,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789304,
+         "window_id": 628789247,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.google.com/",
+         "title": "Google",
+         "status": "loading",
+         "muted": false,
+         "filename_html": null
+      }
+   },
+   {
+      "session_id": "1779139642_959bdc95",
+      "timestamp": 1779139645768,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789304,
+         "window_id": 628789247,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.google.com/",
+         "title": "Google",
+         "status": "complete",
+         "muted": false,
+         "filename_html": "1779139645704_1850560019.html"
+      }
+   },
+   {
+      "session_id": "1779139642_959bdc95",
+      "timestamp": 1779139651024,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789304,
+         "window_id": 628789247,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.google.com/search?q=history+of+coffee&sca_esv=906dd05171cbdcc8&source=hp&ei=PIQLavLiHcKG9u8Pq4mnmQI&iflsig=AFdpzrgAAAAAaguSTFwV8jmm-2G9MnmWZJzcmOQF2ss5&ved=0ahUKEwjy8I_U48OUAxVCg_0HHavEKSMQ4dUDCBk&uact=5&oq=history+of+coffee&gs_lp=Egdnd3Mtd2l6IhFoaXN0b3J5IG9mIGNvZmZlZTIFEAAYgAQyBhAAGBYYHjIIEAAYFhgeGAoyBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yCBAAGBYYHhgKMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeSLcdUOICWPAZcAJ4AJABAJgBcKAB-QmqAQQxNy4xuAEDyAEA-AEBmAIUoAKNC6gCCsICChAAGAMYjwEY6gLCAgoQLhgDGI8BGOoCwgILEAAYgAQYsQMYgwHCAg4QLhiABBiKBRixAxiDAcICBRAuGIAEwgIOEC4YxwEYsQMY0QMYgATCAg4QLhiABBixAxjHARjRA8ICCBAuGIAEGLEDwgIIEAAYgAQYsQPCAgQQABgDwgILEC4YgAQYsQMYgwHCAgsQLhiABBjHARivAcICDhAAGIAEGIoFGLEDGIMBwgILEC4YrwEYxwEYgATCAgkQABiABBgNGBPCAgkQLhiABBgNGBOYAw_xBRoeExX1FNSPkgcEMTkuMaAHoNIBsgcEMTcuMbgH-ArCBwYyLTE5LjHIB26ACAE&sclient=gws-wiz",
+         "title": "google.com/search?q=history+of+coffee&sca_esv=906dd05171cbdcc8&source=hp&ei=PIQLavLiHcKG9u8Pq4mnmQI&iflsig=AFdpzrgAAAAAaguSTFwV8jmm-2G9MnmWZJzcmOQF2ss5&ved=0ahUKEwjy8I_U48OUAxVCg_0HHavEKSMQ4dUDCBk&uact=5&oq=history+of+coffee&gs_lp=Egdnd3Mtd2l6IhFoaXN0b3J5IG9mIGNvZmZlZTIFEAAYgAQyBhAAGBYYHjIIEAAYFhgeGAoyBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yCBAAGBYYHhgKMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeSLcdUOICWPAZcAJ4AJABAJgBcKAB-QmqAQQxNy4xuAEDyAEA-AEBmAIUoAKNC6gCCsICChAAGAMYjwEY6gLCAgoQLhgDGI8BGOoCwgILEAAYgAQYsQMYgwHCAg4QLhiABBiKBRixAxiDAcICBRAuGIAEwgIOEC4YxwEYsQMY0QMYgATCAg4QLhiABBixAxjHARjRA8ICCBAuGIAEGLEDwgIIEAAYgAQYsQPCAgQQABgDwgILEC4YgAQYsQMYgwHCAgsQLhiABBjHARivAcICDhAAGIAEGIoFGLEDGIMBwgILEC4YrwEYxwEYgATCAgkQABiABBgNGBPCAgkQLhiABBgNGBOYAw_xBRoeExX1FNSPkgcEMTkuMaAHoNIBsgcEMTcuMbgH-ArCBwYyLTE5LjHIB26ACAE&sclient=gws-wiz",
+         "status": "loading",
+         "muted": false,
+         "filename_html": null
+      }
+   },
+   {
+      "session_id": "1779139642_959bdc95",
+      "timestamp": 1779139651057,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789304,
+         "window_id": 628789247,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.google.com/search?q=history+of+coffee&sca_esv=906dd05171cbdcc8&source=hp&ei=PIQLavLiHcKG9u8Pq4mnmQI&iflsig=AFdpzrgAAAAAaguSTFwV8jmm-2G9MnmWZJzcmOQF2ss5&ved=0ahUKEwjy8I_U48OUAxVCg_0HHavEKSMQ4dUDCBk&uact=5&oq=history+of+coffee&gs_lp=Egdnd3Mtd2l6IhFoaXN0b3J5IG9mIGNvZmZlZTIFEAAYgAQyBhAAGBYYHjIIEAAYFhgeGAoyBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yCBAAGBYYHhgKMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeSLcdUOICWPAZcAJ4AJABAJgBcKAB-QmqAQQxNy4xuAEDyAEA-AEBmAIUoAKNC6gCCsICChAAGAMYjwEY6gLCAgoQLhgDGI8BGOoCwgILEAAYgAQYsQMYgwHCAg4QLhiABBiKBRixAxiDAcICBRAuGIAEwgIOEC4YxwEYsQMY0QMYgATCAg4QLhiABBixAxjHARjRA8ICCBAuGIAEGLEDwgIIEAAYgAQYsQPCAgQQABgDwgILEC4YgAQYsQMYgwHCAgsQLhiABBjHARivAcICDhAAGIAEGIoFGLEDGIMBwgILEC4YrwEYxwEYgATCAgkQABiABBgNGBPCAgkQLhiABBgNGBOYAw_xBRoeExX1FNSPkgcEMTkuMaAHoNIBsgcEMTcuMbgH-ArCBwYyLTE5LjHIB26ACAE&sclient=gws-wiz",
+         "title": "history of coffee - Cerca con Google",
+         "status": "loading",
+         "muted": false,
+         "filename_html": null
+      }
+   },
+   {
+      "session_id": "1779139642_959bdc95",
+      "timestamp": 1779139651061,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789304,
+         "window_id": 628789247,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.google.com/search?q=history+of+coffee&sca_esv=906dd05171cbdcc8&source=hp&ei=PIQLavLiHcKG9u8Pq4mnmQI&iflsig=AFdpzrgAAAAAaguSTFwV8jmm-2G9MnmWZJzcmOQF2ss5&ved=0ahUKEwjy8I_U48OUAxVCg_0HHavEKSMQ4dUDCBk&uact=5&oq=history+of+coffee&gs_lp=Egdnd3Mtd2l6IhFoaXN0b3J5IG9mIGNvZmZlZTIFEAAYgAQyBhAAGBYYHjIIEAAYFhgeGAoyBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yCBAAGBYYHhgKMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeSLcdUOICWPAZcAJ4AJABAJgBcKAB-QmqAQQxNy4xuAEDyAEA-AEBmAIUoAKNC6gCCsICChAAGAMYjwEY6gLCAgoQLhgDGI8BGOoCwgILEAAYgAQYsQMYgwHCAg4QLhiABBiKBRixAxiDAcICBRAuGIAEwgIOEC4YxwEYsQMY0QMYgATCAg4QLhiABBixAxjHARjRA8ICCBAuGIAEGLEDwgIIEAAYgAQYsQPCAgQQABgDwgILEC4YgAQYsQMYgwHCAgsQLhiABBjHARivAcICDhAAGIAEGIoFGLEDGIMBwgILEC4YrwEYxwEYgATCAgkQABiABBgNGBPCAgkQLhiABBgNGBOYAw_xBRoeExX1FNSPkgcEMTkuMaAHoNIBsgcEMTcuMbgH-ArCBwYyLTE5LjHIB26ACAE&sclient=gws-wiz",
+         "title": "history of coffee - Cerca con Google",
+         "status": "loading",
+         "muted": false,
+         "filename_html": null
+      }
+   },
+   {
+      "session_id": "1779139642_959bdc95",
+      "timestamp": 1779139651692,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789304,
+         "window_id": 628789247,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.google.com/search?q=history+of+coffee&sca_esv=906dd05171cbdcc8&source=hp&ei=PIQLavLiHcKG9u8Pq4mnmQI&iflsig=AFdpzrgAAAAAaguSTFwV8jmm-2G9MnmWZJzcmOQF2ss5&ved=0ahUKEwjy8I_U48OUAxVCg_0HHavEKSMQ4dUDCBk&uact=5&oq=history+of+coffee&gs_lp=Egdnd3Mtd2l6IhFoaXN0b3J5IG9mIGNvZmZlZTIFEAAYgAQyBhAAGBYYHjIIEAAYFhgeGAoyBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yCBAAGBYYHhgKMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeSLcdUOICWPAZcAJ4AJABAJgBcKAB-QmqAQQxNy4xuAEDyAEA-AEBmAIUoAKNC6gCCsICChAAGAMYjwEY6gLCAgoQLhgDGI8BGOoCwgILEAAYgAQYsQMYgwHCAg4QLhiABBiKBRixAxiDAcICBRAuGIAEwgIOEC4YxwEYsQMY0QMYgATCAg4QLhiABBixAxjHARjRA8ICCBAuGIAEGLEDwgIIEAAYgAQYsQPCAgQQABgDwgILEC4YgAQYsQMYgwHCAgsQLhiABBjHARivAcICDhAAGIAEGIoFGLEDGIMBwgILEC4YrwEYxwEYgATCAgkQABiABBgNGBPCAgkQLhiABBgNGBOYAw_xBRoeExX1FNSPkgcEMTkuMaAHoNIBsgcEMTcuMbgH-ArCBwYyLTE5LjHIB26ACAE&sclient=gws-wiz",
+         "title": "history of coffee - Cerca con Google",
+         "status": "loading",
+         "muted": false,
+         "filename_html": null
+      }
+   },
+   {
+      "session_id": "1779139642_959bdc95",
+      "timestamp": 1779139652667,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789304,
+         "window_id": 628789247,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.google.com/search?q=history+of+coffee&sca_esv=906dd05171cbdcc8&source=hp&ei=PIQLavLiHcKG9u8Pq4mnmQI&iflsig=AFdpzrgAAAAAaguSTFwV8jmm-2G9MnmWZJzcmOQF2ss5&ved=0ahUKEwjy8I_U48OUAxVCg_0HHavEKSMQ4dUDCBk&uact=5&oq=history+of+coffee&gs_lp=Egdnd3Mtd2l6IhFoaXN0b3J5IG9mIGNvZmZlZTIFEAAYgAQyBhAAGBYYHjIIEAAYFhgeGAoyBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yCBAAGBYYHhgKMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeSLcdUOICWPAZcAJ4AJABAJgBcKAB-QmqAQQxNy4xuAEDyAEA-AEBmAIUoAKNC6gCCsICChAAGAMYjwEY6gLCAgoQLhgDGI8BGOoCwgILEAAYgAQYsQMYgwHCAg4QLhiABBiKBRixAxiDAcICBRAuGIAEwgIOEC4YxwEYsQMY0QMYgATCAg4QLhiABBixAxjHARjRA8ICCBAuGIAEGLEDwgIIEAAYgAQYsQPCAgQQABgDwgILEC4YgAQYsQMYgwHCAgsQLhiABBjHARivAcICDhAAGIAEGIoFGLEDGIMBwgILEC4YrwEYxwEYgATCAgkQABiABBgNGBPCAgkQLhiABBgNGBOYAw_xBRoeExX1FNSPkgcEMTkuMaAHoNIBsgcEMTcuMbgH-ArCBwYyLTE5LjHIB26ACAE&sclient=gws-wiz",
+         "title": "history of coffee - Cerca con Google",
+         "status": "complete",
+         "muted": false,
+         "filename_html": "1779139652563_3494608224.html"
+      }
+   },
+   {
+      "session_id": "1779139642_959bdc95",
+      "timestamp": 1779139654236,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789304,
+         "window_id": 628789247,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.google.com/search?q=history+of+coffee&sca_esv=906dd05171cbdcc8&source=hp&ei=PIQLavLiHcKG9u8Pq4mnmQI&iflsig=AFdpzrgAAAAAaguSTFwV8jmm-2G9MnmWZJzcmOQF2ss5&ved=0ahUKEwjy8I_U48OUAxVCg_0HHavEKSMQ4dUDCBk&uact=5&oq=history+of+coffee&gs_lp=Egdnd3Mtd2l6IhFoaXN0b3J5IG9mIGNvZmZlZTIFEAAYgAQyBhAAGBYYHjIIEAAYFhgeGAoyBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yCBAAGBYYHhgKMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeSLcdUOICWPAZcAJ4AJABAJgBcKAB-QmqAQQxNy4xuAEDyAEA-AEBmAIUoAKNC6gCCsICChAAGAMYjwEY6gLCAgoQLhgDGI8BGOoCwgILEAAYgAQYsQMYgwHCAg4QLhiABBiKBRixAxiDAcICBRAuGIAEwgIOEC4YxwEYsQMY0QMYgATCAg4QLhiABBixAxjHARjRA8ICCBAuGIAEGLEDwgIIEAAYgAQYsQPCAgQQABgDwgILEC4YgAQYsQMYgwHCAgsQLhiABBjHARivAcICDhAAGIAEGIoFGLEDGIMBwgILEC4YrwEYxwEYgATCAgkQABiABBgNGBPCAgkQLhiABBgNGBOYAw_xBRoeExX1FNSPkgcEMTkuMaAHoNIBsgcEMTcuMbgH-ArCBwYyLTE5LjHIB26ACAE&sclient=gws-wiz",
+         "title": "history of coffee - Cerca con Google",
+         "status": "loading",
+         "muted": false,
+         "filename_html": null
+      }
+   },
+   {
+      "session_id": "1779139642_959bdc95",
+      "timestamp": 1779139654238,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789304,
+         "window_id": 628789247,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.google.com/search?q=history+of+coffee&sca_esv=906dd05171cbdcc8&source=hp&ei=PIQLavLiHcKG9u8Pq4mnmQI&iflsig=AFdpzrgAAAAAaguSTFwV8jmm-2G9MnmWZJzcmOQF2ss5&ved=0ahUKEwjy8I_U48OUAxVCg_0HHavEKSMQ4dUDCBk&uact=5&oq=history+of+coffee&gs_lp=Egdnd3Mtd2l6IhFoaXN0b3J5IG9mIGNvZmZlZTIFEAAYgAQyBhAAGBYYHjIIEAAYFhgeGAoyBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yCBAAGBYYHhgKMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeSLcdUOICWPAZcAJ4AJABAJgBcKAB-QmqAQQxNy4xuAEDyAEA-AEBmAIUoAKNC6gCCsICChAAGAMYjwEY6gLCAgoQLhgDGI8BGOoCwgILEAAYgAQYsQMYgwHCAg4QLhiABBiKBRixAxiDAcICBRAuGIAEwgIOEC4YxwEYsQMY0QMYgATCAg4QLhiABBixAxjHARjRA8ICCBAuGIAEGLEDwgIIEAAYgAQYsQPCAgQQABgDwgILEC4YgAQYsQMYgwHCAgsQLhiABBjHARivAcICDhAAGIAEGIoFGLEDGIMBwgILEC4YrwEYxwEYgATCAgkQABiABBgNGBPCAgkQLhiABBgNGBOYAw_xBRoeExX1FNSPkgcEMTkuMaAHoNIBsgcEMTcuMbgH-ArCBwYyLTE5LjHIB26ACAE&sclient=gws-wiz",
+         "title": "history of coffee - Cerca con Google",
+         "status": "complete",
+         "muted": false,
+         "filename_html": "1779139652563_3494608224.html"
+      }
+   },
+   {
+      "session_id": "1779139642_959bdc95",
+      "timestamp": 1779139658798,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789304,
+         "window_id": 628789247,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.aboutcoffee.org/origins/history-of-coffee/",
+         "title": "aboutcoffee.org/origins/history-of-coffee/",
+         "status": "loading",
+         "muted": false,
+         "filename_html": null
+      }
+   },
+   {
+      "session_id": "1779139642_959bdc95",
+      "timestamp": 1779139658823,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789304,
+         "window_id": 628789247,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.aboutcoffee.org/origins/history-of-coffee/",
+         "title": "History of coffee - NCA - About Coffee",
+         "status": "loading",
+         "muted": false,
+         "filename_html": null
+      }
+   },
+   {
+      "session_id": "1779139642_959bdc95",
+      "timestamp": 1779139659234,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789304,
+         "window_id": 628789247,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.aboutcoffee.org/origins/history-of-coffee/",
+         "title": "History of coffee - NCA - About Coffee",
+         "status": "complete",
+         "muted": false,
+         "filename_html": "1779139659188_1434468440.html"
+      }
+   },
+   {
+      "session_id": "1779139642_959bdc95",
+      "timestamp": 1779139675193,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789304,
+         "window_id": 628789247,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.google.com/search?q=history+of+coffee&sca_esv=906dd05171cbdcc8&source=hp&ei=PIQLavLiHcKG9u8Pq4mnmQI&iflsig=AFdpzrgAAAAAaguSTFwV8jmm-2G9MnmWZJzcmOQF2ss5&ved=0ahUKEwjy8I_U48OUAxVCg_0HHavEKSMQ4dUDCBk&uact=5&oq=history+of+coffee&gs_lp=Egdnd3Mtd2l6IhFoaXN0b3J5IG9mIGNvZmZlZTIFEAAYgAQyBhAAGBYYHjIIEAAYFhgeGAoyBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yCBAAGBYYHhgKMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeSLcdUOICWPAZcAJ4AJABAJgBcKAB-QmqAQQxNy4xuAEDyAEA-AEBmAIUoAKNC6gCCsICChAAGAMYjwEY6gLCAgoQLhgDGI8BGOoCwgILEAAYgAQYsQMYgwHCAg4QLhiABBiKBRixAxiDAcICBRAuGIAEwgIOEC4YxwEYsQMY0QMYgATCAg4QLhiABBixAxjHARjRA8ICCBAuGIAEGLEDwgIIEAAYgAQYsQPCAgQQABgDwgILEC4YgAQYsQMYgwHCAgsQLhiABBjHARivAcICDhAAGIAEGIoFGLEDGIMBwgILEC4YrwEYxwEYgATCAgkQABiABBgNGBPCAgkQLhiABBgNGBOYAw_xBRoeExX1FNSPkgcEMTkuMaAHoNIBsgcEMTcuMbgH-ArCBwYyLTE5LjHIB26ACAE&sclient=gws-wiz",
+         "title": "history of coffee - Cerca con Google",
+         "status": "loading",
+         "muted": false,
+         "filename_html": null
+      }
+   },
+   {
+      "session_id": "1779139642_959bdc95",
+      "timestamp": 1779139675207,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789304,
+         "window_id": 628789247,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.google.com/search?q=history+of+coffee&sca_esv=906dd05171cbdcc8&source=hp&ei=PIQLavLiHcKG9u8Pq4mnmQI&iflsig=AFdpzrgAAAAAaguSTFwV8jmm-2G9MnmWZJzcmOQF2ss5&ved=0ahUKEwjy8I_U48OUAxVCg_0HHavEKSMQ4dUDCBk&uact=5&oq=history+of+coffee&gs_lp=Egdnd3Mtd2l6IhFoaXN0b3J5IG9mIGNvZmZlZTIFEAAYgAQyBhAAGBYYHjIIEAAYFhgeGAoyBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yCBAAGBYYHhgKMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeSLcdUOICWPAZcAJ4AJABAJgBcKAB-QmqAQQxNy4xuAEDyAEA-AEBmAIUoAKNC6gCCsICChAAGAMYjwEY6gLCAgoQLhgDGI8BGOoCwgILEAAYgAQYsQMYgwHCAg4QLhiABBiKBRixAxiDAcICBRAuGIAEwgIOEC4YxwEYsQMY0QMYgATCAg4QLhiABBixAxjHARjRA8ICCBAuGIAEGLEDwgIIEAAYgAQYsQPCAgQQABgDwgILEC4YgAQYsQMYgwHCAgsQLhiABBjHARivAcICDhAAGIAEGIoFGLEDGIMBwgILEC4YrwEYxwEYgATCAgkQABiABBgNGBPCAgkQLhiABBgNGBOYAw_xBRoeExX1FNSPkgcEMTkuMaAHoNIBsgcEMTcuMbgH-ArCBwYyLTE5LjHIB26ACAE&sclient=gws-wiz",
+         "title": "history of coffee - Cerca con Google",
+         "status": "complete",
+         "muted": false,
+         "filename_html": "1779139652563_3494608224.html"
+      }
+   },
+   {
+      "session_id": "1779139642_959bdc95",
+      "timestamp": 1779139675211,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789304,
+         "window_id": 628789247,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.google.com/search?q=history+of+coffee&sca_esv=906dd05171cbdcc8&source=hp&ei=PIQLavLiHcKG9u8Pq4mnmQI&iflsig=AFdpzrgAAAAAaguSTFwV8jmm-2G9MnmWZJzcmOQF2ss5&ved=0ahUKEwjy8I_U48OUAxVCg_0HHavEKSMQ4dUDCBk&uact=5&oq=history+of+coffee&gs_lp=Egdnd3Mtd2l6IhFoaXN0b3J5IG9mIGNvZmZlZTIFEAAYgAQyBhAAGBYYHjIIEAAYFhgeGAoyBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yCBAAGBYYHhgKMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeSLcdUOICWPAZcAJ4AJABAJgBcKAB-QmqAQQxNy4xuAEDyAEA-AEBmAIUoAKNC6gCCsICChAAGAMYjwEY6gLCAgoQLhgDGI8BGOoCwgILEAAYgAQYsQMYgwHCAg4QLhiABBiKBRixAxiDAcICBRAuGIAEwgIOEC4YxwEYsQMY0QMYgATCAg4QLhiABBixAxjHARjRA8ICCBAuGIAEGLEDwgIIEAAYgAQYsQPCAgQQABgDwgILEC4YgAQYsQMYgwHCAgsQLhiABBjHARivAcICDhAAGIAEGIoFGLEDGIMBwgILEC4YrwEYxwEYgATCAgkQABiABBgNGBPCAgkQLhiABBgNGBOYAw_xBRoeExX1FNSPkgcEMTkuMaAHoNIBsgcEMTcuMbgH-ArCBwYyLTE5LjHIB26ACAE&sclient=gws-wiz",
+         "title": "history of coffee - Cerca con Google",
+         "status": "complete",
+         "muted": false,
+         "filename_html": null
+      }
+   },
+   {
+      "session_id": "1779139642_959bdc95",
+      "timestamp": 1779139675223,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789304,
+         "window_id": 628789247,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.google.com/search?q=history+of+coffee&sca_esv=906dd05171cbdcc8&source=hp&ei=PIQLavLiHcKG9u8Pq4mnmQI&iflsig=AFdpzrgAAAAAaguSTFwV8jmm-2G9MnmWZJzcmOQF2ss5&ved=0ahUKEwjy8I_U48OUAxVCg_0HHavEKSMQ4dUDCBk&uact=5&oq=history+of+coffee&gs_lp=Egdnd3Mtd2l6IhFoaXN0b3J5IG9mIGNvZmZlZTIFEAAYgAQyBhAAGBYYHjIIEAAYFhgeGAoyBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yCBAAGBYYHhgKMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeSLcdUOICWPAZcAJ4AJABAJgBcKAB-QmqAQQxNy4xuAEDyAEA-AEBmAIUoAKNC6gCCsICChAAGAMYjwEY6gLCAgoQLhgDGI8BGOoCwgILEAAYgAQYsQMYgwHCAg4QLhiABBiKBRixAxiDAcICBRAuGIAEwgIOEC4YxwEYsQMY0QMYgATCAg4QLhiABBixAxjHARjRA8ICCBAuGIAEGLEDwgIIEAAYgAQYsQPCAgQQABgDwgILEC4YgAQYsQMYgwHCAgsQLhiABBjHARivAcICDhAAGIAEGIoFGLEDGIMBwgILEC4YrwEYxwEYgATCAgkQABiABBgNGBPCAgkQLhiABBgNGBOYAw_xBRoeExX1FNSPkgcEMTkuMaAHoNIBsgcEMTcuMbgH-ArCBwYyLTE5LjHIB26ACAE&sclient=gws-wiz",
+         "title": "history of coffee - Cerca con Google",
+         "status": "complete",
+         "muted": false,
+         "filename_html": null
+      }
+   }
+]

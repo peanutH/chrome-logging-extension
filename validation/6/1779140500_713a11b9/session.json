@@ -1,0 +1,199 @@
+[
+   {
+      "session_id": "1779140500_713a11b9",
+      "timestamp": 1779140500837,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789326,
+         "window_id": 628789247,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.google.com/search?q=weather+tomorrow&oq=wea&gs_lcrp=EgZjaHJvbWUqDggAEEUYOxhDGIAEGIoFMg4IABBFGDsYQxiABBiKBTISCAEQABhDGIMBGLEDGIAEGIoFMgoIAhAuGLEDGIAEMgYIAxBFGDkyDQgEEAAYgwEYsQMYgAQyCggFEAAYsQMYgAQyDwgGEAAYQxjJAxiABBiKBTIGCAcQRRg80gEIMTUyOWowajeoAgiwAgHxBej9rcXZiavp&sourceid=chrome&ie=UTF-8&source=chrome.ob",
+         "title": "weather tomorrow - Cerca con Google",
+         "status": "complete",
+         "muted": false,
+         "filename_html": "1779140500763_4187659897.html"
+      }
+   },
+   {
+      "session_id": "1779140500_713a11b9",
+      "timestamp": 1779140500860,
+      "event": "search",
+      "search_engine": "google",
+      "query": "weather tomorrow",
+      "filename_html": "1779140500860_weather tomorrow.html",
+      "filename_ranking": "1779140500860_weather tomorrow.json"
+   },
+   {
+      "session_id": "1779140500_713a11b9",
+      "timestamp": 1779140502204,
+      "event": "mouse",
+      "action": "mouse_move",
+      "screen_width": 1507,
+      "screen_height": 2596,
+      "mouse_from": {
+         "x": 1056,
+         "y": 141
+      },
+      "mouse_to": {
+         "x": 804,
+         "y": 44
+      },
+      "hovered_text": ""
+   },
+   {
+      "session_id": "1779140500_713a11b9",
+      "timestamp": 1779140502563,
+      "event": "mouse",
+      "action": "mouse_click",
+      "screen_width": 1507,
+      "screen_height": 2596,
+      "mouse": {
+         "x": 804,
+         "y": 44
+      },
+      "hovered_text": ""
+   },
+   {
+      "session_id": "1779140500_713a11b9",
+      "timestamp": 1779140504139,
+      "event": "mouse",
+      "action": "text_select",
+      "text": "weather tomorrow"
+   },
+   {
+      "session_id": "1779140500_713a11b9",
+      "timestamp": 1779140506856,
+      "event": "search",
+      "search_engine": "google",
+      "query": "test login page",
+      "filename_html": "1779140506855_test login page.html",
+      "filename_ranking": "1779140506855_test login page.json"
+   },
+   {
+      "session_id": "1779140500_713a11b9",
+      "timestamp": 1779140506867,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789326,
+         "window_id": 628789247,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.google.com/search?q=test+login+page&sca_esv=906dd05171cbdcc8&ei=kIcLasr2FviP9u8P4O2JqA8&biw=1522&bih=815&ved=0ahUKEwjK_qrq5sOUAxX4h_0HHeB2AvUQ4dUDCBI&uact=5&oq=test+login+page&gs_lp=Egxnd3Mtd2l6LXNlcnAiD3Rlc3QgbG9naW4gcGFnZTIHEAAYgAQYEzIHEAAYgAQYEzIHEAAYgAQYEzIIEAAYFhgeGBMyCBAAGBYYHhgTMggQABgWGB4YEzIIEAAYFhgeGBMyChAAGBYYHhgTGAoyCBAAGBYYHhgTMggQABgWGB4YE0inHFDsDljTG3ABeAGQAQSYAekBoAHlEKoBBTQuNy40uAEDyAEA-AEBmAIMoALvC8ICChAAGEcY1gQYsAPCAg0QABiABBiKBRhDGLADwgIKEAAYgAQYigUYQ8ICCxAAGIAEGLEDGIMBwgIOEC4YgAQYsQMYxwEY0QPCAgsQLhiABBjHARjRA8ICFhAuGIAEGIoFGEMYsQMYgwEYxwEY0QPCAgUQABiABMICEBAuGIAEGIoFGEMYxwEY0QPCAhMQLhiABBiKBRhDGLEDGMcBGNEDwgIQEC4YQxjHARjRAxiABBiKBcICEBAAGIAEGIoFGEMYsQMYgwHCAgUQLhiABMICHxAuGEMYxwEY0QMYgAQYigUYlwUY3AQY3gQY4ATYAQHCAgYQABgWGB7CAggQABgWGB4YCpgDAIgGAZAGCroGBggBEAEYFJIHBTUuNS4yoAejZLIHBTQuNS4yuAfjC8IHBzItOC4zLjHIB2aACAE&sclient=gws-wiz-serp",
+         "title": "test login page - Cerca con Google",
+         "status": "complete",
+         "muted": false,
+         "filename_html": "1779140506843_3718704771.html"
+      }
+   },
+   {
+      "session_id": "1779140500_713a11b9",
+      "timestamp": 1779140507959,
+      "event": "mouse",
+      "action": "mouse_move",
+      "screen_width": 1507,
+      "screen_height": 2146,
+      "mouse_from": {
+         "x": 799,
+         "y": 48
+      },
+      "mouse_to": {
+         "x": 274,
+         "y": 280
+      },
+      "hovered_text": "Test Login"
+   },
+   {
+      "session_id": "1779140500_713a11b9",
+      "timestamp": 1779140508102,
+      "event": "mouse",
+      "action": "mouse_click",
+      "screen_width": 1507,
+      "screen_height": 2146,
+      "mouse": {
+         "x": 274,
+         "y": 280
+      },
+      "hovered_text": "Test Login"
+   },
+   {
+      "session_id": "1779140500_713a11b9",
+      "timestamp": 1779140508912,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789326,
+         "window_id": 628789247,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://practicetestautomation.com/practice-test-login/",
+         "title": "Test Login | Practice Test Automation",
+         "status": "complete",
+         "muted": false,
+         "filename_html": "1779140508900_1140533774.html"
+      }
+   },
+   {
+      "session_id": "1779140500_713a11b9",
+      "timestamp": 1779140509862,
+      "event": "mouse",
+      "action": "mouse_move",
+      "screen_width": 1507,
+      "screen_height": 1809,
+      "mouse_from": {
+         "x": 531,
+         "y": 325
+      },
+      "mouse_to": {
+         "x": 645,
+         "y": 560
+      },
+      "hovered_text": ""
+   },
+   {
+      "session_id": "1779140500_713a11b9",
+      "timestamp": 1779140509936,
+      "event": "mouse",
+      "action": "mouse_click",
+      "screen_width": 1507,
+      "screen_height": 1809,
+      "mouse": {
+         "x": 645,
+         "y": 560
+      },
+      "hovered_text": ""
+   },
+   {
+      "session_id": "1779140500_713a11b9",
+      "timestamp": 1779140511424,
+      "event": "keyboard",
+      "action": "write",
+      "typed": "username[TAB]"
+   },
+   {
+      "session_id": "1779140500_713a11b9",
+      "timestamp": 1779140512681,
+      "event": "keyboard",
+      "action": "write",
+      "typed": "[HIDDEN][HIDDEN][HIDDEN][HIDDEN][HIDDEN][HIDDEN][HIDDEN][HIDDEN]"
+   },
+   {
+      "session_id": "1779140500_713a11b9",
+      "timestamp": 1779140514698,
+      "event": "mouse",
+      "action": "mouse_move",
+      "screen_width": 1507,
+      "screen_height": 1809,
+      "mouse_from": {
+         "x": 645,
+         "y": 560
+      },
+      "mouse_to": {
+         "x": 1372,
+         "y": 0
+      },
+      "hovered_text": ""
+   }
+]

@@ -1,0 +1,155 @@
+[
+   {
+      "session_id": "1779140500_713a11b9",
+      "timestamp": 1779140500837,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789326,
+         "window_id": 628789247,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.google.com/search?q=weather+tomorrow&oq=wea&gs_lcrp=EgZjaHJvbWUqDggAEEUYOxhDGIAEGIoFMg4IABBFGDsYQxiABBiKBTISCAEQABhDGIMBGLEDGIAEGIoFMgoIAhAuGLEDGIAEMgYIAxBFGDkyDQgEEAAYgwEYsQMYgAQyCggFEAAYsQMYgAQyDwgGEAAYQxjJAxiABBiKBTIGCAcQRRg80gEIMTUyOWowajeoAgiwAgHxBej9rcXZiavp&sourceid=chrome&ie=UTF-8&source=chrome.ob",
+         "title": "weather tomorrow - Cerca con Google",
+         "status": "complete",
+         "muted": false,
+         "filename_html": "1779140500763_4187659897.html"
+      }
+   },
+   {
+      "session_id": "1779140500_713a11b9",
+      "timestamp": 1779140506316,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789326,
+         "window_id": 628789247,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.google.com/search?q=test+login+page&sca_esv=906dd05171cbdcc8&ei=kIcLasr2FviP9u8P4O2JqA8&biw=1522&bih=815&ved=0ahUKEwjK_qrq5sOUAxX4h_0HHeB2AvUQ4dUDCBI&uact=5&oq=test+login+page&gs_lp=Egxnd3Mtd2l6LXNlcnAiD3Rlc3QgbG9naW4gcGFnZTIHEAAYgAQYEzIHEAAYgAQYEzIHEAAYgAQYEzIIEAAYFhgeGBMyCBAAGBYYHhgTMggQABgWGB4YEzIIEAAYFhgeGBMyChAAGBYYHhgTGAoyCBAAGBYYHhgTMggQABgWGB4YE0inHFDsDljTG3ABeAGQAQSYAekBoAHlEKoBBTQuNy40uAEDyAEA-AEBmAIMoALvC8ICChAAGEcY1gQYsAPCAg0QABiABBiKBRhDGLADwgIKEAAYgAQYigUYQ8ICCxAAGIAEGLEDGIMBwgIOEC4YgAQYsQMYxwEY0QPCAgsQLhiABBjHARjRA8ICFhAuGIAEGIoFGEMYsQMYgwEYxwEY0QPCAgUQABiABMICEBAuGIAEGIoFGEMYxwEY0QPCAhMQLhiABBiKBRhDGLEDGMcBGNEDwgIQEC4YQxjHARjRAxiABBiKBcICEBAAGIAEGIoFGEMYsQMYgwHCAgUQLhiABMICHxAuGEMYxwEY0QMYgAQYigUYlwUY3AQY3gQY4ATYAQHCAgYQABgWGB7CAggQABgWGB4YCpgDAIgGAZAGCroGBggBEAEYFJIHBTUuNS4yoAejZLIHBTQuNS4yuAfjC8IHBzItOC4zLjHIB2aACAE&sclient=gws-wiz-serp",
+         "title": "google.com/search?q=test+login+page&sca_esv=906dd05171cbdcc8&ei=kIcLasr2FviP9u8P4O2JqA8&biw=1522&bih=815&ved=0ahUKEwjK_qrq5sOUAxX4h_0HHeB2AvUQ4dUDCBI&uact=5&oq=test+login+page&gs_lp=Egxnd3Mtd2l6LXNlcnAiD3Rlc3QgbG9naW4gcGFnZTIHEAAYgAQYEzIHEAAYgAQYEzIHEAAYgAQYEzIIEAAYFhgeGBMyCBAAGBYYHhgTMggQABgWGB4YEzIIEAAYFhgeGBMyChAAGBYYHhgTGAoyCBAAGBYYHhgTMggQABgWGB4YE0inHFDsDljTG3ABeAGQAQSYAekBoAHlEKoBBTQuNy40uAEDyAEA-AEBmAIMoALvC8ICChAAGEcY1gQYsAPCAg0QABiABBiKBRhDGLADwgIKEAAYgAQYigUYQ8ICCxAAGIAEGLEDGIMBwgIOEC4YgAQYsQMYxwEY0QPCAgsQLhiABBjHARjRA8ICFhAuGIAEGIoFGEMYsQMYgwEYxwEY0QPCAgUQABiABMICEBAuGIAEGIoFGEMYxwEY0QPCAhMQLhiABBiKBRhDGLEDGMcBGNEDwgIQEC4YQxjHARjRAxiABBiKBcICEBAAGIAEGIoFGEMYsQMYgwHCAgUQLhiABMICHxAuGEMYxwEY0QMYgAQYigUYlwUY3AQY3gQY4ATYAQHCAgYQABgWGB7CAggQABgWGB4YCpgDAIgGAZAGCroGBggBEAEYFJIHBTUuNS4yoAejZLIHBTQuNS4yuAfjC8IHBzItOC4zLjHIB2aACAE&sclient=gws-wiz-serp",
+         "status": "loading",
+         "muted": false,
+         "filename_html": null
+      }
+   },
+   {
+      "session_id": "1779140500_713a11b9",
+      "timestamp": 1779140506327,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789326,
+         "window_id": 628789247,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.google.com/search?q=test+login+page&sca_esv=906dd05171cbdcc8&ei=kIcLasr2FviP9u8P4O2JqA8&biw=1522&bih=815&ved=0ahUKEwjK_qrq5sOUAxX4h_0HHeB2AvUQ4dUDCBI&uact=5&oq=test+login+page&gs_lp=Egxnd3Mtd2l6LXNlcnAiD3Rlc3QgbG9naW4gcGFnZTIHEAAYgAQYEzIHEAAYgAQYEzIHEAAYgAQYEzIIEAAYFhgeGBMyCBAAGBYYHhgTMggQABgWGB4YEzIIEAAYFhgeGBMyChAAGBYYHhgTGAoyCBAAGBYYHhgTMggQABgWGB4YE0inHFDsDljTG3ABeAGQAQSYAekBoAHlEKoBBTQuNy40uAEDyAEA-AEBmAIMoALvC8ICChAAGEcY1gQYsAPCAg0QABiABBiKBRhDGLADwgIKEAAYgAQYigUYQ8ICCxAAGIAEGLEDGIMBwgIOEC4YgAQYsQMYxwEY0QPCAgsQLhiABBjHARjRA8ICFhAuGIAEGIoFGEMYsQMYgwEYxwEY0QPCAgUQABiABMICEBAuGIAEGIoFGEMYxwEY0QPCAhMQLhiABBiKBRhDGLEDGMcBGNEDwgIQEC4YQxjHARjRAxiABBiKBcICEBAAGIAEGIoFGEMYsQMYgwHCAgUQLhiABMICHxAuGEMYxwEY0QMYgAQYigUYlwUY3AQY3gQY4ATYAQHCAgYQABgWGB7CAggQABgWGB4YCpgDAIgGAZAGCroGBggBEAEYFJIHBTUuNS4yoAejZLIHBTQuNS4yuAfjC8IHBzItOC4zLjHIB2aACAE&sclient=gws-wiz-serp",
+         "title": "test login page - Cerca con Google",
+         "status": "loading",
+         "muted": false,
+         "filename_html": null
+      }
+   },
+   {
+      "session_id": "1779140500_713a11b9",
+      "timestamp": 1779140506332,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789326,
+         "window_id": 628789247,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.google.com/search?q=test+login+page&sca_esv=906dd05171cbdcc8&ei=kIcLasr2FviP9u8P4O2JqA8&biw=1522&bih=815&ved=0ahUKEwjK_qrq5sOUAxX4h_0HHeB2AvUQ4dUDCBI&uact=5&oq=test+login+page&gs_lp=Egxnd3Mtd2l6LXNlcnAiD3Rlc3QgbG9naW4gcGFnZTIHEAAYgAQYEzIHEAAYgAQYEzIHEAAYgAQYEzIIEAAYFhgeGBMyCBAAGBYYHhgTMggQABgWGB4YEzIIEAAYFhgeGBMyChAAGBYYHhgTGAoyCBAAGBYYHhgTMggQABgWGB4YE0inHFDsDljTG3ABeAGQAQSYAekBoAHlEKoBBTQuNy40uAEDyAEA-AEBmAIMoALvC8ICChAAGEcY1gQYsAPCAg0QABiABBiKBRhDGLADwgIKEAAYgAQYigUYQ8ICCxAAGIAEGLEDGIMBwgIOEC4YgAQYsQMYxwEY0QPCAgsQLhiABBjHARjRA8ICFhAuGIAEGIoFGEMYsQMYgwEYxwEY0QPCAgUQABiABMICEBAuGIAEGIoFGEMYxwEY0QPCAhMQLhiABBiKBRhDGLEDGMcBGNEDwgIQEC4YQxjHARjRAxiABBiKBcICEBAAGIAEGIoFGEMYsQMYgwHCAgUQLhiABMICHxAuGEMYxwEY0QMYgAQYigUYlwUY3AQY3gQY4ATYAQHCAgYQABgWGB7CAggQABgWGB4YCpgDAIgGAZAGCroGBggBEAEYFJIHBTUuNS4yoAejZLIHBTQuNS4yuAfjC8IHBzItOC4zLjHIB2aACAE&sclient=gws-wiz-serp",
+         "title": "test login page - Cerca con Google",
+         "status": "loading",
+         "muted": false,
+         "filename_html": null
+      }
+   },
+   {
+      "session_id": "1779140500_713a11b9",
+      "timestamp": 1779140506692,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789326,
+         "window_id": 628789247,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.google.com/search?q=test+login+page&sca_esv=906dd05171cbdcc8&ei=kIcLasr2FviP9u8P4O2JqA8&biw=1522&bih=815&ved=0ahUKEwjK_qrq5sOUAxX4h_0HHeB2AvUQ4dUDCBI&uact=5&oq=test+login+page&gs_lp=Egxnd3Mtd2l6LXNlcnAiD3Rlc3QgbG9naW4gcGFnZTIHEAAYgAQYEzIHEAAYgAQYEzIHEAAYgAQYEzIIEAAYFhgeGBMyCBAAGBYYHhgTMggQABgWGB4YEzIIEAAYFhgeGBMyChAAGBYYHhgTGAoyCBAAGBYYHhgTMggQABgWGB4YE0inHFDsDljTG3ABeAGQAQSYAekBoAHlEKoBBTQuNy40uAEDyAEA-AEBmAIMoALvC8ICChAAGEcY1gQYsAPCAg0QABiABBiKBRhDGLADwgIKEAAYgAQYigUYQ8ICCxAAGIAEGLEDGIMBwgIOEC4YgAQYsQMYxwEY0QPCAgsQLhiABBjHARjRA8ICFhAuGIAEGIoFGEMYsQMYgwEYxwEY0QPCAgUQABiABMICEBAuGIAEGIoFGEMYxwEY0QPCAhMQLhiABBiKBRhDGLEDGMcBGNEDwgIQEC4YQxjHARjRAxiABBiKBcICEBAAGIAEGIoFGEMYsQMYgwHCAgUQLhiABMICHxAuGEMYxwEY0QMYgAQYigUYlwUY3AQY3gQY4ATYAQHCAgYQABgWGB7CAggQABgWGB4YCpgDAIgGAZAGCroGBggBEAEYFJIHBTUuNS4yoAejZLIHBTQuNS4yuAfjC8IHBzItOC4zLjHIB2aACAE&sclient=gws-wiz-serp",
+         "title": "test login page - Cerca con Google",
+         "status": "loading",
+         "muted": false,
+         "filename_html": null
+      }
+   },
+   {
+      "session_id": "1779140500_713a11b9",
+      "timestamp": 1779140506867,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789326,
+         "window_id": 628789247,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.google.com/search?q=test+login+page&sca_esv=906dd05171cbdcc8&ei=kIcLasr2FviP9u8P4O2JqA8&biw=1522&bih=815&ved=0ahUKEwjK_qrq5sOUAxX4h_0HHeB2AvUQ4dUDCBI&uact=5&oq=test+login+page&gs_lp=Egxnd3Mtd2l6LXNlcnAiD3Rlc3QgbG9naW4gcGFnZTIHEAAYgAQYEzIHEAAYgAQYEzIHEAAYgAQYEzIIEAAYFhgeGBMyCBAAGBYYHhgTMggQABgWGB4YEzIIEAAYFhgeGBMyChAAGBYYHhgTGAoyCBAAGBYYHhgTMggQABgWGB4YE0inHFDsDljTG3ABeAGQAQSYAekBoAHlEKoBBTQuNy40uAEDyAEA-AEBmAIMoALvC8ICChAAGEcY1gQYsAPCAg0QABiABBiKBRhDGLADwgIKEAAYgAQYigUYQ8ICCxAAGIAEGLEDGIMBwgIOEC4YgAQYsQMYxwEY0QPCAgsQLhiABBjHARjRA8ICFhAuGIAEGIoFGEMYsQMYgwEYxwEY0QPCAgUQABiABMICEBAuGIAEGIoFGEMYxwEY0QPCAhMQLhiABBiKBRhDGLEDGMcBGNEDwgIQEC4YQxjHARjRAxiABBiKBcICEBAAGIAEGIoFGEMYsQMYgwHCAgUQLhiABMICHxAuGEMYxwEY0QMYgAQYigUYlwUY3AQY3gQY4ATYAQHCAgYQABgWGB7CAggQABgWGB4YCpgDAIgGAZAGCroGBggBEAEYFJIHBTUuNS4yoAejZLIHBTQuNS4yuAfjC8IHBzItOC4zLjHIB2aACAE&sclient=gws-wiz-serp",
+         "title": "test login page - Cerca con Google",
+         "status": "complete",
+         "muted": false,
+         "filename_html": "1779140506843_3718704771.html"
+      }
+   },
+   {
+      "session_id": "1779140500_713a11b9",
+      "timestamp": 1779140508606,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789326,
+         "window_id": 628789247,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://practicetestautomation.com/practice-test-login/",
+         "title": "practicetestautomation.com/practice-test-login/",
+         "status": "loading",
+         "muted": false,
+         "filename_html": null
+      }
+   },
+   {
+      "session_id": "1779140500_713a11b9",
+      "timestamp": 1779140508625,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789326,
+         "window_id": 628789247,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://practicetestautomation.com/practice-test-login/",
+         "title": "Test Login | Practice Test Automation",
+         "status": "loading",
+         "muted": false,
+         "filename_html": null
+      }
+   },
+   {
+      "session_id": "1779140500_713a11b9",
+      "timestamp": 1779140508912,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628789326,
+         "window_id": 628789247,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://practicetestautomation.com/practice-test-login/",
+         "title": "Test Login | Practice Test Automation",
+         "status": "complete",
+         "muted": false,
+         "filename_html": "1779140508900_1140533774.html"
+      }
+   }
+]

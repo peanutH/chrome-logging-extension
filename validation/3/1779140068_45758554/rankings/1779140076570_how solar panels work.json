@@ -1,0 +1,70 @@
+[
+   {
+      "rank": 0,
+      "type": "ai_overview",
+      "text": "Solar panels convert sunlight into electricity using the photovoltaic effect. When sunlight hits a panel, photons dislodge electrons from silicon atoms. An internal electric field forces these loose electrons to flow in a specific direction, creating an electrical current that powers your home.\u00a0YouTube\u00b7The Engineering Mindset\u00a0+3The process unfolds in four main steps:\u00a01. Light Absorption\u00a0Solar panels are made of many individual solar cells, typically constructed from silicon, which acts as a semiconductor. When the sun shines on the panel, it delivers particles of energy called photons. The panel absorbs these photons, transferring their energy to the silicon.\u00a0YouTube\u00b7Saibah Instrumentation\u00a0+12. Electron Movement\u00a0Silicon in solar cells is chemically treated (or \"doped\") to create two distinct layers: a negative layer (with extra electrons) and a positive layer (missing electrons). Where these two layers meet, a permanent electric field is created. When photons strike the silicon, they knock electrons free. The electric field then acts as an invisible force, pushing these free electrons in a single, specific direction.\u00a0Aurora Solar\u00a0+23. Collecting the Current\u00a0Thin conductive metal plates and wires in the solar cell capture these moving electrons, turning them into a usable electrical circuit. At this point, the electricity produced flows in only one direction, which is known as Direct Current (DC).\u00a0Maxeon Solar Technologies\u00a0+34. Conversion (DC to AC)\u00a0Because most household appliances and the electrical grid operate on Alternating Current (AC), the electricity cannot be used immediately. It first flows to a device called an inverter. The inverter converts the DC electricity into AC electricity, making it safe to power your electronics.\u00a0YouTube\u00b7The Energy Professor\u00a0+1For a step-by-step 3D animation breaking down exactly how electrons flow to generate electricity:1mHow Do Solar Panel Work? (3D Animation)3D RequiemYouTube\u2022 9 mag 2024What Happens Next?\u00a0Powering your home: The AC electricity flows into your home's electrical panel to run your appliances.Energy Storage or Grid Sharing: If your panels generate more electricity than you are currently using, the excess can either be sent to the local power grid (often earning you credits through net metering) or stored in a home battery system.\u00a0YouTube\u00b7The Energy Professor\u00a0+1To explore the differences between various home solar setups (like grid-tied systems and batteries):58sHow Home Solar Systems Work: A Beginner's GuideSolarQuotesYouTube\u2022 21 lug 2025"
+   },
+   {
+      "rank": 1,
+      "type": "text_result",
+      "title": "Solar Basics: How Do Solar Panels Work?",
+      "link": "https://www.maxeon.com/maxeon-blog/solar-basics-how-do-solar-panels-work",
+      "description": "15 lug 2025 \u2014 First, sunlight hits a solar panel on the roof. The panels convert the energy to DC current, which flows to an inverter. The inverter converts\u00a0..."
+   },
+   {
+      "rank": 2,
+      "type": "text_result",
+      "title": "Solar panel",
+      "link": "https://en.wikipedia.org/wiki/Solar_panel",
+      "description": "A solar panel is a device that converts sunlight into electricity by using multiple solar modules that consists of photovoltaic (PV) cells."
+   },
+   {
+      "rank": 3,
+      "type": "text_result",
+      "title": "How do solar panels work?",
+      "link": "https://regalgrid.com/magazine/how-solar-panels-work/",
+      "description": "Solar panels generate DC (direct current) electricity, which is transformed into AC (alternating current) at the appropriate voltage by the system's inverter."
+   },
+   {
+      "rank": 4,
+      "type": "text_result",
+      "title": "How Do Solar Panels Work? Solar Power Explained",
+      "link": "https://www.energysage.com/solar/solar-panels-work/",
+      "description": "Solar panels are made up of solar cells, which absorb sunlight. They use this sunlight to create direct current (DC) electricity through a process called the\u00a0..."
+   },
+   {
+      "rank": 5,
+      "type": "text_result",
+      "title": "Eli5, How the hell do solar panels work? : r/explainlikeimfive",
+      "link": "https://www.reddit.com/r/explainlikeimfive/comments/13ycao0/eli5_how_the_hell_do_solar_panels_work/",
+      "description": "And no don't say \"cells generate electricity\" Yes I know that, but what chemical or whatever process makes it that sunlight is converted to electricity? ..."
+   },
+   {
+      "rank": 6,
+      "type": "text_result",
+      "title": "Turning sunlight into electricity: how does solar power work?",
+      "link": "https://www.netzero.gov.au/turning-sunlight-electricity-how-does-solar-power-work",
+      "description": "24 giu 2025 \u2014 When sunlight hits a solar panel, it excites electrons in the cells, creating an electric current. This direct current is then converted into\u00a0..."
+   },
+   {
+      "rank": 7,
+      "type": "text_result",
+      "title": "How Solar Works",
+      "link": "https://renewablesassociation.ca/how-solar-works/",
+      "description": "Solar photovoltaic (PV) systems use the sun's energy to generate electricity. Flat PV panels, which can be attached to rooftops or mounted on ground-mounted\u00a0..."
+   },
+   {
+      "rank": 8,
+      "type": "text_result",
+      "title": "How Solar Panels Work",
+      "link": "https://www.ucs.org/resources/how-solar-panels-work",
+      "description": "18 dic 2015 \u2014 Solar photovoltaic (PV) panels are based on a high-tech but remarkably simple technology that converts sunlight directly to electricity."
+   },
+   {
+      "rank": 9,
+      "type": "text_result",
+      "title": "How do solar panels work?",
+      "link": "https://www.edfenergy.com/energywise/guide-solar-panels",
+      "description": "23 ott 2024 \u2014 The solar panels capture sunlight, which the inverter then converts into electricity. This electricity can be used immediately to power\u00a0..."
+   }
+]
