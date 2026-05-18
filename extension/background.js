@@ -17,16 +17,16 @@ async function init_monitoring(session_id) {
     const curr_tabs = await chrome.tabs.query({})
 
     state_handler = new StateEventsHandler(session_id, curr_windows, curr_tabs);
-    state_handler.start_listeners();
+    await state_handler.start_listeners();
 
     mouse_handler = new MouseEventsHandler(session_id);
-    mouse_handler.start_listeners();
+    await mouse_handler.start_listeners();
 
     keyboard_handler = new KeyboardEventsHandler(session_id);
-    keyboard_handler.start_listeners();
+    await keyboard_handler.start_listeners();
 
     google_handler = new GoogleEventsHandler(session_id);
-    google_handler.start_listeners();
+    await google_handler.start_listeners();
 }
 
 function stop_monitoring() {

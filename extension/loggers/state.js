@@ -37,7 +37,7 @@ class Window {
 }
 
 class Tab {
-    constructor(id, window_id, index, group_id, url, title, status, muted) {
+    constructor(id, window_id, index, group_id, url, title, status, muted, filename_html=null) {
         this.id = id;
         this.window_id = window_id;
         this.index = index;
@@ -46,6 +46,7 @@ class Tab {
         this.title = title;
         this.status = status;
         this.muted = muted;
+        this.filename_html = filename_html;
     }
 }
 
@@ -78,7 +79,8 @@ export class StateEventsHandler {
          */
         this.session_id = session_id;
         this.all_windows = {} // Currently active windows
-        this.all_tabs = {}    // Currently active tabs  
+        this.all_tabs = {}    // Currently active tabs
+        this.snapshotted = {}
 
         // Fill with currently active windows and tabs
         curr_windows.forEach(window => {
@@ -154,9 +156,29 @@ export class StateEventsHandler {
     }
 
     async tab_updated(tab_id, changed_info, tab) {
-        this.all_tabs[tab_id] = new Tab(tab.id, tab.windowId, tab.index, tab.groupId, tab.url, tab.title, tab.status, tab.mutedInfo.muted);
+        if (("favIconUrl" in changed_info) & (Object.keys(changed_info).length == 1)) { return; } // Avoids redundant complete
+        
+        // Handle HTML snapshot
+        let filename_html = null;
+        if (changed_info["status"] === "complete") {
+            const filename = this.hash(tab.id, tab.windowId, tab.url);
+            if (!(filename in this.snapshotted)) {
+                // Page has never been snapshotted
+                filename_html = `${Date.now()}_${filename}.html`;
+                await this.create_snapshot(tab.id, filename_html);
+                this.snapshotted[filename] = filename_html;
+            } else {
+                // Snapshot of page already exists, retrieve previously used name
+                filename_html = this.snapshotted[filename];
+            }
+        }
+        
+        this.all_tabs[tab_id] = new Tab(tab.id, tab.windowId, tab.index, tab.groupId, tab.url, tab.title, tab.status, tab.mutedInfo.muted, filename_html);
         const event = new TabEvent(this.session_id, StateEvent.TAB_UPDATED, this.all_tabs[tab_id]);
         await this.submit_raw_event(event);
+        if (changed_info["status"] === "complete") {
+            await this.submit_event(event);
+        }
     }
 
     async tab_removed(tab_id, remove_info) {
@@ -165,7 +187,45 @@ export class StateEventsHandler {
         delete this.all_tabs[tab_id];
     }
 
-    start_listeners() {
+
+    hash(tab_id, window_id, tab_url) {
+        const str = `${tab_id}_${window_id}_${tab_url}`
+        let hash = 0;
+        for (let i = 0; i < str.length; i++) {
+            hash = (hash * 31 + str.charCodeAt(i)) >>> 0;
+        }
+        return hash;
+    }
+
+    async create_snapshot(tab_id, filename) {
+        function _snapshot(session_id, filename) {
+            const html = document.documentElement.outerHTML;
+            chrome.runtime.sendMessage({ action: "submit-html", data: JSON.stringify({ session_id: session_id, name: filename, html: html }) });
+        }
+
+        await chrome.scripting.executeScript({
+            target: { tabId: tab_id },
+            func: _snapshot,
+            args: [this.session_id, filename]
+        });
+    }
+
+    async start_listeners() {
+        try {
+            // Handle current tab. Create snapshot + event
+            const curr_tab = (await chrome.tabs.query({currentWindow: true, active : true}))[0];
+            const filename = this.hash(curr_tab.id, curr_tab.windowId, curr_tab.url);
+            const filename_html = `${Date.now()}_${filename}.html`;
+            await this.create_snapshot(curr_tab.id, filename_html);
+            this.snapshotted[filename] = filename_html;
+            this.all_tabs[curr_tab.id] = new Tab(curr_tab.id, curr_tab.windowId, curr_tab.index, curr_tab.groupId, curr_tab.url, curr_tab.title, curr_tab.status, curr_tab.mutedInfo.muted, filename_html);
+            const event = new TabEvent(this.session_id, StateEvent.TAB_UPDATED, this.all_tabs[curr_tab.id]);
+            await this.submit_raw_event(event);
+            await this.submit_event(event);
+        } catch (e) {
+            // It might not be possible if on start page (or other protected pages)
+        }
+
         chrome.windows.onCreated.addListener(this.window_created);
         chrome.windows.onFocusChanged.addListener(this.window_focused);
         chrome.windows.onBoundsChanged.addListener(this.window_resized);
