@@ -4,6 +4,9 @@ import time
 import uuid
 from flask import Flask, request, jsonify
 from flask_cors import CORS
+from dotenv import load_dotenv
+
+load_dotenv()
 
 
 # Initalize flask app
@@ -11,7 +14,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Setup data directory
-DATA_DIR = "./data"
+DATA_DIR = os.getenv("DATA_DIR")
 os.makedirs(DATA_DIR, exist_ok=True)
 
 
