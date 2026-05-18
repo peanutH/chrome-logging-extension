@@ -52,8 +52,8 @@ export class MouseEventsHandler {
                     super(session_id);
                     this.event = "mouse"
                     this.action = MouseAction.MOVE;
-                    this.screen_width = screen_width
-                    this.screen_height = screen_height
+                    this.screen_width = screen_width;
+                    this.screen_height = screen_height;
                     this.mouse_from = mouse_from;
                     this.mouse_to = mouse_to;
                     this.hovered_text = hovered_text
@@ -61,10 +61,12 @@ export class MouseEventsHandler {
             }
 
             class MouseEvent extends BaseEvent {
-                constructor(session_id, action, mouse, hovered_text) {
+                constructor(session_id, screen_width, screen_height, action, mouse, hovered_text) {
                     super(session_id);
                     this.event = "mouse"
                     this.action = action;
+                    this.screen_width = screen_width;
+                    this.screen_height = screen_height;
                     this.mouse = mouse;
                     this.hovered_text = hovered_text
                 }
@@ -109,14 +111,14 @@ export class MouseEventsHandler {
             // *** Mouse single click tracking ***
             async function mouse_click(e) {
                 if (!document.__areListenersActive_mouse) { return; }
-                const event = new MouseEvent(session_id, MouseAction.CLICK, new Coord(e.pageX, e.pageY), curr_hovered_text);
+                const event = new MouseEvent(session_id, document.documentElement.scrollWidth, document.documentElement.scrollHeight, MouseAction.CLICK, new Coord(e.pageX, e.pageY), curr_hovered_text);
                 submit_event(event);
             }
 
             // *** Mouse double click tracking ***
             async function mouse_double_click(e) {
                 if (!document.__areListenersActive_mouse) { return; }
-                const event = new MouseEvent(session_id, MouseAction.DOUBLE_CLICK, new Coord(e.pageX, e.pageY), curr_hovered_text);
+                const event = new MouseEvent(session_id, document.documentElement.scrollWidth, document.documentElement.scrollHeight, MouseAction.DOUBLE_CLICK, new Coord(e.pageX, e.pageY), curr_hovered_text);
                 submit_event(event);
             }
 
