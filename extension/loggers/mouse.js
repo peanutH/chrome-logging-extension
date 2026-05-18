@@ -31,10 +31,13 @@ export class MouseEventsHandler {
                 MOVE: "mouse_move",
                 CLICK: "mouse_click",
                 DOUBLE_CLICK: "mouse_double_click",
+                SCROLL: "mouse_scroll",
+                SELECT: "text_select"
             });
 
             class Coord {
                 constructor(x, y) { this.x = x; this.y = y; }
+                equals(c2) { return (this.x === c2.x) & (this.y === c2.y); }
             }
 
             class BaseEvent {
@@ -45,10 +48,12 @@ export class MouseEventsHandler {
             }
 
             class MouseMoveEvent extends BaseEvent {
-                constructor(session_id, action, mouse_from, mouse_to, hovered_text) {
+                constructor(session_id, screen_width, screen_height, mouse_from, mouse_to, hovered_text) {
                     super(session_id);
                     this.event = "mouse"
-                    this.action = action;
+                    this.action = MouseAction.MOVE;
+                    this.screen_width = screen_width
+                    this.screen_height = screen_height
                     this.mouse_from = mouse_from;
                     this.mouse_to = mouse_to;
                     this.hovered_text = hovered_text
@@ -69,16 +74,18 @@ export class MouseEventsHandler {
                 constructor(session_id, text) {
                     super(session_id);
                     this.event = "mouse"
-                    this.action = "text_select";
+                    this.action = MouseAction.SELECT;
                     this.text = text;
                 }
             }
 
             class ScrollEvent extends BaseEvent {
-                constructor(session_id, scroll_start, scroll_end) {
+                constructor(session_id, screen_width, screen_height, scroll_start, scroll_end) {
                     super(session_id);
                     this.event = "mouse"
-                    this.action = "scroll";
+                    this.action = MouseAction.SCROLL;
+                    this.screen_width = screen_width
+                    this.screen_height = screen_height
                     this.scroll_start = scroll_start;
                     this.scroll_end = scroll_end;
                 }
@@ -114,33 +121,52 @@ export class MouseEventsHandler {
             }
 
             // *** Mouse movement tracking ***
-            var curr_mouse_move_start = null;
-            var curr_mouse_move_end = null;
-            var curr_mouse_move_promise = null;
+            class MouseMovementHandler {
+                constructor(session_id, delay_ms, submit_raw) {
+                    this.session_id = session_id
+                    this.delay_ms = delay_ms;
+                    this.submit_raw = submit_raw;
+                    this.curr_mouse_move_start = null;
+                    this.curr_mouse_move_end = null;
+                    this.curr_mouse_move_promise = null;
+                }
+
+                async on_event(e, hovered_text) {
+                    if (this.curr_mouse_move_start === null) {
+                        // First time tracking cursor
+                        this.curr_mouse_move_start = new Coord(e.pageX, e.pageY)
+                        this.curr_mouse_move_end = new Coord(e.pageX, e.pageY)
+                    } else {
+                        // Keep tracking cursor
+                        this.curr_mouse_move_end = new Coord(e.pageX, e.pageY)
+                    }
+                   
+                    const curr_promise = new Promise(resolve => setTimeout(async () => {
+                        if (this.curr_mouse_move_promise !== curr_promise) { return resolve(); } // Cursor moved, ignore this promise
+                        if (!this.curr_mouse_move_start.equals(this.curr_mouse_move_end)) {
+                            // Submit event only if position changed
+                            const event = new MouseMoveEvent(this.session_id, document.documentElement.scrollWidth, document.documentElement.scrollHeight, this.curr_mouse_move_start, this.curr_mouse_move_end, hovered_text);
+                            this.curr_mouse_move_start = this.curr_mouse_move_end;
+                            this.curr_mouse_move_end = null;
+                            if (this.submit_raw) {
+                                await submit_raw_event(event);
+                            } else {
+                                await submit_event(event);
+                            }
+                        }
+                        resolve();
+                    }, this.delay_ms));
+                    this.curr_mouse_move_promise = curr_promise;
+                    await curr_promise;
+                }
+            }
+            var mouse_movement_handler = new MouseMovementHandler(session_id, 250, false);
+            var raw_mouse_movement_handler = new MouseMovementHandler(session_id, 10, true);
             async function mouse_move(e) {
                 if (!document.__areListenersActive_mouse) { return; }
-                const event_raw = new MouseMoveEvent(session_id, MouseAction.MOVE, new Coord(e.pageX, e.pageY), new Coord(e.pageX+e.movementX, e.pageY+e.movementY), "");
-                submit_raw_event(event_raw);
-
-                if (curr_mouse_move_start === null) {
-                    // First time tracking cursor
-                    curr_mouse_move_start = new Coord(e.pageX, e.pageY)
-                    curr_mouse_move_end = new Coord(e.pageX, e.pageY)
-                } else {
-                    // Keep tracking cursor
-                    curr_mouse_move_end = new Coord(e.pageX, e.pageY)
-                }
-                // Create a promise with timeout. If the cursor does not move after a while, record movement.
-                const curr_promise = new Promise(resolve => setTimeout(async () => {
-                    if (curr_mouse_move_promise !== curr_promise) { return resolve(); } // Cursor moved, ignore this promise
-                    const event = new MouseMoveEvent(session_id, MouseAction.MOVE, curr_mouse_move_start, curr_mouse_move_end, curr_hovered_text);
-                    curr_mouse_move_start = null;
-                    curr_mouse_move_end = null;
-                    await submit_event(event);
-                    resolve();
-                }, 250));
-                curr_mouse_move_promise = curr_promise;
-                await curr_promise;
+                
+                await mouse_movement_handler.on_event(e, curr_hovered_text);
+                await raw_mouse_movement_handler.on_event(e, "");
             }
 
             // *** Text selection (with mouse or keyboard) tracking ***
@@ -176,7 +202,7 @@ export class MouseEventsHandler {
                 // Create a promise with timeout. If the cursor does not move after a while, record movement.
                 const curr_promise = new Promise(resolve => setTimeout(async () => {
                     if (curr_scroll_promise !== curr_promise) { return resolve(); } // Wheel moved, ignore this promise
-                    const event = new ScrollEvent(session_id, curr_scroll_start, curr_scroll_end);
+                    const event = new ScrollEvent(session_id, document.documentElement.scrollWidth, document.documentElement.scrollHeight, curr_scroll_start, curr_scroll_end);
                     curr_scroll_start = null;
                     curr_scroll_end = null;
                     await submit_event(event);
