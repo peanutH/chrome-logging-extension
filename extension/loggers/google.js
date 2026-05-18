@@ -151,7 +151,7 @@ export class GoogleEventsHandler {
                 }
                 if (!document.__google_export_timestamp) { document.__google_export_timestamp = Date.now(); }
                 if (document.__google_last_export_timestamp
-                    && ((Data.now() - document.__google_last_export_timestamp) < 250)
+                    && ((Date.now() - document.__google_last_export_timestamp) < 250)
                 ) {
                     // Avoid duplicates due to page loading signals from other content
                     return;
