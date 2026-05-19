@@ -47,7 +47,7 @@ A technical validation is provided in `./validation`, containing the logging res
 ### Backend
 To install the dependencies of the server, run the following command from the root of the repository:
 ```
-pip -r src/backend/requirements.txt
+pip install -r src/backend/requirements.txt
 ```
 
 ### Extension
@@ -83,7 +83,7 @@ Some visualization utilities are provided to plot mouse actions onto the web pag
 
 ### Installation
 ```
-pip -r src/visualization/requirements.txt
+pip install -r src/visualization/requirements.txt
 ```
 
 ### Usage
