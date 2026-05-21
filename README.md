@@ -1,4 +1,4 @@
-# SearchLog: A Chrome Extension for Collecting Natural Search Logs in Laboratory Experiments
+# SearchLog: A Chromium Extension for Capturing Search Logs in Laboratory Studies
 
 
 
@@ -19,7 +19,7 @@ The toolkit has two components:
 
 The following table summarizes the main terminology we use:
 | **Term** | **Meaning** |
-|---------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
+|---------------|----------------- |
 | Session | One continuous logging interval during a participant's search task or study run, identified by a unique identifier. |
 | Event | One structured object representing a browser- or page-level action such as tab switching, clicking, scrolling, keyboard input, or search activity. |
 | Snapshot | The HTML file of a web page, used to have a representation of its content for later analysis. |
@@ -76,7 +76,7 @@ By default, logs are saved in `./data`. To change the output directory, change t
 
 
 
-## Visualization utility
+## Visualization Utility
 
 Some visualization utilities are provided to plot mouse actions onto the web pages.
 
@@ -93,3 +93,13 @@ cd src/visualization
 python mouse.py --session-dir=path-to-a-session-directory
 ```
 Results are exported in the same session directory provided in input.
+
+
+
+## Citation
+If you use this toolkit for research, please cite it using the following entry:
+```
+@article{
+    
+} 
+```
