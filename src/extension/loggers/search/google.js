@@ -144,21 +144,18 @@ export class GoogleEventsHandler {
                 
             }
 
-            function save_google_ranking() {
+            var past_ranking = null;
+            function save_google_ranking(timestamp) {
                 // Run only on Google
                 if (!/^https?:\/\/(?:[^/]+\.)?google\.[a-z.]+\/search(?:\?|$)/i.test(window.location.href)) {
                     return;
                 }
-                if (!document.__google_export_timestamp) { document.__google_export_timestamp = Date.now(); }
-                if (document.__google_last_export_timestamp
-                    && ((Date.now() - document.__google_last_export_timestamp) < 250)
-                ) {
-                    // Avoid duplicates due to page loading signals from other content
-                    return;
-                }
-                document.__google_last_export_timestamp = Date.now();
+
+                // Avoid duplicates due to page loading signals from other content (within same page)
+                if (document.__last_export_timestamp && ((Date.now() - document.__last_export_timestamp) < 500) ) { return; }
+                document.__last_export_timestamp = Date.now();
+
                 const query_text = document.querySelector('textarea[name="q"]').getAttribute('value');
-                const timestamp = document.__google_export_timestamp
                 const filename_html = `${timestamp}_${query_text}.html`
                 const filename_ranking = `${timestamp}_${query_text}.json`
                 const event = new GoogleSearchEvent(session_id, query_text, filename_html, filename_ranking);
@@ -186,13 +183,35 @@ export class GoogleEventsHandler {
                         ranking.push(content);
                     }
                 }
+
+                // Avoids submitting if the same as previous one
+                if ((past_ranking !== null) && (JSON.stringify(ranking) === JSON.stringify(past_ranking))) {
+                    return 
+                }
+                past_ranking = ranking;
     
                 submit_event(event);
                 submit_html(html, filename_html);
                 submit_ranking(ranking, filename_ranking);
             }
 
-            save_google_ranking();
+            (() => {
+                const export_timestamp = Date.now();
+                let last_export_timestamp = Date.now();
+                
+                save_google_ranking(export_timestamp);
+
+                // Listen to page changes and update previous event/ranking (if needed)
+                const observer = new MutationObserver((mutations) => {
+                    if (Date.now() - last_export_timestamp >= 1000) {
+                        save_google_ranking(export_timestamp);
+                        last_export_timestamp = Date.now();
+                    }
+                });
+                document.addEventListener('DOMContentLoaded', () => {
+                    observer.observe(document.querySelector("#rcnt"), { childList: true, subtree: true });
+                });
+            })();
         }
 
         await chrome.scripting.executeScript({
