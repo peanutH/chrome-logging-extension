@@ -146,11 +146,6 @@ export class GoogleEventsHandler {
 
             var past_ranking = null;
             function save_google_ranking(timestamp) {
-                // Run only on Google
-                if (!/^https?:\/\/(?:[^/]+\.)?google\.[a-z.]+\/search(?:\?|$)/i.test(window.location.href)) {
-                    return;
-                }
-
                 // Avoid duplicates due to page loading signals from other content (within same page)
                 if (document.__last_export_timestamp && ((Date.now() - document.__last_export_timestamp) < 500) ) { return; }
                 document.__last_export_timestamp = Date.now();
@@ -199,6 +194,12 @@ export class GoogleEventsHandler {
             }
 
             (() => {
+                // Run only on Google (except AI mode)
+                if ((!/^https?:\/\/(?:[^/]+\.)?google\.[a-z.]+\/search(?:\?|$)/i.test(window.location.href)) ||
+                    (document.querySelector("[data-xid=aim-mars-turn-root]"))) {
+                    return;
+                }
+
                 const export_timestamp = Date.now();
                 let last_export_timestamp = Date.now();
                 

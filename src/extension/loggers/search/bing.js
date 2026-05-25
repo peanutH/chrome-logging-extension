@@ -99,11 +99,6 @@ export class BingEventsHandler {
 
             var past_ranking = null;
             function save_bing_ranking(timestamp) {
-                // Run only on Bing
-                if (!/^https:\/\/(www\.)?bing\.com\/search(\?|$)/i.test(window.location.href)) {
-                    return;
-                }
-
                 // Avoid duplicates due to page loading signals from other content (within same page)
                 if (document.__last_export_timestamp && ((Date.now() - document.__last_export_timestamp) < 500) ) { return; }
                 document.__last_export_timestamp = Date.now();
@@ -165,6 +160,11 @@ export class BingEventsHandler {
             }
 
             (() => {
+                // Run only on Bing
+                if (!/^https:\/\/(www\.)?bing\.com\/search(\?|$)/i.test(window.location.href)) {
+                    return;
+                }
+
                 const export_timestamp = Date.now();
                 let last_export_timestamp = Date.now();
                 
