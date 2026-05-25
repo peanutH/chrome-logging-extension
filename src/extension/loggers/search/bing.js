@@ -67,13 +67,13 @@ export class BingEventsHandler {
             }
 
             function parse_search_content(element) {
-                let description = element.querySelector("div.b_caption").textContent;
+                let description = element.querySelector("div.b_caption").innerText;
                 if (description.length === 0) {
-                    description = element.querySelector("p").textContent;
+                    description = element.querySelector("p").innerText;
                 }
                 // Extract result texts and link
                 let result = new ResultEntry(
-                    element.querySelector("h2").textContent,
+                    element.querySelector("h2").innerText,
                     element.querySelector("h2 a").getAttribute("href"),
                     description
                 )
@@ -85,12 +85,12 @@ export class BingEventsHandler {
                 let container = document.querySelector("#b_topw");
                 if (container && container.querySelector(".b_caption") == null) {
                     // Header is not a search entry
-                    let overview = new AIOverviewEntry(container.querySelector(".answer_container").textContent);
+                    let overview = new AIOverviewEntry(container.querySelector(".answer_container").innerText);
                     return overview;
                 } else {
                     container = document.querySelector("#b_genserp_container");
                     if (container) {
-                        let overview = new AIOverviewEntry(container.textContent);
+                        let overview = new AIOverviewEntry(container.innerText);
                         return overview;
                     }
                 }
@@ -129,9 +129,9 @@ export class BingEventsHandler {
                 if (top_container != null && top_container.querySelector(".b_caption") != null) {
                     // Header entry is a search result
                     let content = new ResultEntry(
-                        top_container.querySelector("h2").textContent,
+                        top_container.querySelector("h2").innerText,
                         top_container.querySelector("h2 a").getAttribute("href"),
-                        top_container.querySelector(".b_caption").textContent + "\n" + top_container.querySelector("ul").textContent
+                        top_container.querySelector(".b_caption").textConteinnerTextnt + "\n" + top_container.querySelector("ul").innerText
                     )
                     content.rank = curr_rank;
                     curr_rank++;
@@ -158,7 +158,10 @@ export class BingEventsHandler {
 
                 submit_event(event);
                 submit_html(html, filename_html);
-                submit_ranking(ranking, filename_ranking);
+                submit_ranking({
+                    "source": "bing",
+                    "ranking": ranking
+                }, filename_ranking);
             }
 
             (() => {

@@ -82,9 +82,9 @@ export class GoogleEventsHandler {
 
                 // Extract result texts and link
                 let result = new ResultEntry(
-                    content[0].querySelector("a h3").textContent,
+                    content[0].querySelector("a h3").innerText,
                     content[0].querySelector("a").getAttribute("href"),
-                    content[1].textContent
+                    content[1].innerText
                 )
 
                 return result;
@@ -101,9 +101,9 @@ export class GoogleEventsHandler {
                 const link_el = content.querySelector('a');
                 const description_el = content.querySelector(':scope > div');
                 let result = new VideoResultEntry(
-                    header_el.textContent,
+                    header_el.innerText,
                     link_el.getAttribute("href"),
-                    description_el.textContent
+                    description_el.innerText
                 )
 
                 return result;
@@ -135,7 +135,7 @@ export class GoogleEventsHandler {
                                             .querySelector("div[decode-data-ved]")
                                             .children[0]
                                             .querySelector(':scope > div:first-of-type');
-                    let overview = new AIOverviewEntry(text_container.textContent);
+                    let overview = new AIOverviewEntry(text_container.innerText);
                     return overview;
                 }
                 catch (e) {
@@ -192,7 +192,10 @@ export class GoogleEventsHandler {
     
                 submit_event(event);
                 submit_html(html, filename_html);
-                submit_ranking(ranking, filename_ranking);
+                submit_ranking({
+                    "source": "google",
+                    "ranking": ranking
+                }, filename_ranking);
             }
 
             (() => {
