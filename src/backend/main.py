@@ -59,17 +59,20 @@ def start_session():
     out_dir = os.path.join(DATA_DIR, f"{session_id}")
     html_dir = os.path.join(out_dir, "pages")
     ranking_dir = os.path.join(out_dir, "rankings")
+    llm_dir = os.path.join(out_dir, "llm")
     out_log_file = os.path.join(out_dir, "session.json")
 
     os.makedirs(out_dir, exist_ok=True)
     os.makedirs(html_dir, exist_ok=True)
     os.makedirs(ranking_dir, exist_ok=True)
+    os.makedirs(llm_dir, exist_ok=True)
 
     active_sessions[session_id] = {
         "out_dir": out_dir,
         "events_log": LoggingManager(out_log_file),
         "raw_logs": {},
         "ranking_dir": ranking_dir,
+        "llm_dir": llm_dir,
         "html_dir": html_dir
     }
 
@@ -149,6 +152,20 @@ def save_ranking():
     if session_id in active_sessions:
         with open(os.path.join(active_sessions[session_id]["ranking_dir"], data["name"]), "w") as f:
             json.dump(data["ranking"], f, indent=3)
+        return jsonify({}), 200
+    else:
+        return jsonify({}), 400
+
+
+# Save LLM conversation
+@app.route('/llm', methods=['POST'])
+def save_llm():
+    data = request.get_json()
+    session_id = data["session_id"]
+
+    if session_id in active_sessions:
+        with open(os.path.join(active_sessions[session_id]["llm_dir"], data["name"]), "w") as f:
+            json.dump(data["chat"], f, indent=3)
         return jsonify({}), 200
     else:
         return jsonify({}), 400

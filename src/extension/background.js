@@ -2,6 +2,7 @@ import { StateEventsHandler } from './loggers/state.js';
 import { MouseEventsHandler } from './loggers/mouse.js';
 import { KeyboardEventsHandler } from './loggers/keyboard.js';
 import { GoogleEventsHandler } from './loggers/search/google.js';
+import { GoogleAIModeEventsHandler } from './loggers/search/google_aimode.js';
 import { BingEventsHandler } from './loggers/search/bing.js';
 import { BACKEND_BASE_URL } from "./constants.js"
 
@@ -11,6 +12,7 @@ var state_handler = null;
 var mouse_handler = null;
 var keyboard_handler = null;
 var google_handler = null;
+var google_aimode_handler = null;
 var bing_handler = null;
 
 
@@ -30,6 +32,9 @@ async function init_monitoring(session_id) {
     google_handler = new GoogleEventsHandler(session_id);
     await google_handler.start_listeners();
 
+    google_aimode_handler = new GoogleAIModeEventsHandler(session_id);
+    await google_aimode_handler.start_listeners();
+
     bing_handler = new BingEventsHandler(session_id);
     await bing_handler.start_listeners();
 }
@@ -39,6 +44,7 @@ function stop_monitoring() {
     mouse_handler.stop_listeners();
     keyboard_handler.stop_listeners();
     google_handler.stop_listeners();
+    google_aimode_handler.stop_listeners();
     bing_handler.stop_listeners();
 }
 
@@ -80,6 +86,14 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
 
         case "submit-html":
             backendRequest("/html", { 
+                method: "POST", 
+                headers: { "Content-Type": "application/json", },
+                body: message.data
+            })
+            return true
+
+        case "submit-llm":
+            backendRequest("/llm", { 
                 method: "POST", 
                 headers: { "Content-Type": "application/json", },
                 body: message.data
