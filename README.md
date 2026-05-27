@@ -1,4 +1,4 @@
-# SearchLog: A Chromium Extension for Capturing Search Logs in Laboratory Studies
+# SearchLog: A Web Browser Extension for Capturing Search Logs in Laboratory Studies
 
 
 
