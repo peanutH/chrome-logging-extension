@@ -98,12 +98,15 @@ export class BingEventsHandler {
             }
 
             var past_ranking = null;
+            var curr_query = null;
             function save_bing_ranking(timestamp) {
                 // Avoid duplicates due to page loading signals from other content (within same page)
                 if (document.__last_export_timestamp && ((Date.now() - document.__last_export_timestamp) < 500) ) { return; }
                 document.__last_export_timestamp = Date.now();
 
                 const query_text = document.querySelector('#sb_form_q').getAttribute('value');
+                if (!curr_query) { curr_query = query_text; }
+                if (query_text !== curr_query) { return; } // User is typing new query (triggers observer). Don't save ranking
                 const filename_html = `${timestamp}_${query_text}.html`
                 const filename_ranking = `${timestamp}_${query_text}.json`
                 const event = new SearchEvent(session_id, query_text, filename_html, filename_ranking);
@@ -177,9 +180,7 @@ export class BingEventsHandler {
                         last_export_timestamp = Date.now();
                     }
                 });
-                document.addEventListener('DOMContentLoaded', () => {
-                    observer.observe(document.body, { childList: true, subtree: true });
-                });
+                observer.observe(document.body, { childList: true, subtree: true });
             })();
         }
 
