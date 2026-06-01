@@ -92,3 +92,9 @@ The tester checks whether logging only occurs during an active session and wheth
 - Open a test webpage with a password field.
 - Type sample text into the password field, such as *testpassword123*.
 - Stop the logging session.
+
+
+
+## Repeat
+
+Repeat all scripts using Microsoft Bing instead of Google.

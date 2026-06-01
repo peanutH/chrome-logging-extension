@@ -1,0 +1,342 @@
+[
+   {
+      "session_id": "1780302774_4a009b41",
+      "timestamp": 1780302775675,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628790991,
+         "window_id": 628790942,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.bing.com/?toWww=1&redig=A8B569E5D4024C689056EEF9E5948F2A",
+         "title": "Search - Microsoft Bing",
+         "status": "loading",
+         "muted": false,
+         "filename_html": null
+      }
+   },
+   {
+      "session_id": "1780302774_4a009b41",
+      "timestamp": 1780302775679,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628790991,
+         "window_id": 628790942,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.bing.com/?toWww=1&redig=A8B569E5D4024C689056EEF9E5948F2A",
+         "title": "Search - Microsoft Bing",
+         "status": "loading",
+         "muted": false,
+         "filename_html": null
+      }
+   },
+   {
+      "session_id": "1780302774_4a009b41",
+      "timestamp": 1780302775714,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628790991,
+         "window_id": 628790942,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.bing.com/?toWww=1&redig=A8B569E5D4024C689056EEF9E5948F2A",
+         "title": "Search - Microsoft Bing",
+         "status": "complete",
+         "muted": false,
+         "filename_html": "1780302775681_2396419578.html"
+      }
+   },
+   {
+      "session_id": "1780302774_4a009b41",
+      "timestamp": 1780302782278,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628790991,
+         "window_id": 628790942,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.bing.com/search?q=why+do+leaves+change+color+in+autumn&form=QBLH&sp=-1&ghc=1&lq=0&pq=why+do+leaves+change+color+in+autumn&sc=8-36&qs=n&sk=&cvid=6CB149D696AB49FDBB368375EDF26EF2",
+         "title": "bing.com/search?q=why+do+leaves+change+color+in+autumn&form=QBLH&sp=-1&ghc=1&lq=0&pq=why+do+leaves+change+color+in+autumn&sc=8-36&qs=n&sk=&cvid=6CB149D696AB49FDBB368375EDF26EF2",
+         "status": "loading",
+         "muted": false,
+         "filename_html": null
+      }
+   },
+   {
+      "session_id": "1780302774_4a009b41",
+      "timestamp": 1780302782300,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628790991,
+         "window_id": 628790942,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.bing.com/search?q=why+do+leaves+change+color+in+autumn&form=QBLH&sp=-1&ghc=1&lq=0&pq=why+do+leaves+change+color+in+autumn&sc=8-36&qs=n&sk=&cvid=6CB149D696AB49FDBB368375EDF26EF2",
+         "title": "why do leaves change color in autumn - Search",
+         "status": "loading",
+         "muted": false,
+         "filename_html": null
+      }
+   },
+   {
+      "session_id": "1780302774_4a009b41",
+      "timestamp": 1780302782674,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628790991,
+         "window_id": 628790942,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.bing.com/search?q=why+do+leaves+change+color+in+autumn&form=QBLH&sp=-1&ghc=1&lq=0&pq=why+do+leaves+change+color+in+autumn&sc=8-36&qs=n&sk=&cvid=6CB149D696AB49FDBB368375EDF26EF2",
+         "title": "why do leaves change color in autumn - Search",
+         "status": "complete",
+         "muted": false,
+         "filename_html": "1780302782641_3033058329.html"
+      }
+   },
+   {
+      "session_id": "1780302774_4a009b41",
+      "timestamp": 1780302785491,
+      "event": "tab",
+      "action": "tab_create",
+      "tab": {
+         "id": 628790993,
+         "window_id": 628790942,
+         "index": 1,
+         "group_id": -1,
+         "url": "",
+         "title": "",
+         "status": "complete",
+         "muted": false,
+         "filename_html": null
+      }
+   },
+   {
+      "session_id": "1780302774_4a009b41",
+      "timestamp": 1780302785492,
+      "event": "tab",
+      "action": "tab_focus",
+      "tab": {
+         "id": 628790993,
+         "window_id": 628790942,
+         "index": 1,
+         "group_id": -1,
+         "url": "",
+         "title": "",
+         "status": "complete",
+         "muted": false,
+         "filename_html": null
+      }
+   },
+   {
+      "session_id": "1780302774_4a009b41",
+      "timestamp": 1780302785590,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628790993,
+         "window_id": 628790942,
+         "index": 1,
+         "group_id": -1,
+         "url": "https://www.bing.com/ck/a?!&&p=3566bbcaa150604899f42923d391659f84b63133d93181223dff023332848b16JmltdHM9MTc4MDI3MjAwMA&ptn=3&ver=2&hsh=4&fclid=231f873d-851d-6c87-3e61-905c84076d4d&u=a1aHR0cHM6Ly93d3cuYnJpdGFubmljYS5jb20vc3Rvcnkvd2h5LWRvLWxlYXZlcy1jaGFuZ2UtY29sb3JzLWluLXRoZS1mYWxs&ntb=1",
+         "title": "bing.com/ck/a?!&&p=3566bbcaa150604899f42923d391659f84b63133d93181223dff023332848b16JmltdHM9MTc4MDI3MjAwMA&ptn=3&ver=2&hsh=4&fclid=231f873d-851d-6c87-3e61-905c84076d4d&u=a1aHR0cHM6Ly93d3cuYnJpdGFubmljYS5jb20vc3Rvcnkvd2h5LWRvLWxlYXZlcy1jaGFuZ2UtY29sb3JzLWluLXRoZS1mYWxs&ntb=1",
+         "status": "loading",
+         "muted": false,
+         "filename_html": null
+      }
+   },
+   {
+      "session_id": "1780302774_4a009b41",
+      "timestamp": 1780302785596,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628790993,
+         "window_id": 628790942,
+         "index": 1,
+         "group_id": -1,
+         "url": "https://www.bing.com/search?q=why+do+leaves+change+color+in+autumn&form=QBLH&sp=-1&ghc=1&lq=0&pq=why+do+leaves+change+color+in+autumn&sc=8-36&qs=n&sk=&cvid=6CB149D696AB49FDBB368375EDF26EF2",
+         "title": "bing.com/ck/a?!&&p=3566bbcaa150604899f42923d391659f84b63133d93181223dff023332848b16JmltdHM9MTc4MDI3MjAwMA&ptn=3&ver=2&hsh=4&fclid=231f873d-851d-6c87-3e61-905c84076d4d&u=a1aHR0cHM6Ly93d3cuYnJpdGFubmljYS5jb20vc3Rvcnkvd2h5LWRvLWxlYXZlcy1jaGFuZ2UtY29sb3JzLWluLXRoZS1mYWxs&ntb=1",
+         "status": "loading",
+         "muted": false,
+         "filename_html": null
+      }
+   },
+   {
+      "session_id": "1780302774_4a009b41",
+      "timestamp": 1780302785615,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628790993,
+         "window_id": 628790942,
+         "index": 1,
+         "group_id": -1,
+         "url": "https://www.bing.com/search?q=why+do+leaves+change+color+in+autumn&form=QBLH&sp=-1&ghc=1&lq=0&pq=why+do+leaves+change+color+in+autumn&sc=8-36&qs=n&sk=&cvid=6CB149D696AB49FDBB368375EDF26EF2",
+         "title": "bing.com/ck/a?!&&p=3566bbcaa150604899f42923d391659f84b63133d93181223dff023332848b16JmltdHM9MTc4MDI3MjAwMA&ptn=3&ver=2&hsh=4&fclid=231f873d-851d-6c87-3e61-905c84076d4d&u=a1aHR0cHM6Ly93d3cuYnJpdGFubmljYS5jb20vc3Rvcnkvd2h5LWRvLWxlYXZlcy1jaGFuZ2UtY29sb3JzLWluLXRoZS1mYWxs&ntb=1",
+         "status": "complete",
+         "muted": false,
+         "filename_html": "1780302785600_3246675415.html"
+      }
+   },
+   {
+      "session_id": "1780302774_4a009b41",
+      "timestamp": 1780302785849,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628790993,
+         "window_id": 628790942,
+         "index": 1,
+         "group_id": -1,
+         "url": "https://www.britannica.com/story/why-do-leaves-change-colors-in-the-fall",
+         "title": "britannica.com/story/why-do-leaves-change-colors-in-the-fall",
+         "status": "loading",
+         "muted": false,
+         "filename_html": null
+      }
+   },
+   {
+      "session_id": "1780302774_4a009b41",
+      "timestamp": 1780302785860,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628790993,
+         "window_id": 628790942,
+         "index": 1,
+         "group_id": -1,
+         "url": "https://www.britannica.com/story/why-do-leaves-change-colors-in-the-fall",
+         "title": "Why Do Leaves Change Colors in the Fall? | Britannica",
+         "status": "loading",
+         "muted": false,
+         "filename_html": null
+      }
+   },
+   {
+      "session_id": "1780302774_4a009b41",
+      "timestamp": 1780302786000,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628790993,
+         "window_id": 628790942,
+         "index": 1,
+         "group_id": -1,
+         "url": "https://www.britannica.com/story/why-do-leaves-change-colors-in-the-fall",
+         "title": "Why Do Leaves Change Colors in the Fall? | Britannica",
+         "status": "loading",
+         "muted": false,
+         "filename_html": null
+      }
+   },
+   {
+      "session_id": "1780302774_4a009b41",
+      "timestamp": 1780302786034,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628790993,
+         "window_id": 628790942,
+         "index": 1,
+         "group_id": -1,
+         "url": "https://www.britannica.com/story/why-do-leaves-change-colors-in-the-fall",
+         "title": "Why Do Leaves Change Colors in the Fall? | Britannica",
+         "status": "complete",
+         "muted": false,
+         "filename_html": "1780302786026_1204424756.html"
+      }
+   },
+   {
+      "session_id": "1780302774_4a009b41",
+      "timestamp": 1780302786865,
+      "event": "tab",
+      "action": "tab_focus",
+      "tab": {
+         "id": 628790991,
+         "window_id": 628790942,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.bing.com/search?q=why+do+leaves+change+color+in+autumn&form=QBLH&sp=-1&ghc=1&lq=0&pq=why+do+leaves+change+color+in+autumn&sc=8-36&qs=n&sk=&cvid=6CB149D696AB49FDBB368375EDF26EF2",
+         "title": "why do leaves change color in autumn - Search",
+         "status": "complete",
+         "muted": false,
+         "filename_html": "1780302782641_3033058329.html"
+      }
+   },
+   {
+      "session_id": "1780302774_4a009b41",
+      "timestamp": 1780302786864,
+      "event": "tab",
+      "action": "tab_close",
+      "tab": {
+         "id": 628790993,
+         "window_id": 628790942,
+         "index": 1,
+         "group_id": -1,
+         "url": "https://www.britannica.com/story/why-do-leaves-change-colors-in-the-fall",
+         "title": "Why Do Leaves Change Colors in the Fall? | Britannica",
+         "status": "complete",
+         "muted": false,
+         "filename_html": "1780302786026_1204424756.html"
+      }
+   },
+   {
+      "session_id": "1780302774_4a009b41",
+      "timestamp": 1780302795559,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628790991,
+         "window_id": 628790942,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.bing.com/search?q=why+do+leaves+change+color+in+autumn&form=QBLH&sp=-1&ghc=1&lq=0&pq=why+do+leaves+change+color+in+autumn&sc=8-36&qs=n&sk=&cvid=6CB149D696AB49FDBB368375EDF26EF2",
+         "title": "how does photosynthesis work - Search",
+         "status": "loading",
+         "muted": false,
+         "filename_html": null
+      }
+   },
+   {
+      "session_id": "1780302774_4a009b41",
+      "timestamp": 1780302796201,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628790991,
+         "window_id": 628790942,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.bing.com/search?q=how%20does%20photosynthesis%20work&qs=n&form=QBRE&sp=-1&ghc=1&lq=0&pq=how%20does%20photosynthesis%20work&sc=11-28&sk=&cvid=8796B4933D9745D6BD7468549B2B1D16",
+         "title": "how does photosynthesis work - Search",
+         "status": "loading",
+         "muted": false,
+         "filename_html": null
+      }
+   },
+   {
+      "session_id": "1780302774_4a009b41",
+      "timestamp": 1780302796298,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628790991,
+         "window_id": 628790942,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.bing.com/search?q=how%20does%20photosynthesis%20work&qs=n&form=QBRE&sp=-1&ghc=1&lq=0&pq=how%20does%20photosynthesis%20work&sc=11-28&sk=&cvid=8796B4933D9745D6BD7468549B2B1D16",
+         "title": "how does photosynthesis work - Search",
+         "status": "complete",
+         "muted": false,
+         "filename_html": "1780302796206_1672248380.html"
+      }
+   }
+]

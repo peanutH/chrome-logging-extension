@@ -1,0 +1,344 @@
+[
+   {
+      "session_id": "1780301250_8c07936e",
+      "timestamp": 1780301251932,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628790768,
+         "window_id": 628790724,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.bing.com/?toWww=1&redig=A8B569E5D4024C689056EEF9E5948F2A",
+         "title": "Search - Microsoft Bing",
+         "status": "complete",
+         "muted": false,
+         "filename_html": "1780301251899_1216567760.html"
+      }
+   },
+   {
+      "session_id": "1780301250_8c07936e",
+      "timestamp": 1780301253340,
+      "event": "mouse",
+      "action": "mouse_move",
+      "screen_width": 1911,
+      "screen_height": 2586,
+      "mouse_from": {
+         "x": 1143,
+         "y": 11
+      },
+      "mouse_to": {
+         "x": 1078,
+         "y": 205
+      },
+      "hovered_text": ""
+   },
+   {
+      "session_id": "1780301250_8c07936e",
+      "timestamp": 1780301256269,
+      "event": "search",
+      "search_engine": "bing",
+      "query": "history of coffee",
+      "filename_html": "1780301256269_history of coffee.html",
+      "filename_ranking": "1780301256269_history of coffee.json"
+   },
+   {
+      "session_id": "1780301250_8c07936e",
+      "timestamp": 1780301256285,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628790768,
+         "window_id": 628790724,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.bing.com/search?q=history+of+coffee&form=QBLH&sp=-1&ghc=1&lq=0&pq=history+of+coffee&sc=12-17&qs=n&sk=&cvid=A48F159E162647A0AD05BC2D14FC7EC1",
+         "title": "history of coffee - Search",
+         "status": "complete",
+         "muted": false,
+         "filename_html": "1780301256251_3118924232.html"
+      }
+   },
+   {
+      "session_id": "1780301250_8c07936e",
+      "timestamp": 1780301257515,
+      "event": "mouse",
+      "action": "mouse_move",
+      "screen_width": 1891,
+      "screen_height": 4687,
+      "mouse_from": {
+         "x": 1077,
+         "y": 205
+      },
+      "mouse_to": {
+         "x": 942,
+         "y": 199
+      },
+      "hovered_text": "History of coffee\nAspect of history of coffee\nOverview\nSpread"
+   },
+   {
+      "session_id": "1780301250_8c07936e",
+      "timestamp": 1780301258066,
+      "event": "mouse",
+      "action": "mouse_move",
+      "screen_width": 1891,
+      "screen_height": 4687,
+      "mouse_from": {
+         "x": 942,
+         "y": 199
+      },
+      "mouse_to": {
+         "x": 936,
+         "y": 199
+      },
+      "hovered_text": "History of coffee\nAspect of history of coffee\nOverview\nSpread"
+   },
+   {
+      "session_id": "1780301250_8c07936e",
+      "timestamp": 1780301258617,
+      "event": "mouse",
+      "action": "mouse_move",
+      "screen_width": 1891,
+      "screen_height": 4687,
+      "mouse_from": {
+         "x": 936,
+         "y": 199
+      },
+      "mouse_to": {
+         "x": 924,
+         "y": 202
+      },
+      "hovered_text": "History of coffee\nAspect of history of coffee\nOverview\nSpread"
+   },
+   {
+      "session_id": "1780301250_8c07936e",
+      "timestamp": 1780301259484,
+      "event": "mouse",
+      "action": "mouse_move",
+      "screen_width": 1891,
+      "screen_height": 4687,
+      "mouse_from": {
+         "x": 924,
+         "y": 202
+      },
+      "mouse_to": {
+         "x": 882,
+         "y": 208
+      },
+      "hovered_text": "History of coffee\nAspect of history of coffee\nOverview\nSpread"
+   },
+   {
+      "session_id": "1780301250_8c07936e",
+      "timestamp": 1780301260608,
+      "event": "mouse",
+      "action": "mouse_scroll",
+      "screen_width": 1891,
+      "screen_height": 4794,
+      "scroll_start": {
+         "x": 0,
+         "y": 2
+      },
+      "scroll_end": {
+         "x": 0,
+         "y": 600
+      }
+   },
+   {
+      "session_id": "1780301250_8c07936e",
+      "timestamp": 1780301261303,
+      "event": "mouse",
+      "action": "mouse_move",
+      "screen_width": 1891,
+      "screen_height": 4794,
+      "mouse_from": {
+         "x": 882,
+         "y": 208
+      },
+      "mouse_to": {
+         "x": 884,
+         "y": 826
+      },
+      "hovered_text": "About 20,600 results\nHistory of coffee\nAspect of history of coffee\nOverview\nSpread\n\u00a0\nThe history of coffee spans many centuries. Wild coffee plants originated in Ethiopia, while the beverage itself has its roots in Yemen, where it was harvested, roasted and brewed; Sufi Muslims in the 15th century used it to aid concentration during night prayers.\nLearn more:\n1\nHistory of coffee - Wikipedia\nwikipedia.org\n2\nHistory of coffee - Wikipedia\nwikipedia.org\n3\nHistory of coffee | Origin, Spread, Ethiopia, Arab\u2026\nbritannica.com\n4\nHistory of coffee - NCA - About Coffee\naboutcoffee.org\n5\nThe History of Coffee: From Ancient Origins t\u2026\ncoffeereviewhq.com\n6\nA Complete History Of Coffee: From Ethiopia\u2026\nbriandcolwell.com\n7\nHistory of Coffee: From Ancient Ethiopia to To\u2026\ncoffeevoila.com\n\u00a0\nAmazon\nwww.amazon.it \u203a libri \u203a storia caff\u00e8\nAmazon.it - storia caff\u00e8 - Scopri tutte le novit\u00e0\nSponsored\nEsplora la nostra selezione di libri in formato cartaceo ed ebook.\nSite visitors: Over 1M in the past month\nTipi di Integratori: Effetto Immediato, Enzimi Digestivi, Effetto Depot and more\nWikipedia\nhttps://en.wikipedia.org \u203a wiki \u203a History_of_coffee\nHistory of coffee - Wikipedia\nThe history of coffee spans many centuries. Wild coffee plants originated in Ethiopia, while the beverage itself has its roots in Yemen, where it was harvested, roasted and brewed; Sufi Muslims in the 15th century used it to aid concentration during night prayers. From Yemen coffee spread to \u2026\nEtymology\n\nThe word coffee entered the English language from the Ottoman Turkish \u1e33ahve (\u0642\u0647\u0648\u0647), borrowed in turn from the Arabic qahwah (\u0642\u064e\u0647\u0652\u0648\u064e\u0629). Medieval Arab lexicographers traditionally held that the etymology of qahwah meant 'wine', \u2026\n\nGenetics\n\nStudies of genetic diversity have been performed on Coffea arabica varieties, which were found to be of low diversity but with retention of some residual heterozygosity from ancestral materials, and closely related diploid species \u2026\n\nWikipedia text under CC-BY-SA license\nBritannica\nhttps://www.britannica.com \u203a topic \u203a history-of-coffee\nHistory of coffee | Origin, Spread, Ethiopia, Arabia, Facts, & Timeline ...\nSee More\n\nHistory of coffee, the discovery and spread of coffee as a stimulating beverage. Wild coffee plants are thought to have been native to an Ethiopian plateau \u2026\n\nVideos of History of Coffee\nEarly History of Coffee\nExtra History Coffee\nCoffee House History\nCoffee Makers History\nHistory of Coffee Brewing\nHistory of Coffee Shops\nHistory of Coffee Production\nFun History of Coffee\nArbuckle's Coffee History\nCoffee Cultivation History\nHistory of Coffee Culture\nEthiopian Coffee History\nCoffee History Facts\nModern History of Coffee\nHistory of Coffee Beans\nCoffee History in Ethiopia\nGlobal History of Coffee\nEthiopia\nDocumentary\nA History of Violence Coffee Scene\nRarest Coffees In\nHistory of Espresso\nBrewing\nOrigins\n2024s Best Coffees\nHow Did They Make Coffee in the 1800s\nFamous Historical Cafes\nBlack Coffee\nInformation\nThe Evolution of Coffee Brewing\nArabic\nImpact of Coffee On Society\nChemistry\nAncient Coffee Practices\nCup of Coffee\nKaffee Villena\nArt of Coffee\nFunny Coffee\nFull His Try in Nepali\nInvention\nPlantations\nGood Morning\nEtiopians Sufism\nThe Role of Coffee in Social Movements\nOrigin of Coffee\nHow to Make Turkish Coffee\nCoffee Wiki\nHistory of Coffee in Hawaii\nTurkish Coffee Recipes\nUse of Coffee in Amharic\n10:02\nThe History of Coffee | Origin of Coffee | Documentary | EXPLORE MODE\nYouTubeExplore Mode\n381.5K viewsSep 12, 2019\n5:35\nHow humanity got hooked on coffee - Jonathan Morris\nYouTubeTED-Ed\n3M viewsMar 5, 2024\n9:14\nThe Story of Coffee: Origins, Culture & Global Impact\nYouTubeAthena World Journey\n19.4K views5 months ago\nShort videos\nYouTube\nYouTube\nYouTube\nYouTube\nTikTok\nYouTube\naboutcoffee.org\nhttps://www.aboutcoffee.org \u203a origins \u203a history-of-coffee\ncoffeereviewhq.com\nhttps://coffeereviewhq.com \u203a the-history-of-coffee\nThe History of Coffee: From Ancient Origins to Today\n\nDiscover the fascinating history of coffee, from its ancient Ethiopian roots to its global impact and modern culture. Explore \u2026\n\nbriandcolwell.com\nhttps://briandcolwell.com \u203a a-complete-history-of-coffee-from-ethiopian...\nBBC\nhttps://www.bbc.com \u203a ... \u203a made-on-earth \u203a how-the-world \u2026\nHow coffee became an unstoppable force - BBC\n\nMay 11, 2026\u00a0\u00b7 Coffee\u2019s story starts in the lush highlands of Ethiopia, the natural homeland of the delicate Coffea arabica \u2026\n\nFeedback\ncoffeevoila.com\nhttps://coffeevoila.com \u203a history-of-coffee\nHistory of Coffee: From Ancient Ethiopia to Today\n\nOct 18, 2024\u00a0\u00b7 Learn how coffee spread from Ethiopia to the Arabian Peninsula, Europe, and the Americas, and how it \u2026\n\nCoffeeAM\nhttps://www.coffeeam.com \u203a blogs \u203a blog \u203a a-brief-history-o\u2026\nA Brief History of Coffee: From Discovery to Global \u2026\n\nSep 8, 2025\u00a0\u00b7 Here\u2019s a detailed look at how coffee was discovered, how it spread across the globe, and how trends have \u2026\n\nhistoryofcoffee.net\nhttp://www.historyofcoffee.net\nHistory of Coffee - Discovery of Coffee Plant\n\nCoffee came to the Isle of Bourbon, today R\u00e9union, in the Indian Ocean and from there to Brazil making so \u2026\n\nCoffee Brewster\nhttps://coffeebrewster.com \u203a history-of-coffee\nHistory Of Coffee: Origins, Waves, and More\n\nMay 28, 2024\u00a0\u00b7 Learn about the legends and facts of coffee discovery, cultivation, and consumption across \u2026\n\nDeep dive into history of coffee\nhistory of coffee in america\nhistory of coffee in europe\nhistory of coffee book\nhistory of coffee drink\nwho discovered coffee\nthe history of coffee beans\nthe history of coffee houses\nthe history of coffee shops\n\u00a0"
+   },
+   {
+      "session_id": "1780301250_8c07936e",
+      "timestamp": 1780301261720,
+      "event": "mouse",
+      "action": "mouse_move",
+      "screen_width": 1891,
+      "screen_height": 4794,
+      "mouse_from": {
+         "x": 884,
+         "y": 826
+      },
+      "mouse_to": {
+         "x": 884,
+         "y": 821
+      },
+      "hovered_text": "About 20,600 results\nHistory of coffee\nAspect of history of coffee\nOverview\nSpread\n\u00a0\nThe history of coffee spans many centuries. Wild coffee plants originated in Ethiopia, while the beverage itself has its roots in Yemen, where it was harvested, roasted and brewed; Sufi Muslims in the 15th century used it to aid concentration during night prayers.\nLearn more:\n1\nHistory of coffee - Wikipedia\nwikipedia.org\n2\nHistory of coffee - Wikipedia\nwikipedia.org\n3\nHistory of coffee | Origin, Spread, Ethiopia, Arab\u2026\nbritannica.com\n4\nHistory of coffee - NCA - About Coffee\naboutcoffee.org\n5\nThe History of Coffee: From Ancient Origins t\u2026\ncoffeereviewhq.com\n6\nA Complete History Of Coffee: From Ethiopia\u2026\nbriandcolwell.com\n7\nHistory of Coffee: From Ancient Ethiopia to To\u2026\ncoffeevoila.com\n\u00a0\nAmazon\nwww.amazon.it \u203a libri \u203a storia caff\u00e8\nAmazon.it - storia caff\u00e8 - Scopri tutte le novit\u00e0\nSponsored\nEsplora la nostra selezione di libri in formato cartaceo ed ebook.\nSite visitors: Over 1M in the past month\nTipi di Integratori: Effetto Immediato, Enzimi Digestivi, Effetto Depot and more\nWikipedia\nhttps://en.wikipedia.org \u203a wiki \u203a History_of_coffee\nHistory of coffee - Wikipedia\nThe history of coffee spans many centuries. Wild coffee plants originated in Ethiopia, while the beverage itself has its roots in Yemen, where it was harvested, roasted and brewed; Sufi Muslims in the 15th century used it to aid concentration during night prayers. From Yemen coffee spread to \u2026\nEtymology\n\nThe word coffee entered the English language from the Ottoman Turkish \u1e33ahve (\u0642\u0647\u0648\u0647), borrowed in turn from the Arabic qahwah (\u0642\u064e\u0647\u0652\u0648\u064e\u0629). Medieval Arab lexicographers traditionally held that the etymology of qahwah meant 'wine', \u2026\n\nGenetics\n\nStudies of genetic diversity have been performed on Coffea arabica varieties, which were found to be of low diversity but with retention of some residual heterozygosity from ancestral materials, and closely related diploid species \u2026\n\nWikipedia text under CC-BY-SA license\nBritannica\nhttps://www.britannica.com \u203a topic \u203a history-of-coffee\nHistory of coffee | Origin, Spread, Ethiopia, Arabia, Facts, & Timeline ...\nSee More\n\nHistory of coffee, the discovery and spread of coffee as a stimulating beverage. Wild coffee plants are thought to have been native to an Ethiopian plateau \u2026\n\nVideos of History of Coffee\nEarly History of Coffee\nExtra History Coffee\nCoffee House History\nCoffee Makers History\nHistory of Coffee Brewing\nHistory of Coffee Shops\nHistory of Coffee Production\nFun History of Coffee\nArbuckle's Coffee History\nCoffee Cultivation History\nHistory of Coffee Culture\nEthiopian Coffee History\nCoffee History Facts\nModern History of Coffee\nHistory of Coffee Beans\nCoffee History in Ethiopia\nGlobal History of Coffee\nEthiopia\nDocumentary\nA History of Violence Coffee Scene\nRarest Coffees In\nHistory of Espresso\nBrewing\nOrigins\n2024s Best Coffees\nHow Did They Make Coffee in the 1800s\nFamous Historical Cafes\nBlack Coffee\nInformation\nThe Evolution of Coffee Brewing\nArabic\nImpact of Coffee On Society\nChemistry\nAncient Coffee Practices\nCup of Coffee\nKaffee Villena\nArt of Coffee\nFunny Coffee\nFull His Try in Nepali\nInvention\nPlantations\nGood Morning\nEtiopians Sufism\nThe Role of Coffee in Social Movements\nOrigin of Coffee\nHow to Make Turkish Coffee\nCoffee Wiki\nHistory of Coffee in Hawaii\nTurkish Coffee Recipes\nUse of Coffee in Amharic\n10:02\nThe History of Coffee | Origin of Coffee | Documentary | EXPLORE MODE\nYouTubeExplore Mode\n381.5K viewsSep 12, 2019\n5:35\nHow humanity got hooked on coffee - Jonathan Morris\nYouTubeTED-Ed\n3M viewsMar 5, 2024\n9:14\nThe Story of Coffee: Origins, Culture & Global Impact\nYouTubeAthena World Journey\n19.4K views5 months ago\nShort videos\nYouTube\nYouTube\nYouTube\nYouTube\nTikTok\nYouTube\naboutcoffee.org\nhttps://www.aboutcoffee.org \u203a origins \u203a history-of-coffee\ncoffeereviewhq.com\nhttps://coffeereviewhq.com \u203a the-history-of-coffee\nThe History of Coffee: From Ancient Origins to Today\n\nDiscover the fascinating history of coffee, from its ancient Ethiopian roots to its global impact and modern culture. Explore \u2026\n\nbriandcolwell.com\nhttps://briandcolwell.com \u203a a-complete-history-of-coffee-from-ethiopian...\nBBC\nhttps://www.bbc.com \u203a ... \u203a made-on-earth \u203a how-the-world \u2026\nHow coffee became an unstoppable force - BBC\n\nMay 11, 2026\u00a0\u00b7 Coffee\u2019s story starts in the lush highlands of Ethiopia, the natural homeland of the delicate Coffea arabica \u2026\n\nFeedback\ncoffeevoila.com\nhttps://coffeevoila.com \u203a history-of-coffee\nHistory of Coffee: From Ancient Ethiopia to Today\n\nOct 18, 2024\u00a0\u00b7 Learn how coffee spread from Ethiopia to the Arabian Peninsula, Europe, and the Americas, and how it \u2026\n\nCoffeeAM\nhttps://www.coffeeam.com \u203a blogs \u203a blog \u203a a-brief-history-o\u2026\nA Brief History of Coffee: From Discovery to Global \u2026\n\nSep 8, 2025\u00a0\u00b7 Here\u2019s a detailed look at how coffee was discovered, how it spread across the globe, and how trends have \u2026\n\nhistoryofcoffee.net\nhttp://www.historyofcoffee.net\nHistory of Coffee - Discovery of Coffee Plant\n\nCoffee came to the Isle of Bourbon, today R\u00e9union, in the Indian Ocean and from there to Brazil making so \u2026\n\nCoffee Brewster\nhttps://coffeebrewster.com \u203a history-of-coffee\nHistory Of Coffee: Origins, Waves, and More\n\nMay 28, 2024\u00a0\u00b7 Learn about the legends and facts of coffee discovery, cultivation, and consumption across \u2026\n\nDeep dive into history of coffee\nhistory of coffee in america\nhistory of coffee in europe\nhistory of coffee book\nhistory of coffee drink\nwho discovered coffee\nthe history of coffee beans\nthe history of coffee houses\nthe history of coffee shops\n\u00a0"
+   },
+   {
+      "session_id": "1780301250_8c07936e",
+      "timestamp": 1780301263757,
+      "event": "mouse",
+      "action": "mouse_move",
+      "screen_width": 1891,
+      "screen_height": 4794,
+      "mouse_from": {
+         "x": 884,
+         "y": 821
+      },
+      "mouse_to": {
+         "x": 330,
+         "y": 982
+      },
+      "hovered_text": "History of coffee - Wikipedia"
+   },
+   {
+      "session_id": "1780301250_8c07936e",
+      "timestamp": 1780301263791,
+      "event": "mouse",
+      "action": "mouse_click",
+      "screen_width": 1891,
+      "screen_height": 4794,
+      "mouse": {
+         "x": 330,
+         "y": 982
+      },
+      "hovered_text": "History of coffee - Wikipedia"
+   },
+   {
+      "session_id": "1780301250_8c07936e",
+      "timestamp": 1780301263803,
+      "event": "tab",
+      "action": "tab_focus",
+      "tab": {
+         "id": 628790770,
+         "window_id": 628790724,
+         "index": 1,
+         "group_id": -1,
+         "url": "",
+         "title": "",
+         "status": "complete",
+         "muted": false,
+         "filename_html": null
+      }
+   },
+   {
+      "session_id": "1780301250_8c07936e",
+      "timestamp": 1780301263929,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628790770,
+         "window_id": 628790724,
+         "index": 1,
+         "group_id": -1,
+         "url": "https://www.bing.com/search?q=history+of+coffee&form=QBLH&sp=-1&ghc=1&lq=0&pq=history+of+coffee&sc=12-17&qs=n&sk=&cvid=A48F159E162647A0AD05BC2D14FC7EC1",
+         "title": "bing.com/ck/a?!&&p=fe8928131e7befd6e71de989c3ffad6ee7d8c56024700f7319afeaa81eec776cJmltdHM9MTc4MDI3MjAwMA&ptn=3&ver=2&hsh=4&fclid=231f873d-851d-6c87-3e61-905c84076d4d&u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvSGlzdG9yeV9vZl9jb2ZmZWU&ntb=1",
+         "status": "complete",
+         "muted": false,
+         "filename_html": "1780301263912_262392863.html"
+      }
+   },
+   {
+      "session_id": "1780301250_8c07936e",
+      "timestamp": 1780301264522,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628790770,
+         "window_id": 628790724,
+         "index": 1,
+         "group_id": -1,
+         "url": "https://en.wikipedia.org/wiki/History_of_coffee",
+         "title": "History of coffee - Wikipedia",
+         "status": "complete",
+         "muted": false,
+         "filename_html": "1780301264484_2595093577.html"
+      }
+   },
+   {
+      "session_id": "1780301250_8c07936e",
+      "timestamp": 1780301266635,
+      "event": "mouse",
+      "action": "mouse_scroll",
+      "screen_width": 1891,
+      "screen_height": 24539,
+      "scroll_start": {
+         "x": 0,
+         "y": 2
+      },
+      "scroll_end": {
+         "x": 0,
+         "y": 1080
+      }
+   },
+   {
+      "session_id": "1780301250_8c07936e",
+      "timestamp": 1780301268298,
+      "event": "mouse",
+      "action": "mouse_scroll",
+      "screen_width": 1891,
+      "screen_height": 24539,
+      "scroll_start": {
+         "x": 0,
+         "y": 1075
+      },
+      "scroll_end": {
+         "x": 0,
+         "y": 0
+      }
+   },
+   {
+      "session_id": "1780301250_8c07936e",
+      "timestamp": 1780301269544,
+      "event": "mouse",
+      "action": "mouse_move",
+      "screen_width": 1891,
+      "screen_height": 24539,
+      "mouse_from": {
+         "x": 936,
+         "y": 888
+      },
+      "mouse_to": {
+         "x": 560,
+         "y": 2
+      },
+      "hovered_text": "Main menu\nSearch\nDonate\nCreate account\nLog in"
+   },
+   {
+      "session_id": "1780301250_8c07936e",
+      "timestamp": 1780301270363,
+      "event": "tab",
+      "action": "tab_focus",
+      "tab": {
+         "id": 628790768,
+         "window_id": 628790724,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.bing.com/search?q=history+of+coffee&form=QBLH&sp=-1&ghc=1&lq=0&pq=history+of+coffee&sc=12-17&qs=n&sk=&cvid=A48F159E162647A0AD05BC2D14FC7EC1",
+         "title": "history of coffee - Search",
+         "status": "complete",
+         "muted": false,
+         "filename_html": "1780301256251_3118924232.html"
+      }
+   },
+   {
+      "session_id": "1780301250_8c07936e",
+      "timestamp": 1780301271696,
+      "event": "mouse",
+      "action": "mouse_move",
+      "screen_width": 1891,
+      "screen_height": 4794,
+      "mouse_from": {
+         "x": 330,
+         "y": 982
+      },
+      "mouse_to": {
+         "x": 1729,
+         "y": 601
+      },
+      "hovered_text": "Skip to content\nAccessibility Feedback"
+   }
+]

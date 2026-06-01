@@ -1,0 +1,33 @@
+{
+   "source": "bing",
+   "ranking": [
+      {
+         "rank": 1,
+         "type": "text_result",
+         "title": "How do solar panels work? Solar power explained - EnergySage",
+         "link": "https://www.bing.com/ck/a?!&&p=0a85d8dbd960612d1bef6b796e163a68bbb4745849ce1481dccc59ab1ffe5d2dJmltdHM9MTc4MDI3MjAwMA&ptn=3&ver=2&hsh=4&fclid=231f873d-851d-6c87-3e61-905c84076d4d&u=a1aHR0cHM6Ly93d3cuZW5lcmd5c2FnZS5jb20vc29sYXIvc29sYXItcGFuZWxzLXdvcmsv&ntb=1",
+         "description": "Feb 23, 2026\u00a0\u00b7 At a high level, solar panels are made up of solar cells, which absorb sunlight. They use this sunlight to create direct current (DC) \u2026\n\nEmail: support@energysage.com\nPhone: (888) 838-4638\nOccupation: Content Lead"
+      },
+      {
+         "rank": 2,
+         "type": "text_result",
+         "title": "How Do Solar Panels Work? The Complete Beginner's Guide (Simple ...",
+         "link": "https://www.bing.com/ck/a?!&&p=b6d513568cd3159c799fae2dcbd05d0037acdb9132703c1de15361c3ca8a4df6JmltdHM9MTc4MDI3MjAwMA&ptn=3&ver=2&hsh=4&fclid=231f873d-851d-6c87-3e61-905c84076d4d&u=a1aHR0cHM6Ly93d3cudGhlZ3JlZW53YXR0LmNvbS9ob3ctZG8tc29sYXItcGFuZWxzLXdvcmsv&ntb=1",
+         "description": "Solar panels convert sunlight into electricity through the photovoltaic effect. Photons from sunlight hit silicon cells inside the panel, knock electrons free \u2026"
+      },
+      {
+         "rank": 3,
+         "type": "text_result",
+         "title": "How Solar Panels Work: The Complete Guide (2026)",
+         "link": "https://www.bing.com/ck/a?!&&p=80d4c3d16ed671b92f4c7b6ae5c712698a44c6d64347fbac47fc99e93d7a11c9JmltdHM9MTc4MDI3MjAwMA&ptn=3&ver=2&hsh=4&fclid=231f873d-851d-6c87-3e61-905c84076d4d&u=a1aHR0cHM6Ly93d3cuc3VyZ2Vwdi5jb20vaHViL3NvbGFyLXRlY2hub2xvZ3kvaG93LXNvbGFyLXdvcmtz&ntb=1",
+         "description": "Mar 13, 2026\u00a0\u00b7 How solar panels convert sunlight into electricity: the photovoltaic effect, cell-to-system architecture, \u2026"
+      },
+      {
+         "rank": 4,
+         "type": "text_result",
+         "title": "How Does Solar Work? - Department of Energy",
+         "link": "https://www.bing.com/ck/a?!&&p=69579d2344c6cff8c73c5ab5790f911a3bcabaf65e0f69949078eb57efd4130cJmltdHM9MTc4MDI3MjAwMA&ptn=3&ver=2&hsh=4&fclid=231f873d-851d-6c87-3e61-905c84076d4d&u=a1aHR0cHM6Ly93d3cuZW5lcmd5Lmdvdi9jbWVpL3N5c3RlbXMvaG93LWRvZXMtc29sYXItd29yaw&ntb=1",
+         "description": "When the sun shines onto a solar panel, energy from the sunlight is absorbed by the PV cells in the panel. This energy \u2026"
+      }
+   ]
+}

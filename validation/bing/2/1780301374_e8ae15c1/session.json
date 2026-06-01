@@ -1,0 +1,371 @@
+[
+   {
+      "session_id": "1780301374_e8ae15c1",
+      "timestamp": 1780301377910,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628790824,
+         "window_id": 628790823,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.bing.com/?toWww=1&redig=A8B569E5D4024C689056EEF9E5948F2A",
+         "title": "Search - Microsoft Bing",
+         "status": "complete",
+         "muted": false,
+         "filename_html": "1780301377893_3337365679.html"
+      }
+   },
+   {
+      "session_id": "1780301374_e8ae15c1",
+      "timestamp": 1780301380270,
+      "event": "keyboard",
+      "action": "write",
+      "typed": "b"
+   },
+   {
+      "session_id": "1780301374_e8ae15c1",
+      "timestamp": 1780301380370,
+      "event": "mouse",
+      "action": "mouse_move",
+      "screen_width": 1911,
+      "screen_height": 2916,
+      "mouse_from": {
+         "x": 1228,
+         "y": 0
+      },
+      "mouse_to": {
+         "x": 1114,
+         "y": 231
+      },
+      "hovered_text": ""
+   },
+   {
+      "session_id": "1780301374_e8ae15c1",
+      "timestamp": 1780301380913,
+      "event": "keyboard",
+      "action": "write",
+      "typed": "es"
+   },
+   {
+      "session_id": "1780301374_e8ae15c1",
+      "timestamp": 1780301382318,
+      "event": "keyboard",
+      "action": "write",
+      "typed": "t ways to "
+   },
+   {
+      "session_id": "1780301374_e8ae15c1",
+      "timestamp": 1780301384720,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628790824,
+         "window_id": 628790823,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.bing.com/search?q=best+ways+to+learn+python&form=QBLH&sp=-1&ghc=1&lq=0&pq=best+ways+to+learn+python&sc=10-25&qs=n&sk=&cvid=BE201B266CAD4A2BB0D542D88947CEC9",
+         "title": "best ways to learn python - Search",
+         "status": "complete",
+         "muted": false,
+         "filename_html": "1780301384683_3602300203.html"
+      }
+   },
+   {
+      "session_id": "1780301374_e8ae15c1",
+      "timestamp": 1780301384745,
+      "event": "search",
+      "search_engine": "bing",
+      "query": "best ways to learn python",
+      "filename_html": "1780301384744_best ways to learn python.html",
+      "filename_ranking": "1780301384744_best ways to learn python.json"
+   },
+   {
+      "session_id": "1780301374_e8ae15c1",
+      "timestamp": 1780301385763,
+      "event": "mouse",
+      "action": "mouse_move",
+      "screen_width": 1891,
+      "screen_height": 4010,
+      "mouse_from": {
+         "x": 1112,
+         "y": 231
+      },
+      "mouse_to": {
+         "x": 1098,
+         "y": 243
+      },
+      "hovered_text": "Coursera\nwww.coursera.org \u203a ibm \u203a data-analyst\nLearn Python - IBM Data Analyst Certificate\nSponsored\nGain hands-on data skills with Python, SQL & real-world business cases. Turn raw data into insights with dashboards, analysis & practical projects\nAmazon\nwww.amazon.it \u203a imparare programmare python\nimparare programmare python su Amazon.it - Scopri tutte le offerte\nSponsored\nPrezzi convenienti su imparare programmare python. Spedizione gratis (vedi condizioni)\n\u00a0"
+   },
+   {
+      "session_id": "1780301374_e8ae15c1",
+      "timestamp": 1780301387719,
+      "event": "mouse",
+      "action": "mouse_scroll",
+      "screen_width": 1891,
+      "screen_height": 4093,
+      "scroll_start": {
+         "x": 0,
+         "y": 2
+      },
+      "scroll_end": {
+         "x": 0,
+         "y": 600
+      }
+   },
+   {
+      "session_id": "1780301374_e8ae15c1",
+      "timestamp": 1780301388741,
+      "event": "mouse",
+      "action": "mouse_move",
+      "screen_width": 1891,
+      "screen_height": 4093,
+      "mouse_from": {
+         "x": 1098,
+         "y": 243
+      },
+      "mouse_to": {
+         "x": 486,
+         "y": 1071
+      },
+      "hovered_text": "Best way to learn python - GeeksforGeeks"
+   },
+   {
+      "session_id": "1780301374_e8ae15c1",
+      "timestamp": 1780301389732,
+      "event": "mouse",
+      "action": "mouse_move",
+      "screen_width": 1891,
+      "screen_height": 4093,
+      "mouse_from": {
+         "x": 486,
+         "y": 1071
+      },
+      "mouse_to": {
+         "x": 387,
+         "y": 600
+      },
+      "hovered_text": "Skip to content\nAccessibility Feedback"
+   },
+   {
+      "session_id": "1780301374_e8ae15c1",
+      "timestamp": 1780301389928,
+      "event": "tab",
+      "action": "tab_focus",
+      "tab": {
+         "id": 628790861,
+         "window_id": 628790823,
+         "index": 1,
+         "group_id": -1,
+         "url": "https://www.geeksforgeeks.org/python/best-way-to-learn-python/",
+         "title": "Best way to learn python - GeeksforGeeks",
+         "status": "loading",
+         "muted": false,
+         "filename_html": null
+      }
+   },
+   {
+      "session_id": "1780301374_e8ae15c1",
+      "timestamp": 1780301391043,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628790861,
+         "window_id": 628790823,
+         "index": 1,
+         "group_id": -1,
+         "url": "https://www.geeksforgeeks.org/python/best-way-to-learn-python/",
+         "title": "Best way to learn python - GeeksforGeeks",
+         "status": "complete",
+         "muted": false,
+         "filename_html": "1780301391019_3678658828.html"
+      }
+   },
+   {
+      "session_id": "1780301374_e8ae15c1",
+      "timestamp": 1780301396984,
+      "event": "tab",
+      "action": "tab_focus",
+      "tab": {
+         "id": 628790824,
+         "window_id": 628790823,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.bing.com/search?q=best+ways+to+learn+python&form=QBLH&sp=-1&ghc=1&lq=0&pq=best+ways+to+learn+python&sc=10-25&qs=n&sk=&cvid=BE201B266CAD4A2BB0D542D88947CEC9",
+         "title": "best ways to learn python - Search",
+         "status": "complete",
+         "muted": false,
+         "filename_html": "1780301384683_3602300203.html"
+      }
+   },
+   {
+      "session_id": "1780301374_e8ae15c1",
+      "timestamp": 1780301399132,
+      "event": "mouse",
+      "action": "mouse_move",
+      "screen_width": 1891,
+      "screen_height": 4093,
+      "mouse_from": {
+         "x": 387,
+         "y": 600
+      },
+      "mouse_to": {
+         "x": 457,
+         "y": 1338
+      },
+      "hovered_text": "I Tried 20+ Places to Learn Python: Here Are Top 5 I \u2026"
+   },
+   {
+      "session_id": "1780301374_e8ae15c1",
+      "timestamp": 1780301401165,
+      "event": "mouse",
+      "action": "mouse_move",
+      "screen_width": 1891,
+      "screen_height": 4093,
+      "mouse_from": {
+         "x": 457,
+         "y": 1338
+      },
+      "mouse_to": {
+         "x": 604,
+         "y": 603
+      },
+      "hovered_text": "Skip to content\nAccessibility Feedback"
+   },
+   {
+      "session_id": "1780301374_e8ae15c1",
+      "timestamp": 1780301401297,
+      "event": "tab",
+      "action": "tab_focus",
+      "tab": {
+         "id": 628790862,
+         "window_id": 628790823,
+         "index": 2,
+         "group_id": -1,
+         "url": "https://medium.com/javarevisited/i-tried-20-places-to-learn-python-here-are-5-i-actually-recommend-1cf6eb0cba87",
+         "title": "I Tried 20+ Places to Learn Python: Here Are Top 5 I Actually Recommend for 2026 | by javinpaul | Javarevisited | Medium",
+         "status": "loading",
+         "muted": false,
+         "filename_html": null
+      }
+   },
+   {
+      "session_id": "1780301374_e8ae15c1",
+      "timestamp": 1780301402082,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628790862,
+         "window_id": 628790823,
+         "index": 2,
+         "group_id": -1,
+         "url": "https://medium.com/javarevisited/i-tried-20-places-to-learn-python-here-are-5-i-actually-recommend-1cf6eb0cba87",
+         "title": "Medium",
+         "status": "complete",
+         "muted": false,
+         "filename_html": "1780301402046_317323245.html"
+      }
+   },
+   {
+      "session_id": "1780301374_e8ae15c1",
+      "timestamp": 1780301406777,
+      "event": "tab",
+      "action": "tab_focus",
+      "tab": {
+         "id": 628790861,
+         "window_id": 628790823,
+         "index": 1,
+         "group_id": -1,
+         "url": "https://www.geeksforgeeks.org/python/best-way-to-learn-python/",
+         "title": "Best way to learn python - GeeksforGeeks",
+         "status": "complete",
+         "muted": false,
+         "filename_html": "1780301391019_3678658828.html"
+      }
+   },
+   {
+      "session_id": "1780301374_e8ae15c1",
+      "timestamp": 1780301407520,
+      "event": "tab",
+      "action": "tab_focus",
+      "tab": {
+         "id": 628790862,
+         "window_id": 628790823,
+         "index": 2,
+         "group_id": -1,
+         "url": "https://medium.com/javarevisited/i-tried-20-places-to-learn-python-here-are-5-i-actually-recommend-1cf6eb0cba87",
+         "title": "I Tried 20+ Places to Learn Python: Here Are Top 5 I Actually Recommend for 2026 | by javinpaul | Javarevisited | Medium",
+         "status": "complete",
+         "muted": false,
+         "filename_html": null
+      }
+   },
+   {
+      "session_id": "1780301374_e8ae15c1",
+      "timestamp": 1780301408096,
+      "event": "tab",
+      "action": "tab_focus",
+      "tab": {
+         "id": 628790861,
+         "window_id": 628790823,
+         "index": 1,
+         "group_id": -1,
+         "url": "https://www.geeksforgeeks.org/python/best-way-to-learn-python/",
+         "title": "Best way to learn python - GeeksforGeeks",
+         "status": "complete",
+         "muted": false,
+         "filename_html": "1780301391019_3678658828.html"
+      }
+   },
+   {
+      "session_id": "1780301374_e8ae15c1",
+      "timestamp": 1780301409924,
+      "event": "tab",
+      "action": "tab_focus",
+      "tab": {
+         "id": 628790862,
+         "window_id": 628790823,
+         "index": 2,
+         "group_id": -1,
+         "url": "https://medium.com/javarevisited/i-tried-20-places-to-learn-python-here-are-5-i-actually-recommend-1cf6eb0cba87",
+         "title": "I Tried 20+ Places to Learn Python: Here Are Top 5 I Actually Recommend for 2026 | by javinpaul | Javarevisited | Medium",
+         "status": "complete",
+         "muted": false,
+         "filename_html": null
+      }
+   },
+   {
+      "session_id": "1780301374_e8ae15c1",
+      "timestamp": 1780301412144,
+      "event": "tab",
+      "action": "tab_focus",
+      "tab": {
+         "id": 628790824,
+         "window_id": 628790823,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.bing.com/search?q=best+ways+to+learn+python&form=QBLH&sp=-1&ghc=1&lq=0&pq=best+ways+to+learn+python&sc=10-25&qs=n&sk=&cvid=BE201B266CAD4A2BB0D542D88947CEC9",
+         "title": "best ways to learn python - Search",
+         "status": "complete",
+         "muted": false,
+         "filename_html": "1780301384683_3602300203.html"
+      }
+   },
+   {
+      "session_id": "1780301374_e8ae15c1",
+      "timestamp": 1780301413285,
+      "event": "mouse",
+      "action": "mouse_move",
+      "screen_width": 1891,
+      "screen_height": 4093,
+      "mouse_from": {
+         "x": 604,
+         "y": 603
+      },
+      "mouse_to": {
+         "x": 1707,
+         "y": 601
+      },
+      "hovered_text": "Skip to content\nAccessibility Feedback"
+   }
+]

@@ -1,0 +1,40 @@
+[
+   {
+      "session_id": "1780301526_0fed6e41",
+      "timestamp": 1780301527296,
+      "event": "window",
+      "action": "window_focus",
+      "window": {
+         "id": 628790823,
+         "type": "normal",
+         "width": 1906,
+         "height": 1025,
+         "is_incognito": false
+      }
+   },
+   {
+      "session_id": "1780301526_0fed6e41",
+      "timestamp": 1780301528479,
+      "event": "window",
+      "action": "window_focus_outside"
+   },
+   {
+      "session_id": "1780301526_0fed6e41",
+      "timestamp": 1780301559913,
+      "event": "window",
+      "action": "window_focus",
+      "window": {
+         "id": 628790823,
+         "type": "normal",
+         "width": 1906,
+         "height": 1025,
+         "is_incognito": false
+      }
+   },
+   {
+      "session_id": "1780301526_0fed6e41",
+      "timestamp": 1780301559913,
+      "event": "window",
+      "action": "window_focus_outside"
+   }
+]

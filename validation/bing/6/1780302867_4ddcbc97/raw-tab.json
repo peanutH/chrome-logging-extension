@@ -1,0 +1,138 @@
+[
+   {
+      "session_id": "1780302867_4ddcbc97",
+      "timestamp": 1780302872425,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628790998,
+         "window_id": 628790942,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.google.com/search?q=test+login&oq=test+login&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQABiABDIJCAIQRRg7GIAEMgcIAxAAGIAEMgcIBBAAGIAEMgcIBRAAGIAEMgcIBhAAGIAEMgcIBxAAGIAEMgcICBAAGIAEMgcICRAAGIAE0gEIMjg0NmowajeoAgiwAgE&sourceid=chrome&ie=UTF-8&source=chrome.ob",
+         "title": "google.com/search?q=test+login&oq=test+login&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQABiABDIJCAIQRRg7GIAEMgcIAxAAGIAEMgcIBBAAGIAEMgcIBRAAGIAEMgcIBhAAGIAEMgcIBxAAGIAEMgcICBAAGIAEMgcICRAAGIAE0gEIMjg0NmowajeoAgiwAgE&sourceid=chrome&ie=UTF-8&source=chrome.ob",
+         "status": "loading",
+         "muted": false,
+         "filename_html": null
+      }
+   },
+   {
+      "session_id": "1780302867_4ddcbc97",
+      "timestamp": 1780302872443,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628790998,
+         "window_id": 628790942,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.google.com/search?q=test+login&oq=test+login&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQABiABDIJCAIQRRg7GIAEMgcIAxAAGIAEMgcIBBAAGIAEMgcIBRAAGIAEMgcIBhAAGIAEMgcIBxAAGIAEMgcICBAAGIAEMgcICRAAGIAE0gEIMjg0NmowajeoAgiwAgE&sourceid=chrome&ie=UTF-8&source=chrome.ob",
+         "title": "test login - Google Search",
+         "status": "loading",
+         "muted": false,
+         "filename_html": null
+      }
+   },
+   {
+      "session_id": "1780302867_4ddcbc97",
+      "timestamp": 1780302872444,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628790998,
+         "window_id": 628790942,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.google.com/search?q=test+login&oq=test+login&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQABiABDIJCAIQRRg7GIAEMgcIAxAAGIAEMgcIBBAAGIAEMgcIBRAAGIAEMgcIBhAAGIAEMgcIBxAAGIAEMgcICBAAGIAEMgcICRAAGIAE0gEIMjg0NmowajeoAgiwAgE&sourceid=chrome&ie=UTF-8&source=chrome.ob",
+         "title": "test login - Google Search",
+         "status": "loading",
+         "muted": false,
+         "filename_html": null
+      }
+   },
+   {
+      "session_id": "1780302867_4ddcbc97",
+      "timestamp": 1780302872778,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628790998,
+         "window_id": 628790942,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.google.com/search?q=test+login&oq=test+login&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQABiABDIJCAIQRRg7GIAEMgcIAxAAGIAEMgcIBBAAGIAEMgcIBRAAGIAEMgcIBhAAGIAEMgcIBxAAGIAEMgcICBAAGIAEMgcICRAAGIAE0gEIMjg0NmowajeoAgiwAgE&sourceid=chrome&ie=UTF-8&source=chrome.ob",
+         "title": "test login - Google Search",
+         "status": "loading",
+         "muted": false,
+         "filename_html": null
+      }
+   },
+   {
+      "session_id": "1780302867_4ddcbc97",
+      "timestamp": 1780302872974,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628790998,
+         "window_id": 628790942,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.google.com/search?q=test+login&oq=test+login&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQABiABDIJCAIQRRg7GIAEMgcIAxAAGIAEMgcIBBAAGIAEMgcIBRAAGIAEMgcIBhAAGIAEMgcIBxAAGIAEMgcICBAAGIAEMgcICRAAGIAE0gEIMjg0NmowajeoAgiwAgE&sourceid=chrome&ie=UTF-8&source=chrome.ob",
+         "title": "test login - Google Search",
+         "status": "complete",
+         "muted": false,
+         "filename_html": "1780302872938_1815060368.html"
+      }
+   },
+   {
+      "session_id": "1780302867_4ddcbc97",
+      "timestamp": 1780302877674,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628790998,
+         "window_id": 628790942,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://practicetestautomation.com/practice-test-login/",
+         "title": "practicetestautomation.com/practice-test-login/",
+         "status": "loading",
+         "muted": false,
+         "filename_html": null
+      }
+   },
+   {
+      "session_id": "1780302867_4ddcbc97",
+      "timestamp": 1780302877688,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628790998,
+         "window_id": 628790942,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://practicetestautomation.com/practice-test-login/",
+         "title": "Test Login | Practice Test Automation",
+         "status": "loading",
+         "muted": false,
+         "filename_html": null
+      }
+   },
+   {
+      "session_id": "1780302867_4ddcbc97",
+      "timestamp": 1780302887835,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628790998,
+         "window_id": 628790942,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://practicetestautomation.com/practice-test-login/",
+         "title": "Test Login | Practice Test Automation",
+         "status": "complete",
+         "muted": false,
+         "filename_html": "1780302887825_186227013.html"
+      }
+   }
+]

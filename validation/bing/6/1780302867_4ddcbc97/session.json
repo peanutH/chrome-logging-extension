@@ -1,0 +1,129 @@
+[
+   {
+      "session_id": "1780302867_4ddcbc97",
+      "timestamp": 1780302872956,
+      "event": "search",
+      "search_engine": "google",
+      "query": "test login",
+      "filename_html": "1780302872956_test login.html",
+      "filename_ranking": "1780302872956_test login.json"
+   },
+   {
+      "session_id": "1780302867_4ddcbc97",
+      "timestamp": 1780302872974,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628790998,
+         "window_id": 628790942,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.google.com/search?q=test+login&oq=test+login&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQABiABDIJCAIQRRg7GIAEMgcIAxAAGIAEMgcIBBAAGIAEMgcIBRAAGIAEMgcIBhAAGIAEMgcIBxAAGIAEMgcICBAAGIAEMgcICRAAGIAE0gEIMjg0NmowajeoAgiwAgE&sourceid=chrome&ie=UTF-8&source=chrome.ob",
+         "title": "test login - Google Search",
+         "status": "complete",
+         "muted": false,
+         "filename_html": "1780302872938_1815060368.html"
+      }
+   },
+   {
+      "session_id": "1780302867_4ddcbc97",
+      "timestamp": 1780302875182,
+      "event": "mouse",
+      "action": "mouse_click",
+      "screen_width": 1891,
+      "screen_height": 2155,
+      "mouse": {
+         "x": 312,
+         "y": 689
+      },
+      "hovered_text": "Test Login"
+   },
+   {
+      "session_id": "1780302867_4ddcbc97",
+      "timestamp": 1780302876077,
+      "event": "mouse",
+      "action": "mouse_move",
+      "screen_width": 1891,
+      "screen_height": 2155,
+      "mouse_from": {
+         "x": 1215,
+         "y": 27
+      },
+      "mouse_to": {
+         "x": 899,
+         "y": 655
+      },
+      "hovered_text": "Web results\nLogin | Salesforce\n\nSalesforce\nhttps://test.salesforce.com\nSalesforce Customer Secure Login Page. Login to your Salesforce Customer Account.\ntest IO: Sign-In\n\ntest IO\nhttps://login.test.io\nSign in to your test IO account. Test IO is a crowd testing platform for both freelancers and EPAM testers who love improving software products.Read more\nArea riservata test CISIA\n\nArea riservata test CISIA\nhttps://testcisia.it\n\u00b7\nTranslate this page\nNella tua area riservata test CISIA puoi: prenotare TOLC; prenotare CEnT (CISIA English Test); cambiare la tua prenotazione; scaricare l'APP per il TEST@\u00a0...Read more\nTest Login\n\nPractice Test Automation\nhttps://practicetestautomation.com \u203a practice-test-login\nTest login. This is a simple Login page. Students can use this page to practice writing simple positive and negative LogIn tests. Login functionality is\u00a0...Read more\ntest login\n\nimpresainungiorno.gov.it\nhttps://www.impresainungiorno.gov.it \u203a ...\n\u00b7\nTranslate this page\nLogin \u00b7 Indirizzo Email \u00b7 Password \u00b7 Ricordami. Accedi. Crea Account \u00b7 Password Dimenticata. Nascosta. Powered by Liferay. Mostra altro.Read more\nLogin\n\nOnline assessment platform\nhttps://www.testportal.com \u203a Login\nSign in. Enter your email. Enter password. Sign in. or. Continue with Microsoft \u00b7 Sign up \u00b7 Forgot your password?Read more\nTest Session Login\n\nHMH\nhttps://test.mapnwea.org\nReason 1: A pop-up blocker is blocking the test window. Solution: Ask your teacher to help you turn off the pop-up blocker and reload your test window.Read more\nTest System\n\nTest System\nhttp://test.edu.kg\nLog in using your email/nickname and password. Email or Nickname: Password: LOGIN. Login as a existing student for create an account. Select your grouping.Read more\nhttps://bocconiwebtesting.giuntipsy.com/customer/a...\n\nBocconi Webtesting Platform\nhttps://bocconiwebtesting.giuntipsy.com \u203a account \u203a login\nNo information is available for this page.\nLearn why\nTEST IT - Accedi\n\ntestit.it\nhttps://app.testit.it\n\u00b7\nTranslate this page\nInserisci i tuoi dati per accedere. Accedi con Google. Oppure. Email. Password. Password dimenticata? Accedi. Non hai un account? Registrati.Read more\nPeople also search for\nTest login Salesforce\nCISIA login\nSalesforce sandbox login\nPractice test Login\nHTTP login test for Wireshark\nUat Salesforce login\nSalesforce sandbox login URL\nCISIA student login\nPage navigation\n\t\n1\t\n2\n\t\n3\n\t\n4\n\t\n5\n\t\n6\n\t\n7\n\t\n8\n\t\n9\n\t\n10\n\t\nNext"
+   },
+   {
+      "session_id": "1780302867_4ddcbc97",
+      "timestamp": 1780302887835,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628790998,
+         "window_id": 628790942,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://practicetestautomation.com/practice-test-login/",
+         "title": "Test Login | Practice Test Automation",
+         "status": "complete",
+         "muted": false,
+         "filename_html": "1780302887825_186227013.html"
+      }
+   },
+   {
+      "session_id": "1780302867_4ddcbc97",
+      "timestamp": 1780302888421,
+      "event": "mouse",
+      "action": "mouse_move",
+      "screen_width": 1891,
+      "screen_height": 1811,
+      "mouse_from": {
+         "x": 908,
+         "y": 596
+      },
+      "mouse_to": {
+         "x": 897,
+         "y": 585
+      },
+      "hovered_text": ""
+   },
+   {
+      "session_id": "1780302867_4ddcbc97",
+      "timestamp": 1780302888460,
+      "event": "mouse",
+      "action": "mouse_click",
+      "screen_width": 1891,
+      "screen_height": 1811,
+      "mouse": {
+         "x": 897,
+         "y": 585
+      },
+      "hovered_text": ""
+   },
+   {
+      "session_id": "1780302867_4ddcbc97",
+      "timestamp": 1780302890970,
+      "event": "keyboard",
+      "action": "write",
+      "typed": "username[TAB][HIDDEN][HIDDEN][HIDDEN][HIDDEN][HIDDEN][HIDDEN][HIDDEN][HIDDEN]"
+   },
+   {
+      "session_id": "1780302867_4ddcbc97",
+      "timestamp": 1780302892618,
+      "event": "mouse",
+      "action": "mouse_move",
+      "screen_width": 1891,
+      "screen_height": 1811,
+      "mouse_from": {
+         "x": 897,
+         "y": 585
+      },
+      "mouse_to": {
+         "x": 1713,
+         "y": 0
+      },
+      "hovered_text": "HOME PRACTICE COURSES BLOG CONTACT\nTest login\nThis is a simple Login page. Students can use this page to practice writing simple positive and negative LogIn tests. Login functionality is something that most of the test automation engineers need to automate.\nUse next credentials to execute Login:\nUsername: student\nPassword: Password123\nUsername \nPassword \nSubmit\nYour username is invalid!\nTest case 1: Positive LogIn test\nOpen page\nType username student into Username field\nType password Password123 into Password field\nPush Submit button\nVerify new page URL contains practicetestautomation.com/logged-in-successfully/\nVerify new page contains expected text ('Congratulations' or 'successfully logged in')\nVerify button Log out is displayed on the new page\nTest case 2: Negative username test\nOpen page\nType username incorrectUser into Username field\nType password Password123 into Password field\nPush Submit button\nVerify error message is displayed\nVerify error message text is Your username is invalid!\nTest case 3: Negative password test\nOpen page\nType username student into Username field\nType password incorrectPassword into Password field\nPush Submit button\nVerify error message is displayed\nVerify error message text is Your password is invalid!\n\u00a9 Copyright 2020 Practice Test Automation. All rights reserved | Privacy Policy"
+   }
+]

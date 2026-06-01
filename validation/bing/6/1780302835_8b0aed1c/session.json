@@ -1,0 +1,282 @@
+[
+   {
+      "session_id": "1780302835_8b0aed1c",
+      "timestamp": 1780302837664,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628790995,
+         "window_id": 628790942,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.bing.com/?toWww=1&redig=A8B569E5D4024C689056EEF9E5948F2A",
+         "title": "Search - Microsoft Bing",
+         "status": "complete",
+         "muted": false,
+         "filename_html": "1780302837633_111414646.html"
+      }
+   },
+   {
+      "session_id": "1780302835_8b0aed1c",
+      "timestamp": 1780302840621,
+      "event": "mouse",
+      "action": "mouse_move",
+      "screen_width": 1911,
+      "screen_height": 2916,
+      "mouse_from": {
+         "x": 1382,
+         "y": 32
+      },
+      "mouse_to": {
+         "x": 1117,
+         "y": 221
+      },
+      "hovered_text": ""
+   },
+   {
+      "session_id": "1780302835_8b0aed1c",
+      "timestamp": 1780302841646,
+      "event": "keyboard",
+      "action": "write",
+      "typed": "public "
+   },
+   {
+      "session_id": "1780302835_8b0aed1c",
+      "timestamp": 1780302842783,
+      "event": "keyboard",
+      "action": "write",
+      "typed": "library "
+   },
+   {
+      "session_id": "1780302835_8b0aed1c",
+      "timestamp": 1780302843259,
+      "event": "keyboard",
+      "action": "write",
+      "typed": "new"
+   },
+   {
+      "session_id": "1780302835_8b0aed1c",
+      "timestamp": 1780302843969,
+      "event": "keyboard",
+      "action": "write",
+      "typed": "[BACKSPACE]a"
+   },
+   {
+      "session_id": "1780302835_8b0aed1c",
+      "timestamp": 1780302845348,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628790995,
+         "window_id": 628790942,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.bing.com/search?q=public+library+near+me&form=QBLH&sp=-1&ghc=1&lq=0&pq=public+library+near+me&sc=12-22&qs=n&sk=&cvid=D6C2F0849D4145D191B11C58D6FD8390",
+         "title": "public library near me - Search",
+         "status": "complete",
+         "muted": false,
+         "filename_html": "1780302845320_2492244858.html"
+      }
+   },
+   {
+      "session_id": "1780302835_8b0aed1c",
+      "timestamp": 1780302845367,
+      "event": "search",
+      "search_engine": "bing",
+      "query": "public library near me",
+      "filename_html": "1780302845367_public library near me.html",
+      "filename_ranking": "1780302845367_public library near me.json"
+   },
+   {
+      "session_id": "1780302835_8b0aed1c",
+      "timestamp": 1780302846115,
+      "event": "mouse",
+      "action": "mouse_move",
+      "screen_width": 1891,
+      "screen_height": 3427,
+      "mouse_from": {
+         "x": 1116,
+         "y": 217
+      },
+      "mouse_to": {
+         "x": 1102,
+         "y": 129
+      },
+      "hovered_text": "Rimini, Emilia-Romagna\nAllow location access\nPublic library\nOpen Map\nBiblioteca Civica Gambalunga\n4.3/5 (26) \u00b7 Library\nVia Alessandro Gambalunga 27, Rimini\nOpen \u00b7 Closes 19:00 \u00b7 0541 704488\nRiccione Municipal Library\nLibrary\nViale Lazio 10, Riccione\nClosed \u00b7 Opens 14:00 \u00b7 0541 600504\nMunicipal Library Antonio Baldini\nLibrary\nVia Giovanni Pascoli 3, Santarcangelo di Romagna\nClosed \u00b7 Opens 13:00 \u00b7 0541 356299\nCattolica Public Library\nLibrary\nPiazza della Repubblica 31, Cattolica\nClosed \u00b7 Opens 14:00 \u00b7 0541 966612\nMunicipal Library \"Giuseppe Ceccarelli\"\nLibrary\nVia Roma 13, Gatteo\nOpen \u00b7 Closes 12:30 \u00b7 0541 932377\nCity Library San Giovanni Di Pesaro\nLibrary\nVia Brigata G.A.P. 102, Pesaro\nClosed \u00b7 Opens tomorrow 10:00 \u00b7 0721 387761\nSee more results\n\u00a0\ncamminiemiliaromagna.it\nhttps://camminiemiliaromagna.it \u203a en \u203a monastero\nGambalunga public library | Monasteri | Cammini Emilia-Romagna\n\nThe Gambalunga library holds 286,525 books in total. It is renowned for its precious codices and many special bibliographic and documentary collections \u2026\n\n\u00a0\nBiblioteca Gambalunga\nhttps://bibliotecagambalunga.it\nTranslate this result\nHomepage | Biblioteca Gambalunga\n\nProsegue con una edizione speciale per Il Maggio dei Libri la rassegna \u201cLibri da queste parti\u201d, appuntamento ormai consolidato della Biblioteca Civica \u2026\n\nriviera.rimini.it\nhttps://riviera.rimini.it \u203a en \u203a art-and-culture \u203a monuments \u203a structures-dataer\nGambalunga public library | Riviera di Rimini\n\nThe Gambalunga library holds 286,525 books in total. It is renowned for its precious codices and many special bibliographic and documentary collections \u2026\n\nSearches you might like\nopen library\npdf reader\nbooks\nkindle library\nitalia-italy.org\nhttps://www.italia-italy.org \u203a en\nPalazzo Gambalunga - Library in Rimini - italia-italy.org\n\nApr 13, 2026\u00a0\u00b7 Today, the Gambalunga, a public multimedia information library, has approximately 230.000 books and is part of the national virtual library \u2026\n\nWikipedia\nhttps://en.wikipedia.org \u203a wiki \u203a Biblioteca_Civica_Gambalu\u2026\nBiblioteca Civica Gambalunga - Wikipedia\n\nThe Biblioteca Civica Gambalunga, also known as the Gambalunghiana, is a public library in Rimini, in the region of Emilia \u2026\n\nFacebook\nhttps://www.facebook.com \u203a bibliotecagambal\u2026\nTranslate this result\nBiblioteca civica Gambalunga - Rimini - Facebook\n\nLIBRARY in Rimini \u00b7 +390541704486 \u00b7 3.5K were here \u00b7 Biblioteca del Comune di Rimini\n\nPeople also ask\nWhere are the oldest libraries in Italy?\nWhat is the most important library in Bologna?\nWhich is the oldest library in Bologna?\nIs Biblioteca Universitaria an underrated library?\nFeedback\nTaste Bologna\nhttps://www.tastebologna.net \u203a blog \u203a best-librari\u2026\n10 Best libraries in Bologna and Emilia Romagna\n\nMay 15, 2019\u00a0\u00b7 Whether you're after ancient manuscripts or modern study spaces, a library in Bologna is \u2026\n\nitalytripper.com\nhttps://italytripper.com \u203a en \u203a place \u203a gambalunga-civic-library-rimini\nbibliotecheromagna.it\nhttps://scoprirete.bibliotecheromagna.it \u203a opac\nTranslate this result\nzerodelta.net\nhttps://en.zerodelta.net \u203a rimini-libraries.php\nDeep dive into public library near me\npublic library near me map\nlocal public libraries near me\npublic library near me locations\npublic library near me hours\npublic library near my location\nnearest library to my current location\npublic library near me open\nlibraries near my location\n\u00a0"
+   },
+   {
+      "session_id": "1780302835_8b0aed1c",
+      "timestamp": 1780302846531,
+      "event": "mouse",
+      "action": "mouse_move",
+      "screen_width": 1891,
+      "screen_height": 3427,
+      "mouse_from": {
+         "x": 1102,
+         "y": 129
+      },
+      "mouse_to": {
+         "x": 1102,
+         "y": 125
+      },
+      "hovered_text": "Rimini, Emilia-Romagna\nAllow location access\nPublic library\nOpen Map\nBiblioteca Civica Gambalunga\n4.3/5 (26) \u00b7 Library\nVia Alessandro Gambalunga 27, Rimini\nOpen \u00b7 Closes 19:00 \u00b7 0541 704488\nRiccione Municipal Library\nLibrary\nViale Lazio 10, Riccione\nClosed \u00b7 Opens 14:00 \u00b7 0541 600504\nMunicipal Library Antonio Baldini\nLibrary\nVia Giovanni Pascoli 3, Santarcangelo di Romagna\nClosed \u00b7 Opens 13:00 \u00b7 0541 356299\nCattolica Public Library\nLibrary\nPiazza della Repubblica 31, Cattolica\nClosed \u00b7 Opens 14:00 \u00b7 0541 966612\nMunicipal Library \"Giuseppe Ceccarelli\"\nLibrary\nVia Roma 13, Gatteo\nOpen \u00b7 Closes 12:30 \u00b7 0541 932377\nCity Library San Giovanni Di Pesaro\nLibrary\nVia Brigata G.A.P. 102, Pesaro\nClosed \u00b7 Opens tomorrow 10:00 \u00b7 0721 387761\nSee more results\n\u00a0\ncamminiemiliaromagna.it\nhttps://camminiemiliaromagna.it \u203a en \u203a monastero\nGambalunga public library | Monasteri | Cammini Emilia-Romagna\n\nThe Gambalunga library holds 286,525 books in total. It is renowned for its precious codices and many special bibliographic and documentary collections \u2026\n\n\u00a0\nBiblioteca Gambalunga\nhttps://bibliotecagambalunga.it\nTranslate this result\nHomepage | Biblioteca Gambalunga\n\nProsegue con una edizione speciale per Il Maggio dei Libri la rassegna \u201cLibri da queste parti\u201d, appuntamento ormai consolidato della Biblioteca Civica \u2026\n\nriviera.rimini.it\nhttps://riviera.rimini.it \u203a en \u203a art-and-culture \u203a monuments \u203a structures-dataer\nGambalunga public library | Riviera di Rimini\n\nThe Gambalunga library holds 286,525 books in total. It is renowned for its precious codices and many special bibliographic and documentary collections \u2026\n\nSearches you might like\nopen library\npdf reader\nbooks\nkindle library\nitalia-italy.org\nhttps://www.italia-italy.org \u203a en\nPalazzo Gambalunga - Library in Rimini - italia-italy.org\n\nApr 13, 2026\u00a0\u00b7 Today, the Gambalunga, a public multimedia information library, has approximately 230.000 books and is part of the national virtual library \u2026\n\nWikipedia\nhttps://en.wikipedia.org \u203a wiki \u203a Biblioteca_Civica_Gambalu\u2026\nBiblioteca Civica Gambalunga - Wikipedia\n\nThe Biblioteca Civica Gambalunga, also known as the Gambalunghiana, is a public library in Rimini, in the region of Emilia \u2026\n\nFacebook\nhttps://www.facebook.com \u203a bibliotecagambal\u2026\nTranslate this result\nBiblioteca civica Gambalunga - Rimini - Facebook\n\nLIBRARY in Rimini \u00b7 +390541704486 \u00b7 3.5K were here \u00b7 Biblioteca del Comune di Rimini\n\nPeople also ask\nWhere are the oldest libraries in Italy?\nWhat is the most important library in Bologna?\nWhich is the oldest library in Bologna?\nIs Biblioteca Universitaria an underrated library?\nFeedback\nTaste Bologna\nhttps://www.tastebologna.net \u203a blog \u203a best-librari\u2026\n10 Best libraries in Bologna and Emilia Romagna\n\nMay 15, 2019\u00a0\u00b7 Whether you're after ancient manuscripts or modern study spaces, a library in Bologna is \u2026\n\nitalytripper.com\nhttps://italytripper.com \u203a en \u203a place \u203a gambalunga-civic-library-rimini\nbibliotecheromagna.it\nhttps://scoprirete.bibliotecheromagna.it \u203a opac\nTranslate this result\nzerodelta.net\nhttps://en.zerodelta.net \u203a rimini-libraries.php\nDeep dive into public library near me\npublic library near me map\nlocal public libraries near me\npublic library near me locations\npublic library near me hours\npublic library near my location\nnearest library to my current location\npublic library near me open\nlibraries near my location\n\u00a0"
+   },
+   {
+      "session_id": "1780302835_8b0aed1c",
+      "timestamp": 1780302847349,
+      "event": "mouse",
+      "action": "mouse_move",
+      "screen_width": 1891,
+      "screen_height": 3427,
+      "mouse_from": {
+         "x": 1102,
+         "y": 125
+      },
+      "mouse_to": {
+         "x": 1101,
+         "y": 124
+      },
+      "hovered_text": "Rimini, Emilia-Romagna\nAllow location access\nPublic library\nOpen Map\nBiblioteca Civica Gambalunga\n4.3/5 (26) \u00b7 Library\nVia Alessandro Gambalunga 27, Rimini\nOpen \u00b7 Closes 19:00 \u00b7 0541 704488\nRiccione Municipal Library\nLibrary\nViale Lazio 10, Riccione\nClosed \u00b7 Opens 14:00 \u00b7 0541 600504\nMunicipal Library Antonio Baldini\nLibrary\nVia Giovanni Pascoli 3, Santarcangelo di Romagna\nClosed \u00b7 Opens 13:00 \u00b7 0541 356299\nCattolica Public Library\nLibrary\nPiazza della Repubblica 31, Cattolica\nClosed \u00b7 Opens 14:00 \u00b7 0541 966612\nMunicipal Library \"Giuseppe Ceccarelli\"\nLibrary\nVia Roma 13, Gatteo\nOpen \u00b7 Closes 12:30 \u00b7 0541 932377\nCity Library San Giovanni Di Pesaro\nLibrary\nVia Brigata G.A.P. 102, Pesaro\nClosed \u00b7 Opens tomorrow 10:00 \u00b7 0721 387761\nSee more results\n\u00a0\ncamminiemiliaromagna.it\nhttps://camminiemiliaromagna.it \u203a en \u203a monastero\nGambalunga public library | Monasteri | Cammini Emilia-Romagna\n\nThe Gambalunga library holds 286,525 books in total. It is renowned for its precious codices and many special bibliographic and documentary collections \u2026\n\n\u00a0\nBiblioteca Gambalunga\nhttps://bibliotecagambalunga.it\nTranslate this result\nHomepage | Biblioteca Gambalunga\n\nProsegue con una edizione speciale per Il Maggio dei Libri la rassegna \u201cLibri da queste parti\u201d, appuntamento ormai consolidato della Biblioteca Civica \u2026\n\nriviera.rimini.it\nhttps://riviera.rimini.it \u203a en \u203a art-and-culture \u203a monuments \u203a structures-dataer\nGambalunga public library | Riviera di Rimini\n\nThe Gambalunga library holds 286,525 books in total. It is renowned for its precious codices and many special bibliographic and documentary collections \u2026\n\nSearches you might like\nopen library\npdf reader\nbooks\nkindle library\nitalia-italy.org\nhttps://www.italia-italy.org \u203a en\nPalazzo Gambalunga - Library in Rimini - italia-italy.org\n\nApr 13, 2026\u00a0\u00b7 Today, the Gambalunga, a public multimedia information library, has approximately 230.000 books and is part of the national virtual library \u2026\n\nWikipedia\nhttps://en.wikipedia.org \u203a wiki \u203a Biblioteca_Civica_Gambalu\u2026\nBiblioteca Civica Gambalunga - Wikipedia\n\nThe Biblioteca Civica Gambalunga, also known as the Gambalunghiana, is a public library in Rimini, in the region of Emilia \u2026\n\nFacebook\nhttps://www.facebook.com \u203a bibliotecagambal\u2026\nTranslate this result\nBiblioteca civica Gambalunga - Rimini - Facebook\n\nLIBRARY in Rimini \u00b7 +390541704486 \u00b7 3.5K were here \u00b7 Biblioteca del Comune di Rimini\n\nPeople also ask\nWhere are the oldest libraries in Italy?\nWhat is the most important library in Bologna?\nWhich is the oldest library in Bologna?\nIs Biblioteca Universitaria an underrated library?\nFeedback\nTaste Bologna\nhttps://www.tastebologna.net \u203a blog \u203a best-librari\u2026\n10 Best libraries in Bologna and Emilia Romagna\n\nMay 15, 2019\u00a0\u00b7 Whether you're after ancient manuscripts or modern study spaces, a library in Bologna is \u2026\n\nitalytripper.com\nhttps://italytripper.com \u203a en \u203a place \u203a gambalunga-civic-library-rimini\nbibliotecheromagna.it\nhttps://scoprirete.bibliotecheromagna.it \u203a opac\nTranslate this result\nzerodelta.net\nhttps://en.zerodelta.net \u203a rimini-libraries.php\nDeep dive into public library near me\npublic library near me map\nlocal public libraries near me\npublic library near me locations\npublic library near me hours\npublic library near my location\nnearest library to my current location\npublic library near me open\nlibraries near my location\n\u00a0"
+   },
+   {
+      "session_id": "1780302835_8b0aed1c",
+      "timestamp": 1780302848937,
+      "event": "search",
+      "search_engine": "bing",
+      "query": "public library near me",
+      "filename_html": "1780302845367_public library near me.html",
+      "filename_ranking": "1780302845367_public library near me.json"
+   },
+   {
+      "session_id": "1780302835_8b0aed1c",
+      "timestamp": 1780302850462,
+      "event": "search",
+      "search_engine": "bing",
+      "query": "public library near me",
+      "filename_html": "1780302845367_public library near me.html",
+      "filename_ranking": "1780302845367_public library near me.json"
+   },
+   {
+      "session_id": "1780302835_8b0aed1c",
+      "timestamp": 1780302850828,
+      "event": "mouse",
+      "action": "mouse_scroll",
+      "screen_width": 1891,
+      "screen_height": 3320,
+      "scroll_start": {
+         "x": 0,
+         "y": 2
+      },
+      "scroll_end": {
+         "x": 0,
+         "y": 480
+      }
+   },
+   {
+      "session_id": "1780302835_8b0aed1c",
+      "timestamp": 1780302851947,
+      "event": "mouse",
+      "action": "mouse_move",
+      "screen_width": 1891,
+      "screen_height": 3320,
+      "mouse_from": {
+         "x": 1101,
+         "y": 124
+      },
+      "mouse_to": {
+         "x": 703,
+         "y": 856
+      },
+      "hovered_text": "Gambalunga public library | Monasteri | Cammini Emilia-Romagna"
+   },
+   {
+      "session_id": "1780302835_8b0aed1c",
+      "timestamp": 1780302852011,
+      "event": "mouse",
+      "action": "mouse_click",
+      "screen_width": 1891,
+      "screen_height": 3320,
+      "mouse": {
+         "x": 703,
+         "y": 856
+      },
+      "hovered_text": "Gambalunga public library | Monasteri | Cammini Emilia-Romagna"
+   },
+   {
+      "session_id": "1780302835_8b0aed1c",
+      "timestamp": 1780302852023,
+      "event": "tab",
+      "action": "tab_focus",
+      "tab": {
+         "id": 628790997,
+         "window_id": 628790942,
+         "index": 1,
+         "group_id": -1,
+         "url": "",
+         "title": "",
+         "status": "complete",
+         "muted": false,
+         "filename_html": null
+      }
+   },
+   {
+      "session_id": "1780302835_8b0aed1c",
+      "timestamp": 1780302852151,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628790997,
+         "window_id": 628790942,
+         "index": 1,
+         "group_id": -1,
+         "url": "https://www.bing.com/search?q=public+library+near+me&form=QBLH&sp=-1&ghc=1&lq=0&pq=public+library+near+me&sc=12-22&qs=n&sk=&cvid=D6C2F0849D4145D191B11C58D6FD8390",
+         "title": "bing.com/ck/a?!&&p=291a343b8491225d6c5192f4e082588d941c55f261348c834c2e5bf98feace90JmltdHM9MTc4MDI3MjAwMA&ptn=3&ver=2&hsh=4&fclid=231f873d-851d-6c87-3e61-905c84076d4d&u=a1aHR0cHM6Ly9jYW1taW5pZW1pbGlhcm9tYWduYS5pdC9lbi9tb25hc3Rlcm8vMTE2NzQtYmlibGlvdGVjYS1jaXZpY2EtZ2FtYmFsdW5nYQ&ntb=1",
+         "status": "complete",
+         "muted": false,
+         "filename_html": "1780302852138_3019638908.html"
+      }
+   },
+   {
+      "session_id": "1780302835_8b0aed1c",
+      "timestamp": 1780302852170,
+      "event": "search",
+      "search_engine": "bing",
+      "query": "public library near me",
+      "filename_html": "1780302845367_public library near me.html",
+      "filename_ranking": "1780302845367_public library near me.json"
+   },
+   {
+      "session_id": "1780302835_8b0aed1c",
+      "timestamp": 1780302853630,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628790997,
+         "window_id": 628790942,
+         "index": 1,
+         "group_id": -1,
+         "url": "https://camminiemiliaromagna.it/en/monastero/11674-biblioteca-civica-gambalunga",
+         "title": "Gambalunga public library | Monasteri | Cammini Emilia-Romagna",
+         "status": "complete",
+         "muted": false,
+         "filename_html": "1780302853623_3474662246.html"
+      }
+   },
+   {
+      "session_id": "1780302835_8b0aed1c",
+      "timestamp": 1780302855138,
+      "event": "mouse",
+      "action": "mouse_move",
+      "screen_width": 1891,
+      "screen_height": 3785,
+      "mouse_from": {
+         "x": 814,
+         "y": 386
+      },
+      "mouse_to": {
+         "x": 1732,
+         "y": 0
+      },
+      "hovered_text": "Walking \nDiscover \nEN "
+   }
+]

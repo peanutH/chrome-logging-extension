@@ -1,0 +1,335 @@
+[
+   {
+      "session_id": "1780301526_0fed6e41",
+      "timestamp": 1780301528525,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628790869,
+         "window_id": 628790823,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.bing.com/?toWww=1&redig=A8B569E5D4024C689056EEF9E5948F2A",
+         "title": "Search - Microsoft Bing",
+         "status": "complete",
+         "muted": false,
+         "filename_html": "1780301528493_2660400654.html"
+      }
+   },
+   {
+      "session_id": "1780301526_0fed6e41",
+      "timestamp": 1780301531018,
+      "event": "mouse",
+      "action": "mouse_move",
+      "screen_width": 1911,
+      "screen_height": 2586,
+      "mouse_from": {
+         "x": 1248,
+         "y": 1
+      },
+      "mouse_to": {
+         "x": 1012,
+         "y": 219
+      },
+      "hovered_text": ""
+   },
+   {
+      "session_id": "1780301526_0fed6e41",
+      "timestamp": 1780301531560,
+      "event": "keyboard",
+      "action": "write",
+      "typed": "c"
+   },
+   {
+      "session_id": "1780301526_0fed6e41",
+      "timestamp": 1780301532614,
+      "event": "keyboard",
+      "action": "write",
+      "typed": "limate "
+   },
+   {
+      "session_id": "1780301526_0fed6e41",
+      "timestamp": 1780301534684,
+      "event": "search",
+      "search_engine": "bing",
+      "query": "climate change causes",
+      "filename_html": "1780301534684_climate change causes.html",
+      "filename_ranking": "1780301534684_climate change causes.json"
+   },
+   {
+      "session_id": "1780301526_0fed6e41",
+      "timestamp": 1780301534696,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628790869,
+         "window_id": 628790823,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.bing.com/search?q=climate+change+causes&form=QBLH&sp=-1&ghc=1&lq=0&pq=climate+change+causes&sc=9-21&qs=n&sk=&cvid=C6F7214C2FD14693B48411517D38E6D7",
+         "title": "climate change causes - Search",
+         "status": "complete",
+         "muted": false,
+         "filename_html": "1780301534651_651267193.html"
+      }
+   },
+   {
+      "session_id": "1780301526_0fed6e41",
+      "timestamp": 1780301538162,
+      "event": "mouse",
+      "action": "mouse_move",
+      "screen_width": 1891,
+      "screen_height": 2276,
+      "mouse_from": {
+         "x": 1011,
+         "y": 219
+      },
+      "mouse_to": {
+         "x": 613,
+         "y": 52
+      },
+      "hovered_text": ""
+   },
+   {
+      "session_id": "1780301526_0fed6e41",
+      "timestamp": 1780301540940,
+      "event": "mouse",
+      "action": "text_select",
+      "text": "climate change causes"
+   },
+   {
+      "session_id": "1780301526_0fed6e41",
+      "timestamp": 1780301543544,
+      "event": "keyboard",
+      "action": "write",
+      "typed": "main causes of cli"
+   },
+   {
+      "session_id": "1780301526_0fed6e41",
+      "timestamp": 1780301544857,
+      "event": "keyboard",
+      "action": "write",
+      "typed": "mate change"
+   },
+   {
+      "session_id": "1780301526_0fed6e41",
+      "timestamp": 1780301545753,
+      "event": "search",
+      "search_engine": "bing",
+      "query": "main causes of climate change",
+      "filename_html": "1780301545753_main causes of climate change.html",
+      "filename_ranking": "1780301545753_main causes of climate change.json"
+   },
+   {
+      "session_id": "1780301526_0fed6e41",
+      "timestamp": 1780301545790,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628790869,
+         "window_id": 628790823,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.bing.com/search?q=main%20causes%20of%20climate%20change&qs=n&form=QBRE&sp=-1&ghc=1&lq=0&pq=main%20causes%20of%20climate%20change&sc=8-29&sk=&cvid=F48EC65E199A47879493CCCC8BD89F71",
+         "title": "main causes of climate change - Search",
+         "status": "complete",
+         "muted": false,
+         "filename_html": "1780301545693_1948467194.html"
+      }
+   },
+   {
+      "session_id": "1780301526_0fed6e41",
+      "timestamp": 1780301548731,
+      "event": "mouse",
+      "action": "mouse_move",
+      "screen_width": 1891,
+      "screen_height": 4096,
+      "mouse_from": {
+         "x": 613,
+         "y": 52
+      },
+      "mouse_to": {
+         "x": 575,
+         "y": 719
+      },
+      "hovered_text": "The Causes of Climate Change - NASA Science"
+   },
+   {
+      "session_id": "1780301526_0fed6e41",
+      "timestamp": 1780301549450,
+      "event": "mouse",
+      "action": "mouse_click",
+      "screen_width": 1891,
+      "screen_height": 4096,
+      "mouse": {
+         "x": 575,
+         "y": 719
+      },
+      "hovered_text": "The Causes of Climate Change - NASA Science"
+   },
+   {
+      "session_id": "1780301526_0fed6e41",
+      "timestamp": 1780301549463,
+      "event": "tab",
+      "action": "tab_focus",
+      "tab": {
+         "id": 628790871,
+         "window_id": 628790823,
+         "index": 1,
+         "group_id": -1,
+         "url": "",
+         "title": "",
+         "status": "complete",
+         "muted": false,
+         "filename_html": null
+      }
+   },
+   {
+      "session_id": "1780301526_0fed6e41",
+      "timestamp": 1780301549562,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628790871,
+         "window_id": 628790823,
+         "index": 1,
+         "group_id": -1,
+         "url": "https://www.bing.com/search?q=main%20causes%20of%20climate%20change&qs=n&form=QBRE&sp=-1&ghc=1&lq=0&pq=main%20causes%20of%20climate%20change&sc=8-29&sk=&cvid=F48EC65E199A47879493CCCC8BD89F71",
+         "title": "bing.com/ck/a?!&&p=65e56b18f27b363f51bb62908f18684ef2df6735d7953c6d8af8c27e4f3c317cJmltdHM9MTc4MDI3MjAwMA&ptn=3&ver=2&hsh=4&fclid=231f873d-851d-6c87-3e61-905c84076d4d&u=a1aHR0cHM6Ly9zY2llbmNlLm5hc2EuZ292L2NsaW1hdGUtY2hhbmdlL2NhdXNlcy8&ntb=1",
+         "status": "complete",
+         "muted": false,
+         "filename_html": "1780301549549_2653163971.html"
+      }
+   },
+   {
+      "session_id": "1780301526_0fed6e41",
+      "timestamp": 1780301550818,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628790871,
+         "window_id": 628790823,
+         "index": 1,
+         "group_id": -1,
+         "url": "https://science.nasa.gov/climate-change/causes/",
+         "title": "Causes - NASA Science",
+         "status": "complete",
+         "muted": false,
+         "filename_html": "1780301550797_1997177068.html"
+      }
+   },
+   {
+      "session_id": "1780301526_0fed6e41",
+      "timestamp": 1780301552428,
+      "event": "mouse",
+      "action": "mouse_click",
+      "screen_width": 1891,
+      "screen_height": 8317,
+      "mouse": {
+         "x": 367,
+         "y": 52
+      },
+      "hovered_text": ""
+   },
+   {
+      "session_id": "1780301526_0fed6e41",
+      "timestamp": 1780301552582,
+      "event": "mouse",
+      "action": "mouse_move",
+      "screen_width": 1891,
+      "screen_height": 8317,
+      "mouse_from": {
+         "x": 878,
+         "y": 623
+      },
+      "mouse_to": {
+         "x": 367,
+         "y": 52
+      },
+      "hovered_text": ""
+   },
+   {
+      "session_id": "1780301526_0fed6e41",
+      "timestamp": 1780301553093,
+      "event": "keyboard",
+      "action": "write",
+      "typed": "gr"
+   },
+   {
+      "session_id": "1780301526_0fed6e41",
+      "timestamp": 1780301553893,
+      "event": "keyboard",
+      "action": "write",
+      "typed": "een"
+   },
+   {
+      "session_id": "1780301526_0fed6e41",
+      "timestamp": 1780301555179,
+      "event": "keyboard",
+      "action": "write",
+      "typed": "house gas"
+   },
+   {
+      "session_id": "1780301526_0fed6e41",
+      "timestamp": 1780301555763,
+      "event": "keyboard",
+      "action": "write",
+      "typed": "es"
+   },
+   {
+      "session_id": "1780301526_0fed6e41",
+      "timestamp": 1780301555826,
+      "event": "mouse",
+      "action": "mouse_click",
+      "screen_width": 1891,
+      "screen_height": 8317,
+      "mouse": {
+         "x": 0,
+         "y": 0
+      },
+      "hovered_text": ""
+   },
+   {
+      "session_id": "1780301526_0fed6e41",
+      "timestamp": 1780301556864,
+      "event": "search",
+      "search_engine": "google",
+      "query": "site:nasa.gov greenhouse gases",
+      "filename_html": "1780301556863_site:nasa.gov greenhouse gases.html",
+      "filename_ranking": "1780301556863_site:nasa.gov greenhouse gases.json"
+   },
+   {
+      "session_id": "1780301526_0fed6e41",
+      "timestamp": 1780301556882,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628790871,
+         "window_id": 628790823,
+         "index": 1,
+         "group_id": -1,
+         "url": "https://www.google.com/search?q=site%3Anasa.gov+greenhouse+gases&search_query=greenhouse+gases",
+         "title": "site:nasa.gov greenhouse gases - Google Search",
+         "status": "complete",
+         "muted": false,
+         "filename_html": "1780301556847_3082770483.html"
+      }
+   },
+   {
+      "session_id": "1780301526_0fed6e41",
+      "timestamp": 1780301559878,
+      "event": "mouse",
+      "action": "mouse_move",
+      "screen_width": 1891,
+      "screen_height": 2271,
+      "mouse_from": {
+         "x": 370,
+         "y": 52
+      },
+      "mouse_to": {
+         "x": 1733,
+         "y": 1
+      },
+      "hovered_text": ""
+   }
+]

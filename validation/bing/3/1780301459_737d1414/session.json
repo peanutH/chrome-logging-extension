@@ -1,0 +1,627 @@
+[
+   {
+      "session_id": "1780301459_737d1414",
+      "timestamp": 1780301461412,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628790865,
+         "window_id": 628790823,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.bing.com/?toWww=1&redig=A8B569E5D4024C689056EEF9E5948F2A",
+         "title": "Search - Microsoft Bing",
+         "status": "complete",
+         "muted": false,
+         "filename_html": "1780301461386_650438290.html"
+      }
+   },
+   {
+      "session_id": "1780301459_737d1414",
+      "timestamp": 1780301462954,
+      "event": "mouse",
+      "action": "mouse_move",
+      "screen_width": 1911,
+      "screen_height": 2916,
+      "mouse_from": {
+         "x": 1014,
+         "y": 0
+      },
+      "mouse_to": {
+         "x": 1076,
+         "y": 189
+      },
+      "hovered_text": ""
+   },
+   {
+      "session_id": "1780301459_737d1414",
+      "timestamp": 1780301463832,
+      "event": "keyboard",
+      "action": "write",
+      "typed": "how sola"
+   },
+   {
+      "session_id": "1780301459_737d1414",
+      "timestamp": 1780301464691,
+      "event": "keyboard",
+      "action": "write",
+      "typed": "r pane"
+   },
+   {
+      "session_id": "1780301459_737d1414",
+      "timestamp": 1780301465322,
+      "event": "keyboard",
+      "action": "write",
+      "typed": "l"
+   },
+   {
+      "session_id": "1780301459_737d1414",
+      "timestamp": 1780301467087,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628790865,
+         "window_id": 628790823,
+         "index": 0,
+         "group_id": -1,
+         "url": "https://www.bing.com/search?q=how+solar+panels+work&form=QBLH&sp=-1&ghc=1&lq=0&pq=how+solar+panels+work&sc=10-21&qs=n&sk=&cvid=01787E3900FB43608B8AC9D18F3A7EE5",
+         "title": "how solar panels work - Search",
+         "status": "complete",
+         "muted": false,
+         "filename_html": "1780301467051_797769729.html"
+      }
+   },
+   {
+      "session_id": "1780301459_737d1414",
+      "timestamp": 1780301467108,
+      "event": "search",
+      "search_engine": "bing",
+      "query": "how solar panels work",
+      "filename_html": "1780301467108_how solar panels work.html",
+      "filename_ranking": "1780301467108_how solar panels work.json"
+   },
+   {
+      "session_id": "1780301459_737d1414",
+      "timestamp": 1780301467942,
+      "event": "mouse",
+      "action": "mouse_move",
+      "screen_width": 1891,
+      "screen_height": 3712,
+      "mouse_from": {
+         "x": 1080,
+         "y": 187
+      },
+      "mouse_to": {
+         "x": 1079,
+         "y": 185
+      },
+      "hovered_text": "Deep dive into how solar panels work\nhow photovoltaic solar panels work\nhow do photovoltaic panels work\nhow do solar panels function\nwhat do solar panels generate\nwhat does solar panels produce\nhow solar energy generates electricity\nsolar panel how they work\nsolar panels what do they\n\u00a0"
+   },
+   {
+      "session_id": "1780301459_737d1414",
+      "timestamp": 1780301468724,
+      "event": "mouse",
+      "action": "mouse_move",
+      "screen_width": 1891,
+      "screen_height": 3712,
+      "mouse_from": {
+         "x": 1079,
+         "y": 185
+      },
+      "mouse_to": {
+         "x": 1079,
+         "y": 174
+      },
+      "hovered_text": "About 4,870 results"
+   },
+   {
+      "session_id": "1780301459_737d1414",
+      "timestamp": 1780301473870,
+      "event": "mouse",
+      "action": "mouse_scroll",
+      "screen_width": 1891,
+      "screen_height": 3712,
+      "scroll_start": {
+         "x": 0,
+         "y": 5
+      },
+      "scroll_end": {
+         "x": 0,
+         "y": 360
+      }
+   },
+   {
+      "session_id": "1780301459_737d1414",
+      "timestamp": 1780301474565,
+      "event": "mouse",
+      "action": "mouse_move",
+      "screen_width": 1891,
+      "screen_height": 3680,
+      "mouse_from": {
+         "x": 1079,
+         "y": 174
+      },
+      "mouse_to": {
+         "x": 951,
+         "y": 708
+      },
+      "hovered_text": "Deep dive into how solar panels work\nhow photovoltaic solar panels work\nhow do photovoltaic panels work\nhow do solar panels function\nwhat do solar panels generate\nwhat does solar panels produce\nhow solar energy generates electricity\nsolar panel how they work\nsolar panels what do they"
+   },
+   {
+      "session_id": "1780301459_737d1414",
+      "timestamp": 1780301474787,
+      "event": "mouse",
+      "action": "mouse_scroll",
+      "screen_width": 1891,
+      "screen_height": 3680,
+      "scroll_start": {
+         "x": 0,
+         "y": 362
+      },
+      "scroll_end": {
+         "x": 0,
+         "y": 960
+      }
+   },
+   {
+      "session_id": "1780301459_737d1414",
+      "timestamp": 1780301475340,
+      "event": "mouse",
+      "action": "mouse_scroll",
+      "screen_width": 1891,
+      "screen_height": 3680,
+      "scroll_start": {
+         "x": 0,
+         "y": 962
+      },
+      "scroll_end": {
+         "x": 0,
+         "y": 1560
+      }
+   },
+   {
+      "session_id": "1780301459_737d1414",
+      "timestamp": 1780301475372,
+      "event": "mouse",
+      "action": "mouse_move",
+      "screen_width": 1891,
+      "screen_height": 3680,
+      "mouse_from": {
+         "x": 951,
+         "y": 708
+      },
+      "mouse_to": {
+         "x": 989,
+         "y": 1911
+      },
+      "hovered_text": "About 4,870 results\nAt a high level, solar panels are made up of solar cells, which absorb sunlight. They use this sunlight to create direct current (DC) electricity through a process called \"the photovoltaic effect.\"\nLearn more:\n1\nHow Do Solar Panels Work? Solar Power Ex\u2026\nenergysage.com\n2\nHow Do Solar Panels Work? Solar Power Ex\u2026\nenergysage.com\n3\nHow Do Solar Panels Work? The Complete \u2026\nthegreenwatt.com\n4\nHow Solar Panels Work: The Complete Guide (\u2026\nsurgepv.com\n5\nHow Does Solar Work? | Department of Energy\nenergy.gov\n6\nHow Do Solar Panels Work? A Complete Gui\u2026\ntherenewables.org\n7\nHow do solar panels work? | 5 key steps ex\u2026\nsunsave.energy\n\u00a0\nEnergySage\nhttps://www.energysage.com \u203a solar \u203a solar-panels-work\nHow do solar panels work? Solar power explained - EnergySage\n\nFeb 23, 2026\u00a0\u00b7 At a high level, solar panels are made up of solar cells, which absorb sunlight. They use this sunlight to create direct current (DC) \u2026\n\nEmail: support@energysage.com\nPhone: (888) 838-4638\nOccupation: Content Lead\nHeating & Cooling\n\nExplore heat pumps, the latest in clean heating and cooling technology. Improve \u2026\n\nBackup Power Guide\n\nYour solar panels generate direct current (DC) electricity from the sun's energy. \u2026\n\nThin-film Solar Cells\n\nLearn about the different types of thin-film solar panels and how they differentiate \u2026\n\nSign In\n\nLogin to your EnergySage account to manage and explore clean home energy \u2026\n\nMy Messages\n\nWe would like to show you a description here but the site won\u2019t allow us.\n\nHeat Pump Incentives\n\nGiven the plethora of benefits, it makes sense that governments and utilities are \u2026\n\nBest Home Batteries\n\nHome batteries can be a great investment for your home, though we\u2019ll admit they\u2019re \u2026\n\nSolar for Businesses\n\nCapitalize on available financial opportunities for installing a solar energy \u2026\n\nSee results only from energysage.com\n\u00a0\nThe Green Watt\nhttps://www.thegreenwatt.com \u203a how-do-solar-panels-work\nHow Do Solar Panels Work? The Complete Beginner's Guide (Simple ...\n\nSolar panels convert sunlight into electricity through the photovoltaic effect. Photons from sunlight hit silicon cells inside the panel, knock electrons free \u2026\n\nVideos of How Solar Panels Work\nHow Solar Panel Works for Home\nHow Solar Panels Work Animation\nPanel Review\nHow Do Home Solar Panels Work\nHow Solar Panels Are Made\nPanel DIY\nHow Do House Solar Panels Work\nHow Solar Panel Works in Hindi\nPanel Efficiency\nHow Efficient Are Solar Panels Work\nHow Does Solar Panel Work\nHow Much Do Solar Panels Cost\nBenefits of Solar Panels\nHow Do Solar Panels Work\nBest Solar Panels 2023\nHow Solar Panel Works PDF\nBest Solar Panels 2024\nPanel Cost\nHow Solar Panel Work at Night\nSolar Panel How It Works\nBenefits of Solar Panels for Home\nDIY Solar Panel Projects\nHow Much Do Solar Panels Work\nHow Solar Panel Is Made\nPanel\nHow to Install Solar Panel\nHome Made Solar Panel\nBest Solar Panel Companies 2024\nFree Energy From\nCost of Solar Panels and Installation\nInstallation\nHow to Make Solar Panel Work\nPanel System\nPanel Works\nDIY Projects with Old Solar Cells\nOff-Grid Living\nHow Do Solar Energy Work\nHow Solar Cells Work\nHow to Make a Solar Panel\nBest Solar Panels for Home\nRenewable Energy\nGreen-Living\nTypes of Solar Panel\nHow Much Does a Solar Panel Cost\nWind Turbine\nSolar Panels For Dummies\nHow to Clean a Solar Panel\nInverter\nSolar Cell Work\nBest Solar Panel Brands\n4:59\nHow do solar panels work? - Richard Komp\nYouTubeTED-Ed\n26.7M viewsJan 5, 2016\n22:35\nGenerate Electricity - How Solar Panels Work!\nYouTubeThe Engineering Mindset\n2.2M viewsOct 8, 2023\n1:52\nSolar Energy 101 - How Solar Panels Work\nYouTubeRainier Solar\n448.3K viewsJul 4, 2012\n8:48\nHow Do Solar Panels Work? (Physics of Solar Cells)\nYouTubeThe Science Asylum\n445K viewsJan 4, 2019\nShort videos\nYouTube\nYouTube\nYouTube\nYouTube\nTikTok\nYouTube\nsurgepv.com\nhttps://www.surgepv.com \u203a hub \u203a solar-technology \u203a how-s\u2026\nHow Solar Panels Work: The Complete Guide (2026)\n\nMar 13, 2026\u00a0\u00b7 How solar panels convert sunlight into electricity: the photovoltaic effect, cell-to-system architecture, \u2026\n\nDepartment of Energy\nhttps://www.energy.gov \u203a cmei \u203a systems \u203a how-does-solar \u2026\nHow Does Solar Work? - Department of Energy\n\nWhen the sun shines onto a solar panel, energy from the sunlight is absorbed by the PV cells in the panel. This energy \u2026\n\nFotovoltaico.it\nhttps://fotovoltaico.it \u203a impianto \u203a fotovoltaico\nPreventivo\nPrezzi speciali fotovoltaico | Confronta fino a 4 fornitori\nSponsored\nDesideri investire in pannelli solari? Trova un installatore esperto in pochi clic. Impianto fotovoltaico: approfitta della concorrenza e delle offerte a prezzi competitivi.\n\nOfferte personalizzate\u00a0\u00b7 Servizio gratuito\u00a0\u00b7 Energia verde economica\n\nServizi: Fotovoltaico per la casa, Fotovoltaico condominiale, Fotovoltaico per aziende\nFotovoltaico Lombardia\nFotovoltaico Sardegna\nFotovoltaico Lazio\nFotovoltaico Veneto\nFotovoltaico Puglia\nFotovoltaico Piemonte\nDeep dive into how solar panels work\nhow photovoltaic solar panels work\nhow do photovoltaic panels work\nhow do solar panels function\nwhat do solar panels generate\nwhat does solar panels produce\nhow solar energy generates electricity\nsolar panel how they work\nsolar panels what do they\n\u00a0"
+   },
+   {
+      "session_id": "1780301459_737d1414",
+      "timestamp": 1780301475939,
+      "event": "mouse",
+      "action": "mouse_scroll",
+      "screen_width": 1891,
+      "screen_height": 3680,
+      "scroll_start": {
+         "x": 0,
+         "y": 1562
+      },
+      "scroll_end": {
+         "x": 0,
+         "y": 2040
+      }
+   },
+   {
+      "session_id": "1780301459_737d1414",
+      "timestamp": 1780301477493,
+      "event": "mouse",
+      "action": "mouse_scroll",
+      "screen_width": 1891,
+      "screen_height": 3680,
+      "scroll_start": {
+         "x": 0,
+         "y": 2042
+      },
+      "scroll_end": {
+         "x": 0,
+         "y": 600
+      }
+   },
+   {
+      "session_id": "1780301459_737d1414",
+      "timestamp": 1780301478060,
+      "event": "mouse",
+      "action": "mouse_scroll",
+      "screen_width": 1891,
+      "screen_height": 3680,
+      "scroll_start": {
+         "x": 0,
+         "y": 598
+      },
+      "scroll_end": {
+         "x": 0,
+         "y": 360
+      }
+   },
+   {
+      "session_id": "1780301459_737d1414",
+      "timestamp": 1780301479023,
+      "event": "mouse",
+      "action": "mouse_click",
+      "screen_width": 1891,
+      "screen_height": 3680,
+      "mouse": {
+         "x": 702,
+         "y": 721
+      },
+      "hovered_text": "How do solar panels work? Solar power explained - EnergySage"
+   },
+   {
+      "session_id": "1780301459_737d1414",
+      "timestamp": 1780301479038,
+      "event": "tab",
+      "action": "tab_focus",
+      "tab": {
+         "id": 628790867,
+         "window_id": 628790823,
+         "index": 1,
+         "group_id": -1,
+         "url": "",
+         "title": "",
+         "status": "complete",
+         "muted": false,
+         "filename_html": null
+      }
+   },
+   {
+      "session_id": "1780301459_737d1414",
+      "timestamp": 1780301479131,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628790867,
+         "window_id": 628790823,
+         "index": 1,
+         "group_id": -1,
+         "url": "https://www.bing.com/search?q=how+solar+panels+work&form=QBLH&sp=-1&ghc=1&lq=0&pq=how+solar+panels+work&sc=10-21&qs=n&sk=&cvid=01787E3900FB43608B8AC9D18F3A7EE5",
+         "title": "bing.com/ck/a?!&&p=0a85d8dbd960612d1bef6b796e163a68bbb4745849ce1481dccc59ab1ffe5d2dJmltdHM9MTc4MDI3MjAwMA&ptn=3&ver=2&hsh=4&fclid=231f873d-851d-6c87-3e61-905c84076d4d&u=a1aHR0cHM6Ly93d3cuZW5lcmd5c2FnZS5jb20vc29sYXIvc29sYXItcGFuZWxzLXdvcmsv&ntb=1",
+         "status": "complete",
+         "muted": false,
+         "filename_html": "1780301479121_1446362499.html"
+      }
+   },
+   {
+      "session_id": "1780301459_737d1414",
+      "timestamp": 1780301479946,
+      "event": "mouse",
+      "action": "mouse_move",
+      "screen_width": 1891,
+      "screen_height": 3875,
+      "mouse_from": {
+         "x": 989,
+         "y": 1911
+      },
+      "mouse_to": {
+         "x": 702,
+         "y": 721
+      },
+      "hovered_text": "How do solar panels work? Solar power explained - EnergySage"
+   },
+   {
+      "session_id": "1780301459_737d1414",
+      "timestamp": 1780301480397,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628790867,
+         "window_id": 628790823,
+         "index": 1,
+         "group_id": -1,
+         "url": "https://www.energysage.com/solar/solar-panels-work/",
+         "title": "How Do Solar Panels Work? Solar Power Explained | EnergySage",
+         "status": "complete",
+         "muted": false,
+         "filename_html": "1780301480379_3227611020.html"
+      }
+   },
+   {
+      "session_id": "1780301459_737d1414",
+      "timestamp": 1780301480467,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628790867,
+         "window_id": 628790823,
+         "index": 1,
+         "group_id": -1,
+         "url": "https://www.energysage.com/solar/solar-panels-work/",
+         "title": "How Do Solar Panels Work? Solar Power Explained | EnergySage",
+         "status": "complete",
+         "muted": false,
+         "filename_html": "1780301480379_3227611020.html"
+      }
+   },
+   {
+      "session_id": "1780301459_737d1414",
+      "timestamp": 1780301480473,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628790867,
+         "window_id": 628790823,
+         "index": 1,
+         "group_id": -1,
+         "url": "https://www.energysage.com/solar/solar-panels-work/",
+         "title": "How Do Solar Panels Work? Solar Power Explained | EnergySage",
+         "status": "complete",
+         "muted": false,
+         "filename_html": "1780301480379_3227611020.html"
+      }
+   },
+   {
+      "session_id": "1780301459_737d1414",
+      "timestamp": 1780301480991,
+      "event": "mouse",
+      "action": "mouse_move",
+      "screen_width": 1891,
+      "screen_height": 6471,
+      "mouse_from": {
+         "x": 706,
+         "y": 366
+      },
+      "mouse_to": {
+         "x": 706,
+         "y": 363
+      },
+      "hovered_text": ""
+   },
+   {
+      "session_id": "1780301459_737d1414",
+      "timestamp": 1780301481312,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628790867,
+         "window_id": 628790823,
+         "index": 1,
+         "group_id": -1,
+         "url": "https://www.energysage.com/solar/solar-panels-work/",
+         "title": "How Do Solar Panels Work? Solar Power Explained | EnergySage",
+         "status": "complete",
+         "muted": false,
+         "filename_html": "1780301480379_3227611020.html"
+      }
+   },
+   {
+      "session_id": "1780301459_737d1414",
+      "timestamp": 1780301486968,
+      "event": "mouse",
+      "action": "text_select",
+      "text": "How do solar panels work? Solar power explained"
+   },
+   {
+      "session_id": "1780301459_737d1414",
+      "timestamp": 1780301487133,
+      "event": "mouse",
+      "action": "mouse_move",
+      "screen_width": 1891,
+      "screen_height": 6471,
+      "mouse_from": {
+         "x": 706,
+         "y": 363
+      },
+      "mouse_to": {
+         "x": 1304,
+         "y": 223
+      },
+      "hovered_text": "How do solar panels work? Solar power explained"
+   },
+   {
+      "session_id": "1780301459_737d1414",
+      "timestamp": 1780301487138,
+      "event": "mouse",
+      "action": "mouse_click",
+      "screen_width": 1891,
+      "screen_height": 6471,
+      "mouse": {
+         "x": 1304,
+         "y": 223
+      },
+      "hovered_text": "How do solar panels work? Solar power explained"
+   },
+   {
+      "session_id": "1780301459_737d1414",
+      "timestamp": 1780301489865,
+      "event": "mouse",
+      "action": "mouse_click",
+      "screen_width": 1891,
+      "screen_height": 6471,
+      "mouse": {
+         "x": 1304,
+         "y": 223
+      },
+      "hovered_text": "How do solar panels work? Solar power explained"
+   },
+   {
+      "session_id": "1780301459_737d1414",
+      "timestamp": 1780301490664,
+      "event": "mouse",
+      "action": "mouse_move",
+      "screen_width": 1891,
+      "screen_height": 6471,
+      "mouse_from": {
+         "x": 1304,
+         "y": 223
+      },
+      "mouse_to": {
+         "x": 1174,
+         "y": 225
+      },
+      "hovered_text": "How do solar panels work? Solar power explained"
+   },
+   {
+      "session_id": "1780301459_737d1414",
+      "timestamp": 1780301494534,
+      "event": "mouse",
+      "action": "mouse_scroll",
+      "screen_width": 1891,
+      "screen_height": 6471,
+      "scroll_start": {
+         "x": 0,
+         "y": 2
+      },
+      "scroll_end": {
+         "x": 0,
+         "y": 2400
+      }
+   },
+   {
+      "session_id": "1780301459_737d1414",
+      "timestamp": 1780301496287,
+      "event": "mouse",
+      "action": "mouse_move",
+      "screen_width": 1891,
+      "screen_height": 6471,
+      "mouse_from": {
+         "x": 1174,
+         "y": 225
+      },
+      "mouse_to": {
+         "x": 1182,
+         "y": 319
+      },
+      "hovered_text": "Edited by: Kristina Zagame"
+   },
+   {
+      "session_id": "1780301459_737d1414",
+      "timestamp": 1780301496420,
+      "event": "mouse",
+      "action": "mouse_scroll",
+      "screen_width": 1891,
+      "screen_height": 6471,
+      "scroll_start": {
+         "x": 0,
+         "y": 2398
+      },
+      "scroll_end": {
+         "x": 0,
+         "y": 0
+      }
+   },
+   {
+      "session_id": "1780301459_737d1414",
+      "timestamp": 1780301497432,
+      "event": "mouse",
+      "action": "mouse_move",
+      "screen_width": 1891,
+      "screen_height": 6471,
+      "mouse_from": {
+         "x": 1182,
+         "y": 319
+      },
+      "mouse_to": {
+         "x": 1484,
+         "y": 280
+      },
+      "hovered_text": "Emily Walker"
+   },
+   {
+      "session_id": "1780301459_737d1414",
+      "timestamp": 1780301498104,
+      "event": "mouse",
+      "action": "mouse_click",
+      "screen_width": 1891,
+      "screen_height": 6471,
+      "mouse": {
+         "x": 1484,
+         "y": 280
+      },
+      "hovered_text": "Emily Walker"
+   },
+   {
+      "session_id": "1780301459_737d1414",
+      "timestamp": 1780301499273,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628790867,
+         "window_id": 628790823,
+         "index": 1,
+         "group_id": -1,
+         "url": "https://www.energysage.com/authors/emily-walker/",
+         "title": "Emily Walker | EnergySage",
+         "status": "complete",
+         "muted": false,
+         "filename_html": "1780301499252_3397232801.html"
+      }
+   },
+   {
+      "session_id": "1780301459_737d1414",
+      "timestamp": 1780301499401,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628790867,
+         "window_id": 628790823,
+         "index": 1,
+         "group_id": -1,
+         "url": "https://www.energysage.com/authors/emily-walker/",
+         "title": "Emily Walker | EnergySage",
+         "status": "complete",
+         "muted": false,
+         "filename_html": "1780301499252_3397232801.html"
+      }
+   },
+   {
+      "session_id": "1780301459_737d1414",
+      "timestamp": 1780301499414,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628790867,
+         "window_id": 628790823,
+         "index": 1,
+         "group_id": -1,
+         "url": "https://www.energysage.com/authors/emily-walker/",
+         "title": "Emily Walker | EnergySage",
+         "status": "complete",
+         "muted": false,
+         "filename_html": "1780301499252_3397232801.html"
+      }
+   },
+   {
+      "session_id": "1780301459_737d1414",
+      "timestamp": 1780301500093,
+      "event": "tab",
+      "action": "tab_update",
+      "tab": {
+         "id": 628790867,
+         "window_id": 628790823,
+         "index": 1,
+         "group_id": -1,
+         "url": "https://www.energysage.com/authors/emily-walker/",
+         "title": "Emily Walker | EnergySage",
+         "status": "complete",
+         "muted": false,
+         "filename_html": "1780301499252_3397232801.html"
+      }
+   },
+   {
+      "session_id": "1780301459_737d1414",
+      "timestamp": 1780301500536,
+      "event": "mouse",
+      "action": "mouse_move",
+      "screen_width": 1891,
+      "screen_height": 2912,
+      "mouse_from": {
+         "x": 1486,
+         "y": 278
+      },
+      "mouse_to": {
+         "x": 1746,
+         "y": 0
+      },
+      "hovered_text": "EnergySage\nTips & guides\nSolar calculator\nAbout us\nSign in\nHome solar\nHome batteries\nEV charging\nHeat pumps\nElectricity plans"
+   }
+]
