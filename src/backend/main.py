@@ -47,7 +47,7 @@ active_sessions = {}
 
 
 @app.route("/peanut", methods=["GET"])
-def healt_check():
+def health_check():
     return jsonify({ "pudding": True }), 200
 
 
@@ -143,7 +143,7 @@ def save_page():
         return jsonify({}), 400
 
 
-# Save an html page
+# Save a ranking
 @app.route('/ranking', methods=['POST'])
 def save_ranking():
     data = request.get_json()
