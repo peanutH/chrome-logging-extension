@@ -63,18 +63,18 @@ The tester performs actions involving typed input.
 - Stop the logging session.
 
 
-## Script 5: AI Overview Logging
+## Script 5: AI-generated Summary Logging
 
-The tester performs searches that may trigger Google AI Overview content.
+The tester performs searches that may trigger AI-generated summaries.
 - Start a new logging session.
 - Go to Google Search.
 - Search for: *why do leaves change color in autumn*.
-- Check whether an AI Overview appears.
-- If an AI Overview appears, scroll within or near the AI Overview area if needed.
-- Click one source link from the AI Overview if available.
+- Check whether an AI-generated summary appears.
+- If an AI-generated summary appears, scroll within or near the AI-generated summary area if needed.
+- Click one source link from the AI-generated summary if available.
 - Return to the search result page.
 - Search for: *how does photosynthesis work*.
-- Check whether an AI Overview appears.
+- Check whether an AI-generated summary appears.
 - Stop the logging session.
 
 
