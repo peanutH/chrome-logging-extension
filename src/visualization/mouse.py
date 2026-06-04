@@ -45,6 +45,7 @@ def plot(html_path, mouse_logs, out_idx, out_dir, figsize=(20, 20)):
         plt.xticks([])
         plt.yticks([])
         plt.savefig(os.path.join(out_dir, f"{out_idx:03}_{i}.png"), bbox_inches="tight", pad_inches=0)
+        plt.close()
 
 
 
