@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as follows."
+title: "SearchLog: A Web Browser Extension for Capturing Search Logs in Laboratory Studies"
+type: software
+authors:
+  - family-names: He
+    given-names: Jiaman
+  - family-names: Xia
+    given-names: Riccardo
+  - family-names: McKay
+    given-names: Dana
+  - family-names: Spina
+    given-names: Damiano
+  - family-names: Trippas
+    given-names: Johanne R.
+license: Apache-2.0
+url: "https://arxiv.org/abs/2606.05040"
+identifiers:
+  - type: arxiv
+    value: "2606.05040"

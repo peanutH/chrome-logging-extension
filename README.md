@@ -99,7 +99,13 @@ Results are exported in the same session directory provided in input.
 ## Citation
 If you use this toolkit for research, please cite it using the following entry:
 ```
-@article{
-    
-} 
+@misc{he2026searchlogwebbrowserextension,
+    title={SearchLog: A Web Browser Extension for Capturing Search Logs in Laboratory Studies}, 
+    author={Jiaman He and Riccardo Xia and Dana McKay and Damiano Spina and Johanne R. Trippas},
+    year={2026},
+    eprint={2606.05040},
+    archivePrefix={arXiv},
+    primaryClass={cs.IR},
+    url={https://arxiv.org/abs/2606.05040}
+}
 ```
