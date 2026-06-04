@@ -199,8 +199,26 @@ export class StateEventsHandler {
 
     async create_snapshot(tab_id, filename) {
         function _snapshot(session_id, filename) {
-            const html = document.documentElement.outerHTML;
-            chrome.runtime.sendMessage({ action: "submit-html", data: JSON.stringify({ session_id: session_id, name: filename, html: html }) });
+            // TODO add observer
+            function snapshot() {
+                const html = document.documentElement.outerHTML;
+                chrome.runtime.sendMessage({ action: "submit-html", data: JSON.stringify({ session_id: session_id, name: filename, html: html }) });
+            }
+            (() => {
+                let last_export_timestamp = Date.now();
+                snapshot();
+                
+                if (!document.__state_snapshot_observer_started) {
+                    const observer = new MutationObserver((mutations) => {
+                        if (Date.now() - last_export_timestamp >= 2000) {
+                            snapshot();
+                            last_export_timestamp = Date.now();
+                        }
+                    });
+                    observer.observe(document.body, { childList: true, subtree: true });
+                    document.__state_snapshot_observer_started = true;
+                }
+            })();
         }
 
         await chrome.scripting.executeScript({
