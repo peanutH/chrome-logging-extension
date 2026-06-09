@@ -4,6 +4,7 @@ const sessionEl = document.getElementById("sessionId");
 const feedbackEl = document.getElementById("feedback");
 const startBtn = document.getElementById("startLogging");
 const endBtn = document.getElementById("endLogging");
+const dryBtn = document.getElementById("dryRun");
 const copySessionBtn = document.getElementById("copySession");
 
 function setStatus(sessionId = null) {
@@ -12,6 +13,7 @@ function setStatus(sessionId = null) {
     sessionEl.textContent = sessionId || "None";
     startBtn.disabled = sessionId;
     endBtn.disabled = !sessionId;
+    dryBtn.disabled = sessionId;
     copySessionBtn.disabled = !sessionId;
 }
 
@@ -99,10 +101,18 @@ copySessionBtn.addEventListener("click", async () => {
     }
 });
 
+dryBtn.addEventListener("click", async () => {
+    const backendOk = await refreshBackendHealth();
+    if (!backendOk) {
+        return;
+    }
+    
+    await sendMessage("dry_run");
+});
+
 async function initializePopup() {
     await refreshBackendHealth();
     await refreshStatus();
 }
 
 initializePopup();
-

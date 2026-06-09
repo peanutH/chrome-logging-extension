@@ -1,6 +1,7 @@
 import os
 import json
 import time
+import shutil
 import uuid
 from flask import Flask, request, jsonify
 from dotenv import load_dotenv
@@ -42,6 +43,26 @@ class LoggingManager:
             json.dump(data, f, indent=3)
 
 
+def prepare_session(out_dir):
+    html_dir = os.path.join(out_dir, "pages")
+    ranking_dir = os.path.join(out_dir, "rankings")
+    llm_dir = os.path.join(out_dir, "llm")
+    out_log_file = os.path.join(out_dir, "session.json")
+
+    os.makedirs(out_dir, exist_ok=True)
+    os.makedirs(html_dir, exist_ok=True)
+    os.makedirs(ranking_dir, exist_ok=True)
+    os.makedirs(llm_dir, exist_ok=True)
+
+    return {
+        "out_dir": out_dir,
+        "events_log": LoggingManager(out_log_file),
+        "raw_logs": {},
+        "ranking_dir": ranking_dir,
+        "llm_dir": llm_dir,
+        "html_dir": html_dir
+    }
+
 
 active_sessions = {}
 
@@ -57,24 +78,7 @@ def start_session():
     session_id = f"{int(time.time())}_{uuid.uuid4().hex[:8]}"
 
     out_dir = os.path.join(DATA_DIR, f"{session_id}")
-    html_dir = os.path.join(out_dir, "pages")
-    ranking_dir = os.path.join(out_dir, "rankings")
-    llm_dir = os.path.join(out_dir, "llm")
-    out_log_file = os.path.join(out_dir, "session.json")
-
-    os.makedirs(out_dir, exist_ok=True)
-    os.makedirs(html_dir, exist_ok=True)
-    os.makedirs(ranking_dir, exist_ok=True)
-    os.makedirs(llm_dir, exist_ok=True)
-
-    active_sessions[session_id] = {
-        "out_dir": out_dir,
-        "events_log": LoggingManager(out_log_file),
-        "raw_logs": {},
-        "ranking_dir": ranking_dir,
-        "llm_dir": llm_dir,
-        "html_dir": html_dir
-    }
+    active_sessions[session_id] = prepare_session(out_dir)
 
     return jsonify({
         "session_id": session_id,
@@ -169,6 +173,54 @@ def save_llm():
         return jsonify({}), 200
     else:
         return jsonify({}), 400
+
+
+# Start dry run
+@app.route("/dry-run-start", methods=["POST"])
+def dry_run_start_session():
+    session_id = f"dry_run_{uuid.uuid4().hex[:8]}"
+
+    out_dir = os.path.join(DATA_DIR, f"{session_id}")
+    active_sessions[session_id] = prepare_session(out_dir)
+
+    return jsonify({
+        "session_id": session_id,
+    }), 200
+
+# Terminate dry run
+@app.route("/dry-run-end", methods=["POST"])
+def dry_run_end_session():
+    session_id = request.get_json()["session_id"]
+
+    if session_id in active_sessions:
+        # Close session
+        for logger in [active_sessions[session_id]["events_log"]] + list(active_sessions[session_id]["raw_logs"].values()):
+            logger.close()
+        session = active_sessions[session_id]
+        del active_sessions[session_id]
+
+        # Verify logs
+        with open(os.path.join(session["out_dir"], "session.json"), "r") as f:
+            logs = json.load(f)
+        checklist = {
+            "open_google": False,
+            "open_bing": False,
+            "ranking": False
+        }
+        for l in logs:
+            if ("action" in l) and (l["action"] == "tab_update") and ("Google" in l["tab"]["title"]): checklist["open_google"] = True
+            if ("action" in l) and (l["action"] == "tab_update") and ("Microsoft Bing" in l["tab"]["title"]): checklist["open_bing"] = True
+            if (l["event"] == "search") and (l["query"] == "why is water wet") and os.path.isfile(os.path.join(session["ranking_dir"], l["filename_ranking"])): checklist["ranking"] = True
+
+        # Delete output directory
+        shutil.rmtree(session["out_dir"])
+
+        if all(checklist.values()):
+            return jsonify({ "outcome": True }), 200
+        else:
+            return jsonify({ "outcome": False }), 200
+    else:
+        return jsonify({}), 404
 
 
 if __name__ == '__main__':

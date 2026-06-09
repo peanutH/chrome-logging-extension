@@ -4,7 +4,8 @@ import { KeyboardEventsHandler } from './loggers/keyboard.js';
 import { GoogleEventsHandler } from './loggers/search/google.js';
 import { GoogleAIModeEventsHandler } from './loggers/search/google_aimode.js';
 import { BingEventsHandler } from './loggers/search/bing.js';
-import { BACKEND_BASE_URL } from "./constants.js"
+import { BACKEND_BASE_URL } from "./constants.js";
+import { dry_run } from "./dry_run.js";
 
 
 var curr_session = null;
@@ -188,6 +189,33 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
             } catch (error) {
                 sendResponse({ ok: false, sessionId: curr_session });
             }
+            return true
+
+
+        case "dry_run":
+            (async () => {
+                try {
+                    let response = await backendRequest("/dry-run-start", { method: "POST" });
+                    await init_monitoring(response.session_id);
+                    await dry_run();
+                    await stop_monitoring();
+                    response = await backendRequest("/dry-run-end", {
+                        method: "POST", 
+                        headers: { "Content-Type": "application/json", },
+                        body: JSON.stringify({ session_id: response.session_id })
+                    });
+
+                    chrome.notifications.create({
+                        type: "basic",
+                        iconUrl: "https://peanuth.github.io/images/totoro-blue.png",
+                        title: "Dry run outcome",
+                        message: response.outcome ? "Passed" : "Failed"
+                    });
+                    sendResponse({ ok: true });
+                } catch (e) {
+                    console.error(e);
+                }
+            })();
             return true
     }
 });

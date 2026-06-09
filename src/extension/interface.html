@@ -6,7 +6,7 @@
     <style>
         body {
             font-family: "Segoe UI", Arial, sans-serif;
-            min-width: 320px;
+            min-width: 330px;
             margin: 0;
             background: #f6f8fb;
             color: #1f2937;
@@ -114,13 +114,16 @@
         #startLogging {
             background: #16a34a;
             color: #ffffff;
-            flex: 1;
         }
 
         #endLogging {
             background: #dc2626;
             color: #ffffff;
-            flex: 1;
+        }
+
+        #dryRun {
+            background: #0b77b1;
+            color: #ffffff;
         }
 
         #copySession {
@@ -156,6 +159,7 @@
         <div class="buttons">
             <button id="startLogging">Begin Logging</button>
             <button id="endLogging">End Logging</button>
+            <button id="dryRun">Dry Run</button>
         </div>
         <div id="feedback"></div>
     </div>
