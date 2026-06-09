@@ -48,15 +48,27 @@ export class GoogleAIModeEventsHandler {
 
 
             async function submit_event(event) {
-                await chrome.runtime.sendMessage({ action: "submit-log", log: JSON.stringify(event) });
+                try {
+                    await chrome.runtime.sendMessage({ action: "submit-log", log: JSON.stringify(event) });
+                } catch (e) {
+                    console.error(`Failed to submit event ${event}`);
+                }
             }
 
             async function submit_html(html, name) {
-                await chrome.runtime.sendMessage({ action: "submit-html", data: JSON.stringify({ session_id: session_id, name: name, html: html }) });
+                try {
+                    await chrome.runtime.sendMessage({ action: "submit-html", data: JSON.stringify({ session_id: session_id, name: name, html: html }) });
+                } catch (e) {
+                    console.error(`Failed to submit HTML ${name}`);
+                }
             }
 
             async function submit_llm(chat, name) {
-                await chrome.runtime.sendMessage({ action: "submit-llm", data: JSON.stringify({ session_id: session_id, name: name, chat: chat }) });
+                try {
+                    await chrome.runtime.sendMessage({ action: "submit-llm", data: JSON.stringify({ session_id: session_id, name: name, chat: chat }) });
+                } catch (e) {
+                    console.error(`Failed to submit LLM chat ${chat}`);
+                }
             }
 
 
@@ -95,29 +107,33 @@ export class GoogleAIModeEventsHandler {
                 // Avoid duplicates due to page loading signals from other content (within same page)
                 if (document.__last_export_timestamp && ((Date.now() - document.__last_export_timestamp) < 500) ) { return; }
                 document.__last_export_timestamp = Date.now();
-
-                const chat = get_conversation();
-
-                // Don't submit if response not yet provided
-                if (chat[chat.length-1]["role"] === "user") { return; }
-                // Avoids submitting if the same as previous one
-                if ((past_chat !== null) && (JSON.stringify(chat) === JSON.stringify(past_chat))) { return; }
-                const should_submit_event = (past_chat === null) || (chat.length != past_chat.length) // Submit new event only new messages are sent (not updated)
-                past_chat = chat;
-
-                const filename_html = `${timestamp}_${chat[0]['text']}.html`;
-                const filename_chat = `${timestamp}_${chat[0]['text']}.json`;
-                const html = document.documentElement.outerHTML;
-                const event = new GoogleAIModeSearchEvent(session_id, chat[chat.length-2]["text"], filename_html, filename_chat);
-
-                if (should_submit_event) {
-                    submit_event(event);
+                
+                try {
+                    const chat = get_conversation();
+    
+                    // Don't submit if response not yet provided
+                    if (chat[chat.length-1]["role"] === "user") { return; }
+                    // Avoids submitting if the same as previous one
+                    if ((past_chat !== null) && (JSON.stringify(chat) === JSON.stringify(past_chat))) { return; }
+                    const should_submit_event = (past_chat === null) || (chat.length != past_chat.length) // Submit new event only new messages are sent (not updated)
+                    past_chat = chat;
+    
+                    const filename_html = `${timestamp}_${chat[0]['text']}.html`;
+                    const filename_chat = `${timestamp}_${chat[0]['text']}.json`;
+                    const html = document.documentElement.outerHTML;
+                    const event = new GoogleAIModeSearchEvent(session_id, chat[chat.length-2]["text"], filename_html, filename_chat);
+    
+                    if (should_submit_event) {
+                        submit_event(event);
+                    }
+                    submit_html(html, filename_html);
+                    submit_llm({
+                        "source": "google_ai_mode",
+                        "chat": chat
+                    }, filename_chat);
+                } catch (e) {
+                    console.error(e);
                 }
-                submit_html(html, filename_html);
-                submit_llm({
-                    "source": "google_ai_mode",
-                    "chat": chat
-                }, filename_chat);
             }
 
             (() => {

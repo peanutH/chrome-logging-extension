@@ -103,19 +103,27 @@ export class StateEventsHandler {
 
 
     async submit_event(event) {
-        await fetch(`${BACKEND_BASE_URL}/log`, {
-            method: "POST", 
-            headers: { "Content-Type": "application/json", },
-            body: JSON.stringify(event)
-        });
+        try {
+            await fetch(`${BACKEND_BASE_URL}/log`, {
+                method: "POST", 
+                headers: { "Content-Type": "application/json", },
+                body: JSON.stringify(event)
+            });
+        } catch (e) {
+            console.error(`Failed to submit event ${event}`);
+        }
     }
 
     async submit_raw_event(event) {
-        await fetch(`${BACKEND_BASE_URL}/log-raw`, {
-            method: "POST", 
-            headers: { "Content-Type": "application/json", },
-            body: JSON.stringify(event)
-        });
+        try {
+            await fetch(`${BACKEND_BASE_URL}/log-raw`, {
+                method: "POST", 
+                headers: { "Content-Type": "application/json", },
+                body: JSON.stringify(event)
+            });
+        } catch (e) {
+            console.error(`Failed to submit event ${event}`);
+        }
     }
 
     
@@ -170,6 +178,7 @@ export class StateEventsHandler {
             } else {
                 // Snapshot of page already exists, retrieve previously used name
                 filename_html = this.snapshotted[filename];
+                await this.create_snapshot(tab.id, filename_html);
             }
         }
         
@@ -199,11 +208,15 @@ export class StateEventsHandler {
 
     async create_snapshot(tab_id, filename) {
         function _snapshot(session_id, filename) {
-            // TODO add observer
             function snapshot() {
-                const html = document.documentElement.outerHTML;
-                chrome.runtime.sendMessage({ action: "submit-html", data: JSON.stringify({ session_id: session_id, name: filename, html: html }) });
+                try {
+                    const html = document.documentElement.outerHTML;
+                    chrome.runtime.sendMessage({ action: "submit-html", data: JSON.stringify({ session_id: session_id, name: filename, html: html }) });
+                } catch (e) {
+                    console.error(`Failed to submit HTML ${filename}`)
+                }
             }
+            
             (() => {
                 let last_export_timestamp = Date.now();
                 snapshot();

@@ -65,15 +65,27 @@ export class GoogleEventsHandler {
             }
 
             async function submit_event(event) {
-                await chrome.runtime.sendMessage({ action: "submit-log", log: JSON.stringify(event) });
+                try {
+                    await chrome.runtime.sendMessage({ action: "submit-log", log: JSON.stringify(event) });
+                } catch (e) {
+                    console.error(`Failed to submit event ${event}`);
+                }
             }
 
             async function submit_html(html, name) {
-                await chrome.runtime.sendMessage({ action: "submit-html", data: JSON.stringify({ session_id: session_id, name: name, html: html }) });
+                try {
+                    await chrome.runtime.sendMessage({ action: "submit-html", data: JSON.stringify({ session_id: session_id, name: name, html: html }) });
+                } catch (e) {
+                    console.error(`Failed to submit HTML ${name}`);
+                }
             }
 
             async function submit_ranking(ranking, name) {
-                await chrome.runtime.sendMessage({ action: "submit-ranking", data: JSON.stringify({ session_id: session_id, name: name, ranking: ranking }) });
+                try {
+                    await chrome.runtime.sendMessage({ action: "submit-ranking", data: JSON.stringify({ session_id: session_id, name: name, ranking: ranking }) });
+                } catch (e) {
+                    console.error(`Failed to submit ranking ${ranking}`);
+                }
             }
 
             function parse_as_result_entry(element) {
@@ -137,8 +149,7 @@ export class GoogleEventsHandler {
                                             .querySelector(':scope > div:first-of-type');
                     let overview = new AIOverviewEntry(text_container.innerText);
                     return overview;
-                }
-                catch (e) {
+                } catch (e) {
                     return null;
                 }
                 
@@ -151,49 +162,54 @@ export class GoogleEventsHandler {
                 if (document.__last_export_timestamp && ((Date.now() - document.__last_export_timestamp) < 500) ) { return; }
                 document.__last_export_timestamp = Date.now();
 
-                const query_text = document.querySelector('textarea[name="q"]').getAttribute('value');
-                if (!curr_query) { curr_query = query_text; }
-                if (query_text !== curr_query) { return; } // User is typing new query (triggers observer). Don't save ranking
-                const filename_html = `${timestamp}_${query_text}.html`
-                const filename_ranking = `${timestamp}_${query_text}.json`
-                const event = new GoogleSearchEvent(session_id, query_text, filename_html, filename_ranking);
-                const html = document.documentElement.outerHTML;
-                let ranking = [];
-    
-                // Look for AI Overview
-                let ai_overview = get_ai_overview();
-                if (ai_overview != null) {
-                    ai_overview.rank = 0
-                    ranking.push(ai_overview);
-                }
-
-                // Parse search results
-                const search_results_elements = document.querySelectorAll("#rso [data-hveid]");
-                let curr_rank = 1;
-                for (const element of search_results_elements) {
-                    if (element.children.length === 0) { continue; }
-    
-                    let content = parse_search_content(element);
-    
-                    if (content != null) {
-                        content.rank = curr_rank;
-                        curr_rank++;
-                        ranking.push(content);
+                try {
+                    const query_text = document.querySelector('textarea[name="q"]').getAttribute('value');
+                    if (!curr_query) { curr_query = query_text; }
+                    if (query_text !== curr_query) { return; } // User is typing new query (triggers observer). Don't save ranking
+                    const filename_html = `${timestamp}_${query_text}.html`
+                    const filename_ranking = `${timestamp}_${query_text}.json`
+                    const event = new GoogleSearchEvent(session_id, query_text, filename_html, filename_ranking);
+                    const html = document.documentElement.outerHTML;
+                    let ranking = [];
+        
+                    // Look for AI Overview
+                    let ai_overview = get_ai_overview();
+                    if (ai_overview != null) {
+                        ai_overview.rank = 0
+                        ranking.push(ai_overview);
                     }
-                }
 
-                // Avoids submitting if the same as previous one
-                if ((past_ranking !== null) && (JSON.stringify(ranking) === JSON.stringify(past_ranking))) {
-                    return 
+                    // Parse search results
+                    const search_results_elements = document.querySelectorAll("#rso [data-hveid]");
+                    let curr_rank = 1;
+                    for (const element of search_results_elements) {
+                        if (element.children.length === 0) { continue; }
+        
+                        let content = parse_search_content(element);
+        
+                        if (content != null) {
+                            content.rank = curr_rank;
+                            curr_rank++;
+                            ranking.push(content);
+                        }
+                    }
+
+                    // Avoids submitting if the same as previous one
+                    if ((past_ranking !== null) && (JSON.stringify(ranking) === JSON.stringify(past_ranking))) {
+                        return 
+                    }
+                    past_ranking = ranking;
+        
+                    submit_event(event);
+                    submit_html(html, filename_html);
+                    submit_ranking({
+                        "source": "google",
+                        "ranking": ranking
+                    }, filename_ranking);
                 }
-                past_ranking = ranking;
-    
-                submit_event(event);
-                submit_html(html, filename_html);
-                submit_ranking({
-                    "source": "google",
-                    "ranking": ranking
-                }, filename_ranking);
+                catch (e) {
+                    console.error(e);
+                }
             }
 
             (() => {

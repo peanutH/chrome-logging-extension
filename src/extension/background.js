@@ -20,32 +20,56 @@ async function init_monitoring(session_id) {
     const curr_windows = await chrome.windows.getAll()
     const curr_tabs = await chrome.tabs.query({})
 
-    state_handler = new StateEventsHandler(session_id, curr_windows, curr_tabs);
-    await state_handler.start_listeners();
+    try {
+        state_handler = new StateEventsHandler(session_id, curr_windows, curr_tabs);
+        await state_handler.start_listeners();
+    } catch (e) {
+        console.errror(`Failed to initialize state monitoring ${e}`);
+    }
 
-    mouse_handler = new MouseEventsHandler(session_id);
-    await mouse_handler.start_listeners();
+    try {
+        mouse_handler = new MouseEventsHandler(session_id);
+        await mouse_handler.start_listeners();
+    } catch (e) {
+        console.errror(`Failed to initialize mouse monitoring ${e}`);
+    }
 
-    keyboard_handler = new KeyboardEventsHandler(session_id);
-    await keyboard_handler.start_listeners();
+    try {
+        keyboard_handler = new KeyboardEventsHandler(session_id);
+        await keyboard_handler.start_listeners();
+    } catch (e) {
+        console.errror(`Failed to initialize keyboard monitoring ${e}`);
+    }
 
-    google_handler = new GoogleEventsHandler(session_id);
-    await google_handler.start_listeners();
+    try {
+        google_handler = new GoogleEventsHandler(session_id);
+        await google_handler.start_listeners();
+    } catch (e) {
+        console.errror(`Failed to initialize Google monitoring ${e}`);
+    }
 
-    google_aimode_handler = new GoogleAIModeEventsHandler(session_id);
-    await google_aimode_handler.start_listeners();
+    try {
+        google_aimode_handler = new GoogleAIModeEventsHandler(session_id);
+        await google_aimode_handler.start_listeners();
+    } catch (e) {
+        console.errror(`Failed to initialize Google (AI Mode) monitoring ${e}`);
+    }
 
-    bing_handler = new BingEventsHandler(session_id);
-    await bing_handler.start_listeners();
+    try {
+        bing_handler = new BingEventsHandler(session_id);
+        await bing_handler.start_listeners();
+    } catch (e) {
+        console.errror(`Failed to initialize Bing monitoring ${e}`);
+    }
 }
 
 function stop_monitoring() {
-    state_handler.stop_listeners();
-    mouse_handler.stop_listeners();
-    keyboard_handler.stop_listeners();
-    google_handler.stop_listeners();
-    google_aimode_handler.stop_listeners();
-    bing_handler.stop_listeners();
+    try { state_handler.stop_listeners(); }         catch (e) { console.errror(e); }
+    try { mouse_handler.stop_listeners(); }         catch (e) { console.errror(e); }
+    try { keyboard_handler.stop_listeners(); }      catch (e) { console.errror(e); }
+    try { google_handler.stop_listeners(); }        catch (e) { console.errror(e); }
+    try { google_aimode_handler.stop_listeners(); } catch (e) { console.errror(e); }
+    try { bing_handler.stop_listeners(); }          catch (e) { console.errror(e); }
 }
 
 

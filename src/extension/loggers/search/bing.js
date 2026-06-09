@@ -55,15 +55,27 @@ export class BingEventsHandler {
             }
 
             async function submit_event(event) {
-                await chrome.runtime.sendMessage({ action: "submit-log", log: JSON.stringify(event) });
+                try {
+                    await chrome.runtime.sendMessage({ action: "submit-log", log: JSON.stringify(event) });
+                } catch (e) {
+                    console.error(`Failed to submit event ${event}`);
+                }
             }
 
             async function submit_html(html, name) {
-                await chrome.runtime.sendMessage({ action: "submit-html", data: JSON.stringify({ session_id: session_id, name: name, html: html }) });
+                try {
+                    await chrome.runtime.sendMessage({ action: "submit-html", data: JSON.stringify({ session_id: session_id, name: name, html: html }) });
+                } catch (e) {
+                    console.error(`Failed to submit HTML ${name}`);
+                }
             }
 
             async function submit_ranking(ranking, name) {
-                await chrome.runtime.sendMessage({ action: "submit-ranking", data: JSON.stringify({ session_id: session_id, name: name, ranking: ranking }) });
+                try {
+                    await chrome.runtime.sendMessage({ action: "submit-ranking", data: JSON.stringify({ session_id: session_id, name: name, ranking: ranking }) });
+                } catch (e) {
+                    console.error(`Failed to submit ranking ${ranking}`);
+                }
             }
 
             function parse_search_content(element) {
@@ -103,63 +115,67 @@ export class BingEventsHandler {
                 // Avoid duplicates due to page loading signals from other content (within same page)
                 if (document.__last_export_timestamp && ((Date.now() - document.__last_export_timestamp) < 500) ) { return; }
                 document.__last_export_timestamp = Date.now();
-
-                const query_text = document.querySelector('#sb_form_q').getAttribute('value');
-                if (!curr_query) { curr_query = query_text; }
-                if (query_text !== curr_query) { return; } // User is typing new query (triggers observer). Don't save ranking
-                const filename_html = `${timestamp}_${query_text}.html`
-                const filename_ranking = `${timestamp}_${query_text}.json`
-                const event = new SearchEvent(session_id, query_text, filename_html, filename_ranking);
-                const html = document.documentElement.outerHTML;
-                let ranking = [];
-    
-                // Look for Copilot summary
-                let ai_overview = get_copilot_summary();
-                if (ai_overview != null) {
-                    ai_overview.rank = 0
-                    ranking.push(ai_overview);
-                }
-
-                // Parse search results
-                let curr_rank = 1;
-
-                const top_container = document.querySelector("#b_topw");
-                if (top_container != null && top_container.querySelector(".b_caption") != null) {
-                    // Header entry is a search result
-                    let content = new ResultEntry(
-                        top_container.querySelector("h2").innerText,
-                        top_container.querySelector("h2 a").getAttribute("href"),
-                        top_container.querySelector(".b_caption").textConteinnerTextnt + "\n" + top_container.querySelector("ul").innerText
-                    )
-                    content.rank = curr_rank;
-                    curr_rank++;
-                    ranking.push(content);
-                }
                 
-                // Other search results
-                const search_results_elements = document.querySelectorAll("#b_results li.b_algo");
-                for (const element of search_results_elements) {
-                    let content = parse_search_content(element);
+                try {
+                    const query_text = document.querySelector('#sb_form_q').getAttribute('value');
+                    if (!curr_query) { curr_query = query_text; }
+                    if (query_text !== curr_query) { return; } // User is typing new query (triggers observer). Don't save ranking
+                    const filename_html = `${timestamp}_${query_text}.html`
+                    const filename_ranking = `${timestamp}_${query_text}.json`
+                    const event = new SearchEvent(session_id, query_text, filename_html, filename_ranking);
+                    const html = document.documentElement.outerHTML;
+                    let ranking = [];
+        
+                    // Look for Copilot summary
+                    let ai_overview = get_copilot_summary();
+                    if (ai_overview != null) {
+                        ai_overview.rank = 0
+                        ranking.push(ai_overview);
+                    }
     
-                    if (content != null) {
+                    // Parse search results
+                    let curr_rank = 1;
+    
+                    const top_container = document.querySelector("#b_topw");
+                    if (top_container != null && top_container.querySelector(".b_caption") != null) {
+                        // Header entry is a search result
+                        let content = new ResultEntry(
+                            top_container.querySelector("h2").innerText,
+                            top_container.querySelector("h2 a").getAttribute("href"),
+                            top_container.querySelector(".b_caption").textConteinnerTextnt + "\n" + top_container.querySelector("ul").innerText
+                        )
                         content.rank = curr_rank;
                         curr_rank++;
                         ranking.push(content);
                     }
+                    
+                    // Other search results
+                    const search_results_elements = document.querySelectorAll("#b_results li.b_algo");
+                    for (const element of search_results_elements) {
+                        let content = parse_search_content(element);
+        
+                        if (content != null) {
+                            content.rank = curr_rank;
+                            curr_rank++;
+                            ranking.push(content);
+                        }
+                    }
+    
+                    // Avoids submitting if the same as previous one
+                    if ((past_ranking !== null) && (JSON.stringify(ranking) === JSON.stringify(past_ranking))) {
+                        return 
+                    }
+                    past_ranking = ranking;
+    
+                    submit_event(event);
+                    submit_html(html, filename_html);
+                    submit_ranking({
+                        "source": "bing",
+                        "ranking": ranking
+                    }, filename_ranking);
+                } catch (e) {
+                    console.error(e);
                 }
-
-                // Avoids submitting if the same as previous one
-                if ((past_ranking !== null) && (JSON.stringify(ranking) === JSON.stringify(past_ranking))) {
-                    return 
-                }
-                past_ranking = ranking;
-
-                submit_event(event);
-                submit_html(html, filename_html);
-                submit_ranking({
-                    "source": "bing",
-                    "ranking": ranking
-                }, filename_ranking);
             }
 
             (() => {
