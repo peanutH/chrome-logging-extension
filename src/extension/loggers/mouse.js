@@ -189,27 +189,23 @@ export class MouseEventsHandler {
             }
 
             // *** Mouse wheel tracking ***
-            var curr_scroll_start = null;
+            var curr_scroll_start = new Coord(window.scrollX, window.scrollY);
             var curr_scroll_end = null;
             var curr_scroll_promise = null;
             async function page_scroll(e) {
                 if (!document.__areListenersActive_mouse) { return; }
-                if (curr_scroll_start === null) {
-                    // First time tracking cursor
-                    curr_scroll_start = new Coord(window.scrollX, window.scrollY)
-                } else {
-                    // Keep tracking cursor
-                    curr_scroll_end = new Coord(window.scrollX, window.scrollY)
-                }
+                // Update scroll location
+                curr_scroll_end = new Coord(window.scrollX, window.scrollY);
+                
                 // Create a promise with timeout. If the cursor does not move after a while, record movement.
                 const curr_promise = new Promise(resolve => setTimeout(async () => {
                     if (curr_scroll_promise !== curr_promise) { return resolve(); } // Wheel moved, ignore this promise
                     const event = new ScrollEvent(session_id, document.documentElement.scrollWidth, document.documentElement.scrollHeight, curr_scroll_start, curr_scroll_end);
-                    curr_scroll_start = null;
+                    curr_scroll_start = new Coord(window.scrollX, window.scrollY);
                     curr_scroll_end = null;
                     await submit_event(event);
                     resolve();
-                }, 250));
+                }, 100));
                 curr_scroll_promise = curr_promise;
                 await curr_promise;
             }
