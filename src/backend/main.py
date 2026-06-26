@@ -110,9 +110,9 @@ def end_session():
             # Close loggers and prettify results
             for log in [active_sessions[session_id]["events_log"]] + list(active_sessions[session_id]["raw_logs"].values()):
                 log.close()
-                if "raw-mouse.json" in log.path: continue
-                log.prettify()
                 logger.info(f"Saved log at {log.path}")
+                # if "raw-mouse.json" in log.path: continue
+                # log.prettify()
 
             logger.info(f"Ending session {session_id}")
             del active_sessions[session_id]
