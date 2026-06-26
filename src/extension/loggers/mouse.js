@@ -23,9 +23,9 @@ export class MouseEventsHandler {
 
     async start_listeners_on_tab(tab_id) {
         function inject_listeners(session_id) {
-            if (document.__myClickListenerAdded_mouse) { return; }
-            document.__myClickListenerAdded_mouse = true;
-            document.__areListenersActive_mouse = true;
+            window.__searchlog_areListenersActive_mouse = true;
+            if (window.__searchlog_myClickListenerAdded_mouse) { return; }
+            window.__searchlog_myClickListenerAdded_mouse = true;
 
             const MouseAction = Object.freeze({
                 MOVE: "mouse_move",
@@ -104,20 +104,20 @@ export class MouseEventsHandler {
             // *** Hovered element tracking ***
             var curr_hovered_text = "";
             async function mouse_hover(e) {
-                if (!document.__areListenersActive_mouse) { return; }
+                if (!window.__searchlog_areListenersActive_mouse) { return; }
                 curr_hovered_text = e.target.innerText;
             }
 
             // *** Mouse single click tracking ***
             async function mouse_click(e) {
-                if (!document.__areListenersActive_mouse) { return; }
+                if (!window.__searchlog_areListenersActive_mouse) { return; }
                 const event = new MouseEvent(session_id, document.documentElement.scrollWidth, document.documentElement.scrollHeight, MouseAction.CLICK, new Coord(e.pageX, e.pageY), curr_hovered_text);
                 submit_event(event);
             }
 
             // *** Mouse double click tracking ***
             async function mouse_double_click(e) {
-                if (!document.__areListenersActive_mouse) { return; }
+                if (!window.__searchlog_areListenersActive_mouse) { return; }
                 const event = new MouseEvent(session_id, document.documentElement.scrollWidth, document.documentElement.scrollHeight, MouseAction.DOUBLE_CLICK, new Coord(e.pageX, e.pageY), curr_hovered_text);
                 submit_event(event);
             }
@@ -165,7 +165,7 @@ export class MouseEventsHandler {
             var mouse_movement_handler = new MouseMovementHandler(session_id, 250, false);
             var raw_mouse_movement_handler = new MouseMovementHandler(session_id, 10, true);
             async function mouse_move(e) {
-                if (!document.__areListenersActive_mouse) { return; }
+                if (!window.__searchlog_areListenersActive_mouse) { return; }
                 
                 await mouse_movement_handler.on_event(e, curr_hovered_text);
                 await raw_mouse_movement_handler.on_event(e, "");
@@ -174,7 +174,7 @@ export class MouseEventsHandler {
             // *** Text selection (with mouse or keyboard) tracking ***
             var curr_selected_promise = null;
             async function text_select(e) {
-                if (!document.__areListenersActive_mouse) { return; }
+                if (!window.__searchlog_areListenersActive_mouse) { return; }
                 const curr_promise = new Promise(resolve => setTimeout(async () => {
                     if (curr_selected_promise !== curr_promise) { return resolve(); } // Selection changed, ignore this promise
                     const selection = window.getSelection().toString();
@@ -193,7 +193,7 @@ export class MouseEventsHandler {
             var curr_scroll_end = null;
             var curr_scroll_promise = null;
             async function page_scroll(e) {
-                if (!document.__areListenersActive_mouse) { return; }
+                if (!window.__searchlog_areListenersActive_mouse) { return; }
                 // Update scroll location
                 curr_scroll_end = new Coord(window.scrollX, window.scrollY);
                 
@@ -210,12 +210,20 @@ export class MouseEventsHandler {
                 await curr_promise;
             }
 
-            document.addEventListener("click", mouse_click);
-            document.addEventListener("dblclick", mouse_double_click);
-            document.addEventListener("mousemove", mouse_move);
-            document.addEventListener("mouseover", mouse_hover);
-            document.addEventListener("selectionchange", text_select);
-            document.addEventListener("scroll", page_scroll);
+            // Save listener functions globally (used later for removal)
+            window.__searchlog_listeners_mouse_mouse_click = mouse_click;
+            window.__searchlog_listeners_mouse_mouse_double_click = mouse_double_click;
+            window.__searchlog_listeners_mouse_mouse_move = mouse_move;
+            window.__searchlog_listeners_mouse_mouse_hover = mouse_hover;
+            window.__searchlog_listeners_mouse_text_select = text_select;
+            window.__searchlog_listeners_mouse_page_scroll = page_scroll;
+
+            document.addEventListener("click", window.__searchlog_listeners_mouse_mouse_click);
+            document.addEventListener("dblclick", window.__searchlog_listeners_mouse_mouse_double_click);
+            document.addEventListener("mousemove", window.__searchlog_listeners_mouse_mouse_move);
+            document.addEventListener("mouseover", window.__searchlog_listeners_mouse_mouse_hover);
+            document.addEventListener("selectionchange", window.__searchlog_listeners_mouse_text_select);
+            document.addEventListener("scroll", window.__searchlog_listeners_mouse_page_scroll);
         }
 
         await chrome.scripting.executeScript({
@@ -228,7 +236,14 @@ export class MouseEventsHandler {
 
     async stop_listeners_on_tab(tab_id) {
         function stop_injected_listeners() {
-            document.__areListenersActive_mouse = false;
+            window.__searchlog_areListenersActive_mouse = false;
+            window.__searchlog_myClickListenerAdded_mouse = false;
+            document.removeEventListener("click", window.__searchlog_listeners_mouse_mouse_click);
+            document.removeEventListener("dblclick", window.__searchlog_listeners_mouse_mouse_double_click);
+            document.removeEventListener("mousemove", window.__searchlog_listeners_mouse_mouse_move);
+            document.removeEventListener("mouseover", window.__searchlog_listeners_mouse_mouse_hover);
+            document.removeEventListener("selectionchange", window.__searchlog_listeners_mouse_text_select);
+            document.removeEventListener("scroll", window.__searchlog_listeners_mouse_page_scroll);
         }
 
         await chrome.scripting.executeScript({
@@ -259,7 +274,11 @@ export class MouseEventsHandler {
         chrome.tabs.onUpdated.removeListener(this.on_tab_updated)
 
         for (const id of this.injected_tabs) {
-            this.stop_listeners_on_tab(id);
+            try {
+                this.stop_listeners_on_tab(id);
+            } catch (e) {
+                console.warn(`Cannot stop mouse listeners of tab ${id}`);
+            }
         }
         this.injected_tabs = [];
     }

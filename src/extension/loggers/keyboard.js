@@ -22,9 +22,9 @@ export class KeyboardEventsHandler {
 
     async start_listeners_on_tab(tab_id) {
         function inject_listeners(session_id) {
-            if (document.__myClickListenerAdded_keyboard) { return; }
-            document.__myClickListenerAdded_keyboard = true;
-            document.__areListenersActive_keyboard = true;
+            window.__areListenersActive_keyboard = true;
+            if (window.__myClickListenerAdded_keyboard) { return; }
+            window.__myClickListenerAdded_keyboard = true;
 
             const KeyboardAction = Object.freeze({
                 WRITE: "write",
@@ -70,7 +70,7 @@ export class KeyboardEventsHandler {
             var curr_keyboard_string = "";
             var curr_keyboard_promise = null
             async function keyboard_press(e) {
-                if (!document.__areListenersActive_keyboard) { return; }
+                if (!window.__areListenersActive_keyboard) { return; }
                 // Decode typed key
                 let typed = ""
                 switch (e.code) {
@@ -141,15 +141,15 @@ export class KeyboardEventsHandler {
 
             // *** Copy tracking ***
             async function copy_event(e) {
-                if (!document.__areListenersActive_keyboard) { return; }
+                if (!window.__areListenersActive_keyboard) { return; }
                 const content = document.getSelection().toString();
                 const event = new CopyPasteEvent(session_id, CopyPasteAction.COPY, content);
                 submit_event(event);
             }
 
-            // *** Past tracking ***
+            // *** Paste tracking ***
             async function paste_event(e) {
-                if (!document.__areListenersActive_keyboard) { return; }
+                if (!window.__areListenersActive_keyboard) { return; }
                 const content = (e.clipboardData || window.clipboardData).getData("text");
                 const event = new CopyPasteEvent(session_id, CopyPasteAction.PASTE, content);
                 submit_event(event);
@@ -157,16 +157,22 @@ export class KeyboardEventsHandler {
 
             // *** Cut tracking ***
             async function cut_event(e) {
-                if (!document.__areListenersActive_keyboard) { return; }
+                if (!window.__areListenersActive_keyboard) { return; }
                 const content = document.getSelection().toString();
                 const event = new CopyPasteEvent(session_id, CopyPasteAction.CUT, content);
                 submit_event(event);
             }
-
-            document.addEventListener("keydown", keyboard_press);
-            document.addEventListener("copy", copy_event);
-            document.addEventListener("cut", cut_event);
-            document.addEventListener("paste", paste_event);
+            
+            // Save listener functions globally (used later for removal)
+            window.__searchlog_listeners_keyboard_keyboard_press = keyboard_press;
+            window.__searchlog_listeners_keyboard_copy_event = copy_event;
+            window.__searchlog_listeners_keyboard_cut_event = cut_event;
+            window.__searchlog_listeners_keyboard_paste_event = paste_event;
+            
+            document.addEventListener("keydown", window.__searchlog_listeners_keyboard_keyboard_press);
+            document.addEventListener("copy", window.__searchlog_listeners_keyboard_copy_event);
+            document.addEventListener("cut", window.__searchlog_listeners_keyboard_cut_event);
+            document.addEventListener("paste", window.__searchlog_listeners_keyboard_paste_event);
         }
 
         await chrome.scripting.executeScript({
@@ -179,7 +185,12 @@ export class KeyboardEventsHandler {
 
     async stop_listeners_on_tab(tab_id) {
         function stop_injected_listeners() {
-            document.__areListenersActive_keyboard = false;
+            window.__areListenersActive_keyboard = false;
+            window.__myClickListenerAdded_keyboard = false;
+            document.removeEventListener("keydown", window.__searchlog_listeners_keyboard_keyboard_press);
+            document.removeEventListener("copy", window.__searchlog_listeners_keyboard_copy_event);
+            document.removeEventListener("cut", window.__searchlog_listeners_keyboard_cut_event);
+            document.removeEventListener("paste", window.__searchlog_listeners_keyboard_paste_event);
         }
 
         await chrome.scripting.executeScript({
@@ -210,7 +221,11 @@ export class KeyboardEventsHandler {
         chrome.tabs.onUpdated.removeListener(this.on_tab_updated);
 
         for (const id of this.injected_tabs) {
-            this.stop_listeners_on_tab(id);
+            try {
+                this.stop_listeners_on_tab(id);
+            } catch (e) {
+                console.warn(`Cannot stop keyboard listeners of tab ${id}`);
+            }
         }
         this.injected_tabs = [];
     }
