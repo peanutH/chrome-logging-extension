@@ -99,7 +99,7 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
                 headers: { "Content-Type": "application/json", },
                 body: message.log
             })
-            return true
+            return;
 
         case "submit-raw":
             backendRequest("/log-raw", { 
@@ -107,7 +107,7 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
                 headers: { "Content-Type": "application/json", },
                 body: message.log
             })
-            return true
+            return;
 
         case "submit-html":
             backendRequest("/html", { 
@@ -115,7 +115,7 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
                 headers: { "Content-Type": "application/json", },
                 body: message.data
             })
-            return true
+            return;
 
         case "submit-llm":
             backendRequest("/llm", { 
@@ -123,7 +123,7 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
                 headers: { "Content-Type": "application/json", },
                 body: message.data
             })
-            return true
+            return;
 
         case "submit-ranking":
             backendRequest("/ranking", { 
@@ -131,7 +131,7 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
                 headers: { "Content-Type": "application/json", },
                 body: message.data
             })
-            return true
+            return;
 
 
         case "check_backend_health":
@@ -143,13 +143,13 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
                 console.log("error")
                 sendResponse({ ok: false });
             }
-            return true
+            return true;
 
 
         case "start_logs":
             if (curr_session) {
                 sendResponse({ ok: true, sessionId: curr_session, });
-                return true;
+                return;
             }
             
             try {
@@ -158,22 +158,22 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
                     await init_monitoring(curr_session);
                     sendResponse({ ok: true, sessionId: curr_session });
                 });
+                return true;
             } catch (error) {
                 curr_session = null;
                 sendResponse({ ok: false, sessionId: null });
             }
-            return true
 
 
         case "get_logging_status":
             sendResponse({ ok: true, sessionId: curr_session });
-            return true
+            return;
 
 
         case "end_logs":
             if (!curr_session) {
                 sendResponse({ ok: true, sessionId: null, });
-                return true;
+                return;
             }
 
             try {
@@ -186,10 +186,11 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
                     stop_monitoring()
                     sendResponse({ ok: true, sessionId: null });
                 });
+                return true;
             } catch (error) {
                 sendResponse({ ok: false, sessionId: curr_session });
+                return;
             }
-            return true
 
 
         case "dry_run":
@@ -211,11 +212,10 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
                         title: "Dry run outcome",
                         message: response.outcome ? "Passed" : "Failed"
                     });
-                    sendResponse({ ok: true });
                 } catch (e) {
                     console.error(e);
                 }
             })();
-            return true
+            return;
     }
 });
