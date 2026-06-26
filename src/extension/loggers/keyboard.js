@@ -134,7 +134,7 @@ export class KeyboardEventsHandler {
                     curr_keyboard_string = ""
                     await submit_event(event);
                     resolve();
-                }, 250));
+                }, 100));
                 curr_keyboard_promise = curr_promise;
                 await curr_promise;
             }
