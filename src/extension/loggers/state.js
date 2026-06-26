@@ -81,6 +81,7 @@ export class StateEventsHandler {
         this.all_windows = {} // Currently active windows
         this.all_tabs = {}    // Currently active tabs
         this.snapshotted = {}
+        this.injected_tabs = [];
 
         // Fill with currently active windows and tabs
         curr_windows.forEach(window => {
@@ -221,15 +222,14 @@ export class StateEventsHandler {
                 let last_export_timestamp = Date.now();
                 snapshot();
                 
-                if (!document.__state_snapshot_observer_started) {
-                    const observer = new MutationObserver((mutations) => {
+                if (!window.__searchlog_state_snapshot_observer) {
+                    window.__searchlog_state_snapshot_observer = new MutationObserver((mutations) => {
                         if (Date.now() - last_export_timestamp >= 2000) {
                             snapshot();
                             last_export_timestamp = Date.now();
                         }
                     });
-                    observer.observe(document.body, { childList: true, subtree: true });
-                    document.__state_snapshot_observer_started = true;
+                    window.__searchlog_state_snapshot_observer.observe(document.body, { childList: true, subtree: true });
                 }
             })();
         }
@@ -238,6 +238,25 @@ export class StateEventsHandler {
             target: { tabId: tab_id },
             func: _snapshot,
             args: [this.session_id, filename]
+        });
+        this.injected_tabs.push(tab_id);
+    }
+
+    async stop_observer(tab_id) {
+        function stop_injected_listeners() {
+            try {
+                window.__searchlog_state_snapshot_observer.disconnect();
+                console.log("Closed state observer");
+            } catch (e) {
+                console.error(`Cannot stop state observer ${e}`);
+            }
+            window.__searchlog_state_snapshot_observer = undefined;
+        }
+
+        await chrome.scripting.executeScript({
+            target: { tabId: tab_id },
+            func: stop_injected_listeners,
+            args: []
         });
     }
 
@@ -278,5 +297,14 @@ export class StateEventsHandler {
         chrome.tabs.onHighlighted.removeListener(this.tab_focused);
         chrome.tabs.onUpdated.removeListener(this.tab_updated);
         chrome.tabs.onRemoved.removeListener(this.tab_removed);
+
+        for (const id of this.injected_tabs) {
+            try {
+                this.stop_observer(id);
+            } catch (e) {
+                console.warn(`Cannot stop state observer of tab ${id}`);
+            }
+        }
+        this.injected_tabs = [];
     } 
 }
