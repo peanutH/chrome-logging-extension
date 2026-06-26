@@ -5,6 +5,16 @@ import shutil
 import uuid
 from flask import Flask, request, jsonify
 from dotenv import load_dotenv
+import traceback
+
+import logging
+logging.basicConfig(
+    format='%(asctime)s.%(msecs)03d %(levelname)-8s %(message)s',
+    level=logging.INFO,
+    datefmt='%Y-%m-%d %H:%M:%S'
+)
+logger = logging.getLogger(__name__)
+logging.getLogger('werkzeug').setLevel(logging.ERROR)
 
 load_dotenv()
 
@@ -20,7 +30,7 @@ os.makedirs(DATA_DIR, exist_ok=True)
 class LoggingManager:
     def __init__(self, path):
         self.path = path
-        self.file = open(path, "w")
+        self.file = open(path, "w", encoding="utf-8")
         self.num_logs = 0
         self.file.write("[\n")
 
@@ -37,9 +47,9 @@ class LoggingManager:
         self.file.close()
 
     def prettify(self):
-        with open(self.path, "r") as f:
+        with open(self.path, "r", encoding="utf-8") as f:
             data = json.load(f)
-        with open(self.path, "w") as f:
+        with open(self.path, "w", encoding="utf-8") as f:
             json.dump(data, f, indent=3)
 
 
@@ -69,111 +79,145 @@ active_sessions = {}
 
 @app.route("/peanut", methods=["GET"])
 def health_check():
-    return jsonify({ "pudding": True }), 200
+    logger.info(f"Status OK")
+    return { "pudding": True }, 200
 
 
 # Start session
 @app.route("/start", methods=["POST"])
 def start_session():
-    session_id = f"{int(time.time())}_{uuid.uuid4().hex[:8]}"
+    try:
+        session_id = f"{int(time.time())}_{uuid.uuid4().hex[:8]}"
 
-    out_dir = os.path.join(DATA_DIR, f"{session_id}")
-    active_sessions[session_id] = prepare_session(out_dir)
+        out_dir = os.path.join(DATA_DIR, f"{session_id}")
+        active_sessions[session_id] = prepare_session(out_dir)
 
-    return jsonify({
-        "session_id": session_id,
-    }), 200
+        logger.info(f"Starting session {session_id}")
+        return { "session_id": session_id }, 200
+    except:
+        logger.error("Unable to start session")
+        logger.error(f"{traceback.format_exc()}")
+        return {}, 500
 
 
 # Terminate session
 @app.route("/end", methods=["POST"])
 def end_session():
-    session_id = request.get_json()["session_id"]
+    payload = request.get_json()
+    session_id = payload.get("session_id", None)
+    try:
+        if session_id in active_sessions:
+            # Close loggers and prettify results
+            for log in [active_sessions[session_id]["events_log"]] + list(active_sessions[session_id]["raw_logs"].values()):
+                log.close()
+                if "raw-mouse.json" in log.path: continue
+                log.prettify()
+                logger.info(f"Saved log at {log.path}")
 
-    if session_id in active_sessions:
-        # Close loggers and prettify results
-        for logger in [active_sessions[session_id]["events_log"]] + list(active_sessions[session_id]["raw_logs"].values()):
-            logger.close()
-            if "raw-mouse.json" in logger.path: continue
-            logger.prettify()
-
-        del active_sessions[session_id]
-        return jsonify({}), 200
-    else:
-        return jsonify({}), 404
+            logger.info(f"Ending session {session_id}")
+            del active_sessions[session_id]
+            return {}, 200
+        else:
+            return {}, 404
+    except:
+        logger.error(f"Unable to terminate session {session_id}")
+        logger.error(f"{traceback.format_exc()}")
+        return {}, 500
 
 
 # Record an event
 @app.route('/log', methods=['POST'])
 def log_state():
     log = request.get_json()
-    session_id = log["session_id"]
-
-    if session_id in active_sessions:
-        active_sessions[session_id]["events_log"].add(log)
-        return jsonify({}), 200
-    else:
-        return jsonify({}), 400
+    session_id = log.get("session_id", None)
+    try:
+        if session_id in active_sessions:
+            active_sessions[session_id]["events_log"].add(log)
+            logger.info(f"Logged to {active_sessions[session_id]['events_log'].path} for session {session_id}")
+            return {}, 200
+        else:
+            return {}, 400
+    except:
+        logger.error(f"Unable to log for session {session_id}")
+        logger.error(f"{traceback.format_exc()}")
+        return {}, 500
 
 
 # Record a raw event
 @app.route('/log-raw', methods=['POST'])
 def log_raw_state():
     log = request.get_json()
-    session_id = log["session_id"]
+    session_id = log.get("session_id", None)
+    try:
+        if session_id in active_sessions:
+            out_file = os.path.join(active_sessions[session_id]["out_dir"], f"raw-{log['event']}.json")
+            if out_file not in active_sessions[session_id]["raw_logs"]:
+                active_sessions[session_id]["raw_logs"][out_file] = LoggingManager(out_file)
 
-    if session_id in active_sessions:
-        out_file = os.path.join(active_sessions[session_id]["out_dir"], f"raw-{log['event']}.json")
-        if out_file not in active_sessions[session_id]["raw_logs"]:
-            active_sessions[session_id]["raw_logs"][out_file] = LoggingManager(out_file)
-
-        active_sessions[session_id]["raw_logs"][out_file].add(log)
-        return jsonify({}), 200
-    else:
-        return jsonify({}), 400
-
+            active_sessions[session_id]["raw_logs"][out_file].add(log)
+            logger.info(f"Logged raw to {active_sessions[session_id]['raw_logs'][out_file].path} for session {session_id}")
+            return {}, 200
+        else:
+            return {}, 400
+    except:
+        logger.error(f"Unable to log raw for session {session_id}")
+        logger.error(f"{traceback.format_exc()}")
+        return {}, 500
 
 # Save an html page
 @app.route('/html', methods=['POST'])
 def save_page():
     data = request.get_json()
-    session_id = data["session_id"]
-
-    if session_id in active_sessions:
-        with open(os.path.join(active_sessions[session_id]["html_dir"], data["name"]), "w") as f:
-            f.write(data["html"])
-        return jsonify({}), 200
-    else:
-        return jsonify({}), 400
+    session_id = data.get("session_id", None)
+    try:
+        if session_id in active_sessions:
+            with open(os.path.join(active_sessions[session_id]["html_dir"], data["name"]), "w", encoding="utf-8") as f:
+                f.write(data["html"])
+            logger.info(f"Saved HTML to {os.path.join(active_sessions[session_id]['html_dir'], data['name'])} for session {session_id}")
+            return {}, 200
+        else:
+            return {}, 400
+    except:
+        logger.error(f"Unable to save HTML for session {session_id}")
+        logger.error(f"{traceback.format_exc()}")
+        return {}, 500
 
 
 # Save a ranking
 @app.route('/ranking', methods=['POST'])
 def save_ranking():
     data = request.get_json()
-    session_id = data["session_id"]
-
-    if session_id in active_sessions:
-        with open(os.path.join(active_sessions[session_id]["ranking_dir"], data["name"]), "w") as f:
-            json.dump(data["ranking"], f, indent=3)
-        return jsonify({}), 200
-    else:
-        return jsonify({}), 400
-
+    session_id = data.get("session_id", None)
+    try:
+        if session_id in active_sessions:
+            with open(os.path.join(active_sessions[session_id]["ranking_dir"], data["name"]), "w", encoding="utf-8") as f:
+                json.dump(data["ranking"], f, indent=3)
+            logger.info(f"Saved ranking to {os.path.join(active_sessions[session_id]['ranking_dir'], data['name'])} for session {session_id}")
+            return {}, 200
+        else:
+            return {}, 400
+    except:
+        logger.error(f"Unable to save ranking for session {session_id}")
+        logger.error(f"{traceback.format_exc()}")
+        return {}, 500
 
 # Save LLM conversation
 @app.route('/llm', methods=['POST'])
 def save_llm():
     data = request.get_json()
-    session_id = data["session_id"]
-
-    if session_id in active_sessions:
-        with open(os.path.join(active_sessions[session_id]["llm_dir"], data["name"]), "w") as f:
-            json.dump(data["chat"], f, indent=3)
-        return jsonify({}), 200
-    else:
-        return jsonify({}), 400
-
+    session_id = data.get("session_id", None)
+    try:
+        if session_id in active_sessions:
+            with open(os.path.join(active_sessions[session_id]["llm_dir"], data["name"]), "w", encoding="utf-8") as f:
+                json.dump(data["chat"], f, indent=3)
+            logger.info(f"Saved LLM to {os.path.join(active_sessions[session_id]['llm_dir'], data['name'])} for session {session_id}")
+            return {}, 200
+        else:
+            return {}, 400
+    except:
+        logger.error(f"Unable to save LLM for session {session_id}")
+        logger.error(f"{traceback.format_exc()}")
+        return {}, 500
 
 # Start dry run
 @app.route("/dry-run-start", methods=["POST"])
@@ -183,9 +227,9 @@ def dry_run_start_session():
     out_dir = os.path.join(DATA_DIR, f"{session_id}")
     active_sessions[session_id] = prepare_session(out_dir)
 
-    return jsonify({
+    return {
         "session_id": session_id,
-    }), 200
+    }, 200
 
 # Terminate dry run
 @app.route("/dry-run-end", methods=["POST"])
@@ -194,13 +238,13 @@ def dry_run_end_session():
 
     if session_id in active_sessions:
         # Close session
-        for logger in [active_sessions[session_id]["events_log"]] + list(active_sessions[session_id]["raw_logs"].values()):
-            logger.close()
+        for log in [active_sessions[session_id]["events_log"]] + list(active_sessions[session_id]["raw_logs"].values()):
+            log.close()
         session = active_sessions[session_id]
         del active_sessions[session_id]
 
         # Verify logs
-        with open(os.path.join(session["out_dir"], "session.json"), "r") as f:
+        with open(os.path.join(session["out_dir"], "session.json"), "r", encoding="utf-8") as f:
             logs = json.load(f)
         checklist = {
             "open_google": False,
@@ -216,11 +260,11 @@ def dry_run_end_session():
         shutil.rmtree(session["out_dir"])
 
         if all(checklist.values()):
-            return jsonify({ "outcome": True }), 200
+            return { "outcome": True }, 200
         else:
-            return jsonify({ "outcome": False }), 200
+            return { "outcome": False }, 200
     else:
-        return jsonify({}), 404
+        return {}, 404
 
 
 if __name__ == '__main__':
