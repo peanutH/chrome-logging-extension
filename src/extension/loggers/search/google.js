@@ -163,7 +163,10 @@ export class GoogleEventsHandler {
                 document.__last_export_timestamp = Date.now();
 
                 try {
-                    const query_text = document.querySelector('textarea[name="q"]').getAttribute('value');
+                    let query_text = document.querySelector('textarea[name="q"]').getAttribute('value');
+                    if (!query_text) {
+                        query_text = document.querySelector('textarea[name="q"]').textContent;
+                    }
                     if (!curr_query) { curr_query = query_text; }
                     if (query_text !== curr_query) { return; } // User is typing new query (triggers observer). Don't save ranking
                     const filename_html = `${timestamp}_${query_text}.html`
