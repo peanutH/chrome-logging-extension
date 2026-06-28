@@ -133,7 +133,7 @@ def log_state():
     try:
         if session_id in active_sessions:
             active_sessions[session_id]["events_log"].add(log)
-            logger.info(f"Logged to {active_sessions[session_id]['events_log'].path} for session {session_id}")
+            logger.info(f"Logged {log['event']} to {active_sessions[session_id]['events_log'].path} for session {session_id}")
             return {}, 200
         else:
             return {}, 400
@@ -155,7 +155,7 @@ def log_raw_state():
                 active_sessions[session_id]["raw_logs"][out_file] = LoggingManager(out_file)
 
             active_sessions[session_id]["raw_logs"][out_file].add(log)
-            logger.info(f"Logged raw to {active_sessions[session_id]['raw_logs'][out_file].path} for session {session_id}")
+            logger.info(f"Logged raw {log['event']} to {active_sessions[session_id]['raw_logs'][out_file].path} for session {session_id}")
             return {}, 200
         else:
             return {}, 400
