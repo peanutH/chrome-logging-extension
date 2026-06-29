@@ -139,11 +139,11 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
                 backendRequest("/peanut", { method: "GET" }).then(response => {
                     sendResponse({ ok: true });
                 });
+                return true;
             } catch (error) {
                 console.log("error")
                 sendResponse({ ok: false });
             }
-            return true;
 
 
         case "start_logs":
