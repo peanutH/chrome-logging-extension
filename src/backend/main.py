@@ -6,6 +6,7 @@ import uuid
 from flask import Flask, request, jsonify
 from dotenv import load_dotenv
 import traceback
+import atexit
 
 import logging
 logging.basicConfig(
@@ -74,6 +75,16 @@ def prepare_session(out_dir):
     }
 
 
+def terminate_session(session_id, active_sessions):
+    logger.info(f"Ending session {session_id}")
+    # Close loggers
+    for log in [active_sessions[session_id]["events_log"]] + list(active_sessions[session_id]["raw_logs"].values()):
+        log.close()
+        logger.info(f"\tSaved log at {log.path}")
+        # if "raw-mouse.json" in log.path: continue
+        # log.prettify()
+
+
 active_sessions = {}
 
 
@@ -107,14 +118,7 @@ def end_session():
     session_id = payload.get("session_id", None)
     try:
         if session_id in active_sessions:
-            # Close loggers and prettify results
-            for log in [active_sessions[session_id]["events_log"]] + list(active_sessions[session_id]["raw_logs"].values()):
-                log.close()
-                logger.info(f"Saved log at {log.path}")
-                # if "raw-mouse.json" in log.path: continue
-                # log.prettify()
-
-            logger.info(f"Ending session {session_id}")
+            terminate_session(session_id, active_sessions)
             del active_sessions[session_id]
             return {}, 200
         else:
@@ -267,5 +271,12 @@ def dry_run_end_session():
         return {}, 404
 
 
+
+def exit_handler():
+    for session_id in active_sessions:
+        terminate_session(session_id, active_sessions)
+
+
 if __name__ == '__main__':
     app.run(port=5000)
+    atexit.register(exit_handler)
